@@ -4729,9 +4729,6 @@ a.mm-outlet {
   .s-main-menu .block .category-items .collectionItem a {
     padding: 20px !important; }
 
-  .c-header--sticky .o-layout__item {
-    position: relative; }
-
   html.nav-open,
   html.nav-open body {
     position: relative;
