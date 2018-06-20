@@ -65,3 +65,23 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
     font-size: 21px !important;
 }
 /* honesty project form end */
+
+
+/* SS18 CUSTOMER SERVICE PAGES START*/
+.cms-kontakt .c-breadcrumbs,
+.cms-lebenslange-garantie .c-breadcrumbs,
+.cms-versand .c-breadcrumbs,
+.cms-rucksendung .c-breadcrumbs,
+.cms-privacy-policy-cookie-restriction-mode .c-breadcrumbs {
+	display: none;
+}
+
+.cms-kontakt .columns .o-region__inner,
+.cms-lebenslange-garantie .columns .o-region__inner,
+.cms-versand .columns .o-region__inner,
+.cms-rucksendung .columns .o-region__inner,
+.cms-privacy-policy-cookie-restriction-mode .columns .o-region__inner,
+.cms-termsandconditions .columns .o-region__inner {
+	width: 100%;
+}
+/* SS18 CUSTOMER SERVICE PAGES END*/
