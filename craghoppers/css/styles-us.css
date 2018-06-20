@@ -6195,6 +6195,9 @@ p.pl-text-social {
   display: none; }
 
 @media only screen and (max-width: 550px) {
+  p.category-view__description {
+    padding: 0 10px; } }
+@media only screen and (max-width: 550px) {
   p.category-view__description.active {
     text-overflow: ellipsis;
     display: -webkit-box;
