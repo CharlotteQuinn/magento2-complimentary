@@ -3654,7 +3654,8 @@ iframe.unsubscribe {
 .cms-payment-options .c-breadcrumbs,
 .cms-returns .c-breadcrumbs,
 .cms-delivery-information .c-breadcrumbs,
-.cms-customer-services .c-breadcrumbs {
+.cms-customer-services .c-breadcrumbs,
+.cms-register-guarantee-form .c-breadcrumbs {
   display: none; }
 
 .cms-sizing-guides .columns .o-region__inner,
@@ -3670,7 +3671,8 @@ iframe.unsubscribe {
 .cms-payment-options .columns .o-region__inner,
 .cms-returns .columns .o-region__inner,
 .cms-delivery-information .columns .o-region__inner,
-.cms-customer-services .columns .o-region__inner {
+.cms-customer-services .columns .o-region__inner,
+.cms-register-guarantee-form .columns .o-region__inner {
   width: 100%; }
 
 .customerservice-new h2[data-action="toggle"]:hover {
@@ -3827,7 +3829,7 @@ a.cs-link {
 .cs-terms-conditions {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Banner-14.jpg); }
 
-.cs-terms-register-guarantee {
+.cs-register-guarantee {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Banner-15.jpg); }
 
 .cs-header-title {
@@ -3948,7 +3950,7 @@ h2.customer-services-title {
   .cs-terms-conditions {
     background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Mobile-Banner-14.jpg); }
 
-  .cs-terms-register-guarantee {
+  .cs-register-guarantee {
     background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/customer-services/Mobile-Banner-15.jpg); }
 
   .cs-header-title {
