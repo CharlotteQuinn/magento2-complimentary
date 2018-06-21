@@ -922,6 +922,12 @@ html .mt_animate {
   margin: auto auto 20px auto; }
 
 /*//////////////////////////////*/
+/*  Product Page                */
+/*//////////////////////////////*/
+.page-product-configurable .c-price.js-price-highlight .c-price--large .price-label + .c-price__final.price-wrapper > .price {
+  color: #D32526; }
+
+/*//////////////////////////////*/
 /*  Product Page fabrics        */
 /*//////////////////////////////*/
 #tech-image-wrapper > div {
