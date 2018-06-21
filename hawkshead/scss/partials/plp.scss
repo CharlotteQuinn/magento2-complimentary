@@ -84,12 +84,6 @@
       max-width: 678px;
     }
 
-    .banner__title,
-    .banner__text,
-    .s-text-banner p {
-      padding: 0 2%;
-    }
-
     .banner__text + button {
         display:block;
         background: #769fd0;
@@ -212,6 +206,50 @@ content: " Reviews";
 
 p.c-price__group.nowPrice span:before {
   content: 'Now: ';
+}
+
+@media only screen and (max-width:550px) {
+
+  .o-layout.mobile-flex {
+    margin: 0;
+  }
+
+  .o-layout.mobile-flex .o-layout__item {
+    padding: 0 10px;
+  }
+
+  .c-pagination__item--arrow-right {
+    right: 15px;
+  }
+
+  .o-layout .o-layout {
+    margin-left: 0;
+  }
+
+  .o-layout.mobile-flex .o-layout__item .o-layout .o-layout__item {
+    padding: 0;
+  }
+
+  .o-layout.mobile-flex .o-layout__item .o-layout .o-layout__item.o-layout--spaced:nth-child(1) {
+    padding-right: 0.5%;
+  }
+
+  .o-layout.mobile-flex .o-layout__item .o-layout .o-layout__item.c-mobile-listing__sort--flex-order {
+    padding-left: 0.5%;
+  }
+
+  .lower-seobttn-container {
+    margin: 3% 0;
+  }
+
+  .s-text-banner {
+    padding: 0 10px;
+  }
+
+  .s-text-banner p:empty {
+    display: none;
+  }
+
 }
 
 /* END */
