@@ -15,8 +15,15 @@
 }
 
 /*//////////////////////////////*/
+/*  Product Page                */
+/*//////////////////////////////*/
+.page-product-configurable .c-price.js-price-highlight .c-price--large  .price-label + .c-price__final.price-wrapper > .price{
+    color: #D32526;
+}
+/*//////////////////////////////*/
 /*  Product Page fabrics        */
 /*//////////////////////////////*/
+
 #tech-image-wrapper > div {
       max-width: 140px;
 }
