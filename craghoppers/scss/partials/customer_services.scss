@@ -1154,7 +1154,7 @@ h2.customer-services-title {
     font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1024px) {
 	.customerservice-new {
 		max-width: 90%;
 	}
@@ -1166,6 +1166,13 @@ h2.customer-services-title {
 	.cs-header-title {
 	    padding-top: 11%;
 	    font-size: 44px;
+	}
+	.cs-header-title-guarantee {
+    	padding-top: 9% !important;
+	}
+	.cs-header-sub-title {
+	    margin-top: -4%;
+	    font-size: 21px;
 	}
 }
 
