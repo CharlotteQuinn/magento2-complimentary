@@ -72,7 +72,9 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
 .cms-lebenslange-garantie .c-breadcrumbs,
 .cms-versand .c-breadcrumbs,
 .cms-rucksendung .c-breadcrumbs,
-.cms-privacy-policy-cookie-restriction-mode .c-breadcrumbs {
+.cms-datenschutz .c-breadcrumbs,
+.cms-agb .c-breadcrumbs,
+.cms-cookie-richtlinie .c-breadcrumbs, {
 	display: none;
 }
 
@@ -80,8 +82,9 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
 .cms-lebenslange-garantie .columns .o-region__inner,
 .cms-versand .columns .o-region__inner,
 .cms-rucksendung .columns .o-region__inner,
-.cms-privacy-policy-cookie-restriction-mode .columns .o-region__inner,
-.cms-termsandconditions .columns .o-region__inner {
+.cms-datenschutz .columns .o-region__inner,
+.cms-agb .columns .o-region__inner,
+.cms-cookie-richtlinie .c-breadcrumbs, {
 	width: 100%;
 }
 /* SS18 CUSTOMER SERVICE PAGES END*/
