@@ -256,9 +256,9 @@
   flex-wrap: wrap;
 }
 
-.s-main-menu .block .category-items ul.columnContent {
+.s-main-menu .block {
   padding: 0;
-  z-index: 3;
+  z-index: 3 !important;
 }
 
 .columnContentFullWidth .collectionItem {
