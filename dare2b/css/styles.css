@@ -1764,7 +1764,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div {
 .category-container.full .category-links {
   display: flex !important;
   flex-wrap: wrap;
-  margin-top: -10px; }
+  margin-top: 10px; }
 
 .category-container.full .category-links a {
   flex-grow: 1;
