@@ -815,3 +815,10 @@ i.c-header__icon.c-icon--menu.menuOpen::after{
   
 }
 /* END */
+
+
+/* padding left on menu ul start*/
+.s-main-menu .block .category-items ul {
+    padding-left: 0 !important;
+}
+/* padding left on menu ul  end */

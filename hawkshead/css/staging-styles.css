@@ -3573,6 +3573,11 @@ a.c-product-size__size-guide-link:hover {
   .mobileItems span {
     text-decoration: underline; } }
 /* END */
+/* padding left on menu ul start*/
+.s-main-menu .block .category-items ul {
+  padding-left: 0 !important; }
+
+/* padding left on menu ul  end */
 .c-product-tile .c-product-tile__btn {
   display: none; }
 
