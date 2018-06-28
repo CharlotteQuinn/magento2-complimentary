@@ -940,6 +940,11 @@ html .mt_animate {
 /*//////////////////////////////*/
 /*  New PLP theme Category page */
 /*//////////////////////////////*/
+.catalog-category-view .c-product-tile .c-product-tile__btn {
+  color: #6EB134 !important;
+  background: #fff !important;
+  border: solid 2px #6EB134 !important; }
+
 html .catalog-category-view {
   /*  .c-price.c-price--small > p.c-price__group:last-child:before {
       content: "Now:";

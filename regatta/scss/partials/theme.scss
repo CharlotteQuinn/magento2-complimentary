@@ -36,6 +36,12 @@
 /*//////////////////////////////*/
 /*  New PLP theme Category page */
 /*//////////////////////////////*/
+.catalog-category-view .c-product-tile .c-product-tile__btn {
+    color: #6EB134 !important;
+    background: #fff !important;
+    border: solid 2px #6EB134 !important;
+}
+
 html .catalog-category-view {
   .c-product-tile__img-wrapper + a {
     color: #5f5f5e;
