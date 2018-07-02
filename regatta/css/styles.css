@@ -1405,6 +1405,13 @@ html .c-basket__payment-icons {
   float: right;
   clear: right; }
 
+@media only screen and (max-width: 600px) {
+  .mon-badge {
+    padding: 5px 5px;
+    max-width: 50px;
+    line-height: 9px;
+    letter-spacing: 0px;
+    font-size: 8px; } }
 /*//////////////////////////*/
 /* Product Page Size Button */
 /*//////////////////////////*/
