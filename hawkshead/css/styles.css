@@ -3875,7 +3875,7 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat.jpg"); }
 
 @media only screen and (max-width: 1024px) {
-  .s-text-banner *:empty {
+  .bannercontainer {
     display: block !important; } }
 @media only screen and (max-width: 700px) {
   .bannercontainer.mens {
