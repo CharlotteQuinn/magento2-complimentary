@@ -3844,6 +3844,9 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
 .js-fredhopper-fredhopper-hero-wrapper-placeholder .o-region__inner {
   width: 100% !important; }
 
+.s-text-banner {
+  width: 100%; }
+
 .bannercontainer.mens {
   background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Mens-TopLevelCat.jpg"); }
 
