@@ -3874,6 +3874,9 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
 .bannercontainer.superfeet {
   background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat.jpg"); }
 
+@media only screen and (max-width: 1024px) {
+  .s-text-banner *:empty {
+    display: block !important; } }
 @media only screen and (max-width: 700px) {
   .bannercontainer.mens {
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Mens-TopLevelCat-Mobile.jpg"); }
@@ -3904,7 +3907,14 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   }
   .bannercontainer.superfeet{
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat-Mobile.jpg");
-  }*/ }
+  }*/
+  .bannercontainer {
+    height: 130px !important;
+    background-size: contain; }
+
+  .banner__title,
+  .banner__text {
+    padding: 0 10px; } }
 .bf-banner {
   padding: 2.5% 0; }
 
