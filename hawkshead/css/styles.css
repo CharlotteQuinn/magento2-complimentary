@@ -3890,16 +3890,16 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   .bannercontainer.footwear {
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Footwear-TopLevelCat-Mobile.jpg"); }
 
-  /*.bannercontainer.craghoppers {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Craghoppers-TopLevelCat-Mobile.jpg");
-  }
+  .bannercontainer.craghoppers {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Craghoppers-TopLevelCat-Mobile.jpg"); }
+
   .bannercontainer.dare2b {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Dare2B-TopLevelCat-Mobile.jpg");
-  }
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Dare2B-TopLevelCat-Mobile.jpg"); }
+
   .bannercontainer.regatta {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Regatta-TopLevelCat-Mobile.jpg");
-  }
-  .bannercontainer.lowa{
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Regatta-TopLevelCat-Mobile.jpg"); }
+
+  /*.bannercontainer.lowa{
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lowa-TopLevelCat-Mobile.jpg");
   }
   .bannercontainer.lomer{
