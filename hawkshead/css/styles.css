@@ -3847,6 +3847,25 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
 .s-text-banner {
   width: 100%; }
 
+.bannercontainer {
+  width: 100%;
+  float: left;
+  height: 200px !important;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.plp-header {
+  width: 1228px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 350%;
+  font-family: "Garamond-Regular";
+  text-transform: uppercase;
+  color: #fff !important;
+  letter-spacing: 2px; }
+
 .bannercontainer.mens {
   background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Mens-TopLevelCat.jpg"); }
 
@@ -3877,6 +3896,50 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
 .bannercontainer.superfeet {
   background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat.jpg"); }
 
+/*@media only screen and (max-width: 1228px){
+  
+  .bannercontainer.mens {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Mens-TopLevelCat-Tablet.jpg");
+  }
+  .bannercontainer.womens {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Womens-TopLevelCat-Tablet.jpg");
+  }
+  .bannercontainer.kids {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Kids-TopLevelCat-Tablet.jpg");
+  }
+  .bannercontainer.footwear {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Footwear-TopLevelCat-Tablet.jpg");
+  }
+  .bannercontainer.craghoppers {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Craghoppers-TopLevelCat-Tablet.jpg");
+  }
+  .bannercontainer.dare2b {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Dare2B-TopLevelCat-Tablet.jpg");
+  }
+  .bannercontainer.regatta {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Regatta-TopLevelCat-Tablet.jpg");
+  }
+  .bannercontainer.lowa{
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lowa-TopLevelCat-Tablet.jpg");
+  }
+  .bannercontainer.lomer{
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lomer-TopLevelCat-Tablet.jpg");
+  }
+  .bannercontainer.superfeet{
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat-Tablet.jpg");
+  }
+
+  .bannercontainer {
+    height: 225px !important;
+    background-size: contain;
+  }
+
+  .banner__title,
+  .banner__text {
+    padding: 0 10px;
+  }
+  
+}*/
 @media only screen and (max-width: 1024px) {
   .bannercontainer {
     display: block !important; } }
@@ -3912,7 +3975,7 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat-Mobile.jpg");
   }*/
   .bannercontainer {
-    height: 130px !important;
+    height: 250px !important;
     background-size: contain; }
 
   .banner__title,
