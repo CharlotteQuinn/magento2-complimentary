@@ -240,6 +240,8 @@ var testDate = new Date("April 20, 2018 11:00:00");
       // pdp print to DOM
       jQuery('.pdpStan').html(standard);
       // prints to checkout delivery options
+      jQuery('#label_carrier_default_ampersand_standard').prepend('<div class="delest checkStan"></div>');
+
       jQuery('#label_carrier_default_ampersandStandard').prepend('<div class="delest checkStan"></div>');
       jQuery('.checkStan').html(standard);
 
@@ -308,8 +310,11 @@ var testDate = new Date("April 20, 2018 11:00:00");
       jQuery('.pdpPrem').html(premium);
       // prints to checkout delivery options
       jQuery('#label_carrier_default_ampersandExpress').prepend('<div class="delest checkExpress"></div>');
+      jQuery('#label_carrier_default_ampersand_express').prepend('<div class="delest checkExpress"></div>');
+
       jQuery('.checkExpress').html(express);
-      jQuery('#label_carrier_premium_ampersandExpress').prepend('<div class="delest checkPrem"></div>');
+      jQuery('#label_carrier_premium_ampersandExpress').prepend('<div class="delest checkPrem"></div>') 
+      jQuery('#label_carrier_premium_ampersand_express').prepend('<div class="delest checkPrem"></div>');
       jQuery('.checkPrem').html(premium);
 
     // END
