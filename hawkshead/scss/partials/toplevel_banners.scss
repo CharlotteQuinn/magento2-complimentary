@@ -169,12 +169,12 @@
   background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat.jpg");
 }
 
-/*@media only screen and (max-width: 1228px){
+@media only screen and (max-width: 1228px){
   
   .bannercontainer.mens {
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Mens-TopLevelCat-Tablet.jpg");
   }
-  .bannercontainer.womens {
+  /*.bannercontainer.womens {
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Womens-TopLevelCat-Tablet.jpg");
   }
   .bannercontainer.kids {
@@ -200,7 +200,7 @@
   }
   .bannercontainer.superfeet{
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat-Tablet.jpg");
-  }
+  }*/
 
   .banner__title,
   .banner__text {
@@ -214,7 +214,7 @@
     letter-spacing: 1px;
 }
   
-}*/
+}
 
 
 @media only screen and (max-width: 1024px) {
