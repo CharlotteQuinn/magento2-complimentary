@@ -3897,12 +3897,11 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
 .bannercontainer.superfeet {
   background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat.jpg"); }
 
-/*@media only screen and (max-width: 1228px){
-  
+@media only screen and (max-width: 1228px) {
   .bannercontainer.mens {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Mens-TopLevelCat-Tablet.jpg");
-  }
-  .bannercontainer.womens {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Mens-TopLevelCat-Tablet.jpg"); }
+
+  /*.bannercontainer.womens {
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Womens-TopLevelCat-Tablet.jpg");
   }
   .bannercontainer.kids {
@@ -3928,21 +3927,16 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   }
   .bannercontainer.superfeet{
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat-Tablet.jpg");
-  }
-
+  }*/
   .banner__title,
   .banner__text {
-    padding: 0 10px;
-  }
+    padding: 0 10px; }
 
   .plp-header {
     width: 100%;
     padding: 5.5% 0 5.5% 10px;
     font-size: 200%;
-    letter-spacing: 1px;
-}
-  
-}*/
+    letter-spacing: 1px; } }
 @media only screen and (max-width: 1024px) {
   .bannercontainer {
     display: block !important; } }
