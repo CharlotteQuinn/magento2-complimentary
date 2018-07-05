@@ -89,22 +89,22 @@
 }
 
 .bannertext.footwearacc {
-    font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: white;
-    text-transform: uppercase;
-    text-align: left;
-    font-size: 42px;
-    margin-left: 4%;
-    margin-top: 3.8%;
-    letter-spacing: 3px;
-    width: 32%;
-    line-height: 1.2;
+  font-family: 'poppinsregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 42px;
+  margin-left: 4%;
+  margin-top: 3.8%;
+  letter-spacing: 3px;
+  width: 32%;
+  line-height: 1.2;
 }
 
 .banner__text,
 .banner__title {
-    max-width: 1228px;
-    margin: 0 auto;
+  max-width: 1228px;
+  margin: 0 auto;
 }
 
 .js-fredhopper-fredhopper-hero-wrapper-placeholder .o-region__inner  {
@@ -112,31 +112,32 @@
 }
 
 .s-text-banner {
-    width: 100%;
+  width: 100%;
 }
 
 .bannercontainer {
-    width: 100%;
-    float: left;
-    height: auto !important;
-    background-repeat: no-repeat;
-    background-size: contain;
+  width: 100%;
+  float: left;
+  height: auto !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 130px;
 }
 
 .plp-header {
-    width: 1228px;
-    margin: 0 auto;
-    text-align: left;
-    padding: 3% 0;
-    font-size: 24px;
-    font-family: "Garamond-Regular";
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #fff !important;
+  width: 1228px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 3% 0;
+  font-size: 24px;
+  font-family: "Garamond-Regular";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff !important;
 }
 
 .plp-header h1 {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .bannercontainer.mens {
@@ -175,7 +176,7 @@
   .bannercontainer.mens {
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Mens-TopLevelCat-Tablet.jpg");
   }
-  /*.bannercontainer.womens {
+  .bannercontainer.womens {
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Womens-TopLevelCat-Tablet.jpg");
   }
   .bannercontainer.kids {
@@ -193,7 +194,7 @@
   .bannercontainer.regatta {
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Regatta-TopLevelCat-Tablet.jpg");
   }
-  .bannercontainer.lowa{
+  /*.bannercontainer.lowa{
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lowa-TopLevelCat-Tablet.jpg");
   }
   .bannercontainer.lomer{
@@ -213,6 +214,10 @@
     padding: 5.5% 0 5.5% 10px;
     font-size: 16px;
     letter-spacing: 1px;
+  }
+
+  .bannercontainer {
+    min-height: 150px;
   }
   
 }
@@ -261,9 +266,13 @@
   .plp-header {
     width: 100%;
     padding: 9% 20% 12% 10px;
-    font-size: 90%;
+    font-size: 11px;
     letter-spacing: 1px;
     line-height: 250%;
+  }
+
+  .bannercontainer {
+    min-height: 130px;
   }
   
 }
