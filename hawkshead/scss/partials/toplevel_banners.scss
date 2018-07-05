@@ -128,10 +128,11 @@
     margin: 0 auto;
     text-align: left;
     padding: 3% 0;
-    font-size: 350%;
+    font-size: 24px;
     font-family: "Garamond-Regular";
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: #fff !important;
 }
 
 .plp-header h1 {
@@ -210,9 +211,9 @@
   .plp-header {
     width: 100%;
     padding: 5.5% 0 5.5% 10px;
-    font-size: 200%;
+    font-size: 16px;
     letter-spacing: 1px;
-}
+  }
   
 }
 
@@ -259,7 +260,7 @@
 
   .plp-header {
     width: 100%;
-    padding-top: 9% 10px 9% 20%;
+    padding: 9% 20% 12% 10px;
     font-size: 90%;
     letter-spacing: 1px;
     line-height: 250%;
