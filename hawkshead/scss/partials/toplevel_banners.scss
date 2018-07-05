@@ -128,16 +128,16 @@
   width: 1228px;
   margin: 0 auto;
   text-align: left;
-  padding: 3% 0;
-  font-size: 24px;
+  padding: 3.2% 0;
   font-family: "Garamond-Regular";
   text-transform: uppercase;
-  letter-spacing: 2px;
   color: #fff !important;
 }
 
 .plp-header h1 {
   color: #fff !important;
+  font-size: 44px !important;
+  letter-spacing: 2px;
 }
 
 .bannercontainer.mens {
@@ -212,7 +212,11 @@
   .plp-header {
     width: 100%;
     padding: 5.5% 0 5.5% 10px;
-    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .plp-header h1 {
+    font-size: 30px !important;
     letter-spacing: 1px;
   }
 
@@ -266,9 +270,12 @@
   .plp-header {
     width: 100%;
     padding: 9% 20% 12% 10px;
-    font-size: 11px;
+  }
+
+  .plp-header h1 {
+    font-size: 22px !important;
     letter-spacing: 1px;
-    line-height: 250%;
+    line-height: 26%;
   }
 
   .bannercontainer {
