@@ -3860,7 +3860,7 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   width: 1228px;
   margin: 0 auto;
   text-align: left;
-  padding: 3.2% 0 2.4% 0 !important;
+  padding: 3.2% 0;
   font-family: "Garamond-Regular";
   text-transform: uppercase;
   color: #fff !important; }
