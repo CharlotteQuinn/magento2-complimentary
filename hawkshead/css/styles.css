@@ -3849,11 +3849,12 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
 
 .bannercontainer {
   width: 100%;
-  float: left;
   height: auto !important;
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 200px; }
+  min-height: 200px;
+  margin-bottom: 15px;
+  background-position: center; }
 
 .plp-header {
   width: 1228px;
@@ -3944,7 +3945,8 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
     letter-spacing: 1px; }
 
   .bannercontainer {
-    min-height: 150px; } }
+    min-height: 150px;
+    margin-bottom: 0; } }
 @media only screen and (max-width: 1024px) {
   .bannercontainer {
     display: block !important; } }

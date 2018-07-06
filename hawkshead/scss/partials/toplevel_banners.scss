@@ -117,11 +117,12 @@
 
 .bannercontainer {
   width: 100%;
-  float: left;
   height: auto !important;
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 200px;
+  margin-bottom: 15px;
+  background-position: center;
 }
 
 .plp-header {
@@ -222,6 +223,7 @@
 
   .bannercontainer {
     min-height: 150px;
+    margin-bottom: 0;
   }
   
 }
