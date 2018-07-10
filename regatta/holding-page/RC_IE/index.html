@@ -10,15 +10,15 @@
   <body>
     <div class="container">
       <img class="logo" src="https://media.regatta.com/logo/stores/69/Regatta-Logo.svg">
-      <h1>Sorry our website is currently undergoing maintenance</h1>
-      <span>We should be back up and running very soon.<br>If you need to contact us please call us on <a class="tel" href="tel:021 236 3143">021 236 3143</a></span>
+      <h1>We are currently working on some scheudled site maintenance.</h1>
+      <span>We should be back up and running very soon.</span>
     </div>
 
     <div class="social">
-          <a href="https://www.facebook.com/regattagreatoutdoors"><img src="images/circle6.png" width="35" height="35" alt="Facebook"></a>
-          <a href="https://twitter.com/regattaonline"><img src="images/social71.png" alt="Twitter" width="35" height="35"></a>
-          <a href="https://www.youtube.com/user/Regattaoutdoors/videos"><img src="images/youtube30.png" width="35" height="35" alt="Youtube"></a>
-          <a href="https://instagram.com/regattaonline/"><img src="images/instagram.png" width="35" height="35" alt="instagram"></a>
+          <a href="https://www.facebook.com/regattaIE/"><img src="images/circle6.png" width="35" height="35" alt="Facebook"></a>
+          <a href="https://twitter.com/RegattaOutdoors"><img src="images/social71.png" alt="Twitter" width="35" height="35"></a>
+          <a href="https://www.youtube.com/user/Regattaoutdoors"><img src="images/youtube30.png" width="35" height="35" alt="Youtube"></a>
+          <a href="https://www.instagram.com/regatta_ireland/"><img src="images/instagram.png" width="35" height="35" alt="instagram"></a>
           <a href="http://blog.regatta.com/"><img src="images/blog.png" width="35" height="35" alt="Blog"></a>
     </div>
 
@@ -26,36 +26,3 @@
   </body>
 </html>
 
-<script>
-var lFollowX = 0,
-    lFollowY = 0,
-    x = 0,
-    y = 0,
-    friction = 1 / 150;
-
-function moveBackground() {
-  x += (lFollowX - x) * friction;
-  y += (lFollowY - y) * friction;
-
-  translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
-
-  $('.bg').css({
-    '-webit-transform': translate,
-    '-moz-transform': translate,
-    'transform': translate
-  });
-
-  window.requestAnimationFrame(moveBackground);
-}
-
-$(window).on('mousemove click', function(e) {
-
-  var lMouseX = Math.max(-100, Math.min(100, $(window).width() / 2 - e.clientX));
-  var lMouseY = Math.max(-100, Math.min(100, $(window).height() / 2 - e.clientY));
-  lFollowX = (20 * lMouseX) / 100; // 100 : 12 = lMouxeX : lFollow
-  lFollowY = (10 * lMouseY) / 100;
-
-});
-
-moveBackground();
-</script>
