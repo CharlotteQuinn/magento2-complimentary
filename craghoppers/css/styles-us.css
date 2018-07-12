@@ -3365,7 +3365,6 @@ div#customerservice__row--kids table th {
 .contact__popup.popup_open {
   display: block;
   z-index: 999;
-  position: fixed;
   width: 100%;
   max-width: 1228px;
   background: #fff;
@@ -3373,6 +3372,13 @@ div#customerservice__row--kids table th {
   padding: 10px;
   overflow-y: scroll;
   height: 750px; }
+
+.contactContainer {
+  margin: 0 auto;
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  top: 65px; }
 
 .popup__inner {
   background: #fff;
