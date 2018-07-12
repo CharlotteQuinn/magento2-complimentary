@@ -3371,7 +3371,8 @@ div#customerservice__row--kids table th {
   top: 85px;
   padding: 10px;
   overflow-y: scroll;
-  height: 750px; }
+  height: 750px;
+  margin: 0 auto; }
 
 .contactContainer {
   margin: 0 auto;
