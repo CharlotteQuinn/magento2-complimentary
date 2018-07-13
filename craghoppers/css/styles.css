@@ -7375,6 +7375,24 @@ p.pl-text-social {
     color: #fff;
     cursor: pointer; } }
 /* END */
+/* Desktop Show/Hide */
+.category-view__description + button {
+  display: block !important;
+  background: transparent;
+  border: 1px solid;
+  padding: 0.2% 0;
+  margin-top: 1%;
+  min-width: 100px;
+  float: right; }
+
+.category-view__description.active + button {
+  margin-top: 0; }
+
+p.category-view__description.active {
+  height: 45px;
+  overflow: hidden; }
+
+/* END */
 /* Tick boxes */
 body .c-checkbox-option__checkbox:after {
   margin: 1px; }
