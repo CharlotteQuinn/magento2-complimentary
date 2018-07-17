@@ -68,7 +68,7 @@ function rlTabs(){
 }
 /* END */
 
-/* Mobile show/hide button *//*
+/* Mobile show/hide button */
 function mobileSEO(){
   var banner = document.getElementsByClassName("s-text-banner")[0].childNodes[1];
   var bannerTwo = document.getElementsByClassName("s-text-banner")[0].childNodes[3];
@@ -98,7 +98,7 @@ function mobileSEO(){
       }
     };
   }
-}*/
+}
 /* END */
 
 /* Feefo Reviews Page UK */
