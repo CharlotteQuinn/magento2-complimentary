@@ -2523,4 +2523,8 @@ body .c-product-tile .c-product-tile__btn {
   font-size: 18px;
   letter-spacing: 1px; }
 
+li#switcher-currency-nav {
+    display: none;
+}
+
 /*# sourceMappingURL=styles.css.map */

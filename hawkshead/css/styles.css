@@ -4821,4 +4821,8 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   .hh-clearance-store .clearance-store-wrapper.Xmas .col-6.cs-hero .cs-title {
     margin-bottom: 0.5%; } }
 
+li#switcher-currency-nav {
+    display: none;
+}
+
 /*# sourceMappingURL=styles.css.map */

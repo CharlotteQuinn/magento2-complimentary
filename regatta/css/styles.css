@@ -3990,6 +3990,10 @@ html:lang(en-IE) div[name="shippingAddress.postcode"] label:after {
 html:lang(en-IE) span[class="2-for-33 mon-badge"] {
   display: none !important; }
 
+li#switcher-currency-nav {
+    display: none;
+}
+
 /* FR STYLES ONLY */
 /* DE STYLES ONLY */
 /* IT STYLES ONLY */
