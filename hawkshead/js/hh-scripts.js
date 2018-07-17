@@ -68,7 +68,7 @@ function rlTabs(){
 }
 /* END */
 
-/* Mobile SEO show/hide */
+/* Mobile SEO show/hide *//*
 function mobileSEO(){
   var banner = document.getElementsByClassName("s-text-banner")[0].childNodes[3];
   var seoText = banner.getElementsByClassName('banner__text')[0];
@@ -90,7 +90,7 @@ function mobileSEO(){
       }
     };
   }
-}
+}*/
 
 function lowerseo(){
   jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner').addClass('active');
