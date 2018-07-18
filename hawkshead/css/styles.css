@@ -3929,15 +3929,15 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   .bannercontainer.regatta {
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Regatta-TopLevelCat-Tablet.jpg"); }
 
-  /*.bannercontainer.lowa{
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lowa-TopLevelCat-Tablet.jpg");
-  }
-  .bannercontainer.lomer{
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lomer-TopLevelCat-Tablet.jpg");
-  }
-  .bannercontainer.superfeet{
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat-Tablet.jpg");
-  }*/
+  .bannercontainer.lowa {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lowa-TopLevelCat-Tablet.jpg"); }
+
+  .bannercontainer.lomer {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lomer-TopLevelCat-Tablet.jpg"); }
+
+  .bannercontainer.superfeet {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat-Tablet.jpg"); }
+
   .banner__title,
   .banner__text {
     padding: 0 10px; }
@@ -3979,15 +3979,15 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   .bannercontainer.regatta {
     background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Regatta-TopLevelCat-Mobile.jpg"); }
 
-  /*.bannercontainer.lowa{
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lowa-TopLevelCat-Mobile.jpg");
-  }
-  .bannercontainer.lomer{
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lomer-TopLevelCat-Mobile.jpg");
-  }
-  .bannercontainer.superfeet{
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat-Mobile.jpg");
-  }*/
+  .bannercontainer.lowa {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lowa-TopLevelCat-Mobile.jpg"); }
+
+  .bannercontainer.lomer {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lomer-TopLevelCat-Mobile.jpg"); }
+
+  .bannercontainer.superfeet {
+    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat-Mobile.jpg"); }
+
   .plp-header {
     width: 100%;
     padding: 9% 20% 12% 10px; }
@@ -4820,9 +4820,5 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
     height: 98.3%; }
   .hh-clearance-store .clearance-store-wrapper.Xmas .col-6.cs-hero .cs-title {
     margin-bottom: 0.5%; } }
-
-li#switcher-currency-nav {
-    display: none;
-}
 
 /*# sourceMappingURL=styles.css.map */
