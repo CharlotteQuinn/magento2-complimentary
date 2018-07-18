@@ -908,6 +908,12 @@ html .mt_animate {
 
 /* Partials */
 /*//////////////////////////////*/
+/*  Global Styles               */
+/*//////////////////////////////*/
+li#switcher-currency-nav {
+  display: block !important; }
+
+/*//////////////////////////////*/
 /*  Checkout Success            */
 /*//////////////////////////////*/
 .checkout-onepage-success #wrapper > #content {
@@ -3989,10 +3995,6 @@ html:lang(en-IE) div[name="shippingAddress.postcode"] label:after {
   margin-left: 5px; }
 html:lang(en-IE) span[class="2-for-33 mon-badge"] {
   display: none !important; }
-
-li#switcher-currency-nav {
-    display: none;
-}
 
 /* FR STYLES ONLY */
 /* DE STYLES ONLY */
