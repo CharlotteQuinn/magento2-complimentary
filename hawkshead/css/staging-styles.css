@@ -1093,6 +1093,11 @@ button#btn-cookie-allow {
   border: 1px solid; }
 
 /* END Cookie Policy Bar */
+/* Remove Currency Converter START */
+li#switcher-currency-nav {
+  display: none; }
+
+/* Remove Currency Converter END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
