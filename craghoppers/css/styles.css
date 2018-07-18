@@ -1426,6 +1426,11 @@ button#btn-cookie-allow {
   border: 1px solid; }
 
 /* END Cookie Policy Bar */
+/* Remove Currency Converter START */
+li#switcher-currency-nav {
+  display: none; }
+
+/* Remove Currency Converter END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
@@ -9661,9 +9666,5 @@ h2.utc-title-lower {
     line-height: 20px; } }
 .c-store-details__collection {
   color: #343334; }
-
-li#switcher-currency-nav {
-    display: none;
-}
 
 /*# sourceMappingURL=styles.css.map */

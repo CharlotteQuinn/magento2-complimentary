@@ -1426,6 +1426,11 @@ button#btn-cookie-allow {
   border: 1px solid; }
 
 /* END Cookie Policy Bar */
+/* Remove Currency Converter START */
+li#switcher-currency-nav {
+  display: none; }
+
+/* Remove Currency Converter END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
@@ -8403,10 +8408,6 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
 
 .collection-koutdoor {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsOutdoorProtection.jpg); }
-
-li#switcher-currency-nav {
-    display: none;
-}
 
 /*END*/
 
