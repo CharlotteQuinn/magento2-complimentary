@@ -8414,5 +8414,10 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsOutdoorProtection.jpg); }
 
 /*END*/
+/* CHUS Feefo */
+.c-feefo {
+  display: none !important; }
+
+/* END */
 
 /*# sourceMappingURL=styles-us.css.map */
