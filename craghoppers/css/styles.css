@@ -2220,8 +2220,11 @@ ul.fullWidthSlider__slidesList {
 .seo-container {
   margin-top: -4%; }
 
-.pageSection--Seo.seo-open {
+.pageSection.pageSection.pageSection--Seo.seo-open {
   height: 100%; }
+
+.pageSection.pageSection--Seo p {
+  width: 100%; }
 
 /* END */
 /* AW17 Updates */
@@ -2317,8 +2320,9 @@ section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWi
   .pageSection--halves .pageBanner:last-of-type {
     margin-left: 1%; }
 
-  .pageSection--Seo {
-    height: 140px; }
+  .pageSection.pageSection--Seo {
+    height: 140px;
+    padding: 0 2% !important; }
 
   .pageSection--thirds .pageBanner:first-of-type {
     margin-top: 0; }
@@ -9661,9 +9665,5 @@ h2.utc-title-lower {
     line-height: 20px; } }
 .c-store-details__collection {
   color: #343334; }
-
-li#switcher-currency-nav {
-    display: none;
-}
 
 /*# sourceMappingURL=styles.css.map */
