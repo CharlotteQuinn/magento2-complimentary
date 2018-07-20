@@ -1027,6 +1027,12 @@ html .mt_animate {
     padding-left: 20%; } }
 /* Partials */
 /*//////////////////////////////*/
+/*  Global Styles               */
+/*//////////////////////////////*/
+li#switcher-currency-nav {
+  display: block !important; }
+
+/*//////////////////////////////*/
 /*  Checkout Success            */
 /*//////////////////////////////*/
 .checkout-onepage-success #wrapper > #content {
@@ -2522,9 +2528,5 @@ body .c-product-tile .c-product-tile__btn {
   text-decoration: none;
   font-size: 18px;
   letter-spacing: 1px; }
-
-li#switcher-currency-nav {
-    display: none;
-}
 
 /*# sourceMappingURL=styles.css.map */
