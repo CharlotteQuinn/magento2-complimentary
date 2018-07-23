@@ -200,6 +200,18 @@ function lowerseo(){
 }
 /* END */
 
+/* CHDE Category lower SEO show/hide */
+function lowerseoDE(){
+  jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner').addClass('active');
+  jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active').after('<div class="lower-seobttn-container"><a><div class="readmore">Mehr Lesen</div></a></div>');
+  jQuery('.lower-seobttn-container').click(function(){
+    jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active').toggleClass('open');
+    jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active + .lower-seobttn-container .readmore').html('Mehr Lesen');
+    jQuery('.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active.open + .lower-seobttn-container .readmore').html('Weniger lesen');
+  });
+}
+/* END */
+
 // Delivery Estimates 
 function delEst(){
   // current date
