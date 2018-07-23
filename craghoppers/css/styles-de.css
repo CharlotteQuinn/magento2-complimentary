@@ -9266,6 +9266,11 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
 #footer .c-footer__links .o-layout .o-layout__item:last-of-type {
   float: right; }
 
+/* remove newsletter signup */
+.c-footer__social {
+  display: none; }
+
+/* END */
 /*END*/
 
 /*# sourceMappingURL=styles-de.css.map */
