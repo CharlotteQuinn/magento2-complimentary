@@ -125,6 +125,14 @@
     z-index: 3;
 }
 
+.menuSection.menuSectionFull{
+  width: 100% !important;
+}
+
+.menuSectionFull .columnHead{
+  margin-top: 1%;
+}
+
 @media only screen and (max-width:1227px){
   .megamenu-split{
     .menu-split:last-of-type {
@@ -1052,6 +1060,10 @@ i.c-header__icon.c-icon--menu.menuOpen::after{
 
   .columnSubHead.menuDesktop{
     display:none;
+  }
+
+  .menuSection.menuDesktop{
+    display: none !important;
   }
 
   
