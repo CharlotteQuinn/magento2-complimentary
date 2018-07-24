@@ -967,7 +967,7 @@ html {
     display: block; }
 
   .column--footer h4 {
-    font-size: 14px; }
+    font-size: 14px !important; }
 
   .column--footer h4:before {
     content: ' ';
@@ -1204,7 +1204,15 @@ h4.c-feefo__titl {
     bottom: -23px;
     right: 0;
     left: 0;
-    color: #424243; } }
+    color: #424243; }
+
+  .c-footer .c-feefo {
+    width: 165px;
+    padding: 5px 5px 4px;
+    background-position: 15px 10px;
+    background-size: 50%;
+    margin: 0;
+    margin-left: 7%; } }
 /* END */
 /* Main Nav */
 .s-main-menu .categories > li > a:active,
@@ -1377,6 +1385,10 @@ ul.follow-us {
 
   .footerHeaderMobile {
     display: block; } }
+@media only screen and (max-width: 500px) {
+  #footer .s-footer-links > div {
+    width: 100% !important;
+    padding-bottom: 0; } }
 /* END */
 /* REGISTER GUARANTEE FORM */
 .guaranteehead {
