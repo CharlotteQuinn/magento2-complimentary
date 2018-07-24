@@ -7204,6 +7204,12 @@ body._has-modal {
 .s-main-menu .block {
   z-index: 3; }
 
+.menuSection.menuSectionFull {
+  width: 100% !important; }
+
+.menuSectionFull .columnHead {
+  margin-top: 1%; }
+
 @media only screen and (max-width: 1227px) {
   .megamenu-split .menu-split:last-of-type {
     margin-top: 8%; } }
@@ -7933,7 +7939,10 @@ a.mm-outlet {
     z-index: 0; }
 
   .columnSubHead.menuDesktop {
-    display: none; } }
+    display: none; }
+
+  .menuSection.menuDesktop {
+    display: none !important; } }
 /* END */
 .utc {
   font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
