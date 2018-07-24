@@ -877,8 +877,17 @@ h4.c-feefo__titl {
 	margin-bottom: 0;
 }
 
-.c-feefo {
-	margin: 0;
+.c-footer .c-feefo {
+    width: 140px;
+    padding: 35px 15px 4px;
+    background-position: 35px 10px;
+    background-size: 60%;
+    margin: 0;
+    margin-left: 7%;
+}
+
+p.c-feefo__percentage {
+    font-size: 30px;
 }
 
 @media only screen and (max-width:770px) {
@@ -1213,7 +1222,6 @@ button#btn-cookie-allow {
 }
 /* END Cookie Policy Bar */
 
-
 /* Remove Currency Converter START */
 
 li#switcher-currency-nav {
@@ -1221,3 +1229,4 @@ li#switcher-currency-nav {
 }
 
 /* Remove Currency Converter END */
+

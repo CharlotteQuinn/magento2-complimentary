@@ -1172,8 +1172,16 @@ h4.c-feefo__titl {
   color: #fff;
   margin-bottom: 0; }
 
-.c-feefo {
-  margin: 0; }
+.c-footer .c-feefo {
+  width: 140px;
+  padding: 35px 15px 4px;
+  background-position: 35px 10px;
+  background-size: 60%;
+  margin: 0;
+  margin-left: 7%; }
+
+p.c-feefo__percentage {
+  font-size: 30px; }
 
 @media only screen and (max-width: 770px) {
   .c-feefo {
@@ -1188,7 +1196,8 @@ h4.c-feefo__titl {
     min-height: 42px;
     background-position: left 15px center;
     margin: 7px 0px;
-    position: relative; }
+    position: relative;
+    width: 155px; }
 
   .c-feefo h4.c-feefo__titl {
     display: none; }

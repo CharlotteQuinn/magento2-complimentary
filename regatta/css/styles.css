@@ -913,6 +913,9 @@ html .mt_animate {
 li#switcher-currency-nav {
   display: block !important; }
 
+.c-campaign img {
+  width: 100% !important; }
+
 /*//////////////////////////////*/
 /*  Checkout Success            */
 /*//////////////////////////////*/
