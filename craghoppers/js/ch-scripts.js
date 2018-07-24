@@ -485,6 +485,32 @@ function videoSlider(){
   }, 100);
 };
 
+/* Homepage SEO show/hide */
+function homepageSEO(){
+  var catname = jQuery('body').attr('class');
+  jQuery('.pageSection--Seo').after('<div class="seo-container"><a><div class="readmore">Read more</div></a></div>');
+  jQuery('.readmore').click(function(){
+    jQuery('.pageSection--Seo').toggleClass('seo-open');
+    jQuery('.pageSection--Seo + .seo-container .readmore').html('Read more');
+    jQuery('.pageSection--Seo.seo-open + .seo-container .readmore').html('Read less');
+    ga('send', 'event', 'read-more-button', 'click', '' + catname + '');
+  });
+}
+/* END */
+
+/* CHDE Homepage SEO show/hide */
+function homepageSEODE(){
+  var catname = jQuery('body').attr('class');
+  jQuery('.pageSection--Seo').after('<div class="seo-container"><a><div class="readmore">Mehr Lesen</div></a></div>');
+  jQuery('.readmore').click(function(){
+    jQuery('.pageSection--Seo').toggleClass('seo-open');
+    jQuery('.pageSection--Seo + .seo-container .readmore').html('Mehr Lesen');
+    jQuery('.pageSection--Seo.seo-open + .seo-container .readmore').html('Weniger lesen');
+    ga('send', 'event', 'read-more-button', 'click', '' + catname + '');
+  });
+}
+/* END */
+
 /*
   Craghoppers specific JS snippets
  */
@@ -650,17 +676,6 @@ requirejs(['jquery'], function( $ ) {
     $j('.contact__popup').removeClass('popup_open');
     $j('.form_popup').removeClass('popup_open');
     $j('.popup__bg').removeClass('popup_open');
-  });
-  /* END */
-
-  /* Homepage SEO show/hide */
-  var catname = jQuery('body').attr('class');
-  $j('.pageSection--Seo').after('<div class="seo-container"><a><div class="readmore">Read more</div></a></div>');
-  $j('.readmore').click(function(){
-    $j('.pageSection--Seo').toggleClass('seo-open');
-    $j('.pageSection--Seo + .seo-container .readmore').html('Read more');
-    $j('.pageSection--Seo.seo-open + .seo-container .readmore').html('Read less');
-    ga('send', 'event', 'read-more-button', 'click', '' + catname + '');
   });
   /* END */
 
