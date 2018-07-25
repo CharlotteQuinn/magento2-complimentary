@@ -1196,8 +1196,7 @@ p.c-feefo__percentage {
     min-height: 42px;
     background-position: left 15px center;
     margin: 7px 0px;
-    position: relative;
-    width: 155px; }
+    position: relative; }
 
   .c-feefo h4.c-feefo__titl {
     display: none; }

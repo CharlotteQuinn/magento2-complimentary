@@ -1196,8 +1196,7 @@ p.c-feefo__percentage {
     min-height: 42px;
     background-position: left 15px center;
     margin: 7px 0px;
-    position: relative;
-    width: 155px; }
+    position: relative; }
 
   .c-feefo h4.c-feefo__titl {
     display: none; }
@@ -9290,6 +9289,9 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
 
 .collection-koutdoor {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsOutdoorProtection.jpg); }
+
+.menuSection.menuSectionNosi {
+  width: 25% !important; }
 
 /*END*/
 /* ambassadors */
