@@ -2475,6 +2475,11 @@ ul.slides.fullWidthSlider__slidesList {
     width: 100% !important;
     float: none !important; } }
 /* ss18 homepage END */
+/* remove slider arrows */
+ul.flex-direction-nav {
+  display: none; }
+
+/* END */
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
