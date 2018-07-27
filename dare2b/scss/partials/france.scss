@@ -4,24 +4,3 @@
   .s-header-links .links>li:nth-child(5), .s-header-links .links>li:nth-child(6) {
   	display: none;
   }
-
-/* Category show and hide button styles */
-.category-text{
-    max-height: 50px;
-    overflow: hidden;
-    display: block;
-
-}
-.category-text.active{
-    max-height: initial;
-}
-
-.text-size{
-    max-width: 120px;
-    text-align: center;
-    text-decoration: underline;
-    margin: 0px -17px;
-}
-.category-links > br{
-	display: none;
-}
