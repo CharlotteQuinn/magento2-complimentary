@@ -966,10 +966,10 @@ html {
   .column--footer ul.toggleSub {
     display: block; }
 
-  .column--footer h4 {
+  .column--footer p {
     font-size: 14px !important; }
 
-  .column--footer h4:before {
+  .column--footer p:before {
     content: ' ';
     border-style: solid;
     border-width: 7px 7px 0 7px;
@@ -977,7 +977,7 @@ html {
     float: right;
     margin-top: 1.5%; }
 
-  .column--footer h4.toggleMain:before {
+  .column--footer p.toggleMain:before {
     border-style: solid;
     border-width: 0 7px 7px 7px;
     border-color: transparent transparent #afafaf transparent; } }
