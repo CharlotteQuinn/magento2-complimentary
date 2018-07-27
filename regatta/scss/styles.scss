@@ -31,10 +31,14 @@ html:lang(de-DE) {
 }
 
 /* IT STYLES ONLY */
-
 html:lang(it-IT) {
 	@import 'partials/italy.scss';
 }
+/*Added following rule class due to missing lang selector*/
+html.RCIE {
+	@import 'partials/italy.scss';
+}
+
 
 /* RU STYLES ONLY */
 
