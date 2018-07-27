@@ -3986,10 +3986,13 @@ html .s-main-menu .block {
 html:lang(en-IE) .s-header-links .links > li:nth-child(5), html:lang(en-IE) .s-header-links .links > li:nth-child(4) {
   display: none; }
 
+/* Added following rule class due to missing lang selector */
+html.RCIE .s-header-links .links > li:nth-child(5), html.RCIE .s-header-links .links > li:nth-child(4) {
+  display: none; }
+
 /* FR STYLES ONLY */
 /* DE STYLES ONLY */
 /* IT STYLES ONLY */
-/*Added following rule class due to missing lang selector*/
 /* RU STYLES ONLY */
 /* ES STYLES ONLY */
 /* Singles */
