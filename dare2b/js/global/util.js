@@ -6,8 +6,34 @@
 //
 /////////////////////////////////////*/
 
-/*///////// Unticking account sign up ////////*/
+/*///////// French Scripts Starts ////////*/
 
+/* French category text show and hide script */
+if (jQuery('html:lang(fr) .category-text').text().length > 300) {
+    console.log(true);
+
+    jQuery("html:lang(fr) .category-links").prepend("<div class='text-size'>Voir plus...</div>");
+    
+} 
+    
+jQuery("html:lang(fr) .text-size").click(function(){
+    jQuery("html:lang(fr) .category-text div").toggleClass("less");
+    if(jQuery("html:lang(fr) .text-size").html() == "Voir plus...") {
+
+        jQuery("html:lang(fr) .category-text").addClass("active");
+        jQuery("html:lang(fr) .text-size").html("Voir moins...");
+
+    } else {
+
+        jQuery("html:lang(fr) .category-text").removeClass("active");
+        jQuery("html:lang(fr) .text-size").html("Voir moins...");
+
+    }
+});
+
+/*///////// French Scripts End ////////*/
+
+/*///////// Unticking account sign up ////////*/
 function untickTrigger(){
 	requirejs(['jquery'], function( $ ) {
 	    jQuery('.customer-account-create .newsletter .c-checkbox-option__label input, .guest-checkout-login-account-create .newsletter .c-checkbox-option__label input').prop('checked', false);

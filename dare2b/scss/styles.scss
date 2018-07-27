@@ -15,3 +15,10 @@
 /* Singles */
 @import 'singles/homepage.scss';
 
+
+/* languages  */
+
+/* FR STYLES ONLY */
+html:lang(fr) {
+	@import 'partials/france.scss';
+}
