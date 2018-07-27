@@ -1384,6 +1384,12 @@ ul.follow-us {
 .footerHeaderMobile {
   display: none; }
 
+.s-footer-links .column p {
+  font-weight: 700;
+  min-height: 35px;
+  margin-bottom: 0;
+  color: #343334; }
+
 @media only screen and (max-width: 740px) {
   .column.column--footer h4.active + ul.active {
     display: block; }

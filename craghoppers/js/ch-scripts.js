@@ -603,7 +603,7 @@ requirejs(['jquery'], function( $ ) {
   /* END */
 
   /* Mobile Footer */
-  jQuery(".column.column--footer h4").click(function(){
+  jQuery(".column.column--footer p").click(function(){
     jQuery(this).toggleClass("active");
     jQuery(this).next().toggleClass("active");
   });
