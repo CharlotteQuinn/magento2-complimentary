@@ -17,6 +17,10 @@
 html:lang(en-IE) {
 	@import 'partials/ireland.scss';
 }
+/* Added following rule class due to missing lang selector */
+html.RCIE {
+	@import 'partials/ireland.scss';
+}
 
 /* FR STYLES ONLY */
 
@@ -32,10 +36,6 @@ html:lang(de-DE) {
 
 /* IT STYLES ONLY */
 html:lang(it-IT) {
-	@import 'partials/italy.scss';
-}
-/*Added following rule class due to missing lang selector*/
-html.RCIE {
 	@import 'partials/italy.scss';
 }
 
