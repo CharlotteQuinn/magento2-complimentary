@@ -3983,25 +3983,13 @@ html .s-main-menu .block {
   .style-school-banner {
     margin-top: 300px; } }
 /* IE STYLES ONLY */
-html:lang(en-IE) .s-header-links .links > li:first-child {
+html:lang(en-IE) .s-header-links .links > li:nth-child(5), html:lang(en-IE) .s-header-links .links > li:nth-child(4) {
   display: none; }
-html:lang(en-IE) .s-header-links > .header.links li:nth-child(2) {
-  display: none; }
-html:lang(en-IE) .page-layout-checkout .c-order-summary__basket-link,
-html:lang(en-IE) .page-layout-checkout .u-margin-above .o-layout__item:nth-child(2) {
-  display: none; }
-html:lang(en-IE) .Buy-1-Get-1-Free.mon-badge {
-  display: none !important; }
-html:lang(en-IE) div[name="shippingAddress.postcode"] label:after {
-  content: '*';
-  color: #e32e2e;
-  margin-left: 5px; }
-html:lang(en-IE) span[class="2-for-33 mon-badge"] {
-  display: none !important; }
 
 /* FR STYLES ONLY */
 /* DE STYLES ONLY */
 /* IT STYLES ONLY */
+/*Added following rule class due to missing lang selector*/
 /* RU STYLES ONLY */
 /* ES STYLES ONLY */
 /* Singles */

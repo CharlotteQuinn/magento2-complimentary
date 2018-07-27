@@ -1,27 +1,5 @@
-.s-header-links .links>li:first-child {
-    display: none;
-}
+  .s-header-links .links>li:nth-child(5), .s-header-links .links>li:nth-child(4) {
+  	display: none;
+  }
 
-.s-header-links > .header.links li:nth-child(2) {
-  display:none;
-}
-
-.page-layout-checkout .c-order-summary__basket-link,
-.page-layout-checkout .u-margin-above .o-layout__item:nth-child(2){
-  display: none;
-}
-
-.Buy-1-Get-1-Free.mon-badge{
-  display: none !important
-}
-
-div[name="shippingAddress.postcode"] label:after{
-  content: '*';
-  color: #e32e2e;
-  margin-left: 5px;
-}
-
-span[class="2-for-33 mon-badge"]{
-  display: none !important;
-}
 
