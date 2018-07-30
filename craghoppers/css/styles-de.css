@@ -2229,10 +2229,15 @@ ul.fullWidthSlider__slidesList {
     height: 65vw;
     max-height: 324px; } }
 /* Homepage SEO show/hide */
-.pageSection--Seo {
-  height: 150px;
+.pageSection--Seo p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
   overflow: hidden;
-  position: relative; }
+  max-width: 100%;
+  -webkit-box-orient: vertical; }
+
+.pageSection--Seo.seo-open p {
+  -webkit-line-clamp: 100; }
 
 .readmore {
   margin: auto;
@@ -2250,9 +2255,6 @@ ul.fullWidthSlider__slidesList {
 
 .seo-container {
   margin-top: -4%; }
-
-.pageSection.pageSection.pageSection--Seo.seo-open {
-  height: 100%; }
 
 .pageSection.pageSection--Seo p {
   width: 100%; }
@@ -2352,7 +2354,6 @@ section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWi
     margin-left: 1%; }
 
   .pageSection.pageSection--Seo {
-    height: 140px;
     padding: 0 2% !important; }
 
   .pageSection--thirds .pageBanner:first-of-type {
