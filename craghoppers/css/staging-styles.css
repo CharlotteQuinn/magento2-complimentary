@@ -2230,14 +2230,12 @@ ul.fullWidthSlider__slidesList {
     max-height: 324px; } }
 /* Homepage SEO show/hide */
 .pageSection--Seo p {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-  max-width: 100%;
-  -webkit-box-orient: vertical; }
+  height: 50px;
+  overflow: hidden; }
 
 .pageSection--Seo.seo-open p {
-  -webkit-line-clamp: 100; }
+  height: auto;
+  overflow: visible; }
 
 .readmore {
   margin: auto;
