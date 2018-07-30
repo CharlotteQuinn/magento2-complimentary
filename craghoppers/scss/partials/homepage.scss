@@ -1061,33 +1061,35 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
 
 /* Homepage SEO show/hide */
 
-.pageSection--Seo {
-    height: 150px;
-    overflow: hidden;
-    position: relative;
+.pageSection--Seo p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  max-width: 100%;
+  -webkit-box-orient: vertical;
+}
+
+.pageSection--Seo.seo-open p {
+  -webkit-line-clamp: 100;
 }
 
 .readmore {
-    margin: auto;
-    text-align: center;
-    width: 10%;
-    background: #343334;
-    padding: 1% 0;
-    color: #fff;
-    cursor: pointer;
-    margin-top: 4%;
-    min-width: 100px;
-    font-family: $osreg;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  margin: auto;
+  text-align: center;
+  width: 10%;
+  background: #343334;
+  padding: 1% 0;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 4%;
+  min-width: 100px;
+  font-family: $osreg;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .seo-container {
-    margin-top: -4%;
-}
-
-.pageSection.pageSection.pageSection--Seo.seo-open{
-  height: 100%;
+  margin-top: -4%;
 }
 
 .pageSection.pageSection--Seo p {
@@ -1212,7 +1214,6 @@ section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWi
     margin-left: 1%;
   }
   .pageSection.pageSection--Seo {
-    height: 140px;
     padding: 0 2% !important;
   }
   .pageSection--thirds .pageBanner:first-of-type {
