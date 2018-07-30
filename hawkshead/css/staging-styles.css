@@ -2266,6 +2266,11 @@ a.cs-link {
 .option-btn {
   padding-bottom: 1.5%; }
 
+.flex-item.col-6.option-btn-small {
+  max-width: 49.98% !important;
+  margin: auto;
+  padding-bottom: 1.5%; }
+
 .csborder {
   text-align: center;
   margin: 10% 0 0% 0;
