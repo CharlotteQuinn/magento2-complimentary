@@ -5841,6 +5841,9 @@ a:nth-child(2) .fp-CTA {
 .plp-headerKids {
   background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banners-Kids.jpg"); }
 
+.plp-headerKidsSchool {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-desktop.jpg"); }
+
 .category-view__title {
   margin-bottom: 0;
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
@@ -5911,6 +5914,9 @@ a:nth-child(2) .fp-CTA {
 
   .plp-headerKids {
     background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Kids.jpg"); }
+
+  .plp-headerKidsSchool {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-mobile.jpg"); }
 
   .plp-header {
     padding: 10% 0; }
