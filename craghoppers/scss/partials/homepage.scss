@@ -1062,15 +1062,13 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
 /* Homepage SEO show/hide */
 
 .pageSection--Seo p {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
+  height: 50px;
   overflow: hidden;
-  max-width: 100%;
-  -webkit-box-orient: vertical;
 }
 
 .pageSection--Seo.seo-open p {
-  -webkit-line-clamp: 100;
+  height: auto;
+  overflow: visible;
 }
 
 .readmore {
