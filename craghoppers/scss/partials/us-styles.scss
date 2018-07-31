@@ -300,3 +300,12 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
     display: none !important;
 }
 /* END */
+
+/* Homepage SEO */
+@media only screen and (max-width:740px) {
+    .pageSection.pageSection--Seo p {
+        text-align: center;
+    }
+
+}
+/* END */

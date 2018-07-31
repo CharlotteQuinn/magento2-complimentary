@@ -2352,7 +2352,7 @@ section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWi
     margin-left: 1%; }
 
   .pageSection.pageSection--Seo {
-    padding: 0 2% !important; }
+    padding: 0 4% !important; }
 
   .pageSection--thirds .pageBanner:first-of-type {
     margin-top: 0; }
@@ -8469,6 +8469,11 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
 .c-feefo {
   display: none !important; }
 
+/* END */
+/* Homepage SEO */
+@media only screen and (max-width: 740px) {
+  .pageSection.pageSection--Seo p {
+    text-align: center; } }
 /* END */
 
 /*# sourceMappingURL=styles-us.css.map */
