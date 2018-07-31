@@ -16,3 +16,71 @@ All code must be cleared after it goes live
 }
 
 /* END CHUS Staging styles */
+
+
+
+/* Category header full width START */
+
+.plp-headerKids,
+.plp-headerKidsSchool{
+	background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-desktop.jpg") !important;
+}
+
+
+@media only screen and (max-width: 1000px){
+	.plp-headerKids,
+	.plp-headerKidsSchool{
+		background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-tablet.jpg")!important;
+	}
+}
+
+@media only screen and (max-width: 700px){
+	.plp-headerKids,
+	.plp-headerKidsSchool{
+		background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-mobile.jpg")!important;
+	}
+}
+
+
+.js-fredhopper-fredhopper-hero-wrapper-placeholder .o-region__inner {
+    width: 100% !important;
+}
+
+.s-text-banner {
+  width: 100%;
+}
+
+.banner__text,
+.banner__title {
+  max-width: 1228px;
+  margin: 0 auto;
+}
+
+.plp-header.plp-toplevel {
+    padding: 5.1% 0 !important;
+}
+
+.plp-header {
+    text-align: center;
+    background-repeat: no-repeat;
+    padding: 4.9% 0;
+    /* background-size: cover; */
+    background-position: center;
+    margin-bottom: 1%;
+}
+
+.pageothertext, .s-text-banner {
+    width: 100%;
+    /*max-width: 1228px;*/
+	max-width: 100% !important;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.seoheader {
+    max-width: 1228px;
+    margin: 0 auto;
+}
+
+
+/* Category header full width END */
