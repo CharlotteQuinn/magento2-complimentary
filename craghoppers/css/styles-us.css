@@ -8475,5 +8475,8 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
   .pageSection.pageSection--Seo p {
     text-align: center; } }
 /* END */
+.plp-headerMens + .seoheader p,
+.plp-headerWomens + .seoheader p {
+  text-align: center; }
 
 /*# sourceMappingURL=styles-us.css.map */
