@@ -6,6 +6,31 @@
 //
 /////////////////////////////////////*/
 
+/*///////// French Scripts ////////*/
+function categoryShowMore(){
+if (jQuery('.category-text').text().length > 300) {
+    console.log(true);
+
+    jQuery(".category-links").prepend("<div class='text-size'>Read more...</div>");
+    
+} 
+    
+    jQuery(".text-size").click(function(){
+        jQuery(".category-text div").toggleClass("less");
+        if(jQuery(".text-size").html() == "Read more...") {
+
+            jQuery(".category-text").addClass("active");
+            jQuery(".text-size").html("Read less...");
+
+        } else {
+
+            jQuery(".category-text").removeClass("active");
+            jQuery(".text-size").html("Read more...");
+
+        }
+    });
+}
+
 /*///////// Unticking account sign up ////////*/
 function untickTrigger(){
 	requirejs(['jquery'], function( $ ) {
