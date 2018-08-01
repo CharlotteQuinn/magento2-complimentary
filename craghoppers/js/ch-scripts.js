@@ -511,6 +511,12 @@ function homepageSEODE(){
 }
 /* END */
 
+function chdeSignin(){
+  
+  jQuery('.c-login.o-layout').prepend('<a href="https://www.craghoppers.de/kontakt/"><picture><source media="(min-width: 740px)" sizes="100vw" srcset="https://cdn.craghoppers.com/img/SS18/DE/misc/new_site/CHDE-NewAccountBanner.jpg"><source sizes="100vw" srcset="https://cdn.craghoppers.com/img/SS18/DE/misc/new_site/CHDE-NewAccountBannerMobile.jpg"><img style="width:100%;" alt="Haben Sie Probleme Beim Einloggen" src="https://cdn.craghoppers.com/img/SS18/DE/misc/new_site/CHDE-NewAccountBanner.jpg"></picture></a>');
+
+}
+
 /*
   Craghoppers specific JS snippets
  */
