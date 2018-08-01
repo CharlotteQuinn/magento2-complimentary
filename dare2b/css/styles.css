@@ -2540,5 +2540,7 @@ html:lang(fr) {
   /* Hides the top navigation links */ }
   html:lang(fr) .s-header-links .links > li:nth-child(5), html:lang(fr) .s-header-links .links > li:nth-child(6) {
     display: none; }
+  html:lang(fr) .roundel {
+    padding: 10px 5px; }
 
 /*# sourceMappingURL=styles.css.map */
