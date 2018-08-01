@@ -9223,7 +9223,7 @@ h2.utc-title-lower {
   width: 100%; }
 
 section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWidthSlider {
-  max-width: 1920px;
+  max-width: 100%;
   float: none;
   margin: 0 auto;
   display: flex; }
