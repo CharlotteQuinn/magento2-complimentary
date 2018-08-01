@@ -11,21 +11,21 @@ function categoryShowMore(){
 if (jQuery('.category-text').text().length > 300) {
     console.log(true);
 
-    jQuery(".category-links").prepend("<div class='text-size'>Read more...</div>");
+    jQuery(".category-links").prepend("<div class='text-size'>Voir plus...</div>");
     
 } 
     
     jQuery(".text-size").click(function(){
         jQuery(".category-text div").toggleClass("less");
-        if(jQuery(".text-size").html() == "Read more...") {
+        if(jQuery(".text-size").html() == "Voir plus...") {
 
             jQuery(".category-text").addClass("active");
-            jQuery(".text-size").html("Read less...");
+            jQuery(".text-size").html("Voir moins...");
 
         } else {
 
             jQuery(".category-text").removeClass("active");
-            jQuery(".text-size").html("Read more...");
+            jQuery(".text-size").html("Voir plus...");
 
         }
     });
