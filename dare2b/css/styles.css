@@ -2537,10 +2537,24 @@ body .c-product-tile .c-product-tile__btn {
 /* FR STYLES ONLY */
 html:lang(fr) {
   /* FR STYLES ONLY */
-  /* Hides the top navigation links */ }
+  /* Hides the top navigation links */
+  /* Category show and hide button styles */ }
   html:lang(fr) .s-header-links .links > li:nth-child(5), html:lang(fr) .s-header-links .links > li:nth-child(6) {
     display: none; }
   html:lang(fr) .roundel {
     padding: 10px 5px; }
+  html:lang(fr) .category-text {
+    max-height: 50px;
+    overflow: hidden;
+    display: block; }
+  html:lang(fr) .category-text.active {
+    max-height: initial; }
+  html:lang(fr) .text-size {
+    max-width: 120px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0px -17px; }
+  html:lang(fr) .category-links > br {
+    display: none; }
 
 /*# sourceMappingURL=styles.css.map */
