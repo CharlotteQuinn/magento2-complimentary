@@ -2543,6 +2543,10 @@ html:lang(fr) {
     display: none; }
   html:lang(fr) .roundel {
     padding: 10px 5px; }
+  @media only screen and (max-width: 350px) {
+    html:lang(fr) .roundel {
+      max-width: 46px;
+      padding: 5px !important; } }
   html:lang(fr) .category-text {
     max-height: 50px;
     overflow: hidden;
