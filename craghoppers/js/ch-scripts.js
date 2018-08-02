@@ -517,6 +517,13 @@ function chdeSignin(){
 
 }
 
+function mobileSquare(){
+  jQuery('.squarelovin-user-info').click(function(r){
+    r.stopPropagation();
+    console.log("hello");
+  });
+}
+
 /*
   Craghoppers specific JS snippets
  */
