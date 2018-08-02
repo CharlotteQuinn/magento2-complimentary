@@ -704,9 +704,7 @@ requirejs(['jquery'], function( $ ) {
     });
   /* END */
 
-  jQuery('.squarelovin-stream-item img').click(function(e){
-    e.stopPropagation();
-  });
+  
    
 
   //////////////////////////////////  
