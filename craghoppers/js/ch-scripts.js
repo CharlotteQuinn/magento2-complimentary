@@ -704,9 +704,8 @@ requirejs(['jquery'], function( $ ) {
     });
   /* END */
 
-  jQuery('.squarelovin-user-info').click(function(r){
-    r.stopPropagation();
-    console.log("hello");
+  jQuery('.squarelovin-stream-item img').click(function(e){
+    e.stopPropagation();
   });
    
 
