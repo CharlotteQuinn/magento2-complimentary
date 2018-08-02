@@ -517,13 +517,6 @@ function chdeSignin(){
 
 }
 
-function mobileSquare(){
-  jQuery('.squarelovin-user-info').click(function(r){
-    r.stopPropagation();
-    console.log("hello");
-  });
-}
-
 /*
   Craghoppers specific JS snippets
  */
@@ -710,6 +703,11 @@ requirejs(['jquery'], function( $ ) {
       jQuery('.copy-toggle-button').html(jQuery('.copy-toggle-button').text() == 'Read more...' ? 'Read less' : 'Read more...');
     });
   /* END */
+
+  jQuery('.squarelovin-user-info').click(function(r){
+    r.stopPropagation();
+    console.log("hello");
+  });
    
 
   //////////////////////////////////  
