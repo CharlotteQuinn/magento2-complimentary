@@ -2487,7 +2487,10 @@ ul.slides.fullWidthSlider__slidesList {
     bottom: 0 !important; }
 
   section.pageSection.imageSocialFeed span:nth-child(2) {
-    display: none; } }
+    display: none; }
+
+  .imageSocialFeedHeader {
+    margin-bottom: 3%; } }
 @media only screen and (max-width: 700px) {
   .pageSectionHome.pageSection--halves {
     flex-wrap: wrap;
