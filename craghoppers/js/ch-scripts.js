@@ -705,9 +705,16 @@ requirejs(['jquery'], function( $ ) {
   /* END */
 
   if (screen.width <= 767) {
-    jQuery('.squarelovin-stream-item img').click(function(e){
-      e.stopPropagation();
-    });
+
+    var squarelovinCheck = setInterval(function(){
+      if (jQuery("ul.squarelovin-stream-container").length){
+        jQuery('.squarelovin-stream-item img').click(function(e){
+          e.stopPropagation();
+          clearInterval(squarelovinCheck);
+        });        
+      }
+    }, 500);
+
   }
    
 
