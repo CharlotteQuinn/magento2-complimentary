@@ -1393,6 +1393,14 @@ ul.slides.fullWidthSlider__slidesList {
     margin-bottom: 3%;
   }
 
+  a.galleryButton {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 104px;
+    text-align: center;
+  }
+
 }
 
 @media only screen and (max-width: 700px){
