@@ -2521,6 +2521,14 @@ ul.slides.fullWidthSlider__slidesList {
   padding: 0 !important;
   width: 100%; }
 
+.bannerUTC .banner_btn {
+  display: inline-block;
+  margin-right: 1%;
+  min-width: 135px; }
+
+.bannerUTCMobile {
+  display: none; }
+
 @media screen and (max-width: 800px) {
   .bannerOverlay__subTitle {
     font-size: 26px;
@@ -2528,6 +2536,12 @@ ul.slides.fullWidthSlider__slidesList {
 
   .pageSection--halves .pageBanner:last-of-type {
     margin-left: 0%; } }
+@media only screen and (max-width: 767px) {
+  .bannerUTCMobile {
+    display: block; }
+
+  .bannerUTC {
+    display: none; } }
 @media only screen and (max-width: 500px) {
   .bannerOverlay__subTitle {
     font-size: 18px;
