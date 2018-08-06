@@ -217,7 +217,9 @@ function delEst(){
   // current date
 var todayDate = new Date();
 
-var testDate = new Date("April 20, 2018 11:00:00");
+// test data
+//var testDate = new Date("August 12, 2018 16:00:00");
+//console.log(testDate);
 
   var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var month = ["January", "Feburary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -225,8 +227,8 @@ var testDate = new Date("April 20, 2018 11:00:00");
   // Standard Delivery
 
     // current date
-    var standardToday = new Date();
-      var standardNewDate = new Date();
+    var standardToday = new Date(); // set test date in here
+      var standardNewDate = new Date(); // set test date in here
 
       // if the day is monday
       if (standardToday.getDay() == 1){
@@ -283,20 +285,32 @@ var testDate = new Date("April 20, 2018 11:00:00");
     //Express Delivery
 
       // current date
-    var expressToday = new Date();
-      var expressNewDate = new Date();
+    var expressToday = new Date(); // set test date in here
+      var expressNewDate = new Date(); // set test date in here
 
       // if the day is friday and after 7pm, set delivery date to tuesday
       if (expressToday.getDay() == 5 && expressToday.getHours() >= 19){
         expressNewDate.setDate(expressToday.getDate()+4);
-      } else if (expressToday.getDay() == 6){ //if the day is saturday, set delivery to tuesday
+      } 
+      
+      else if (expressToday.getDay() == 6){ //if the day is saturday, set delivery to tuesday
         expressNewDate.setDate(expressToday.getDate()+3); // +3 is original timing
-      } else if (expressToday.getDay() == 0){ //if the day is sunday, set delivery to tuesday
+      } 
+
+      else if (expressToday.getDay() == 0 && expressToday.getHours() < 17){ //if the day is sunday before 5pm, set delivery to monday
+        expressNewDate.setDate(expressToday.getDate()+1); // +1 is original timing
+      }
+      
+      else if (expressToday.getDay() == 0){ //if the day is sunday after 5pm, set delivery to tuesday
         expressNewDate.setDate(expressToday.getDate()+2); // +2 is original timing
-      } else if (expressToday.getHours() >= 0 && expressToday.getHours() < 19){ // if time is between 12am & 7pm
+      } 
+      
+      else if (expressToday.getHours() >= 0 && expressToday.getHours() < 19){ // if time is between 12am & 7pm
         // gets current date and adds 1 to it
         expressNewDate.setDate(expressToday.getDate()+1); // +1 is original timing
-    } else{
+    } 
+
+    else{
       // gets current date and adds 2 to it
       expressNewDate.setDate(expressToday.getDate()+2);
     }
@@ -351,8 +365,8 @@ var testDate = new Date("April 20, 2018 11:00:00");
 
     // Click and Collect
       // current date
-    var ccToday = new Date();
-      var ccNewDate = new Date();
+    var ccToday = new Date(); // set test date in here
+      var ccNewDate = new Date(); // set test date in here
 
       // if between mon & thurs
     if (ccToday.getDay() >= 1 && ccToday.getDay() <= 4){
