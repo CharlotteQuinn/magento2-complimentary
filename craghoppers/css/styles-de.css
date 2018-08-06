@@ -2511,7 +2511,7 @@ ul.slides.fullWidthSlider__slidesList {
     display: block !important; } }
 @media only screen and (max-width: 500px) {
   .imageSocialFeedHeader {
-    font-size: 7vw; }
+    font-size: 6vw; }
 
   .imageSocialFeedInfo {
     line-height: 1.5; } }
