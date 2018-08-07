@@ -2560,5 +2560,8 @@ html:lang(fr) {
     margin: 0px -17px; }
   html:lang(fr) .category-links > br {
     display: none; }
+  @media only screen and (max-width: 770px) {
+    html:lang(fr) html:lang(fr) .text-size {
+      display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
