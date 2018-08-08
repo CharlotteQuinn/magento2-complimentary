@@ -9430,4 +9430,17 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
 #checkout > div.o-layout.u-flex-display\40 tablet > div.o-layout__item.u-8\2f 12.u-8\2f 12\40 tablet.u-8\2f 12\40 desktop.u-12\2f 12\40 mobile > div.u-margin-above.u-margin-below-2 > div > div:nth-child(2) {
   display: none !important; }
 
+/* PLP refine by fix */
+a.c-facet-list__refine-clear.c-facet-list__refine-clear-all.u-float-right {
+  float: none !important;
+  padding-bottom: 5%; }
+
+.c-facet-list__refine-clear-all {
+  position: relative !important;
+  top: 0;
+  right: 0;
+  margin-top: -15px; }
+
+/*END*/
+
 /*# sourceMappingURL=styles-de.css.map */
