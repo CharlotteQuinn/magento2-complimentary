@@ -9848,20 +9848,20 @@ All code must be cleared after it goes live
   text-align: center;
   background-repeat: no-repeat;
   padding: 4.9% 0;
-  /* background-size: cover; */
+  background-size: cover;
   background-position: center;
   margin-bottom: 1%; }
 
 .pageothertext, .s-text-banner {
-  width: 100%;
-  /*max-width: 1228px;*/
-  max-width: 100% !important;
-  margin: 0 auto;
-  text-align: left; }
+  max-width: 100% !important; }
 
 .seoheader {
   max-width: 1228px;
   margin: 0 auto; }
+
+.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder {
+  max-width: 1228px;
+  margin: auto; }
 
 /* Category header full width END */
 
