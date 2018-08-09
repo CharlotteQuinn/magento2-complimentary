@@ -991,13 +991,13 @@ html {
 .s-text-banner h1 {
   font-weight: 700; }
 
-/* Lower SEO styles */
+/* SEO styles */
 .pageothertext,
 .s-text-banner {
   width: 100%;
-  max-width: 1228px;
   margin: 0 auto;
-  text-align: left; }
+  text-align: left;
+  max-width: 100% !important; }
 
 /* END */
 .bannerOverlay__cta--SaleBttn:hover {
@@ -7025,28 +7025,28 @@ a:nth-child(2) .fp-CTA {
     padding-bottom: 0; } }
 /* SS18 Mid season Sale End*/
 .plp-fleece {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-desktop.jpg"); }
 
 .plp-trousers {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-desktop.jpg"); }
 
 .plp-jackets {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets-desktop.jpg"); }
 
 .plp-shirts {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts-desktop.jpg"); }
 
 .plp-headerMens {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banners-Mens.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Mens-desktop.jpg"); }
 
 .plp-headerWomens {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banners-Womens.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Womens-desktop.jpg"); }
 
 .plp-headerKids {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banners-Kids.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Kids-desktop.jpg"); }
 
 .plp-headerKidsSchool {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-tablet.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-desktop.jpg"); }
 
 .category-view__title {
   margin-bottom: 0;
@@ -7097,27 +7097,51 @@ a:nth-child(2) .fp-CTA {
   width: 100% !important;
   font-size: 14px; }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   .plp-fleece {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-tablet.jpg"); }
 
   .plp-trousers {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Trousers.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-tablet.jpg"); }
 
   .plp-jackets {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Jackets.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets-tablet.jpg"); }
 
   .plp-shirts {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Shirts.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts-tablet.jpg"); }
 
   .plp-headerMens {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Mens.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Mens-tablet.jpg"); }
 
   .plp-headerWomens {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Womens.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Womens-tablet.jpg"); }
 
   .plp-headerKids {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Kids.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Kids-tablet.jpg"); }
+
+  .plp-headerKidsSchool {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-tablet.jpg"); } }
+@media only screen and (max-width: 700px) {
+  .plp-fleece {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-mobile.jpg"); }
+
+  .plp-trousers {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-mobile.jpg"); }
+
+  .plp-jackets {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets-mobile.jpg"); }
+
+  .plp-shirts {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts-mobile.jpg"); }
+
+  .plp-headerMens {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Mens-mobile.jpg"); }
+
+  .plp-headerWomens {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Womens-mobile.jpg"); }
+
+  .plp-headerKids {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Kids-mobile.jpg"); }
 
   .plp-headerKidsSchool {
     background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-mobile.jpg"); }
@@ -7182,6 +7206,33 @@ p.category-view__description.category-description {
     padding: 0.5% 50px;
     margin-top: 1.5%; } }
 /* END */
+/* Full width START */
+.js-fredhopper-fredhopper-hero-wrapper-placeholder .o-region__inner {
+  width: 100% !important; }
+
+.plp-header.plp-toplevel {
+  padding: 5.1% 0 !important; }
+
+.plp-header {
+  text-align: center;
+  background-repeat: no-repeat;
+  padding: 4.9% 0;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1%; }
+
+.pageothertext,
+.s-text-banner {
+  max-width: 100% !important; }
+
+.banner__text,
+.banner__title,
+.seoheader,
+.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder {
+  max-width: 1228px;
+  margin: 0 auto; }
+
+/* Full width END */
 /* Protect Liberate Campaign */
 /* Started all classes with pl- so can be dumped in new system */
 .pl-half {
