@@ -2295,7 +2295,7 @@ html:lang(en) .catalog-category-view {
       width: 50% !important;
       text-align: center;
       padding: 0 !important; }
-    html:lang(en) .catalog-category-view #js-react-fredhopper > div > div > div.o-layout__item.u-10\2f 12\40 tablet.u-12\2f 12\40 mobile.c-toolbar--position > div:nth-child(1) > div.o-layout__item.u-4\2f 12\40 tablet.u-6\2f 12\40 mobile {
+    html:lang(en) .catalog-category-view #js-react-fredhopper > div > div > div.o-layout__item .mobile.c-toolbar--position > div:nth-child(1) > div.o-layout__item .mobile {
       display: none; }
     html:lang(en) .catalog-category-view .c-selected-facets--position + .c-toolbar--position {
       position: relative;
