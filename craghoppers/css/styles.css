@@ -7068,7 +7068,7 @@ a:nth-child(2) .fp-CTA {
 .plp-header {
   text-align: center;
   background-repeat: no-repeat;
-  padding: 4.9% 0;
+  padding: 2.7% 0;
   background-size: cover;
   background-position: center;
   margin-bottom: 1%; }
@@ -7221,10 +7221,6 @@ p.category-view__description.category-description {
   background-size: cover;
   background-position: center;
   margin-bottom: 1%; }
-
-.pageothertext,
-.s-text-banner {
-  max-width: 100% !important; }
 
 .banner__text,
 .banner__title,

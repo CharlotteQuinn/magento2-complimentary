@@ -46,7 +46,7 @@
 .plp-header {
     text-align: center;
     background-repeat: no-repeat;
-    padding: 4.9% 0;
+    padding: 2.7% 0;
     background-size: cover;
     background-position: center;
     margin-bottom: 1%;
@@ -83,7 +83,7 @@
 @media only screen and (max-width: 1000px){
 	
 	.plp-fleece{
-	background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-tablet.jpg");
+		background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-tablet.jpg");
 	}
 	.plp-trousers{
 		background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-tablet.jpg");
@@ -115,7 +115,7 @@
 @media only screen and (max-width: 700px){
 	
 	.plp-fleece{
-	background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-mobile.jpg");
+		background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-mobile.jpg");
 	}
 	.plp-trousers{
 		background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-mobile.jpg");
@@ -233,11 +233,6 @@ p.category-view__description.category-description {
 	background-size: cover;
 	background-position: center;
 	margin-bottom: 1%;
-}
-
-.pageothertext,
-.s-text-banner {
-	max-width: 100% !important;
 }
 
 .banner__text,
