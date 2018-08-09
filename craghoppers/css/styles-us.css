@@ -986,7 +986,8 @@ html {
 
 /* Banner/SEO */
 .s-text-banner {
-  padding: 0; }
+  padding: 0;
+  overflow: unset !important; }
 
 .s-text-banner h1 {
   font-weight: 700; }
@@ -5970,7 +5971,7 @@ a:nth-child(2) .fp-CTA {
   margin-bottom: 0; }
 
 .plp-header.plp-toplevel {
-  padding: 5.1% 0; }
+  padding: 4% 0; }
 
 .category-view__description {
   width: 100% !important;
