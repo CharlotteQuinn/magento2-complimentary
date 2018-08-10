@@ -217,7 +217,9 @@ function delEst(){
   // current date
 var todayDate = new Date();
 
-var testDate = new Date("April 20, 2018 11:00:00");
+// test data
+//var testDate = new Date("August 12, 2018 16:00:00");
+//console.log(testDate);
 
   var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var month = ["January", "Feburary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -225,8 +227,8 @@ var testDate = new Date("April 20, 2018 11:00:00");
   // Standard Delivery
 
     // current date
-    var standardToday = new Date();
-      var standardNewDate = new Date();
+    var standardToday = new Date(); // set test date in here
+      var standardNewDate = new Date(); // set test date in here
 
       // if the day is monday
       if (standardToday.getDay() == 1){
@@ -275,7 +277,7 @@ var testDate = new Date("April 20, 2018 11:00:00");
       // pdp print to DOM
       jQuery('.pdpStan').html(standard);
       // prints to checkout delivery options
-      jQuery('#label_carrier_default_ampersand_standard').prepend('<div class="delest checkStan"></div>');
+      jQuery('#label_carrier_default_ampersandStandard').prepend('<div class="delest checkStan"></div>');
       jQuery('.checkStan').html(standard);
 
     // END
@@ -283,20 +285,32 @@ var testDate = new Date("April 20, 2018 11:00:00");
     //Express Delivery
 
       // current date
-    var expressToday = new Date();
-      var expressNewDate = new Date();
+    var expressToday = new Date(); // set test date in here
+      var expressNewDate = new Date(); // set test date in here
 
       // if the day is friday and after 7pm, set delivery date to tuesday
       if (expressToday.getDay() == 5 && expressToday.getHours() >= 19){
         expressNewDate.setDate(expressToday.getDate()+4);
-      } else if (expressToday.getDay() == 6){ //if the day is saturday, set delivery to tuesday
+      } 
+      
+      else if (expressToday.getDay() == 6){ //if the day is saturday, set delivery to tuesday
         expressNewDate.setDate(expressToday.getDate()+3); // +3 is original timing
-      } else if (expressToday.getDay() == 0){ //if the day is sunday, set delivery to tuesday
+      } 
+
+      else if (expressToday.getDay() == 0 && expressToday.getHours() < 17){ //if the day is sunday before 5pm, set delivery to monday
+        expressNewDate.setDate(expressToday.getDate()+1); // +1 is original timing
+      }
+      
+      else if (expressToday.getDay() == 0){ //if the day is sunday after 5pm, set delivery to tuesday
         expressNewDate.setDate(expressToday.getDate()+2); // +2 is original timing
-      } else if (expressToday.getHours() >= 0 && expressToday.getHours() < 19){ // if time is between 12am & 7pm
+      } 
+      
+      else if (expressToday.getHours() >= 0 && expressToday.getHours() < 19){ // if time is between 12am & 7pm
         // gets current date and adds 1 to it
         expressNewDate.setDate(expressToday.getDate()+1); // +1 is original timing
-    } else{
+    } 
+
+    else{
       // gets current date and adds 2 to it
       expressNewDate.setDate(expressToday.getDate()+2);
     }
@@ -342,17 +356,17 @@ var testDate = new Date("April 20, 2018 11:00:00");
       jQuery('.pdpExpress').html(express);
       jQuery('.pdpPrem').html(premium);
       // prints to checkout delivery options
-      jQuery('#label_carrier_default_ampersand_express').prepend('<div class="delest checkExpress"></div>');
+      jQuery('#label_carrier_default_ampersandExpress').prepend('<div class="delest checkExpress"></div>');
       jQuery('.checkExpress').html(express);
-      jQuery('#label_carrier_premium_ampersand_express').prepend('<div class="delest checkPrem"></div>');
+      jQuery('#label_carrier_premium_ampersandExpress').prepend('<div class="delest checkPrem"></div>');
       jQuery('.checkPrem').html(premium);
 
     // END
 
     // Click and Collect
       // current date
-    var ccToday = new Date();
-      var ccNewDate = new Date();
+    var ccToday = new Date(); // set test date in here
+      var ccNewDate = new Date(); // set test date in here
 
       // if between mon & thurs
     if (ccToday.getDay() >= 1 && ccToday.getDay() <= 4){
@@ -510,6 +524,12 @@ function homepageSEODE(){
   });
 }
 /* END */
+
+function chdeSignin(){
+  
+  jQuery('.c-login.o-layout').prepend('<a href="https://www.craghoppers.de/kontakt/"><picture><source media="(min-width: 740px)" sizes="100vw" srcset="https://cdn.craghoppers.com/img/SS18/DE/misc/new_site/CHDE-NewAccountBanner.jpg"><source sizes="100vw" srcset="https://cdn.craghoppers.com/img/SS18/DE/misc/new_site/CHDE-NewAccountBannerMobile.jpg"><img style="width:100%;" alt="Haben Sie Probleme Beim Einloggen" src="https://cdn.craghoppers.com/img/SS18/DE/misc/new_site/CHDE-NewAccountBanner.jpg"></picture></a>');
+
+}
 
 /*
   Craghoppers specific JS snippets
@@ -697,6 +717,19 @@ requirejs(['jquery'], function( $ ) {
       jQuery('.copy-toggle-button').html(jQuery('.copy-toggle-button').text() == 'Read more...' ? 'Read less' : 'Read more...');
     });
   /* END */
+
+  if (screen.width <= 767) {
+
+    var squarelovinCheck = setInterval(function(){
+      if (jQuery("ul.squarelovin-stream-container").length){
+        jQuery('.squarelovin-stream-item img').click(function(e){
+          e.stopPropagation();
+          clearInterval(squarelovinCheck);
+        });        
+      }
+    }, 500);
+
+  }
    
 
   //////////////////////////////////  

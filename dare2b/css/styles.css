@@ -1036,6 +1036,9 @@ li#switcher-currency-nav {
   max-height: 130px !important;
   width: auto !important; }
 
+.category-sale .c-campaign img {
+  max-height: initial !important; }
+
 /*//////////////////////////////*/
 /*  Checkout Success            */
 /*//////////////////////////////*/
