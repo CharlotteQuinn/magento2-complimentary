@@ -7595,11 +7595,11 @@ body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
 /* Lower SEO */
 .js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active {
   height: 110px;
-  overflow: hidden; }
+  overflow: hidden !important; }
 
 .js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active.open {
   height: auto;
-  overflow: auto; }
+  overflow: auto !important; }
 
 .lower-seobttn-container .readmore {
   padding: 0.5% 0;
