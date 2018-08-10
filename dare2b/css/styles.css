@@ -2540,8 +2540,14 @@ body .c-product-tile .c-product-tile__btn {
 /* FR STYLES ONLY */
 html:lang(fr) {
   /* FR STYLES ONLY */
-  /* Hides the top navigation links */
-  /* Category show and hide button styles */ }
+  /* Hides the top navigation links  START*/
+  /* Hides the top navigation links END */
+  /* Roundal styling START */
+  /* Roundal styling END */
+  /* Category show and hide button styles START */
+  /* Category show and hide button styles END*/
+  /* Hides Reviews START */
+  /* Hides Reviews END */ }
   html:lang(fr) .s-header-links .links > li:nth-child(5), html:lang(fr) .s-header-links .links > li:nth-child(6) {
     display: none; }
   html:lang(fr) .roundel {
@@ -2570,5 +2576,7 @@ html:lang(fr) {
   @media only screen and (max-width: 770px) {
     html:lang(fr) html:lang(fr) .text-size {
       display: none; } }
+  html:lang(fr) .catalog-product-view .c-rating__wrap, html:lang(fr) .catalog-product-view #tab-label-reviews, html:lang(fr) .c-quick-view--wrapper .c-rating__wrap {
+    display: none; }
 
 /*# sourceMappingURL=styles.css.map */
