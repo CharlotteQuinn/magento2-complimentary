@@ -5974,8 +5974,9 @@ a:nth-child(2) .fp-CTA {
   padding: 4% 0; }
 
 .category-view__description {
-  width: 100% !important;
-  font-size: 14px; }
+  font-size: 14px;
+  max-width: 1228px;
+  margin: auto; }
 
 @media only screen and (max-width: 1000px) {
   .plp-fleece {
