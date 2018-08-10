@@ -76,8 +76,9 @@
 }
 
 .category-view__description {
-    width: 100% !important;
     font-size: 14px;
+    max-width: 1228px;
+    margin: auto;
 }
 
 @media only screen and (max-width: 1000px){
