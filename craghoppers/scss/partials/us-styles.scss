@@ -300,3 +300,24 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
     display: none !important;
 }
 /* END */
+
+/* Homepage SEO */
+@media only screen and (max-width:740px) {
+    .pageSection.pageSection--Seo p {
+        text-align: center;
+    }
+
+}
+/* END */
+
+.plp-headerMens + .seoheader p,
+.plp-headerWomens + .seoheader p{
+    text-align: center;
+}
+
+/* Product Page Endcap */
+.endcap-container + div {
+    margin: 0 auto;
+    padding: 0.5% 0;
+}
+/* END */

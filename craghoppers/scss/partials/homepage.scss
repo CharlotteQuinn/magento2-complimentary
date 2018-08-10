@@ -1061,33 +1061,33 @@ ul.fullWidthSlider__slidesList { /* need element selector here due to overly spe
 
 /* Homepage SEO show/hide */
 
-.pageSection--Seo {
-    height: 150px;
-    overflow: hidden;
-    position: relative;
+.pageSection--Seo p {
+  height: 50px;
+  overflow: hidden;
+}
+
+.pageSection--Seo.seo-open p {
+  height: auto;
+  overflow: visible;
 }
 
 .readmore {
-    margin: auto;
-    text-align: center;
-    width: 10%;
-    background: #343334;
-    padding: 1% 0;
-    color: #fff;
-    cursor: pointer;
-    margin-top: 4%;
-    min-width: 100px;
-    font-family: $osreg;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  margin: auto;
+  text-align: center;
+  width: 10%;
+  background: #343334;
+  padding: 1% 0;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 4%;
+  min-width: 100px;
+  font-family: $osreg;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .seo-container {
-    margin-top: -4%;
-}
-
-.pageSection.pageSection.pageSection--Seo.seo-open{
-  height: 100%;
+  margin-top: -4%;
 }
 
 .pageSection.pageSection--Seo p {
@@ -1212,8 +1212,7 @@ section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWi
     margin-left: 1%;
   }
   .pageSection.pageSection--Seo {
-    height: 140px;
-    padding: 0 2% !important;
+    padding: 0 4% !important;
   }
   .pageSection--thirds .pageBanner:first-of-type {
     margin-top: 0;
@@ -1332,6 +1331,78 @@ ul.slides.fullWidthSlider__slidesList {
   display: none !important;
 }
 
+@media only screen and (max-width:767px) {
+  .imageSocialFeed .squarelovin-container {
+    padding: 0 10% !important;
+  }
+
+  section.pageSection.imageSocialFeed span {
+    display: block;
+  }
+
+  .squarelovin-overlay .squarelovin-overlay-container:first-child {
+    padding: 8% !important;
+  }
+
+  .squarelovin-overlay .squarelovin-overlay-container .squarelovin-overlay-media {
+    margin-bottom: 0 !important;
+  }
+
+  .squarelovin-overlay-container .squarelovin-overlay-close-btn {
+    width: 25px !important;
+    top: 5px !important;
+    right: 5px !important;
+  }
+
+  .squarelovin-overlay-close-btn img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .squarelovin-overlay-container:nth-child(2) {
+    top: -225px;
+    height: 0 !important;
+  }
+
+  .squarelovin-overlay-arrow.squarelovin-arrow-left {
+    left: 5px !important;
+  }
+
+  .squarelovin-overlay-arrow.squarelovin-arrow-right {
+    right: 5px !important;
+  }
+
+  .squarelovin-clear {
+    margin: 0 !important;
+  }
+
+  .squarelovin-overlay a {
+    display: block !important;
+    width: 200px !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    left: 0 !important;
+    bottom: 0 !important;
+  }
+
+  section.pageSection.imageSocialFeed span:nth-child(2) {
+    display: none;
+  }
+
+  .imageSocialFeedHeader {
+    margin-bottom: 3%;
+  }
+
+  a.galleryButton {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 104px;
+    text-align: center;
+  }
+
+}
+
 @media only screen and (max-width: 700px){
   .pageSectionHome.pageSection--halves {
     flex-wrap: wrap; /*new was unset*/
@@ -1341,9 +1412,16 @@ ul.slides.fullWidthSlider__slidesList {
   }
 }
 
+@media only screen and (max-width:650px) {
+  .pageSection.imageSocialFeed {
+    display: block !important;
+  }
+
+}
+
 @media only screen and (max-width: 500px){
   .imageSocialFeedHeader {
-    font-size: 7vw;
+    font-size: 6vw;
   }
   .imageSocialFeedInfo {
     line-height: 1.5;
@@ -1360,6 +1438,16 @@ ul.slides.fullWidthSlider__slidesList {
     width: 100%;
 }
 
+.bannerUTC .banner_btn {
+  display: inline-block;
+  margin-right: 1%;
+  min-width: 135px;
+}
+
+.bannerUTCMobile{
+  display: none;
+}
+
 @media screen and (max-width:800px) {
   .bannerOverlay__subTitle {
     font-size: 26px;
@@ -1367,6 +1455,15 @@ ul.slides.fullWidthSlider__slidesList {
   }
   .pageSection--halves .pageBanner:last-of-type {
     margin-left: 0%;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .bannerUTCMobile{
+    display: block;
+  }
+  .bannerUTC{
+    display: none;
   }
 }
 
@@ -1392,3 +1489,15 @@ ul.flex-direction-nav {
 }
 
 /* END */
+
+/* Film Prize banner */
+.pageSection.filmPrize {
+    max-width: 100%;
+    margin: 0% auto 2% auto;
+}
+
+.pageSection.filmPrize a {
+    width: 100%;
+}
+/* END */
+

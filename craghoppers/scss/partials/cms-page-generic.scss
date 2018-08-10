@@ -642,19 +642,20 @@ html {
 /* Banner/SEO */
 .s-text-banner {
     padding: 0;
+    overflow: unset !important;
 }
 
 .s-text-banner h1{
 	font-weight:700;
 }
 
-/* Lower SEO styles */
+/* SEO styles */
 .pageothertext,
 .s-text-banner {
     width: 100%;
-    max-width: 1228px;
     margin: 0 auto; 
     text-align: left;
+    max-width: 100% !important;
 }
 /* END */
 
@@ -1144,10 +1145,15 @@ ul.follow-us {
 }
 
 .s-footer-links .column p {
-    font-weight: 700;
+    font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+    font-size: 14px;
     min-height: 35px;
     margin-bottom: 0;
     color: #343334;
+}
+
+.s-footer-links .column p a {
+    font-size: 14px !important;
 }
 
 

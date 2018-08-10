@@ -986,18 +986,19 @@ html {
 
 /* Banner/SEO */
 .s-text-banner {
-  padding: 0; }
+  padding: 0;
+  overflow: unset !important; }
 
 .s-text-banner h1 {
   font-weight: 700; }
 
-/* Lower SEO styles */
+/* SEO styles */
 .pageothertext,
 .s-text-banner {
   width: 100%;
-  max-width: 1228px;
   margin: 0 auto;
-  text-align: left; }
+  text-align: left;
+  max-width: 100% !important; }
 
 /* END */
 .bannerOverlay__cta--SaleBttn:hover {
@@ -1385,10 +1386,14 @@ ul.follow-us {
   display: none; }
 
 .s-footer-links .column p {
-  font-weight: 700;
+  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+  font-size: 14px;
   min-height: 35px;
   margin-bottom: 0;
   color: #343334; }
+
+.s-footer-links .column p a {
+  font-size: 14px !important; }
 
 @media only screen and (max-width: 740px) {
   .column.column--footer h4.active + ul.active {
@@ -2229,10 +2234,13 @@ ul.fullWidthSlider__slidesList {
     height: 65vw;
     max-height: 324px; } }
 /* Homepage SEO show/hide */
-.pageSection--Seo {
-  height: 150px;
-  overflow: hidden;
-  position: relative; }
+.pageSection--Seo p {
+  height: 50px;
+  overflow: hidden; }
+
+.pageSection--Seo.seo-open p {
+  height: auto;
+  overflow: visible; }
 
 .readmore {
   margin: auto;
@@ -2250,9 +2258,6 @@ ul.fullWidthSlider__slidesList {
 
 .seo-container {
   margin-top: -4%; }
-
-.pageSection.pageSection.pageSection--Seo.seo-open {
-  height: 100%; }
 
 .pageSection.pageSection--Seo p {
   width: 100%; }
@@ -2352,8 +2357,7 @@ section.flexslider.pageSection.pageSection--slider.pageSection--fullWidth.fullWi
     margin-left: 1%; }
 
   .pageSection.pageSection--Seo {
-    height: 140px;
-    padding: 0 2% !important; }
+    padding: 0 4% !important; }
 
   .pageSection--thirds .pageBanner:first-of-type {
     margin-top: 0; }
@@ -2444,6 +2448,61 @@ ul.slides.fullWidthSlider__slidesList {
 .squarelovin-branding {
   display: none !important; }
 
+@media only screen and (max-width: 767px) {
+  .imageSocialFeed .squarelovin-container {
+    padding: 0 10% !important; }
+
+  section.pageSection.imageSocialFeed span {
+    display: block; }
+
+  .squarelovin-overlay .squarelovin-overlay-container:first-child {
+    padding: 8% !important; }
+
+  .squarelovin-overlay .squarelovin-overlay-container .squarelovin-overlay-media {
+    margin-bottom: 0 !important; }
+
+  .squarelovin-overlay-container .squarelovin-overlay-close-btn {
+    width: 25px !important;
+    top: 5px !important;
+    right: 5px !important; }
+
+  .squarelovin-overlay-close-btn img {
+    width: 100% !important;
+    height: auto !important; }
+
+  .squarelovin-overlay-container:nth-child(2) {
+    top: -225px;
+    height: 0 !important; }
+
+  .squarelovin-overlay-arrow.squarelovin-arrow-left {
+    left: 5px !important; }
+
+  .squarelovin-overlay-arrow.squarelovin-arrow-right {
+    right: 5px !important; }
+
+  .squarelovin-clear {
+    margin: 0 !important; }
+
+  .squarelovin-overlay a {
+    display: block !important;
+    width: 200px !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    left: 0 !important;
+    bottom: 0 !important; }
+
+  section.pageSection.imageSocialFeed span:nth-child(2) {
+    display: none; }
+
+  .imageSocialFeedHeader {
+    margin-bottom: 3%; }
+
+  a.galleryButton {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 104px;
+    text-align: center; } }
 @media only screen and (max-width: 700px) {
   .pageSectionHome.pageSection--halves {
     flex-wrap: wrap;
@@ -2452,9 +2511,12 @@ ul.slides.fullWidthSlider__slidesList {
   .pageSection--halves .pageBanner:first-child {
     margin: 0 1% 0 0;
     /*new*/ } }
+@media only screen and (max-width: 650px) {
+  .pageSection.imageSocialFeed {
+    display: block !important; } }
 @media only screen and (max-width: 500px) {
   .imageSocialFeedHeader {
-    font-size: 7vw; }
+    font-size: 6vw; }
 
   .imageSocialFeedInfo {
     line-height: 1.5; } }
@@ -2464,6 +2526,14 @@ ul.slides.fullWidthSlider__slidesList {
   padding: 0 !important;
   width: 100%; }
 
+.bannerUTC .banner_btn {
+  display: inline-block;
+  margin-right: 1%;
+  min-width: 135px; }
+
+.bannerUTCMobile {
+  display: none; }
+
 @media screen and (max-width: 800px) {
   .bannerOverlay__subTitle {
     font-size: 26px;
@@ -2471,6 +2541,12 @@ ul.slides.fullWidthSlider__slidesList {
 
   .pageSection--halves .pageBanner:last-of-type {
     margin-left: 0%; } }
+@media only screen and (max-width: 767px) {
+  .bannerUTCMobile {
+    display: block; }
+
+  .bannerUTC {
+    display: none; } }
 @media only screen and (max-width: 500px) {
   .bannerOverlay__subTitle {
     font-size: 18px;
@@ -2484,6 +2560,15 @@ ul.slides.fullWidthSlider__slidesList {
 /* remove slider arrows */
 ul.flex-direction-nav {
   display: none; }
+
+/* END */
+/* Film Prize banner */
+.pageSection.filmPrize {
+  max-width: 100%;
+  margin: 0% auto 2% auto; }
+
+.pageSection.filmPrize a {
+  width: 100%; }
 
 /* END */
 .kg-container {
@@ -6941,25 +7026,28 @@ a:nth-child(2) .fp-CTA {
     padding-bottom: 0; } }
 /* SS18 Mid season Sale End*/
 .plp-fleece {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-desktop.jpg"); }
 
 .plp-trousers {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-desktop.jpg"); }
 
 .plp-jackets {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets-desktop.jpg"); }
 
 .plp-shirts {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts-desktop.jpg"); }
 
 .plp-headerMens {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banners-Mens.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Mens-desktop.jpg"); }
 
 .plp-headerWomens {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banners-Womens.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Womens-desktop.jpg"); }
 
 .plp-headerKids {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banners-Kids.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Kids-desktop.jpg"); }
+
+.plp-headerKidsSchool {
+  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-desktop.jpg"); }
 
 .category-view__title {
   margin-bottom: 0;
@@ -6980,7 +7068,7 @@ a:nth-child(2) .fp-CTA {
 .plp-header {
   text-align: center;
   background-repeat: no-repeat;
-  padding: 4.9% 0;
+  padding: 2.5% 0;
   background-size: cover;
   background-position: center;
   margin-bottom: 1%; }
@@ -7004,33 +7092,63 @@ a:nth-child(2) .fp-CTA {
   margin-bottom: 0; }
 
 .plp-header.plp-toplevel {
-  padding: 6.9% 0; }
+  padding: 4% 0; }
 
 .category-view__description {
-  width: 100% !important;
-  font-size: 14px; }
+  font-size: 14px;
+  width: 100% !important; }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   .plp-fleece {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-tablet.jpg"); }
 
   .plp-trousers {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Trousers.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-tablet.jpg"); }
 
   .plp-jackets {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Jackets.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets-tablet.jpg"); }
 
   .plp-shirts {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Shirts.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts-tablet.jpg"); }
 
   .plp-headerMens {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Mens.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Mens-tablet.jpg"); }
 
   .plp-headerWomens {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Womens.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Womens-tablet.jpg"); }
 
   .plp-headerKids {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-Kids.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Kids-tablet.jpg"); }
+
+  .plp-headerKidsSchool {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-tablet.jpg"); }
+
+  .plp-header.plp-toplevel {
+    padding: 7% 0; } }
+@media only screen and (max-width: 700px) {
+  .plp-fleece {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-mobile.jpg"); }
+
+  .plp-trousers {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-mobile.jpg"); }
+
+  .plp-jackets {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets-mobile.jpg"); }
+
+  .plp-shirts {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts-mobile.jpg"); }
+
+  .plp-headerMens {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Mens-mobile.jpg"); }
+
+  .plp-headerWomens {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Womens-mobile.jpg"); }
+
+  .plp-headerKids {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Kids-mobile.jpg"); }
+
+  .plp-headerKidsSchool {
+    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-mobile.jpg"); }
 
   .plp-header {
     padding: 10% 0; }
@@ -7092,6 +7210,19 @@ p.category-view__description.category-description {
     padding: 0.5% 50px;
     margin-top: 1.5%; } }
 /* END */
+/* Full width START */
+.js-fredhopper-fredhopper-hero-wrapper-placeholder .o-region__inner {
+  width: 100% !important; }
+
+.banner__text,
+.banner__title,
+.seoheader,
+.category-view__title,
+.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder {
+  max-width: 1228px;
+  margin: 0 auto; }
+
+/* Full width END */
 /* Protect Liberate Campaign */
 /* Started all classes with pl- so can be dumped in new system */
 .pl-half {
@@ -7421,7 +7552,7 @@ p.pl-text-social {
     text-align: center;
     background: #343334;
     padding: 1% 6%;
-    color: #fff;
+    color: #000;
     cursor: pointer; } }
 /* END */
 /* Desktop Show/Hide */
@@ -7454,11 +7585,11 @@ body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
 /* Lower SEO */
 .js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active {
   height: 110px;
-  overflow: hidden; }
+  overflow: hidden !important; }
 
 .js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder div .s-text-banner.active.open {
   height: auto;
-  overflow: auto; }
+  overflow: auto !important; }
 
 .lower-seobttn-container .readmore {
   padding: 0.5% 0;
