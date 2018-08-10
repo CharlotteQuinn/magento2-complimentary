@@ -7096,8 +7096,7 @@ a:nth-child(2) .fp-CTA {
 
 .category-view__description {
   font-size: 14px;
-  max-width: 1228px;
-  margin: auto; }
+  width: 100% !important; }
 
 @media only screen and (max-width: 1000px) {
   .plp-fleece {
