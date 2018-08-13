@@ -1744,6 +1744,12 @@ html:lang(en) .catalog-category-view {
 
   }
 
+    @media only screen and (min-width:739px) {
+     .columns .c-selected-facets--position + .c-toolbar--position > .o-layout:first-child > div:first-child{
+        display:none;
+      }
+    }
+
   @media only screen and (min-width:739px)  and (max-width:1150px) {
     .c-selected-facets--position + .c-toolbar--position {
       height: 160px;
@@ -1912,6 +1918,7 @@ html:lang(en) .catalog-category-view {
     position: fixed;
     top: 65px;
     margin: 0;
+    left: 0px;
     z-index: 4;
     background: white;
     width: 100%;
