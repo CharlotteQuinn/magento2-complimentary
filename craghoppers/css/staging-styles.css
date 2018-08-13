@@ -9946,5 +9946,30 @@ All code must be cleared after it goes live
     .cms-homepage-promo-grid-ch-us .authorization-link a:nth-child(2) {
       margin-right: 13%; } }
 /* END */
+/* CHUK Sale menu */
+.sale-mens {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/sale/MensSale.jpg); }
+
+.sale-womens {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/sale/WomensSale.jpg); }
+
+.sale-kids {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/sale/KidsSale.jpg); }
+
+.menuSection.menuSale {
+  width: 100% !important; }
+
+.menuSale .collectionItem {
+  max-width: 400px;
+  margin: 0;
+  display: inline-block; }
+
+.s-main-menu .block .category-items .menuSale .collectionItem a {
+  padding: 22% 0; }
+
+.menuSale .collectionItem:nth-child(3) {
+  margin: 0 0.8%; }
+
+/* END */
 
 /*# sourceMappingURL=staging-styles.css.map */
