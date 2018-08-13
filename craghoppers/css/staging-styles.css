@@ -9970,6 +9970,15 @@ All code must be cleared after it goes live
 .menuSale .collectionItem:nth-child(3) {
   margin: 0 0.8%; }
 
+@media only screen and (max-width: 1227px) {
+  .menuSale .collectionItem {
+    max-width: 322px; } }
+@media only screen and (max-width: 989px) {
+  .menuSale .collectionItem {
+    max-width: 100%; }
+
+  .menuSale .collectionItem:nth-child(3) {
+    margin: 0; } }
 /* END */
 
 /*# sourceMappingURL=staging-styles.css.map */
