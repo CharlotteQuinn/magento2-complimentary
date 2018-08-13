@@ -16,3 +16,188 @@ All code must be cleared after it goes live
 }
 
 /* END CHUS Staging styles */
+
+/* Header Updates */
+@media only screen and (min-width:769px){
+
+	.cms-homepage-promo-grid-ch-us{
+
+	    /* Search update */
+	    .o-layout__item:nth-child(2) .o-layout:nth-child(2) {
+	        width: 46%;
+	        float: right;
+	    }
+
+	    .c-header-search .c-header-search__input {
+	        border-radius: 25px !important;
+	    }
+
+	    .c-header-search .c-input-wrap__icon {
+	        top: 2px !important;
+	        border-radius: 30px !important;
+	        right: 7px;
+	    }
+
+	    .c-input-wrap.c-input-wrap--icon-right {
+	        padding-top: 0 !important;
+	        margin-bottom: 0 !important;
+	    }
+
+	    .c-mini-cart {
+	        padding-top: 0 !important;
+	    }
+
+	    .c-header-search .c-input-wrap__clear {
+	        top: 9px !important;
+	    }
+
+	    .c-mini-cart__drop-down {
+	        top: 40px !important;
+	    }
+
+	    /*.o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(1) {
+	        width: 71% !important;
+	        padding-left: 7% !important;
+	    }
+
+	    .o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(2) {
+	        width: 29% !important;
+	        padding-left: 3%;
+	    }*/
+
+	    .o-layout__item .o-layout:nth-child(2) .o-layout__item.basketEmpty:nth-child(1) {
+	        width: 70% !important;
+	    }
+
+	    .o-layout__item .o-layout:nth-child(2) .o-layout__item.basketEmpty:nth-child(2) {
+	        width: 30% !important;
+	    }
+
+
+	    .o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(1) {
+	        width: 60% !important;
+	        padding-left: 0% !important;
+	    }
+
+	    .o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(2) {
+	        width: 40% !important;
+	        padding-left: 0%;
+	    }
+
+	    .c-header-search__suggestions {
+	        width: 200% !important;
+	    }
+
+	    .o-layout__item .o-layout:nth-child(2) .c-header-search__suggestions-column.o-layout__item {
+	        padding-left: 0 !important;
+	        width: 50% !important;
+	    }
+
+	    .o-layout__item .o-layout:nth-child(2) .c-header-search__column.o-layout__item {
+	        width: 50% !important;
+	    }
+
+	    .o-layout__item:nth-child(2) .o-layout.o-layout--collapsed {
+	        width: 100%;
+	    }
+
+	    /* Search update END */
+
+	    .c-header__logo {
+	        padding-top: 10px !important;
+	    }
+
+	    .s-header-links {
+	        padding-top: 10px !important;
+	    }
+
+	    ul.header.links li:first-of-type {
+	        display: none !important;
+	    }
+
+	    ul.header.links li a,
+	    li.greet.welcome .or {
+	        font-size: 14px !important;
+	    }
+
+	    .s-header-links .links>li:nth-child(3) {
+	        padding-left: 2px;
+	        width: 10%;
+	    }
+
+	    .s-header-links .links>li:last-child {
+	        padding-left: 0px;
+	    }
+
+	    .c-header-search .c-header-search__input::placeholder {
+	        font-size: 14px;
+	        padding-left: 5px;
+	    }
+
+	    span.welcome-name {
+	        font-size: 14px;
+	        //padding: 0 5%;
+	        display: inline-flex;
+	    }
+
+	    .c-mini-cart-btn__items {
+	        padding-right: 0;
+	    }
+
+	    .o-layout__item:nth-child(2) .o-layout.o-layout--collapsed p.o-layout__item {
+	        width: 50% !important;
+	        padding: 0 !important;
+	    }
+
+	    .authorization-link a[data-bind="visible: !isLoggedIn()"]:after {
+	        background: url(https://cdn.craghoppers.com/img/SS18/UK/misc/header/user_account.svg);
+	        background-size: contain;
+	        background-repeat: no-repeat;
+	        display: block;
+	        content: '';
+	        width: 30px;
+	        height: 30px;
+	        float: right;
+	    }
+
+	    .authorization-link a:nth-child(2) {
+	        margin-right: 13%;
+	    }
+
+
+	}
+
+
+}
+
+/* END */
+
+/* CHUK Sale menu */
+.sale-mens{
+    background-image:url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/sale/MensSale.jpg);
+}
+.sale-womens{
+    background-image:url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/sale/WomensSale.jpg);
+}
+.sale-kids{
+    background-image:url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/sale/KidsSale.jpg);
+}
+
+.menuSection.menuSale {
+    width: 100% !important;
+}
+
+.menuSale .collectionItem {
+    max-width: 400px;
+    margin: 0;
+    display: inline-block;
+}
+
+.s-main-menu .block .category-items .menuSale .collectionItem a {
+    padding: 22% 0;
+}
+
+.menuSale .collectionItem:nth-child(3) {
+    margin: 0 0.8%;
+}
+/* END */
