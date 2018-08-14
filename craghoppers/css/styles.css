@@ -7577,9 +7577,13 @@ p.category-view__description.active {
   height: 45px;
   overflow: hidden; }
 
-.plp-header + .category-view__description {
+.plp-header + .category-view__description,
+.plp-header + .category-view__description + .category-view__description {
   max-width: 1228px;
   margin: 0 auto; }
+
+.plp-header + .category-view__description + .category-view__description {
+  margin-top: 1%; }
 
 /* END */
 /* Mobile SEO show/hide */
