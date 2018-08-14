@@ -7,8 +7,10 @@ var stockInt = setInterval(function(){
       var disableds = disable.split(",");
 
       for (let i = 0; i < disableds.length; i++) {
-        disabled = document.querySelector('[option-id="' + disableds[i] + '"]');
-        disabled.parentElement.removeChild(disabled);
+	if(document.querySelector('[option-id="' + disableds[i] + '"]')) {
+        	disabled = document.querySelector('[option-id="' + disableds[i] + '"]');
+        	disabled.parentElement.removeChild(disabled);
+	}
       }
 
       clearInterval(stockInt);
