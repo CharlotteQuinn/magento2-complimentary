@@ -85,6 +85,12 @@ p.category-view__description.active {
     height: 45px;
     overflow: hidden;
 }
+
+.plp-header + .category-view__description {
+    max-width: 1228px;
+    margin: 0 auto;
+}
+
 /* END */
 
 /* Tick boxes */
