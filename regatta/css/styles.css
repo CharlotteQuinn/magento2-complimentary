@@ -1699,7 +1699,8 @@ html .c-basket__payment-icons {
 
 #top-level-cat-banner {
   padding: 6px 6px 0;
-  background: #eee; }
+  background: transparent;
+  border: solid 1px #e8e8e8; }
 
 #top-level-cat-banner:after {
   display: block;
