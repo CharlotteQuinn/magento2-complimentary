@@ -949,6 +949,11 @@ li#switcher-currency-nav {
 /*//////////////////////////////*/
 /*  New PLP theme Category page */
 /*//////////////////////////////*/
+.search-index-index .c-product-tile .c-product-tile__btn {
+  color: #6EB134 !important;
+  background: #fff !important;
+  border: solid 2px #6EB134 !important; }
+
 .catalog-category-view .c-product-tile .c-product-tile__btn {
   color: #6EB134 !important;
   background: #fff !important;
