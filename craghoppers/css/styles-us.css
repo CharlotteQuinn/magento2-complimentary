@@ -8624,6 +8624,9 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
 .collection-wcya {
   background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/WomensChooseYourAdventure.jpg); }
 
+.usStory {
+  cursor: context-menu; }
+
 /*END*/
 /* CHUS Feefo */
 .c-feefo {
