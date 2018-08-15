@@ -2033,11 +2033,12 @@ a:nth-child(2) .fp-CTA {
 
 .affiliateHero a,
 .affiliateAll a {
+	font-family: $osbold;
     display: inline-block;
     color: #fff;
     border: 1px solid;
-    padding: 1% 0;
-    width: 30%;
+    padding: 2% 0;
+    width: 37%;
     text-transform: uppercase;
     letter-spacing: 1.2px;
     -webkit-transition: all 1s;
@@ -2047,6 +2048,7 @@ a:nth-child(2) .fp-CTA {
 
 .affiliateAll a{
 	width:16%;
+	padding: 1% 0;
 }
 
 .affiliateHero a:first-of-type{
