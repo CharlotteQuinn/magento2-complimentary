@@ -5904,6 +5904,143 @@ a:nth-child(2) .fp-CTA {
     padding-top: 9%;
     padding-bottom: 0; } }
 /* SS18 Mid season Sale End*/
+/* Affiliates */
+.affiliateLogo img {
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2%; }
+
+.affiliateHero.heroOne {
+  background: #184447; }
+
+.affiliateHero.heroTwo {
+  background: #767147; }
+
+.affiliateHero.heroThree {
+  background: #F3AA29; }
+
+.affiliateHero.heroFour {
+  background: #909EAB; }
+
+.affiliateOutlet {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/page/affiliate/AffiliateBackground.jpg);
+  background-repeat-x: repeat;
+  background-repeat-y: no-repeat; }
+
+.affiliateAll {
+  background: #3F413E; }
+
+.affiliateHeroInner p {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 11%; }
+
+.affiliateHero a,
+.affiliateAll a {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid;
+  padding: 1% 0;
+  width: 30%;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  min-width: 150px; }
+
+.affiliateAll a {
+  width: 16%; }
+
+.affiliateHero a:first-of-type {
+  margin-right: 2%; }
+
+.affiliateAll a:first-of-type {
+  margin-right: 1%; }
+
+.affiliateHero a:hover,
+.affiliateAll a:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  border-color: #fff;
+  -webkit-transition: all 1s;
+  transition: all 1s; }
+
+.flex-item.col-6.affiliateHero {
+  text-align: center;
+  color: #fff;
+  width: 48.98%; }
+
+.affiliateHero.heroOne,
+.affiliateHero.heroThree {
+  margin-right: 2%; }
+
+.affiliateHero {
+  margin-bottom: 2%; }
+
+.affiliateHeroInner {
+  margin: 20% 0 8% 0; }
+
+.affiliateOutlet p {
+  color: #fff;
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 4px;
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif; }
+
+.affiliateOutlet {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 6.1% 0;
+  margin-bottom: 2%; }
+
+.affiliateAll {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2%; }
+
+.affiliateAll p {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 1;
+  font-size: 32px;
+  margin-bottom: 3%; }
+
+.affiliateAllInner {
+  margin: 5% 0; }
+
+@media only screen and (max-width: 700px) {
+  .flex-item.col-6.affiliateHero {
+    width: 100%;
+    margin-right: 0; }
+
+  .affiliateHeroInner {
+    margin: 8% 0; }
+
+  .affiliateHeroInner p {
+    margin-bottom: 3%;
+    font-size: 8vw; }
+
+  .affiliateAll p {
+    font-size: 7vw; } }
+@media only screen and (max-width: 330px) {
+  .affiliateHero a:first-of-type {
+    margin-right: 0; }
+
+  .affiliateHero a, .affiliateAll a {
+    width: 70%;
+    margin-bottom: 3%; }
+
+  .affiliateAll a:first-of-type {
+    margin-right: 0; }
+
+  .affiliateAll a {
+    width: 70%; } }
+/* Affiliates END */
 .plp-fleece {
   background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-desktop.jpg"); }
 
