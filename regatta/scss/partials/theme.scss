@@ -11,7 +11,7 @@ li#switcher-currency-nav {
 /*  USP Bar styles */
 html .s-usp {
     background: #ffffff;
-    border-bottom: solid 4px #f1f1f1;
+    border-bottom: solid 1px #f1f1f1;
     border-top: 4px solid #ffb835;
 }
 /*  Footer styles */
@@ -93,7 +93,7 @@ html .catalog-category-view {
     text-transform: capitalize;
     font-weight: normal;
   }
-  .c-quick-view--content .c-product-details .c-price__final > span{
+  .c-quick-view--content .c-price.js-price-highlight .c-price__final > span{
     color: #D32526;
     font-weight: bold;
   }
@@ -156,24 +156,6 @@ html .catalog-category-view {
     content: " Reviews";
     color: #a7a7a7;
   }
-
-  @media only screen and (min-width:989px) {
-
-  html .catalog-category-view {
-
-      .c-rating, .c-rating__star{
-        background-size: 15px !important;
-        height: 27px !important;
-        width: 76px !important;
-      }
-
-      .c-rating__reviews {
-        margin: 4px 4px 4px 0;
-      }
-
-    }
-  }
-
 
   @media only screen and (max-width:1228px) {
     .c-product-tile__title {
@@ -295,9 +277,24 @@ html .catalog-category-view {
     }
 
   }
-
 }
 
+  @media only screen and (min-width:989px) {
+
+  html .catalog-category-view {
+
+      .c-rating, .c-rating__star{
+        background-size: 15px !important;
+        height: 27px !important;
+        width: 76px !important;
+      }
+
+      .c-rating__reviews {
+        margin: 4px 4px 4px 0;
+      }
+
+    }
+  }
 
 /*//////////////////////////////*/
 /*  New PLP theme Search page  */
