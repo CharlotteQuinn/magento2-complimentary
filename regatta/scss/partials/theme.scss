@@ -11,7 +11,8 @@ li#switcher-currency-nav {
 /*  USP Bar styles */
 html .s-usp {
     background: #ffffff;
-    border-bottom: solid 1px #f1f1f1;
+    border-bottom: solid 4px #f1f1f1;
+    border-top: 4px solid #ffb835;
 }
 /*  Footer styles */
 .c-footer {
@@ -20,6 +21,8 @@ html .s-usp {
 .c-footer__social {
     background-color: #ffffff;
 }
+
+
 
 /*//////////////////////////////*/
 /*  Checkout Success            */
@@ -79,6 +82,25 @@ html .catalog-category-view {
 
   .c-product-tile__title {
     color: #5f5f5e;
+    font-weight: normal;
+  }
+
+  .s-text-banner {
+      padding: 0% 1%;
+      text-align: left;
+  }
+  .c-quick-view--content .c-product-details .u-heading-beta > span {
+    text-transform: capitalize;
+    font-weight: normal;
+  }
+  .c-quick-view--content .c-product-details .c-price__final > span{
+    color: #D32526;
+    font-weight: bold;
+  }
+  .c-quick-view--content .c-product-details .c-product-size__text {
+    margin-top: 5px;
+    display: block;
+    font-size: 15px !important;
   }
 
   .c-price.c-price--small > p.c-price__group:first-child {
@@ -134,6 +156,24 @@ html .catalog-category-view {
     content: " Reviews";
     color: #a7a7a7;
   }
+
+  @media only screen and (min-width:989px) {
+
+  html .catalog-category-view {
+
+      .c-rating, .c-rating__star{
+        background-size: 15px !important;
+        height: 27px !important;
+        width: 76px !important;
+      }
+
+      .c-rating__reviews {
+        margin: 4px 4px 4px 0;
+      }
+
+    }
+  }
+
 
   @media only screen and (max-width:1228px) {
     .c-product-tile__title {
@@ -319,7 +359,7 @@ html .search-index-index {
   .c-product-tile.u-heading-epsilon .c-product-tile__save {
     position: absolute;
     right: 0;
-    bottom: 90px;
+    bottom: 95px;
   }
 
   .c-product-tile.u-heading-epsilon .c-rating__reviews:after {
@@ -1374,6 +1414,8 @@ body .c-product-tile .c-product-tile__btn{
 .catalog-category-view .s-text-banner{
     height: auto;
     overflow: visible;
+    max-width: 100%;
+    padding: 0;
 }
 
 .catalog-category-view .columns .column.main{
