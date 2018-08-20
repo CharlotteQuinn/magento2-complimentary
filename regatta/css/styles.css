@@ -919,7 +919,7 @@ li#switcher-currency-nav {
 /*  USP Bar styles */
 html .s-usp {
   background: #ffffff;
-  border-bottom: solid 4px #f1f1f1;
+  border-bottom: solid 1px #f1f1f1;
   border-top: 4px solid #ffb835; }
 
 /*  Footer styles */
@@ -991,7 +991,7 @@ html .catalog-category-view {
   html .catalog-category-view .c-quick-view--content .c-product-details .u-heading-beta > span {
     text-transform: capitalize;
     font-weight: normal; }
-  html .catalog-category-view .c-quick-view--content .c-product-details .c-price__final > span {
+  html .catalog-category-view .c-quick-view--content .c-price.js-price-highlight .c-price__final > span {
     color: #D32526;
     font-weight: bold; }
   html .catalog-category-view .c-quick-view--content .c-product-details .c-product-size__text {
@@ -1032,13 +1032,6 @@ html .catalog-category-view {
   html .catalog-category-view .c-product-tile.u-heading-epsilon .c-rating__reviews:after {
     content: " Reviews";
     color: #a7a7a7; }
-  @media only screen and (min-width: 989px) {
-    html .catalog-category-view html .catalog-category-view .c-rating, html .catalog-category-view html .catalog-category-view .c-rating__star {
-      background-size: 15px !important;
-      height: 27px !important;
-      width: 76px !important; }
-    html .catalog-category-view html .catalog-category-view .c-rating__reviews {
-      margin: 4px 4px 4px 0; } }
   @media only screen and (max-width: 1228px) {
     html .catalog-category-view .c-product-tile__title {
       line-height: 18px; }
@@ -1113,6 +1106,13 @@ html .catalog-category-view {
       html .catalog-category-view .u-flex-display.u-12\/12 .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
         margin-top: 10px; } }
 
+@media only screen and (min-width: 989px) {
+  html .catalog-category-view .c-rating, html .catalog-category-view .c-rating__star {
+    background-size: 15px !important;
+    height: 27px !important;
+    width: 76px !important; }
+  html .catalog-category-view .c-rating__reviews {
+    margin: 4px 4px 4px 0; } }
 /*//////////////////////////////*/
 /*  New PLP theme Search page  */
 /*//////////////////////////////*/
