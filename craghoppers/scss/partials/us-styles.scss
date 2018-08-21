@@ -318,10 +318,12 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
     text-align: center;
 }
 
-.s-text-banner p + p.category-view__description {
+.s-text-banner p + p.category-view__description,
+.s-text-banner h1.category-view__title + p {
     max-width: 1228px;
     margin: 0 auto;
 }
+
 
 /* Product Page Endcap */
 .endcap-container + div {
