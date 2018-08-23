@@ -2502,7 +2502,11 @@ ul.slides.fullWidthSlider__slidesList {
     display: block;
     width: 100%;
     max-width: 104px;
-    text-align: center; } }
+    text-align: center; }
+
+  .squarelovin-container .squarelovin-productstream-arrow {
+    width: 10px;
+    top: 85px !important; } }
 @media only screen and (max-width: 700px) {
   .pageSectionHome.pageSection--halves {
     flex-wrap: wrap;
