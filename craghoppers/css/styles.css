@@ -2450,7 +2450,7 @@ ul.slides.fullWidthSlider__slidesList {
 
 @media only screen and (max-width: 767px) {
   .imageSocialFeed .squarelovin-container {
-    padding: 0 10% !important; }
+    padding: 0 5% !important; }
 
   section.pageSection.imageSocialFeed span {
     display: block; }
@@ -2516,10 +2516,17 @@ ul.slides.fullWidthSlider__slidesList {
     display: block !important; } }
 @media only screen and (max-width: 500px) {
   .imageSocialFeedHeader {
-    font-size: 6vw; }
+    font-size: 5vw; }
 
   .imageSocialFeedInfo {
-    line-height: 1.5; } }
+    line-height: 1.5; }
+
+  .pageSection__title--Seo {
+    font-size: 16px;
+    line-height: 1.3; }
+
+  .pageSection.pageSection--Seo p {
+    line-height: 1.2; } }
 /* squarelovin END */
 /* ss18 homepage styles */
 .pageSection {
