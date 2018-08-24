@@ -2,14 +2,17 @@
 
 /* Hides the top navigation links  START*/
     .s-header-links .links>li:nth-child(5), .s-header-links .links>li:nth-child(6) {
-    	display: none;
+        display: none;
     }
-    /* Hides the top navigation links END */
+    .c-mobile-menu .c-mobile-menu__secondary-menu .greet.welcome{
+        display: none;
+    }
+/* Hides the top navigation links END */
+
+/* Roundal styling START */
     .roundel {
         padding: 10px 5px;
     }
-
-/* Roundal styling START */
     @media only screen and (max-width: 350px) {
         .roundel {
             max-width: 46px;
@@ -34,23 +37,15 @@
         margin: 0px -17px;
     }
     .category-links > br{
-    	display: none;
+        display: none;
     } 
-
-    .c-header__logo {
-        padding-top: 40px !important;
-    }
-    .c-header__logo > img {
-        height: auto !important;
-    }
 
     @media only screen and (max-width: 770px) {
 
-        html:lang(fr) .text-size {
+        html:lang(fr) .catalog-category-view .text-size {
             display: none;
 
         }
-
     }
 /* Category show and hide button styles END*/
 
@@ -59,3 +54,17 @@
         display: none;
     }
 /* Hides Reviews END */
+
+/* Header Logo START */
+
+    .c-header__logo {
+        padding-top: 40px !important;
+    }
+    .c-header__logo > img {
+        height: auto !important;
+    }
+    .c-header--sticky img {
+        height: auto !important;
+        padding-top: 14px;
+    }
+/* Header Logo END */

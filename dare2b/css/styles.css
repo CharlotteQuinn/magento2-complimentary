@@ -3031,8 +3031,12 @@ html:lang(fr) {
   /* Category show and hide button styles START */
   /* Category show and hide button styles END*/
   /* Hides Reviews START */
-  /* Hides Reviews END */ }
+  /* Hides Reviews END */
+  /* Header Logo START */
+  /* Header Logo END */ }
   html:lang(fr) .s-header-links .links > li:nth-child(5), html:lang(fr) .s-header-links .links > li:nth-child(6) {
+    display: none; }
+  html:lang(fr) .c-mobile-menu .c-mobile-menu__secondary-menu .greet.welcome {
     display: none; }
   html:lang(fr) .roundel {
     padding: 10px 5px; }
@@ -3053,14 +3057,17 @@ html:lang(fr) {
     margin: 0px -17px; }
   html:lang(fr) .category-links > br {
     display: none; }
+  @media only screen and (max-width: 770px) {
+    html:lang(fr) html:lang(fr) .catalog-category-view .text-size {
+      display: none; } }
+  html:lang(fr) .catalog-product-view .c-rating__wrap, html:lang(fr) .catalog-product-view #tab-label-reviews, html:lang(fr) .c-quick-view--wrapper .c-rating__wrap {
+    display: none; }
   html:lang(fr) .c-header__logo {
     padding-top: 40px !important; }
   html:lang(fr) .c-header__logo > img {
     height: auto !important; }
-  @media only screen and (max-width: 770px) {
-    html:lang(fr) html:lang(fr) .text-size {
-      display: none; } }
-  html:lang(fr) .catalog-product-view .c-rating__wrap, html:lang(fr) .catalog-product-view #tab-label-reviews, html:lang(fr) .c-quick-view--wrapper .c-rating__wrap {
-    display: none; }
+  html:lang(fr) .c-header--sticky img {
+    height: auto !important;
+    padding-top: 14px; }
 
 /*# sourceMappingURL=styles.css.map */
