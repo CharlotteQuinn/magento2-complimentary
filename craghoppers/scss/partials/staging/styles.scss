@@ -171,3 +171,137 @@ All code must be cleared after it goes live
 }
 
 /* END */
+
+/* CHUS Menu Updates */
+/*Ambassadors */
+.menuSection.menuCollection {
+	width: 100% !important;
+}
+
+.menuSection.menuGenderCollection{
+	width:80% !important;
+}
+
+.menuAmbassadors .collectionItem {
+	max-width: 236px;
+}
+
+.ambassador{
+	background-image:url('https://via.placeholder.com/236x160');
+}
+
+.s-main-menu .block .category-items .menuAmbassadors .collectionItem a {
+    padding: 29% 0px;
+}
+
+@media only screen and (max-width:1227px){
+	.menuAmbassadors .collectionItem {
+		max-width: 188px;
+	}
+}
+/*Ambassadors END*/
+
+/* Gender Menu */
+.menuGenderCollection{
+	.collectionItem:nth-child(2),
+	.collectionItem:nth-child(5) {
+	    margin: 0;
+	}
+
+	.collectionItem {
+		max-width: 476px;
+	}
+	.collection{
+		background-image:url('https://via.placeholder.com/476x185');
+	}
+
+	.collectionItem:nth-child(1),
+	.collectionItem:nth-child(3) {
+    	margin-right: 12px;
+	}
+
+	.collectionItem:nth-child(1),
+	.collectionItem:nth-child(2){
+		margin-bottom: 1.2%;
+	}
+
+	.collectionItem:nth-child(4){
+		margin:0;
+	}
+
+	.collectionItem a {
+    	padding: 17% 0px !important;
+	}
+}
+@media only screen and (max-width:1227px){
+	.menuGenderCollection .collectionItem {
+	    max-width: 381px;
+	}
+}
+/* Gender Menu END */
+
+/* CHUS Menu Updates END */
+
+/* CHUS Footer Updates */
+
+	/******************** NOT TO BE MOVED OVER ************************/
+	.c-feefo {
+	    display: none !important;
+	}
+	/******************** NOT TO BE MOVED OVER END ********************/
+
+.s-footer-links-social .c-icon--facebook,
+.s-footer-links-social .c-icon--google,
+.s-footer-links-social .c-icon--instagram,
+.s-footer-links-social .c-icon--twitter,
+.s-footer-links-social .c-icon--youtube {
+	width: 30px;
+	height: 30px;
+	margin: 0;
+}
+
+.follow-us li {
+    margin: 0 0 0 30px;
+}
+
+.follow-us li:first-of-type {
+    margin: 0;
+}
+
+@media only screen and (max-width: 989px){
+	.follow-us li {
+	    margin: 0 0 0 10px;
+	}
+
+	.s-footer-links-social .c-icon--facebook,
+	.s-footer-links-social .c-icon--google,
+	.s-footer-links-social .c-icon--instagram,
+	.s-footer-links-social .c-icon--twitter,
+	.s-footer-links-social .c-icon--youtube {
+		margin: 0 auto;
+	}
+
+	.c-footer__links .column.column--footer:last-of-type {
+    	padding-bottom: 1% !important;
+	}
+
+	.s-footer-links-social {
+    	margin: 10px 0;
+    	margin-left: 0 !important;
+	}
+
+	ul.follow-us {
+    	padding-top: 0 !important;
+	}
+
+	.c-footer__links .o-layout .o-layout__item {
+    	width: 100% !important;
+	}
+
+	.c-footer__payment-icons {
+	    background-position: center;
+	}
+
+}
+
+/* CHUS Footer Updates END */
