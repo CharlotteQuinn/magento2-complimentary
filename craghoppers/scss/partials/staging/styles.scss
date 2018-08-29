@@ -285,6 +285,11 @@ All code must be cleared after it goes live
     margin-bottom: 1%;
 }
 
+.s-footer-links {
+    float: right;
+    width: 75%;
+}
+
 @media only screen and (max-width: 989px){
 
 	.s-footer-links-social .c-icon--facebook,
@@ -319,6 +324,11 @@ All code must be cleared after it goes live
 
 	#footer .s-footer-links > div {
     	width: 25% !important;
+	}
+
+	.s-footer-links {
+	    float: left;
+	    width: 100%;
 	}
 
 }

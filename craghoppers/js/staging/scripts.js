@@ -46,6 +46,11 @@ requirejs(['jquery'], function( $ ) {
       }, 5000);
     }
 
+    // reviews check
+    if (jQuery('.reviews-actions .js-reviews-click').length == 0){
+      jQuery('.reviews-actions').addClass("noReviews");
+    }
+
   }
   /* CHUS only script END */
 
