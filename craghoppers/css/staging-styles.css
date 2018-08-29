@@ -10210,10 +10210,20 @@ All code must be cleared after it goes live
 .follow-us li:first-of-type {
   margin: 0; }
 
-@media only screen and (max-width: 989px) {
-  .follow-us li {
-    margin: 0 0 0 10px; }
+.c-footer__payment-icons {
+  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/footer/cardPayments.png);
+  background-size: contain; }
 
+.c-footer__links {
+  padding: 20px 0 0; }
+
+.c-footer__social {
+  padding: 20px 0 10px 0; }
+
+.c-footer__header {
+  margin-bottom: 1%; }
+
+@media only screen and (max-width: 989px) {
   .s-footer-links-social .c-icon--facebook,
   .s-footer-links-social .c-icon--google,
   .s-footer-links-social .c-icon--instagram,
@@ -10225,8 +10235,9 @@ All code must be cleared after it goes live
     padding-bottom: 1% !important; }
 
   .s-footer-links-social {
-    margin: 10px 0;
-    margin-left: 0 !important; }
+    margin: 10px 0 12px 0;
+    margin-left: 0 !important;
+    text-align: right; }
 
   ul.follow-us {
     padding-top: 0 !important; }
@@ -10235,7 +10246,66 @@ All code must be cleared after it goes live
     width: 100% !important; }
 
   .c-footer__payment-icons {
-    background-position: center; } }
+    background-position: center; }
+
+  #footer .s-footer-links > div {
+    width: 25% !important; } }
+@media only screen and (max-width: 740px) {
+  .column--footer ul.active {
+    display: block;
+    margin-left: 0; }
+
+  .c-footer__links .o-region__inner .o-layout {
+    border-top: 1px solid #e6e6e6;
+    margin-left: 0; }
+
+  .c-footer__links .o-region__inner .o-layout:first-of-type {
+    border: 0; }
+
+  .c-footer__signup.c-accordion.o-layout__item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6; }
+
+  .c-footer__header {
+    margin-bottom: 1%; }
+
+  .c-footer__social {
+    padding: 0; }
+
+  .c-footer__signup .c-accordion__content {
+    height: auto;
+    padding: 1% 0px 3% 0;
+    display: block !important; }
+
+  .c-input-combined__input-wrapper {
+    padding-bottom: 0; }
+
+  .c-footer__links .o-layout .o-layout__item {
+    padding-left: 0; }
+
+  .c-footer__header .c-icon--down,
+  .c-footer__header .c-icon--up {
+    display: none; }
+
+  .footerHeaderMobile.active {
+    /*border-bottom: 1px solid #e6e6e6;*/
+    text-decoration: underline; }
+
+  .column--footer p:before {
+    transition: all 1s;
+    -webkit-transition: all 1s; }
+
+  .column--footer p.active:before {
+    transform: rotate(180deg);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    /*border-style: solid;
+    border-width: 0 7px 7px 7px;
+    border-color: transparent transparent #afafaf transparent;*/ }
+
+  .c-accordion__content input#newsletter {
+    font-size: 12px; } }
 /* CHUS Footer Updates END */
 
 /*# sourceMappingURL=staging-styles.css.map */
