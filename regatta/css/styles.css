@@ -987,7 +987,8 @@ html .catalog-category-view {
     font-weight: normal; }
   html .catalog-category-view .s-text-banner {
     padding: 0% 1%;
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 40px; }
   html .catalog-category-view .c-quick-view--content .c-product-details .u-heading-beta > span {
     text-transform: capitalize;
     font-weight: normal; }
