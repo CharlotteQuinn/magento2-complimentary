@@ -10218,6 +10218,10 @@ All code must be cleared after it goes live
 .c-footer__header {
   margin-bottom: 1%; }
 
+.s-footer-links {
+  float: right;
+  width: 75%; }
+
 @media only screen and (max-width: 989px) {
   .s-footer-links-social .c-icon--facebook,
   .s-footer-links-social .c-icon--google,
@@ -10244,7 +10248,11 @@ All code must be cleared after it goes live
     background-position: center; }
 
   #footer .s-footer-links > div {
-    width: 25% !important; } }
+    width: 25% !important; }
+
+  .s-footer-links {
+    float: left;
+    width: 100%; } }
 @media only screen and (max-width: 740px) {
   .column--footer ul.active {
     display: block;
