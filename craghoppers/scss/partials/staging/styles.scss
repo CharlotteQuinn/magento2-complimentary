@@ -255,13 +255,13 @@ All code must be cleared after it goes live
 .s-footer-links-social .c-icon--instagram,
 .s-footer-links-social .c-icon--twitter,
 .s-footer-links-social .c-icon--youtube {
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 	margin: 0;
 }
 
 .follow-us li {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 20px;
 }
 
 .follow-us li:first-of-type {
@@ -290,6 +290,49 @@ All code must be cleared after it goes live
     width: 75%;
 }
 
+#footer .s-footer-links > div {
+    width: 25% !important;
+}
+
+.footerMouflon {
+    width: 100%;
+    max-width: 30px;
+}
+
+.brandCopyright {
+    font-size: 12px;
+    margin: 1% 0;
+}
+
+.c-footer__copyright .o-layout__item:first-of-type {
+    display: none;
+}
+
+.c-footer__copyright .o-layout__item:nth-child(3) {
+    float: right;
+}
+
+.c-footer__copyright {
+    display: none;
+}
+
+.s-footer-links-social p.socialFollow {
+    font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    min-height: 35px;
+    color: #343334;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.follow-us {
+    padding-top: 0 !important;
+}
+
+.s-footer-links-social {
+    margin-left: 0;
+}
+
 @media only screen and (max-width: 989px){
 
 	.s-footer-links-social .c-icon--facebook,
@@ -310,10 +353,6 @@ All code must be cleared after it goes live
     	text-align: right;
 	}
 
-	ul.follow-us {
-    	padding-top: 0 !important;
-	}
-
 	.c-footer__links .o-layout .o-layout__item {
     	width: 100% !important;
 	}
@@ -329,6 +368,49 @@ All code must be cleared after it goes live
 	.s-footer-links {
 	    float: left;
 	    width: 100%;
+	}
+
+	.s-footer-links-social {
+	    border-top: 1px solid #e6eff2;
+	    padding-top: 10px;
+	    text-align: left;
+	}
+
+	.footerMouflon {
+	    float: left;
+	    margin-top: 7px;
+	}
+
+	.brandCopyright {
+	    float: right;
+	}
+
+	.follow-us {
+		padding-top: 0 !important;
+	    float: left;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	}
+
+	.c-footer__copyright .o-layout__item:first-of-type {
+    	display: none;
+	}
+
+	.c-footer__copyright .o-layout__item:nth-child(2) {
+	    width: 18% !important;
+	}
+
+	.c-footer__copyright .c-footer__payment-icons {
+	    width: 100%;
+	}
+
+	.c-footer__copyright .o-layout__item:nth-child(3) {
+	    float: right;
+	}
+
+	.s-footer-links-social p.socialFollow {
+	    min-height: auto;
+	    margin-bottom: 1%;
 	}
 
 }
@@ -402,6 +484,49 @@ All code must be cleared after it goes live
 
 	.c-accordion__content input#newsletter {
     	font-size: 12px;
+	}
+
+	.footerMouflon {
+	    float: none;
+	    margin: 0 auto;
+	    display: block;
+	    margin-bottom: 1%;
+	}
+
+	.brandCopyright {
+	    float: none;
+	    text-align: center;
+	    margin: 3% 0 0 0;
+	}
+
+	.s-footer-links-social {
+	    border-top: none;
+	    margin: 12px 0;
+	    padding: 0;
+	}
+
+	.follow-us {
+		width: 50%;
+	    float: none;
+	    border-top: none;
+	    padding: 2% 0 0 0 !important;
+	    margin: 0 auto !important;
+	}
+
+	.follow-us li {
+	    margin: 0;
+	}
+
+	.c-footer__payment-icons {
+    	display: none;
+	}
+
+	.c-footer__copyright .o-layout {
+	    margin: 0;
+	}
+
+	.s-footer-links-social p.socialFollow {
+	    text-align: center;
 	}
 
 
