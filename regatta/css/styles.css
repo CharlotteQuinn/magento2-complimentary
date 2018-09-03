@@ -4148,10 +4148,7 @@ html .s-main-menu .block {
   overflow: auto;
   white-space: nowrap;
   position: relative;
-  transition: all ease 0.5s;
-  -ms-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg); }
+  transition: all ease 0.5s; }
 #homepage.AW18.desktop #arrowR {
   width: 15%;
   float: right;
@@ -4176,7 +4173,10 @@ html .s-main-menu .block {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  text-align: center; }
+  text-align: center;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); }
 #homepage.AW18.desktop .arrowContainers > img {
   max-width: 20px;
   margin: auto; }
