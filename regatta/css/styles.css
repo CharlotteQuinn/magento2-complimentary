@@ -4028,6 +4028,187 @@ html .s-main-menu .block {
 
   .style-school-banner {
     margin-top: 300px; } }
+.cms-desktop-stage .main,
+.cms-index-index .main {
+  width: 100%; }
+
+#homepage.AW18.desktop .buyingGuides,
+#homepage.AW18.desktop .contentSpots {
+  background: #f1f4f7;
+  padding: 2% 0; }
+#homepage.AW18.desktop .noBackground {
+  background: none; }
+#homepage.AW18.desktop .container {
+  max-width: 1228px;
+  margin: auto;
+  width: 100%; }
+#homepage.AW18.desktop .contentSpots a.flex-item {
+  background: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 5px;
+  width: calc(24.99% - 15px); }
+#homepage.AW18.desktop .contentTitle {
+  display: block;
+  height: auto !important;
+  text-align: center;
+  color: #222222;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 10px 0; }
+#homepage.AW18.desktop .slider {
+  max-width: 1228px;
+  margin: auto;
+  position: relative; }
+#homepage.AW18.desktop .slider .message {
+  position: absolute;
+  top: 10%;
+  right: 6%;
+  display: inline-block;
+  height: initial; }
+#homepage.AW18.desktop .slider .message * {
+  line-height: 58px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+  font-size: 48px !important;
+  color: #ffffff !important;
+  text-transform: uppercase; }
+#homepage.AW18.desktop .slider .message .bold {
+  font-size: 68px;
+  font-weight: bold; }
+#homepage.AW18.desktop .slider .subMessage {
+  position: absolute;
+  top: 42%;
+  right: 9%;
+  display: inline-block;
+  height: initial; }
+#homepage.AW18.desktop .slider .subMessage span {
+  font-size: 34px !important;
+  display: block;
+  min-height: initial !important;
+  margin: 0 !important;
+  line-height: 30px;
+  text-align: center; }
+#homepage.AW18.desktop .slider .subMessage span.discount {
+  font-size: 58px !important;
+  line-height: 58px; }
+#homepage.AW18.desktop .slider .slider-buttons {
+  position: absolute;
+  bottom: 10%;
+  margin: auto;
+  text-align: center;
+  right: 0;
+  left: 0; }
+#homepage.AW18.desktop .slider .slider-buttons > a {
+  background: #47a803;
+  padding: 15px 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 100px;
+  margin: 0 10px;
+  width: 100%;
+  max-width: 170px;
+  display: inline-block; }
+#homepage.AW18.desktop .buyingGuides a {
+  display: inline-block;
+  background: #ffffff;
+  padding: 0;
+  margin: 0 5px;
+  width: calc(24.99% - 13px) !important;
+  text-decoration: none;
+  color: inherit; }
+#homepage.AW18.desktop .contentSubTitle {
+  margin: -10px 10px 0;
+  text-align: center;
+  line-height: 20px;
+  padding: 0 0 10px;
+  font-size: 12px; }
+#homepage.AW18.desktop #container {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  position: relative; }
+#homepage.AW18.desktop #list-container {
+  width: 100%;
+  float: none;
+  max-width: 1228px;
+  margin: auto;
+  position: static;
+  left: 0;
+  right: 0;
+  overflow: hidden; }
+#homepage.AW18.desktop .list {
+  float: left;
+  display: block;
+  overflow: auto;
+  white-space: nowrap;
+  position: relative;
+  transition: all ease 0.5s;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg); }
+#homepage.AW18.desktop #arrowR {
+  width: 15%;
+  float: right;
+  cursor: pointer;
+  height: 100%;
+  right: 0;
+  top: 0;
+  position: absolute;
+  box-shadow: -10px -5px 20px -10px rgba(0, 0, 0, 0.1098);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+#homepage.AW18.desktop #arrowL {
+  width: 15%;
+  float: left;
+  cursor: pointer;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  box-shadow: -10px -5px 20px -10px rgba(0, 0, 0, 0.1098);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+#homepage.AW18.desktop .arrowContainers > img {
+  max-width: 20px;
+  margin: auto; }
+#homepage.AW18.desktop .item {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  float: left;
+  position: relative; }
+#homepage.AW18.desktop .item a {
+  display: block;
+  background: #ffffff;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  margin: 5px; }
+#homepage.AW18.desktop .item > img {
+  width: 100%; }
+#homepage.AW18.desktop .item h3 {
+  margin: 0;
+  font-weight: bold; }
+#homepage.AW18.desktop .categoryContainer {
+  max-width: 100%;
+  text-align: center;
+  background: #F1F4F7;
+  padding: 3% 0;
+  position: relative; }
+#homepage.AW18.desktop .categoryContainer > h2 {
+  width: 100%;
+  margin-bottom: 10px; }
+
 /* IE STYLES ONLY */
 html:lang(en-IE) .s-header-links .links > li:nth-child(5), html:lang(en-IE) .s-header-links .links > li:nth-child(4) {
   display: none; }
