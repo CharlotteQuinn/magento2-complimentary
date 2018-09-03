@@ -7,6 +7,9 @@
   a {
     text-decoration: none;
   }
+  h1 {
+    text-align: center;
+  }
   .buyingGuides,
   .contentSpots {
     background: #f1f4f7;
@@ -268,6 +271,22 @@
         padding: 0 0 10px;
         font-size: 10px;
     }
+    .slider .message {
+      -ms-transform: scale(0.7);
+      -webkit-transform: scale(0.7);
+      transform: scale(0.7);
+    }
+    .slider .subMessage {
+      -ms-transform: scale(0.7);
+      -webkit-transform: scale(0.7);
+      transform: scale(0.7);
+      top: 40%;
+      right:7%;
+    }
+
+    .slider .subMessage span, .slider .message * {
+      text-align: right;
+    }
   }
   @media only screen and (max-width: 1025px) {
 
@@ -280,6 +299,28 @@
     .cta {
       position: absolute;
       top: 75%;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+
+  .slider .slider-buttons {
+      position: relative;
+      width: 100%;
+    }
+     .slider .message {
+        top: 0%;
+        right: -3%;
+        -ms-transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+  .slider .subMessage {
+      -ms-transform: scale(0.5);
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+      position: absolute;
+      top: 30%;
+      right: 0%;
     }
   }
 
