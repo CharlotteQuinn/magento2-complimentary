@@ -20,7 +20,7 @@
     width: 100%;
   }
 
-  .contentSpots a.flex-item {
+  .contentSpots .special a.flex-item {
     background: #ffffff;
     display: inline-block;
     text-decoration: none;
@@ -130,8 +130,22 @@
     line-height: 20px;
     padding: 0 0 10px;
     font-size: 12px;
+    color: initial;
   }
-
+  .cta {
+    position: absolute;
+    top: 60%;
+    background: #47a804;
+    padding: 10px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    max-width: 250px;
+    border-radius: 100px;
+    color: #ffffff;
+  }
   #container {
     width: 100%;
     max-width: 100%;
@@ -234,5 +248,13 @@
   .categoryContainer > h2 {
     width: 100%;
     margin-bottom: 10px;
+  }
+  .contentSpots .finals a.flex-item{
+    background: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 0px;
   }
 }
