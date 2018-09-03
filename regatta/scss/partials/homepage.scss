@@ -4,6 +4,9 @@
 }
 
 #homepage.AW18.desktop {
+  a {
+    text-decoration: none;
+  }
   .buyingGuides,
   .contentSpots {
     background: #f1f4f7;
@@ -257,4 +260,27 @@
     padding: 5px;
     margin: 0px;
   }
+  @media only screen and (max-width: 1185px) {
+
+    .contentSubTitle {
+        margin: 0px 10px 0;
+        line-height: 0px;
+        padding: 0 0 10px;
+        font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 1025px) {
+
+    .buyingGuides a {
+      width: calc(49.99% - 13px) !important;
+    }
+    .flex-item.col-6 {
+        width: 99.98%;
+    }
+    .cta {
+      position: absolute;
+      top: 75%;
+    }
+  }
+
 }
