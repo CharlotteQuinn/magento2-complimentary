@@ -3364,10 +3364,6 @@ html .s-main-menu .block {
     font-size: 15px;
     line-height: 20px; }
 
-  #homepage .flex-item img + div {
-    display: block;
-    height: 100%; }
-
   #homepage .flex-item {
     position: relative; }
 
@@ -4030,6 +4026,8 @@ html .s-main-menu .block {
 
 #homepage.AW18.desktop a {
   text-decoration: none; }
+#homepage.AW18.desktop h1 {
+  text-align: center; }
 #homepage.AW18.desktop .buyingGuides,
 #homepage.AW18.desktop .contentSpots {
   background: #f1f4f7;
@@ -4232,7 +4230,19 @@ html .s-main-menu .block {
     margin: 0px 10px 0;
     line-height: 0px;
     padding: 0 0 10px;
-    font-size: 10px; } }
+    font-size: 10px; }
+  #homepage.AW18.desktop .slider .message {
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7); }
+  #homepage.AW18.desktop .slider .subMessage {
+    -ms-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    top: 40%;
+    right: 7%; }
+  #homepage.AW18.desktop .slider .subMessage span, #homepage.AW18.desktop .slider .message * {
+    text-align: right; } }
 @media only screen and (max-width: 1025px) {
   #homepage.AW18.desktop .buyingGuides a {
     width: calc(49.99% - 13px) !important; }
@@ -4241,6 +4251,23 @@ html .s-main-menu .block {
   #homepage.AW18.desktop .cta {
     position: absolute;
     top: 75%; } }
+@media only screen and (max-width: 800px) {
+  #homepage.AW18.desktop .slider .slider-buttons {
+    position: relative;
+    width: 100%; }
+  #homepage.AW18.desktop .slider .message {
+    top: 0%;
+    right: -3%;
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  #homepage.AW18.desktop .slider .subMessage {
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    position: absolute;
+    top: 30%;
+    right: 0%; } }
 
 /* IE STYLES ONLY */
 html:lang(en-IE) .s-header-links .links > li:nth-child(5), html:lang(en-IE) .s-header-links .links > li:nth-child(4) {
