@@ -4270,13 +4270,21 @@ html .s-main-menu .block {
     right: 0%; } }
 @media only screen and (max-width: 780px) {
   #homepage.AW18.desktop .special a.flex-item {
-    width: calc(49.99% - 15px);
+    width: calc(49.99% - 15px) !important;
     padding: 0 !important; }
-  #homepage.AW18.desktop #homepage.AW18.desktop .cta {
+  #homepage.AW18.desktop .cta {
     position: relative;
     top: 0;
     width: 100%;
-    margin: auto; } }
+    margin: auto; }
+  #homepage.AW18.desktop .contentSubTitle {
+    line-height: 14px; }
+  #homepage.AW18.desktop .container.scroll {
+    display: block;
+    overflow: auto;
+    white-space: nowrap; }
+  #homepage.AW18.desktop .buyingGuides a {
+    width: calc(69.99% - 13px) !important; } }
 
 /* IE STYLES ONLY */
 html:lang(en-IE) .s-header-links .links > li:nth-child(5), html:lang(en-IE) .s-header-links .links > li:nth-child(4) {
