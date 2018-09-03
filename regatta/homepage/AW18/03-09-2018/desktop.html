@@ -117,12 +117,12 @@
 
 
 <div id="container">
-    <div id="arrowL" class="arrowContainers">
+    <!-- <div id="arrowL" class="arrowContainers">
         <img src="https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/black-arrow-line.png">
     </div>
     <div id="arrowR" class="arrowContainers">
         <img src="https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/black-arrow-line.png">
-    </div>
+    </div> -->
     <div id="list-container">
         <div class='list'>
 
@@ -229,7 +229,7 @@ var arrowL = document.querySelector('.arrowContainers#arrowL');
     function slideSetup(){
       windowWidth = document.querySelector('#list-container').offsetWidth;
       items.forEach(function(item){
-        num = window.innerWidth > 1120 ? 4 : 3;
+        num = window.innerWidth > 1120 ? 4 : 4;
         item.style.width = (windowWidth / num) + 'px';
         itemWidth = (windowWidth / num);
       });
