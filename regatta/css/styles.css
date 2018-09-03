@@ -3237,10 +3237,6 @@ html .s-main-menu .block {
     min-height: 35px;
     padding-top: 5px !important; }
 
-  #homepage .flex-item img + div {
-    display: block;
-    height: 100%; }
-
   #homepage .flex-item {
     position: relative; }
 
@@ -4042,7 +4038,7 @@ html .s-main-menu .block {
   max-width: 1228px;
   margin: auto;
   width: 100%; }
-#homepage.AW18.desktop .contentSpots a.flex-item {
+#homepage.AW18.desktop .contentSpots .special a.flex-item {
   background: #ffffff;
   display: inline-block;
   text-decoration: none;
@@ -4127,7 +4123,21 @@ html .s-main-menu .block {
   text-align: center;
   line-height: 20px;
   padding: 0 0 10px;
-  font-size: 12px; }
+  font-size: 12px;
+  color: initial; }
+#homepage.AW18.desktop .cta {
+  position: absolute;
+  top: 60%;
+  background: #47a804;
+  padding: 10px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: inline-block;
+  max-width: 250px;
+  border-radius: 100px;
+  color: #ffffff; }
 #homepage.AW18.desktop #container {
   width: 100%;
   max-width: 100%;
@@ -4208,6 +4218,13 @@ html .s-main-menu .block {
 #homepage.AW18.desktop .categoryContainer > h2 {
   width: 100%;
   margin-bottom: 10px; }
+#homepage.AW18.desktop .contentSpots .finals a.flex-item {
+  background: #ffffff;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 0px; }
 
 /* IE STYLES ONLY */
 html:lang(en-IE) .s-header-links .links > li:nth-child(5), html:lang(en-IE) .s-header-links .links > li:nth-child(4) {
