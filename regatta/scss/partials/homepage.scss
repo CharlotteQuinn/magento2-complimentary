@@ -324,4 +324,19 @@
     }
   }
 
+  @media only screen and (max-width: 780px) {
+    .special a.flex-item {
+      width: calc(49.99% - 15px);
+      padding: 0 !important;
+
+    }
+    #homepage.AW18.desktop .cta {
+      position: relative;
+      top: 0;
+      width: 100%;
+      margin: auto;
+    }
+
+  }
+
 }
