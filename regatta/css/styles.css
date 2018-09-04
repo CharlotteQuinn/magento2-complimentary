@@ -1351,7 +1351,7 @@ html .c-basket__payment-icons {
 
   html .catalog-category-view .c-product-tile.u-heading-epsilon .c-product-tile__save {
     bottom: 63px; } }
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 340px) {
   #js-react-fredhopper .roundel {
     left: 67px;
     top: -6px; } }
