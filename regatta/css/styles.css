@@ -4028,6 +4028,27 @@ html .s-main-menu .block {
   text-decoration: none; }
 #homepage.AW18.desktop h1, #homepage.AW18.mobile h1 {
   text-align: center; }
+#homepage.AW18.desktop .arrow, #homepage.AW18.mobile .arrow {
+  position: relative; }
+#homepage.AW18.desktop .arrow:after, #homepage.AW18.mobile .arrow:after {
+  content: " ";
+  display: inline-block;
+  height: 10px;
+  width: 20px;
+  margin-right: -10px;
+  background-size: 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  margin: auto;
+  right: 0; }
+#homepage.AW18.desktop .arrow.white:after, #homepage.AW18.mobile .arrow.white:after {
+  Background-image: url(https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/white-arrow-line.png); }
+#homepage.AW18.desktop .arrow.dark:after, #homepage.AW18.mobile .arrow.dark:after {
+  Background-image: url(https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/black-arrow-line.png); }
 #homepage.AW18.desktop .buyingGuides,
 #homepage.AW18.desktop .contentSpots, #homepage.AW18.mobile .buyingGuides,
 #homepage.AW18.mobile .contentSpots {
@@ -4101,7 +4122,7 @@ html .s-main-menu .block {
   right: 0;
   left: 0; }
 #homepage.AW18.desktop .slider .slider-buttons > a, #homepage.AW18.mobile .slider .slider-buttons > a {
-  background: #47a803;
+  background: #06b9b4;
   padding: 15px 30px;
   color: #ffffff;
   text-transform: uppercase;
