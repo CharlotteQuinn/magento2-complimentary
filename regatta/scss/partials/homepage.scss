@@ -324,17 +324,26 @@
     }
   }
 
-  @media only screen and (max-width: 780px) {
+  @media only screen and (max-width: 770px) {
+    h1 {
+      text-align: center;
+      font-size: 5vw;
+      padding: 10px;
+      width: 100%;
+    }
     .special a.flex-item {
       width: calc(49.99% - 15px) !important;
       padding: 0 !important;
 
     }
     .cta {
-      position: relative;
-      top: 0;
+      position: absolute;
+      top: initial;
       width: 100%;
       margin: auto;
+      bottom: 20px;
+      max-width: 80%;
+      padding: 5px;
     }
     .contentSubTitle {
       line-height: 14px;
