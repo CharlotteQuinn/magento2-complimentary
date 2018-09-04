@@ -54,29 +54,34 @@ requirejs(['jquery'], function( $ ) {
       if (ScrollTop > 102) {
         document.querySelector('body').classList.add('headerSticky');
 
-        if (jQuery(".headFeaturesHide").length > 0){
+        /*if (jQuery(".headFeaturesHide").length > 0){
           document.querySelector(".s-main-menu ul + .o-layout__item.headFeatures").classList.remove("headFeaturesHide");
-        }
+        }*/
 
-        if (jQuery(".headFeatures").length == 0){
+        if (jQuery(".headerSticky .s-main-menu ul + .o-layout__item").length == 0){
 
-          //clone header functions and append
+
+          //append header funtions to sticky
           var headFunctions = document.querySelector(".c-header .o-region__inner .o-layout .o-layout__item:nth-child(2)");
-          var clone = headFunctions.cloneNode(true);
-          document.querySelector(".s-main-menu").appendChild(clone);
-          document.querySelector(".headerSticky .s-main-menu ul + .o-layout__item").classList.add("headFeatures");
+          document.querySelector(".s-main-menu").appendChild(headFunctions);
 
-          //create account icon
-          var accountIcon = document.createElement("DIV");
-          accountIcon.classList.add("accountIcon");
-          var list = document.querySelector(".s-main-menu ul + .o-layout__item .o-layout .o-layout__item");    
-          list.insertBefore(accountIcon, list.childNodes[0]);
+          if (jQuery(".accountIcon").length == 0){
 
-          //create search icon
-          var searchIcon = document.createElement("DIV");
-          searchIcon.classList.add("searchIcon");
-          var list = document.querySelector(".s-main-menu ul + .o-layout__item .o-layout:nth-child(2) .o-layout__item");    
-          list.insertBefore(searchIcon, list.childNodes[0]);
+            //create account icon
+            var accountIcon = document.createElement("DIV");
+            accountIcon.classList.add("accountIcon");
+            accountIcon.classList.add("stickyIcon");
+            var list = document.querySelector(".s-main-menu ul + .o-layout__item .o-layout .o-layout__item");    
+            list.insertBefore(accountIcon, list.childNodes[0]);
+          
+            //create search icon
+            var searchIcon = document.createElement("DIV");
+            searchIcon.classList.add("searchIcon");
+            searchIcon.classList.add("stickyIcon");
+            var list = document.querySelector(".s-main-menu ul + .o-layout__item .o-layout:nth-child(2) .o-layout__item");    
+            list.insertBefore(searchIcon, list.childNodes[0]);
+
+          }
 
         }
 
@@ -85,22 +90,44 @@ requirejs(['jquery'], function( $ ) {
         if (jQuery(".headFeatures").length > 0){
           document.querySelector(".s-main-menu ul + .o-layout__item.headFeatures").classList.add("headFeaturesHide");
         }
-      }
 
-      
+        if (jQuery(".c-header .o-layout .o-layout__item:nth-child(2)").length == 0){
+
+          var headRevert = document.querySelector(".s-main-menu ul + .o-layout__item");
+          document.querySelector(".c-header .o-region__inner .o-layout").appendChild(headRevert);
+
+        }
+
+      }// END IF Statement   
+
 
     }); // END scroll detect
-
-    /*document.getElementsByClassName('searchIcon')[0].addEventListener("click", function(){
-      document.getElementsByClassName('s-header-links')[0].classList.toggle('searchClick');
-    });*/
 
   }
   /* CHUS only script END */
 
-  /*jQuery(".accountIcon").click(function(){
-    jQuery(".headerSticky .s-main-menu .s-header-links").toggleClass("searchClick");
-  });*/
+ 
+
+    /*jQuery(".accountIcon").click(function(){
+      
+      jQuery(this).toggleClass("iconActive");
+
+    });  
+
+    jQuery(".searchIcon").click(function(){
+      
+      jQuery(this).toggleClass("iconActive");
+
+    }); */
+  
+  var stickyCheck = setInterval(function(){
+    if (jQuery(".stickyIcon").length > 0) {  
+      clickCheck();
+      clearInterval(stickyCheck);
+    }
+  }, 100);
+
+
 
 
 
@@ -111,3 +138,31 @@ requirejs(['jquery'], function( $ ) {
   //////////////////////////////////
   });
 });
+
+function clickCheck(){
+  /*jQuery(".stickyIcon").click(function(){
+    jQuery(this).toggleClass("iconActive");
+
+  });*/
+
+  jQuery(".accountIcon").click(function(){
+
+    if (jQuery(".searchIcon.iconActive").length > 0){
+      jQuery(".searchIcon.iconActive").removeClass("iconActive");
+    }
+      
+    jQuery(this).toggleClass("iconActive");
+
+  });  
+
+  jQuery(".searchIcon").click(function(){
+
+    if (jQuery(".accountIcon.iconActive").length > 0){
+      jQuery(".accountIcon.iconActive").removeClass("iconActive");
+    }
+    
+    jQuery(this).toggleClass("iconActive");
+
+  });
+
+};
