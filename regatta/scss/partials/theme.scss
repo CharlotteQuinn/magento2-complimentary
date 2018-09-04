@@ -24,13 +24,12 @@ html .s-usp {
 .s-main-menu .categories > li > a {
     text-transform: capitalize;
 }
-
 .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
   margin: 0px;
   padding: 3px 10px;
   border-radius: 4px;
   background: #fff;
-  order: solid 2px #6EB134 !important;
+  border: solid 2px #6EB134 !important;
   color: #6EB134;
 }
 

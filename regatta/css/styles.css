@@ -937,7 +937,7 @@ html .s-usp {
   padding: 3px 10px;
   border-radius: 4px;
   background: #fff;
-  order: solid 2px #6EB134 !important;
+  border: solid 2px #6EB134 !important;
   color: #6EB134; }
 
 .s-footer-links-bottom.s-footer-links-bottom--close.s-footer-links-bottom--text-color ul li a {
