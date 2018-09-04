@@ -10,6 +10,31 @@
   h1 {
     text-align: center;
   }
+  .arrow {
+    position: relative;
+  }
+  .arrow:after {
+    content: " ";
+    display: inline-block;
+    height: 10px;
+    width: 20px;
+    margin-right: -10px;
+    background-size: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+  }
+  .arrow.white:after {
+    Background-image: url(https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/white-arrow-line.png);
+  }
+  .arrow.dark:after {
+    Background-image: url(https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/black-arrow-line.png);
+  }
   .buyingGuides,
   .contentSpots {
     background: #f1f4f7;
@@ -108,7 +133,7 @@
   }
 
   .slider .slider-buttons > a {
-    background: #47a803;
+    background: #06b9b4;
     padding: 15px 30px;
     color: #ffffff;
     text-transform: uppercase;
