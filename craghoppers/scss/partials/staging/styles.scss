@@ -23,13 +23,13 @@ All code must be cleared after it goes live
 	.cms-homepage-promo-grid-ch-us{
 
 	    /* Search update */
-	    .o-layout__item:nth-child(2) .o-layout:nth-child(2) {
+	    /*.o-layout__item:nth-child(2) .o-layout:nth-child(2) {
 	        width: 46%;
 	        float: right;
-	    }
+	    }*/
 
 	    .c-header-search .c-header-search__input {
-	        border-radius: 25px !important;
+	        border-radius: 7px !important;
 	    }
 
 	    .c-header-search .c-input-wrap__icon {
@@ -65,13 +65,13 @@ All code must be cleared after it goes live
 	        padding-left: 3%;
 	    }*/
 
-	    .o-layout__item .o-layout:nth-child(2) .o-layout__item.basketEmpty:nth-child(1) {
+	    /*.o-layout__item .o-layout:nth-child(2) .o-layout__item.basketEmpty:nth-child(1) {
 	        width: 70% !important;
 	    }
 
 	    .o-layout__item .o-layout:nth-child(2) .o-layout__item.basketEmpty:nth-child(2) {
 	        width: 30% !important;
-	    }
+	    }*/
 
 
 	    .o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(1) {
@@ -84,9 +84,9 @@ All code must be cleared after it goes live
 	        padding-left: 0%;
 	    }
 
-	    .c-header-search__suggestions {
+	    /*.c-header-search__suggestions {
 	        width: 200% !important;
-	    }
+	    }*/
 
 	    .o-layout__item .o-layout:nth-child(2) .c-header-search__suggestions-column.o-layout__item {
 	        padding-left: 0 !important;
@@ -537,48 +537,9 @@ All code must be cleared after it goes live
 /* CHUS Footer Updates END */
 
 /* CHUS Header updates */
-
-/* div#wrapper {
-    padding-top: 9.9%;
-}*/
-
-
-/*.headerSticky header.c-header,*/
-.headerSticky .sections.nav-sections,
-.headerSticky .generic-usp {
-    display: none;
-}
-
-.headerSticky ul#ui-id-3::before {
-    background-image: url(https://cdn.craghoppers.com/img/logo/logoMouflon.svg);
-    display: inline-block;
-    content: '';
-    width: 30px;
-    height: 30px;
-    float: left;
-    margin-top: 8px;
-    background-repeat: no-repeat;
-    position: relative;
-    left: 160px;
-}
-
-
 @keyframes headerSticky {
     0%   {opacity: 0;}
     100% {opacity: 1;}
-}
-
-.headerSticky div#header{
-	position: fixed;
-    z-index: 9;
-	animation-name: headerSticky;
-    animation-duration: 1s;
-	animation-fill-mode: forwards;
-	animation-timing-function: linear;
-}
-
-.headerSticky .c-page-wrapper {
-    padding-top: 8%;
 }
 
 .o-layout__item.headFeatures.headFeaturesHide {
@@ -587,15 +548,61 @@ All code must be cleared after it goes live
 
 /* search etc features */
 .headerSticky{
+
+	.sections.nav-sections,
+	.generic-usp {
+	    display: none;
+	}
+
+	ul#ui-id-3::before {
+	    background-image: url(https://cdn.craghoppers.com/img/logo/logoMouflon.svg);
+	    display: inline-block;
+	    content: '';
+	    width: 30px;
+	    height: 30px;
+	    float: left;
+	    margin-top: 8px;
+	    background-repeat: no-repeat;
+	    position: relative;
+	    left: 160px;
+	}
+
+	div#header{
+		position: fixed;
+	    z-index: 9;
+		animation-name: headerSticky;
+	    animation-duration: 1s;
+		animation-fill-mode: forwards;
+		animation-timing-function: linear;
+	}
+
+	.c-page-wrapper {
+	    padding-top: 8%;
+	}
+
 	div#top-search {
 	    display: none;
+	    width: 100vw;
+	    left: -82vw;
+	    position: relative;
+	    background: #fff;
+	    padding: 5% 0;
+	    margin-top: 11%;
 	}
 
 	.c-header .o-region__inner .o-layout .o-layout__item {
 	    display: none;
 	}
 
-	.s-main-menu ul + .o-layout__item.headFeatures{
+	/*.s-main-menu ul + .o-layout__item.headFeatures{
+	    float: right;
+	    width: 23% !important;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}*/
+
+	.s-main-menu ul + .o-layout__item{
 	    float: right;
 	    width: 23% !important;
 	    position: absolute;
@@ -603,10 +610,10 @@ All code must be cleared after it goes live
 	    top: 0;
 	}
 
-	.s-main-menu ul + .o-layout__item .o-layout {
+	/*.s-main-menu ul + .o-layout__item .o-layout {
 	    width: 50% !important;
 	    display: inline-block;
-	}
+	}*/
 
 	.c-mini-cart-btn__items.counter.qty {
 	    display: none;
@@ -632,9 +639,91 @@ All code must be cleared after it goes live
 	    margin-top: 6%;
 	}
 
-	.s-header-links {
+	/*.s-header-links {
+	    display: none;
+	}*/
+
+	/*.stickyIcon.iconActive + div {
+	    display: block !important;
+	}*/
+
+	.accountIcon + .s-header-links {
+	    background: #fff;
+	}
+
+	/*.s-main-menu ul + .o-layout__item .o-layout {
+	    float: left !important;
+	    margin-left: 0;
+	    width: auto !important;
+	}*/
+
+	.s-main-menu ul + .o-layout__item .o-layout {
+	    float: left !important;
+	    margin-left: 0;
+	}
+
+	.s-main-menu ul + .o-layout__item .o-layout:nth-child(1) {
+		width:20% !important;
+	}
+
+	.s-main-menu ul + .o-layout__item .o-layout:nth-child(2) {
+		width:40% !important;
+	}
+
+	.accountIcon + .s-header-links {
+		width: 200px;
+	    position: relative;
+	    left: -30px;
+    	height: 0;
+	    opacity: 0;
+	    transition: height 1s, opacity 0.5s;
+
+	}
+
+	.accountIcon.iconActive + .s-header-links {
+	    height: 150px;
+	    opacity: 1;
+	    transition: height 1s, opacity 1.7s;
+	}
+
+	.accountIcon + .s-header-links ul {
 	    display: none;
 	}
+
+	.accountIcon.iconActive + .s-header-links ul {
+	    text-align: left;
+	    display: block;
+	}
+
+	.accountIcon.iconActive + .s-header-links ul li {
+	    width: 100% !important;
+	    padding-left: 10px !important;
+	}
+
+	.authorization-link a[data-bind="visible: !isLoggedIn()"]:after{
+		display: none !important;
+	}
+
+	li.greet.welcome {
+	    display: none;
+	}
+
+	.c-header-search {
+	    width: 100%;
+	    margin: 0 auto;
+	    max-width: 559px;
+	}
+
+	.stickyIcon {
+	    cursor: pointer;
+	}
+
+	.searchIcon.iconActive + div#top-search {
+	    display: block;
+	}
+
+	
+
 
 }
 /* search etc features END */
