@@ -4024,21 +4024,22 @@ html .s-main-menu .block {
 .cms-index-index .main {
   width: 100%; }
 
-#homepage.AW18.desktop a {
+#homepage.AW18.desktop a, #homepage.AW18.mobile a {
   text-decoration: none; }
-#homepage.AW18.desktop h1 {
+#homepage.AW18.desktop h1, #homepage.AW18.mobile h1 {
   text-align: center; }
 #homepage.AW18.desktop .buyingGuides,
-#homepage.AW18.desktop .contentSpots {
+#homepage.AW18.desktop .contentSpots, #homepage.AW18.mobile .buyingGuides,
+#homepage.AW18.mobile .contentSpots {
   background: #f1f4f7;
   padding: 2% 0; }
-#homepage.AW18.desktop .noBackground {
+#homepage.AW18.desktop .noBackground, #homepage.AW18.mobile .noBackground {
   background: none; }
-#homepage.AW18.desktop .container {
+#homepage.AW18.desktop .container, #homepage.AW18.mobile .container {
   max-width: 1228px;
   margin: auto;
   width: 100%; }
-#homepage.AW18.desktop .contentSpots .special a.flex-item {
+#homepage.AW18.desktop .contentSpots .special a.flex-item, #homepage.AW18.mobile .contentSpots .special a.flex-item {
   background: #ffffff;
   display: inline-block;
   text-decoration: none;
@@ -4046,7 +4047,7 @@ html .s-main-menu .block {
   padding: 0;
   margin: 5px;
   width: calc(24.99% - 15px); }
-#homepage.AW18.desktop .contentTitle {
+#homepage.AW18.desktop .contentTitle, #homepage.AW18.mobile .contentTitle {
   display: block;
   height: auto !important;
   text-align: center;
@@ -4055,17 +4056,17 @@ html .s-main-menu .block {
   font-size: 15px;
   text-transform: uppercase;
   padding: 10px 0; }
-#homepage.AW18.desktop .slider {
+#homepage.AW18.desktop .slider, #homepage.AW18.mobile .slider {
   max-width: 1228px;
   margin: auto;
   position: relative; }
-#homepage.AW18.desktop .slider .message {
+#homepage.AW18.desktop .slider .message, #homepage.AW18.mobile .slider .message {
   position: absolute;
   top: 10%;
   right: 6%;
   display: inline-block;
   height: initial; }
-#homepage.AW18.desktop .slider .message * {
+#homepage.AW18.desktop .slider .message *, #homepage.AW18.mobile .slider .message * {
   line-height: 58px !important;
   margin: 0 !important;
   padding: 0 !important;
@@ -4073,33 +4074,33 @@ html .s-main-menu .block {
   font-size: 48px !important;
   color: #ffffff !important;
   text-transform: uppercase; }
-#homepage.AW18.desktop .slider .message .bold {
+#homepage.AW18.desktop .slider .message .bold, #homepage.AW18.mobile .slider .message .bold {
   font-size: 68px;
   font-weight: bold; }
-#homepage.AW18.desktop .slider .subMessage {
+#homepage.AW18.desktop .slider .subMessage, #homepage.AW18.mobile .slider .subMessage {
   position: absolute;
   top: 42%;
   right: 9%;
   display: inline-block;
   height: initial; }
-#homepage.AW18.desktop .slider .subMessage span {
+#homepage.AW18.desktop .slider .subMessage span, #homepage.AW18.mobile .slider .subMessage span {
   font-size: 34px !important;
   display: block;
   min-height: initial !important;
   margin: 0 !important;
   line-height: 30px;
   text-align: center; }
-#homepage.AW18.desktop .slider .subMessage span.discount {
+#homepage.AW18.desktop .slider .subMessage span.discount, #homepage.AW18.mobile .slider .subMessage span.discount {
   font-size: 58px !important;
   line-height: 58px; }
-#homepage.AW18.desktop .slider .slider-buttons {
+#homepage.AW18.desktop .slider .slider-buttons, #homepage.AW18.mobile .slider .slider-buttons {
   position: absolute;
   bottom: 10%;
   margin: auto;
   text-align: center;
   right: 0;
   left: 0; }
-#homepage.AW18.desktop .slider .slider-buttons > a {
+#homepage.AW18.desktop .slider .slider-buttons > a, #homepage.AW18.mobile .slider .slider-buttons > a {
   background: #47a803;
   padding: 15px 30px;
   color: #ffffff;
@@ -4110,7 +4111,7 @@ html .s-main-menu .block {
   width: 100%;
   max-width: 170px;
   display: inline-block; }
-#homepage.AW18.desktop .buyingGuides a {
+#homepage.AW18.desktop .buyingGuides a, #homepage.AW18.mobile .buyingGuides a {
   display: inline-block;
   background: #ffffff;
   padding: 0;
@@ -4118,14 +4119,14 @@ html .s-main-menu .block {
   width: calc(24.99% - 13px) !important;
   text-decoration: none;
   color: inherit; }
-#homepage.AW18.desktop .contentSubTitle {
+#homepage.AW18.desktop .contentSubTitle, #homepage.AW18.mobile .contentSubTitle {
   margin: -10px 10px 0;
   text-align: center;
   line-height: 20px;
   padding: 0 0 10px;
   font-size: 12px;
   color: initial; }
-#homepage.AW18.desktop .cta {
+#homepage.AW18.desktop .cta, #homepage.AW18.mobile .cta {
   position: absolute;
   top: 60%;
   background: #47a804;
@@ -4138,12 +4139,12 @@ html .s-main-menu .block {
   max-width: 250px;
   border-radius: 100px;
   color: #ffffff; }
-#homepage.AW18.desktop #container {
+#homepage.AW18.desktop #container, #homepage.AW18.mobile #container {
   width: 100%;
   max-width: 100%;
   margin: auto;
   position: relative; }
-#homepage.AW18.desktop #list-container {
+#homepage.AW18.desktop #list-container, #homepage.AW18.mobile #list-container {
   width: 100%;
   float: none;
   max-width: 1228px;
@@ -4152,14 +4153,14 @@ html .s-main-menu .block {
   left: 0;
   right: 0;
   overflow: hidden; }
-#homepage.AW18.desktop .list {
+#homepage.AW18.desktop .list, #homepage.AW18.mobile .list {
   float: left;
   display: block;
   overflow: auto;
   white-space: nowrap;
   position: relative;
   transition: all ease 0.5s; }
-#homepage.AW18.desktop #arrowR {
+#homepage.AW18.desktop #arrowR, #homepage.AW18.mobile #arrowR {
   width: 15%;
   float: right;
   cursor: pointer;
@@ -4172,7 +4173,7 @@ html .s-main-menu .block {
   justify-content: center;
   flex-direction: column;
   text-align: center; }
-#homepage.AW18.desktop #arrowL {
+#homepage.AW18.desktop #arrowL, #homepage.AW18.mobile #arrowL {
   width: 15%;
   float: left;
   cursor: pointer;
@@ -4187,16 +4188,16 @@ html .s-main-menu .block {
   -ms-transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg); }
-#homepage.AW18.desktop .arrowContainers > img {
+#homepage.AW18.desktop .arrowContainers > img, #homepage.AW18.mobile .arrowContainers > img {
   max-width: 20px;
   margin: auto; }
-#homepage.AW18.desktop .item {
+#homepage.AW18.desktop .item, #homepage.AW18.mobile .item {
   position: relative;
   width: 100%;
   overflow: hidden;
   float: left;
   position: relative; }
-#homepage.AW18.desktop .item a {
+#homepage.AW18.desktop .item a, #homepage.AW18.mobile .item a {
   display: block;
   background: #ffffff;
   padding-bottom: 10px;
@@ -4204,21 +4205,21 @@ html .s-main-menu .block {
   color: #000000;
   text-decoration: none;
   margin: 5px; }
-#homepage.AW18.desktop .item > img {
+#homepage.AW18.desktop .item > img, #homepage.AW18.mobile .item > img {
   width: 100%; }
-#homepage.AW18.desktop .item h3 {
+#homepage.AW18.desktop .item h3, #homepage.AW18.mobile .item h3 {
   margin: 0;
   font-weight: bold; }
-#homepage.AW18.desktop .categoryContainer {
+#homepage.AW18.desktop .categoryContainer, #homepage.AW18.mobile .categoryContainer {
   max-width: 100%;
   text-align: center;
   background: #F1F4F7;
   padding: 3% 0;
   position: relative; }
-#homepage.AW18.desktop .categoryContainer > h2 {
+#homepage.AW18.desktop .categoryContainer > h2, #homepage.AW18.mobile .categoryContainer > h2 {
   width: 100%;
   margin-bottom: 10px; }
-#homepage.AW18.desktop .contentSpots .finals a.flex-item {
+#homepage.AW18.desktop .contentSpots .finals a.flex-item, #homepage.AW18.mobile .contentSpots .finals a.flex-item {
   background: #ffffff;
   display: inline-block;
   text-decoration: none;
@@ -4226,42 +4227,42 @@ html .s-main-menu .block {
   padding: 5px;
   margin: 0px; }
 @media only screen and (max-width: 1185px) {
-  #homepage.AW18.desktop .contentSubTitle {
+  #homepage.AW18.desktop .contentSubTitle, #homepage.AW18.mobile .contentSubTitle {
     margin: 0px 10px 0;
     line-height: 0px;
     padding: 0 0 10px;
     font-size: 10px; }
-  #homepage.AW18.desktop .slider .message {
+  #homepage.AW18.desktop .slider .message, #homepage.AW18.mobile .slider .message {
     -ms-transform: scale(0.7);
     -webkit-transform: scale(0.7);
     transform: scale(0.7); }
-  #homepage.AW18.desktop .slider .subMessage {
+  #homepage.AW18.desktop .slider .subMessage, #homepage.AW18.mobile .slider .subMessage {
     -ms-transform: scale(0.7);
     -webkit-transform: scale(0.7);
     transform: scale(0.7);
     top: 40%;
     right: 7%; }
-  #homepage.AW18.desktop .slider .subMessage span, #homepage.AW18.desktop .slider .message * {
+  #homepage.AW18.desktop .slider .subMessage span, #homepage.AW18.desktop .slider .message *, #homepage.AW18.mobile .slider .subMessage span, #homepage.AW18.mobile .slider .message * {
     text-align: right; } }
 @media only screen and (max-width: 1025px) {
-  #homepage.AW18.desktop .buyingGuides a {
+  #homepage.AW18.desktop .buyingGuides a, #homepage.AW18.mobile .buyingGuides a {
     width: calc(49.99% - 13px) !important; }
-  #homepage.AW18.desktop .flex-item.col-6 {
+  #homepage.AW18.desktop .flex-item.col-6, #homepage.AW18.mobile .flex-item.col-6 {
     width: 99.98%; }
-  #homepage.AW18.desktop .cta {
+  #homepage.AW18.desktop .cta, #homepage.AW18.mobile .cta {
     position: absolute;
     top: 75%; } }
 @media only screen and (max-width: 800px) {
-  #homepage.AW18.desktop .slider .slider-buttons {
+  #homepage.AW18.desktop .slider .slider-buttons, #homepage.AW18.mobile .slider .slider-buttons {
     position: relative;
     width: 100%; }
-  #homepage.AW18.desktop .slider .message {
+  #homepage.AW18.desktop .slider .message, #homepage.AW18.mobile .slider .message {
     top: 0%;
     right: -3%;
     -ms-transform: scale(0.5);
     -webkit-transform: scale(0.5);
     transform: scale(0.5); }
-  #homepage.AW18.desktop .slider .subMessage {
+  #homepage.AW18.desktop .slider .subMessage, #homepage.AW18.mobile .slider .subMessage {
     -ms-transform: scale(0.5);
     -webkit-transform: scale(0.5);
     transform: scale(0.5);
@@ -4269,15 +4270,15 @@ html .s-main-menu .block {
     top: 30%;
     right: 0%; } }
 @media only screen and (max-width: 770px) {
-  #homepage.AW18.desktop h1 {
+  #homepage.AW18.desktop h1, #homepage.AW18.mobile h1 {
     text-align: center;
     font-size: 5vw;
     padding: 10px;
     width: 100%; }
-  #homepage.AW18.desktop .special a.flex-item {
+  #homepage.AW18.desktop .special a.flex-item, #homepage.AW18.mobile .special a.flex-item {
     width: calc(49.99% - 15px) !important;
     padding: 0 !important; }
-  #homepage.AW18.desktop .cta {
+  #homepage.AW18.desktop .cta, #homepage.AW18.mobile .cta {
     position: absolute;
     top: initial;
     width: 100%;
@@ -4285,14 +4286,20 @@ html .s-main-menu .block {
     bottom: 20px;
     max-width: 80%;
     padding: 5px; }
-  #homepage.AW18.desktop .contentSubTitle {
+  #homepage.AW18.desktop .contentSubTitle, #homepage.AW18.mobile .contentSubTitle {
     line-height: 14px; }
-  #homepage.AW18.desktop .container.scroll {
+  #homepage.AW18.desktop .container.scroll, #homepage.AW18.mobile .container.scroll {
     display: block;
     overflow: auto;
     white-space: nowrap; }
-  #homepage.AW18.desktop .buyingGuides a {
-    width: calc(69.99% - 13px) !important; } }
+  #homepage.AW18.desktop .buyingGuides a, #homepage.AW18.mobile .buyingGuides a {
+    width: calc(69.99% - 13px) !important; }
+  #homepage.AW18.desktop .item, #homepage.AW18.mobile .item {
+    margin: 0% 0% 0% 5% !Important;
+    display: inline-block;
+    max-width: 70%;
+    background: #ffffff;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.07); } }
 
 /* IE STYLES ONLY */
 html:lang(en-IE) .s-header-links .links > li:nth-child(5), html:lang(en-IE) .s-header-links .links > li:nth-child(4) {
