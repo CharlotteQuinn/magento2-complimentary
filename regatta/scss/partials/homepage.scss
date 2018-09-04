@@ -374,8 +374,8 @@
       right: 0%;
       left: 0%;
     }
-    .slider .message * {
-      text-align: center;
+    .slider .message *, .slider .subMessage span{
+      text-align: center !important;
     }
     .finals .cta {
       position: initial !important;

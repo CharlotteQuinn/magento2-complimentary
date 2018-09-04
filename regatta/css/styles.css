@@ -4309,8 +4309,8 @@ html .s-main-menu .block {
     top: 17%;
     right: 0%;
     left: 0%; }
-  #homepage.AW18.desktop .slider .message *, #homepage.AW18.mobile .slider .message * {
-    text-align: center; }
+  #homepage.AW18.desktop .slider .message *, #homepage.AW18.desktop .slider .subMessage span, #homepage.AW18.mobile .slider .message *, #homepage.AW18.mobile .slider .subMessage span {
+    text-align: center !important; }
   #homepage.AW18.desktop .finals .cta, #homepage.AW18.mobile .finals .cta {
     position: initial !important;
     max-width: 100% !important; } }
