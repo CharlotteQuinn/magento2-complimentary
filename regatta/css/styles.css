@@ -1347,7 +1347,14 @@ html .c-basket__payment-icons {
   #js-react-fredhopper .roundel {
     padding: 20px 40px 3px 40px;
     font-size: 9px;
-    line-height: 12px; } }
+    line-height: 12px; }
+
+  html .catalog-category-view .c-product-tile.u-heading-epsilon .c-product-tile__save {
+    bottom: 63px; } }
+@media only screen and (max-width: 300px) {
+  #js-react-fredhopper .roundel {
+    left: 67px;
+    top: -6px; } }
 /*//////////////////////////*/
 /* Cookie bar               */
 /*//////////////////////////*/
