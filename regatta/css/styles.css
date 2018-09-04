@@ -2479,7 +2479,11 @@ body .c-product-tile .c-product-tile__btn {
 @media screen and (max-width: 600px) {
   .catalog-category-view .loader .image, .loader {
     height: 6px;
-    border-radius: 100px; } }
+    border-radius: 100px; }
+
+  #minicart-content-wrapper .c-mini-cart__msg {
+    max-width: 70%;
+    line-height: 19px !important; } }
 html .catalog-category-view .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
   margin: 0px !important;
   padding: 3px 10px !important;

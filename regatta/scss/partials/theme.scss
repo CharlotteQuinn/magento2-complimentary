@@ -1954,6 +1954,10 @@ html .catalog-category-view .c-mobile-facet--menu .c-facet-list__facet-header {
     height: 6px;
     border-radius: 100px;
   }
+  #minicart-content-wrapper  .c-mini-cart__msg {
+    max-width: 70%;
+    line-height: 19px !important;
+  }
 }
 
 html .catalog-category-view .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
