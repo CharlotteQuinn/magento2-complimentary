@@ -929,6 +929,24 @@ html .s-usp {
 .c-footer__social {
   background-color: #ffffff; }
 
+.s-main-menu .categories > li > a {
+  text-transform: capitalize; }
+
+.c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
+  margin: 0px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  background: #fff;
+  order: solid 2px #6EB134 !important;
+  color: #6EB134; }
+
+.s-footer-links-social > h4 {
+  display: block !important;
+  text-align: center; }
+
+.s-footer-links-bottom.s-footer-links-bottom--close.s-footer-links-bottom--text-color ul li a {
+  margin: 0 4px; }
+
 /*//////////////////////////////*/
 /*  Checkout Success            */
 /*//////////////////////////////*/
@@ -963,11 +981,6 @@ html .s-usp {
 /*  New PLP theme Category page */
 /*//////////////////////////////*/
 .search-index-index .c-product-tile .c-product-tile__btn {
-  color: #6EB134 !important;
-  background: #fff !important;
-  border: solid 2px #6EB134 !important; }
-
-.catalog-category-view .c-product-tile .c-product-tile__btn {
   color: #6EB134 !important;
   background: #fff !important;
   border: solid 2px #6EB134 !important; }
@@ -1071,7 +1084,8 @@ html .catalog-category-view {
       html .catalog-category-view .c-product-tile.u-heading-epsilon .c-product-tile__save {
         bottom: 85px; }
       html .catalog-category-view .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
-        margin-top: 40px; }
+        margin-top: 40px;
+        padding: 5px 10px; }
       html .catalog-category-view .c-page-wrapper {
         padding: 0px 10px !important; }
       html .catalog-category-view .c-rating__reviews {
@@ -1149,13 +1163,6 @@ html .search-index-index {
     bottom: initial;
     opacity: 1;
     padding: 10px 5px; }
-  html .search-index-index .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
-    margin: 0px;
-    padding: 10px 10px;
-    border-radius: 4px;
-    background: #6EB134;
-    border: #6EB134;
-    color: #ffffff; }
   html .search-index-index .c-product-tile.u-heading-epsilon .c-product-tile__save {
     position: absolute;
     right: 0;
@@ -1352,6 +1359,11 @@ html .c-basket__payment-icons {
 #js-react-fredhopper div > li {
   overflow: hidden; }
 
+@media only screen and (max-width: 600px) {
+  #js-react-fredhopper .roundel {
+    padding: 20px 40px 3px 40px;
+    font-size: 9px;
+    line-height: 12px; } }
 /*//////////////////////////*/
 /* Cookie bar               */
 /*//////////////////////////*/
@@ -4289,7 +4301,14 @@ html .s-main-menu .block {
     transform: scale(0.5);
     position: absolute;
     top: 30%;
-    right: 0%; } }
+    right: 0%;
+    text-align: center; }
+  #homepage.AW18.desktop .subMessage span.code, #homepage.AW18.mobile .subMessage span.code {
+    background: white;
+    display: inline-block;
+    padding: 12px;
+    margin-top: 6px !important;
+    border-radius: 5px; } }
 @media only screen and (max-width: 770px) {
   #homepage.AW18.desktop h1, #homepage.AW18.mobile h1 {
     text-align: center;
@@ -4336,7 +4355,11 @@ html .s-main-menu .block {
     text-align: center !important; }
   #homepage.AW18.desktop .finals .cta, #homepage.AW18.mobile .finals .cta {
     position: initial !important;
-    max-width: 100% !important; } }
+    max-width: 100% !important; }
+  #homepage.AW18.desktop .contentSpots.noBackground .bordered, #homepage.AW18.mobile .contentSpots.noBackground .bordered {
+    border: solid 1px #d2d6da;
+    padding: 10px;
+    margin: 5px 0px; } }
 
 /* IE STYLES ONLY */
 html:lang(en-IE) .s-header-links .links > li:nth-child(5), html:lang(en-IE) .s-header-links .links > li:nth-child(4) {
