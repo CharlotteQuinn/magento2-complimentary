@@ -390,14 +390,16 @@
       float: none;
     }
     .slider .message {
-      top: -7%;
-      left: 0%;
+      top: -4%;
+      left: -15%;
       right: 0%;
+      width: 130%;
     }
     .slider .subMessage {
-      top: 17%;
+      top: 9%;
       right: 0%;
       left: 0%;
+      font-weight: bold;
     }
     .slider .message *, .slider .subMessage span{
       text-align: center !important;
