@@ -25,14 +25,6 @@ html .s-usp {
     text-transform: capitalize;
 }
 
-.c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
-  margin: 0px;
-  padding: 3px 10px;
-  border-radius: 4px;
-  background: #fff;
-  order: solid 2px #6EB134 !important;
-  color: #6EB134;
-}
 
 .s-footer-links-bottom.s-footer-links-bottom--close.s-footer-links-bottom--text-color ul li a {
       margin: 0 4px;
@@ -1962,4 +1954,13 @@ html .catalog-category-view .c-mobile-facet--menu .c-facet-list__facet-header {
     height: 6px;
     border-radius: 100px;
   }
+}
+
+html .catalog-category-view .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
+  margin: 0px !important;
+  padding: 3px 10px!important;
+  border-radius: 4px!important;
+  background: #fff!important;
+  border: solid 2px #6EB134 !important!important;
+  color: #6EB134!important;
 }
