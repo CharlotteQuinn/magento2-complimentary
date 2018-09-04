@@ -4299,7 +4299,21 @@ html .s-main-menu .block {
     display: inline-block;
     max-width: 70%;
     background: #ffffff;
-    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.07); } }
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.07);
+    float: none; }
+  #homepage.AW18.desktop .slider .message, #homepage.AW18.mobile .slider .message {
+    top: -7%;
+    left: 0%;
+    right: 0%; }
+  #homepage.AW18.desktop .slider .subMessage, #homepage.AW18.mobile .slider .subMessage {
+    top: 17%;
+    right: 0%;
+    left: 0%; }
+  #homepage.AW18.desktop .slider .message *, #homepage.AW18.mobile .slider .message * {
+    text-align: center; }
+  #homepage.AW18.desktop .finals .cta, #homepage.AW18.mobile .finals .cta {
+    position: initial !important;
+    max-width: 100% !important; } }
 
 /* IE STYLES ONLY */
 html:lang(en-IE) .s-header-links .links > li:nth-child(5), html:lang(en-IE) .s-header-links .links > li:nth-child(4) {
