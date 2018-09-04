@@ -346,6 +346,14 @@
       position: absolute;
       top: 30%;
       right: 0%;
+      text-align: center;
+    }
+    .subMessage span.code {
+      background: rgb(255, 255, 255);
+      display: inline-block;
+      padding: 12px;
+      margin-top: 6px !important;
+      border-radius: 5px;
     }
   }
 
@@ -407,6 +415,11 @@
     .finals .cta {
       position: initial !important;
       max-width: 100% !important;
+    }
+    .contentSpots.noBackground .bordered{
+      border: solid 1px #d2d6da;
+      padding: 10px;
+      margin: 5px 0px;
     }
   }
 
