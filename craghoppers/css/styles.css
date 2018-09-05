@@ -10040,4 +10040,9 @@ h2.utc-title-lower {
 .c-store-details__collection {
   color: #343334; }
 
+.c-checkbox-additional_text {
+  float: left;
+  font-size: 1rem;
+  padding-bottom: 5%; }
+
 /*# sourceMappingURL=styles.css.map */
