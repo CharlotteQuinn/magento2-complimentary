@@ -4607,6 +4607,11 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
 .c-store-details__collection {
   color: #5f5f5e; }
 
+.c-checkbox-additional_text {
+  float: left;
+  font-size: 1rem;
+  padding-bottom: 5%; }
+
 .cms-clearance-store .c-breadcrumbs {
   display: none; }
 
