@@ -10266,6 +10266,19 @@ All code must be cleared after it goes live
 .s-footer-links-social {
   margin-left: 0; }
 
+.c-footer__social {
+  background-color: #f3f3f3; }
+
+.c-footer {
+  background-color: #fff; }
+
+.c-footer__signup {
+  margin: 0 auto;
+  float: none; }
+
+h3.c-footer__header {
+  text-align: center; }
+
 @media only screen and (max-width: 989px) {
   .s-footer-links-social .c-icon--facebook,
   .s-footer-links-social .c-icon--google,
@@ -10347,14 +10360,15 @@ All code must be cleared after it goes live
     border-bottom: 1px solid #e6e6e6; }
 
   .c-footer__header {
-    margin-bottom: 1%; }
+    margin-bottom: 1%;
+    padding-top: 1%; }
 
   .c-footer__social {
     padding: 0; }
 
   .c-footer__signup .c-accordion__content {
     height: auto;
-    padding: 1% 0px 3% 0;
+    padding: 1% 10px 3% 10px;
     display: block !important; }
 
   .c-input-combined__input-wrapper {
@@ -10419,7 +10433,13 @@ All code must be cleared after it goes live
     margin: 0; }
 
   .s-footer-links-social p.socialFollow {
-    text-align: center; } }
+    text-align: center; }
+
+  .c-footer {
+    padding: 0; }
+
+  .c-footer__links {
+    padding: 20px 10px; } }
 /* CHUS Footer Updates END */
 /* CHUS Header updates */
 @keyframes headerSticky {
