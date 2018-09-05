@@ -416,11 +416,6 @@
     margin: 0;
   }
 
-  .s-main-menu .block .category-items .menuAccessories .collectionItem a {
-    padding: 10px 0 !important;
-  }
-
-
 }
 
 @media only screen and (max-width: 989px) {
@@ -459,6 +454,10 @@
 
   .menuAccessories .collectionItem {
     max-width: 100% !important;
+  }
+
+  .s-main-menu .block .category-items .menuAccessories .collectionItem a {
+    padding: 10px 0 !important;
   }
 
 }

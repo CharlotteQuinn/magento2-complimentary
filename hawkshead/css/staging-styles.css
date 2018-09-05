@@ -4914,10 +4914,7 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
 
   .collectionItem:nth-child(2),
   .collectionItem:nth-child(4) {
-    margin: 0; }
-
-  .s-main-menu .block .category-items .menuAccessories .collectionItem a {
-    padding: 10px 0 !important; } }
+    margin: 0; } }
 @media only screen and (max-width: 989px) {
   .collectionItem:nth-child(even),
   .collectionItem:nth-child(odd) {
@@ -4947,7 +4944,10 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
     margin: 0 !important; }
 
   .menuAccessories .collectionItem {
-    max-width: 100% !important; } }
+    max-width: 100% !important; }
+
+  .s-main-menu .block .category-items .menuAccessories .collectionItem a {
+    padding: 10px 0 !important; } }
 @media only screen and (max-width: 700px) {
   .collectionItem a {
     background: transparent; }
