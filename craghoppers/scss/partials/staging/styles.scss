@@ -333,6 +333,23 @@ All code must be cleared after it goes live
     margin-left: 0;
 }
 
+.c-footer__social {
+    background-color: #f3f3f3;
+}
+
+.c-footer {
+    background-color: #fff;
+}
+
+.c-footer__signup {
+    margin: 0 auto;
+    float: none;
+}
+
+h3.c-footer__header {
+    text-align: center;
+}
+
 @media only screen and (max-width: 989px){
 
 	.s-footer-links-social .c-icon--facebook,
@@ -439,6 +456,7 @@ All code must be cleared after it goes live
 
 	.c-footer__header {
 	    margin-bottom: 1%;
+	    padding-top: 1%;
 	}
 
 	.c-footer__social {
@@ -447,7 +465,7 @@ All code must be cleared after it goes live
 
 	.c-footer__signup .c-accordion__content {
 	    height: auto;
-	    padding: 1% 0px 3% 0;
+	    padding: 1% 10px 3% 10px;
 	    display: block !important;
 	}
 
@@ -529,6 +547,15 @@ All code must be cleared after it goes live
 	.s-footer-links-social p.socialFollow {
 	    text-align: center;
 	}
+
+	.c-footer {
+	    padding: 0;
+	}
+
+	.c-footer__links {
+	    padding: 20px 10px;
+	}
+
 
 
 
