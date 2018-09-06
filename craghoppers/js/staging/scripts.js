@@ -41,9 +41,11 @@ requirejs(['jquery'], function( $ ) {
       }, 5000);
     }
 
-    // reviews check
+    // PDP reviews check
+    // if no reviews on product, add class and then hide in CSS
     if (jQuery('.reviews-actions .js-reviews-click').length == 0){
-      jQuery('.reviews-actions').addClass("noReviews");
+      jQuery('.product-info-price .c-rating__wrap').addClass("noReviews");
+      jQuery('.product-info-stock-sku + .product-info-price').addClass("noReviews");
     }
 
     // Stick header scroll detect
@@ -53,10 +55,6 @@ requirejs(['jquery'], function( $ ) {
 
       if (ScrollTop > 102) {
         document.querySelector('body').classList.add('headerSticky');
-
-        /*if (jQuery(".headFeaturesHide").length > 0){
-          document.querySelector(".s-main-menu ul + .o-layout__item.headFeatures").classList.remove("headFeaturesHide");
-        }*/
 
         if (jQuery(".headerSticky .s-main-menu ul + .o-layout__item").length == 0){
 
@@ -105,20 +103,6 @@ requirejs(['jquery'], function( $ ) {
 
   }
   /* CHUS only script END */
-
- 
-
-    /*jQuery(".accountIcon").click(function(){
-      
-      jQuery(this).toggleClass("iconActive");
-
-    });  
-
-    jQuery(".searchIcon").click(function(){
-      
-      jQuery(this).toggleClass("iconActive");
-
-    }); */
   
   var stickyCheck = setInterval(function(){
     if (jQuery(".stickyIcon").length > 0) {  
@@ -128,11 +112,6 @@ requirejs(['jquery'], function( $ ) {
   }, 100);
 
 
-
-
-
-
-
     //////////////////////////////////  
   ///DONT ADD ANYTHING BELOW HERE///
   //////////////////////////////////
@@ -140,10 +119,6 @@ requirejs(['jquery'], function( $ ) {
 });
 
 function clickCheck(){
-  /*jQuery(".stickyIcon").click(function(){
-    jQuery(this).toggleClass("iconActive");
-
-  });*/
 
   jQuery(".accountIcon").click(function(){
 
