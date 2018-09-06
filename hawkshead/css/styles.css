@@ -3884,7 +3884,7 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   width: 100%;
   height: auto !important;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   min-height: 200px;
   margin-bottom: 15px;
   background-position: center; }
@@ -3893,7 +3893,7 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   width: 1228px;
   margin: 0 auto;
   text-align: left;
-  padding: 3.2% 0;
+  padding: 62px 0;
   font-family: "Garamond-Regular";
   text-transform: uppercase;
   color: #fff !important; }
@@ -3901,74 +3901,79 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
 .plp-header h1 {
   color: #fff !important;
   font-size: 44px !important;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  margin-bottom: 0; }
 
 .bannercontainer.mens {
-  background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Mens-TopLevelCat.jpg"); }
+  background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/mens/MensDesktop.jpg"); }
 
 .bannercontainer.womens {
-  background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Womens-TopLevelCat.jpg"); }
+  background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/womens/WomensDesktop.jpg"); }
 
 .bannercontainer.kids {
-  background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Kids-TopLevelCat.jpg"); }
+  background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/kids/KidsDesktop.jpg"); }
 
 .bannercontainer.footwear {
-  background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Footwear-TopLevelCat.jpg"); }
+  background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/equipment/EquipmentDesktop.jpg"); }
 
 .bannercontainer.craghoppers {
-  background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Craghoppers-TopLevelCat.jpg"); }
+  background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/brands/CraghoppersDesktop.jpg");
+  background-position: left; }
 
 .bannercontainer.dare2b {
-  background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Dare2B-TopLevelCat.jpg"); }
+  background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/brands/Dare2bDesktop.jpg");
+  background-position: left; }
 
 .bannercontainer.regatta {
-  background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Regatta-TopLevelCat.jpg"); }
+  background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/brands/RegattaDesktop.jpg");
+  background-position: left; }
 
 .bannercontainer.lowa {
-  background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lowa-TopLevelCat.jpg"); }
+  background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/brands/LowaDesktop.jpg");
+  background-position: left; }
 
 .bannercontainer.lomer {
-  background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lomer-TopLevelCat.jpg"); }
+  background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/Lomer-TopLevelCat.jpg"); }
 
 .bannercontainer.superfeet {
-  background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat.jpg"); }
+  background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/Superfeet-TopLevelCat.jpg"); }
 
 .bannercontainer.kidsschool {
-  background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/BTS-TopLevel.jpg"); }
+  background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/BTS-TopLevel.jpg"); }
 
 @media only screen and (max-width: 1228px) {
   .bannercontainer.mens {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Mens-TopLevelCat-Tablet.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/mens/MensTablet.jpg"); }
 
   .bannercontainer.womens {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Womens-TopLevelCat-Tablet.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/womens/WomensTablet.jpg"); }
 
   .bannercontainer.kids {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Kids-TopLevelCat-Tablet.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/kids/KidsTablet.jpg"); }
 
   .bannercontainer.footwear {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Footwear-TopLevelCat-Tablet.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/equipment/EquipmentTablet.jpg"); }
 
   .bannercontainer.craghoppers {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Craghoppers-TopLevelCat-Tablet.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/brands/CraghoppersTablet.jpg"); }
 
   .bannercontainer.dare2b {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Dare2B-TopLevelCat-Tablet.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/brands/Dare2BTablet.jpg"); }
 
   .bannercontainer.regatta {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Regatta-TopLevelCat-Tablet.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/brands/RegattaTablet.jpg"); }
 
   .bannercontainer.lowa {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lowa-TopLevelCat-Tablet.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/brands/LowaTablet.jpg"); }
 
   .bannercontainer.lomer {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lomer-TopLevelCat-Tablet.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/Lomer-TopLevelCat-Tablet.jpg"); }
 
   .bannercontainer.superfeet {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat-Tablet.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/Superfeet-TopLevelCat-Tablet.jpg"); }
 
   .bannercontainer.kidsschool {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/BTS-TopLevel-Tablet.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/BTS-TopLevel-Tablet.jpg"); }
 
   .banner__title,
   .banner__text {
@@ -3976,7 +3981,7 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
 
   .plp-header {
     width: 100%;
-    padding: 5.5% 0 5.5% 10px;
+    padding: 62px 0 62px 10px;
     letter-spacing: 1px; }
 
   .plp-header h1 {
@@ -3991,37 +3996,37 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
     display: block !important; } }
 @media only screen and (max-width: 700px) {
   .bannercontainer.mens {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Mens-TopLevelCat-Mobile.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/mens/MensMobile.jpg"); }
 
   .bannercontainer.womens {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Womens-TopLevelCat-Mobile.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/womens/WomensMobile.jpg"); }
 
   .bannercontainer.kids {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Kids-TopLevelCat-Mobile.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/kids/KidsMobile.jpg"); }
 
   .bannercontainer.footwear {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Footwear-TopLevelCat-Mobile.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/equipment/EquipmentMobile.jpg"); }
 
   .bannercontainer.craghoppers {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Craghoppers-TopLevelCat-Mobile.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/brands/CraghoppersMobile.jpg"); }
 
   .bannercontainer.dare2b {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Dare2B-TopLevelCat-Mobile.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/brands/Dare2BMobile.jpg"); }
 
   .bannercontainer.regatta {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Regatta-TopLevelCat-Mobile.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/brands/RegattaMobile.jpg"); }
 
   .bannercontainer.lowa {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lowa-TopLevelCat-Mobile.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/brands/LowaMobile.jpg"); }
 
   .bannercontainer.lomer {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Lomer-TopLevelCat-Mobile.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/Lomer-TopLevelCat-Mobile.jpg"); }
 
   .bannercontainer.superfeet {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/Superfeet-TopLevelCat-Mobile.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/Superfeet-TopLevelCat-Mobile.jpg"); }
 
   .bannercontainer.kidsschool {
-    background-image: url("https://cdn.hawkshead.com/img/SS18/cat/top_level_banners/BTS-TopLevel-Mobile.jpg"); }
+    background-image: url("https://cdn.hawkshead.com/img/AW18/cat/top_level_banners/BTS-TopLevel-Mobile.jpg"); }
 
   .plp-header {
     width: 100%;
@@ -4030,7 +4035,8 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   .plp-header h1 {
     font-size: 22px !important;
     letter-spacing: 1px;
-    line-height: 26px; }
+    line-height: 26px;
+    max-width: 300px; }
 
   .bannercontainer {
     min-height: 130px; } }
