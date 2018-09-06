@@ -45,6 +45,7 @@ requirejs(['jquery'], function( $ ) {
     // if no reviews on product, add class and then hide in CSS
     if (jQuery('.reviews-actions .js-reviews-click').length == 0){
       jQuery('.product-info-price .c-rating__wrap').addClass("noReviews");
+      jQuery('.product-info-stock-sku + .product-info-price').addClass("noReviews");
     }
 
     // Stick header scroll detect
