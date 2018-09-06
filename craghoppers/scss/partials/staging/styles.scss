@@ -756,3 +756,34 @@ h3.c-footer__header {
 /* search etc features END */
 
 /* CHUS Header Updates END */
+
+/* Gender align filters */
+ul.o-list-stacked.c-mobile-facet-list {
+    margin-top: 57%;
+}
+
+@media only screen and (max-width:1227px){
+	ul.o-list-stacked.c-mobile-facet-list {
+	    margin-top: 67%;
+	}
+}
+
+@media only screen and (max-width:989px){
+	ul.o-list-stacked.c-mobile-facet-list {
+	    margin-top: 91%;
+	}
+}
+
+@media only screen and (max-width:740px){
+	ul.o-list-stacked.c-mobile-facet-list {
+	    margin-top: 0%;
+	}
+}
+/* Gender align filters END */
+
+/* Breadcrumbs Update */
+.c-breadcrumbs__item:after {
+    content: '>';
+}
+
+/* Breadcrumbs Update END */
