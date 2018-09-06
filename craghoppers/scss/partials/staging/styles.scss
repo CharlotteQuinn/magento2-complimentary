@@ -758,19 +758,20 @@ h3.c-footer__header {
 /* CHUS Header Updates END */
 
 /* Gender align filters */
-ul.o-list-stacked.c-mobile-facet-list {
-    margin-top: 57%;
+
+.o-layout__item.c-selected-facets--position {
+    margin-top: 9%;
 }
 
 @media only screen and (max-width:1227px){
-	ul.o-list-stacked.c-mobile-facet-list {
-	    margin-top: 67%;
+	.o-layout__item.c-selected-facets--position {
+	    margin-top: 10%;
 	}
 }
 
 @media only screen and (max-width:989px){
-	ul.o-list-stacked.c-mobile-facet-list {
-	    margin-top: 91%;
+	.o-layout__item.c-selected-facets--position {
+	    margin-top: 12%;
 	}
 }
 
@@ -783,7 +784,20 @@ ul.o-list-stacked.c-mobile-facet-list {
 
 /* Breadcrumbs Update */
 .c-breadcrumbs__item:after {
-    content: '>';
+    content: '>' !important;
+}
+
+.c-breadcrumbs__item:last-child:after {
+    content: "" !important;
+}
+
+.breadcrumbs.c-breadcrumbs {
+    margin-bottom: 0;
+    margin: 4px 0;
+}
+
+.s-text-banner p:empty {
+    display: none;
 }
 
 /* Breadcrumbs Update END */
