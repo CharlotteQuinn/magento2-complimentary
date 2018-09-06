@@ -10603,5 +10603,10 @@ h3.c-footer__header {
   display: none; }
 
 /* Breadcrumbs Update END */
+/* PDP Updates */
+.c-rating__wrap.noReviews {
+  display: none; }
+
+/* PDP Updates END */
 
 /*# sourceMappingURL=staging-styles.css.map */
