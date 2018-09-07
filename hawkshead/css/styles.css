@@ -3068,16 +3068,16 @@ a.c-product-size__size-guide-link:hover {
   background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/accessories/Proofer-297x154.jpg); }
 
 .heroCraghoppers {
-  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/brands/Crahoppers-270x140.jpg); }
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/brands/Crags-Mega-445x175.jpg); }
 
 .heroRegatta {
-  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/brands/Regatta-270x140.jpg); }
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/brands/Regatta-Mega-445x175.jpg); }
 
 .heroDare2b {
-  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/brands/Dare2B-270x140.jpg); }
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/brands/Dare2B-Mega-445x175.jpg); }
 
 .heroLowa {
-  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/brands/Lowa-270x140.jpg); }
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/brands/Lowa-Mega-445x175.jpg); }
 
 /* Mobile Menu */
 /*.menuSection {
@@ -3202,6 +3202,24 @@ a.c-product-size__size-guide-link:hover {
 .collectionItem:nth-child(4) {
   margin: 0; }
 
+.brandsSection.brandHero {
+  width: 75% !important; }
+
+.brandHero .collectionItem {
+  display: inline-block;
+  max-width: 438px !important; }
+
+.s-main-menu .block .category-items .brandHero .collectionItem a {
+  padding: 17% 0px; }
+
+.brandHero .collectionItem {
+  display: inline-block;
+  max-width: 445px !important;
+  margin: 0 1% 1% 0 !important; }
+
+.brandHero .collectionItem:nth-child(2), .brandHero .collectionItem:nth-child(4) {
+  margin-right: 0 !important; }
+
 @media only screen and (max-width: 1227px) {
   .collectionItem {
     max-width: 207px !important; }
@@ -3231,7 +3249,13 @@ a.c-product-size__size-guide-link:hover {
 
   .collectionItem:nth-child(2),
   .collectionItem:nth-child(4) {
-    margin: 0; } }
+    margin: 0; }
+
+  .s-main-menu .block .category-items .brandHero .collectionItem a {
+    padding: 18% 0px !important; }
+
+  .brandHero .collectionItem {
+    max-width: 357px !important; } }
 @media only screen and (max-width: 989px) {
   .collectionItem:nth-child(even),
   .collectionItem:nth-child(odd) {
@@ -3264,7 +3288,10 @@ a.c-product-size__size-guide-link:hover {
     max-width: 100% !important; }
 
   .s-main-menu .block .category-items .menuAccessories .collectionItem a {
-    padding: 10px 0 !important; } }
+    padding: 10px 0 !important; }
+
+  .brandsSection.brandHero {
+    display: none; } }
 @media only screen and (max-width: 700px) {
   .collectionItem a {
     background: transparent; }
