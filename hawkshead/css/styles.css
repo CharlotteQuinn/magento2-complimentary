@@ -1628,6 +1628,52 @@ section .blogPost .blogPost-Copy {
 
   .heroButton strong {
     font-size: 3.8vw; } }
+/* AW18 STYLES START */
+.hero__container {
+  position: relative; }
+
+.heroButton-ns {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  padding: 56% 0 0 0;
+  font-family: "Garamond-Regular";
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase; }
+
+.sliderbutton-newarrivals {
+  color: #6e2c3a; }
+
+.sliderstrip_regatta {
+  text-align: left;
+  width: 25.5%;
+  float: right; }
+
+@media only screen and (max-width: 1228px) {
+  .sliderstrip_regatta {
+    width: 26.5%; } }
+@media only screen and (max-width: 800px) {
+  .heroButton-ns {
+    padding: 55% 0 0 0;
+    font-size: 20px; } }
+@media only screen and (max-width: 700px) {
+  .heroButton-ns {
+    padding: 104% 0 0 0; }
+
+  .sliderstrip_regatta {
+    text-align: center;
+    width: 100%;
+    float: none; } }
+@media only screen and (max-width: 650px) {
+  .sliderbutton--thirds {
+    width: 100%; } }
+@media only screen and (max-width: 550px) {
+  .heroButton-ns {
+    padding: 106% 0 0 0;
+    font-size: 14px;
+    letter-spacing: 1px; } }
+/* AW18 STYLES END */
 /* Customer Services Styles */
 .helpnav {
   float: left;
