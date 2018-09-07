@@ -10473,7 +10473,16 @@ h3.c-footer__header {
       float: left !important;
       margin-left: 0;
       width: auto !important;
-  }*/ }
+  }*/
+  	/*.accountIcon + .s-header-links ul li {
+      	height: 0;
+      	transition: height 1s;
+  	}
+  
+  	.accountIcon.iconActive + .s-header-links ul li {
+  	    height: 30px;
+  	    transition: height 1s;
+  	}*/ }
   .headerSticky .sections.nav-sections,
   .headerSticky .generic-usp {
     display: none; }
@@ -10546,11 +10555,11 @@ h3.c-footer__header {
     left: -30px;
     height: 0;
     opacity: 0;
-    transition: height 1s, opacity 0.5s; }
+    transition: height 1s; }
   .headerSticky .accountIcon.iconActive + .s-header-links {
     height: 150px;
     opacity: 1;
-    transition: height 1s, opacity 1.7s; }
+    transition: height 1s; }
   .headerSticky .accountIcon + .s-header-links ul {
     display: none; }
   .headerSticky .accountIcon.iconActive + .s-header-links ul {
