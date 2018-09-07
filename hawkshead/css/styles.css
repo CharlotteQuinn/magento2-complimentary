@@ -2955,64 +2955,88 @@ a.c-product-size__size-guide-link:hover {
   color: #5f5f5e;
   font-size: 18px; }
 
-.collection-moutdoor {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/mens/OutdoorLifestyle-Mens-270x140.jpg); }
+.heroMOutdoor {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/mens/OutdoorLifestyle-Mens-270x140.jpg); }
 
-.collection-mactive {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/mens/ActiveOutdoor-Mens-270x140.jpg); }
+.heroMActive {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/mens/ActiveOutdoor-Mens-270x140.jpg); }
 
-.collection-minsect {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/mens/InsectProtect-Mens-270x140.jpg); }
+.heroMInsect {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/mens/InsectProtect-Mens-270x140.jpg); }
 
-.collection-mcycle {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/mens/CycleRange-Mens-270x140.jpg); }
+.heroMDofe {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/mens/DofE-Mens-270x140.jpg); }
 
-.collection-woutdoor {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/womens/OutdoorLifestyle-Womens-270x140.jpg); }
+.heroMSki {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/mens/SkiCollection-Mens-270x140.jpg); }
 
-.collection-wactive {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/womens/ActiveOutdoor-Womens-270x140.jpg); }
+.heroMDiscovery {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/mens/DiscoveryAdventures-Mens-270x140.jpg); }
 
-.collection-winsect {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/womens/InsectProtect-Womens-270x140.jpg); }
+.heroWOutdoor {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/womens/OutdoorLifestyle-Womens-270x140.jpg); }
 
-.collection-wcycle {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/womens/CycleRange-Womens-270x140.jpg); }
+.heroWActive {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/womens/ActiveOutdoor-Womens-270x140.jpg); }
 
-.collection-koutdoor {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/kids/OutdoorLifestyle-Kids-270x140.jpg); }
+.heroWInsect {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/womens/InsectProtect-Womens-270x140.jpg); }
 
-.collection-kactive {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/kids/ActiveOutdoor-Kids-270x140.jpg); }
+.heroWDofe {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/womens/DofE-Womens-270x140.jpg); }
 
-.collection-kinsect {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/kids/InsectProtect-Kids-270x140.jpg); }
+.heroWSki {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/womens/SkiCollection-Womens-270x140.jpg); }
 
-.collection-kswimwear {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/kids/Swimwear-Kids-270x140.jpg); }
+.heroKOutdoor {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/kids/OutdoorLifestyle-Kids-270x140.jpg); }
 
-.collection-kschool {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/kids/MM-BTS.jpg); }
+.heroKActive {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/kids/Active-OutdoorLifestyle-Kids-270x140.jpg); }
 
-.collection-atents {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/accessories/Tents-270x140.jpg); }
+.heroKSki {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/kids/SkiCollection-Kids-270x140.jpg); }
 
-.collection-aluggage {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/accessories/Luggage-270x140.jpg); }
+.heroRucksacks {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/accessories/Rucksacks-297x154.jpg); }
 
-.collection-apets {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/accessories/Pets-270x140.jpg); }
+.heroBags {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/accessories/Bags-297x154.jpg); }
 
-.collection-arucksacks {
-  background-image: url(https://cdn.hawkshead.com/img/SS18/UK/misc/mega_menu/accessories/Rucksacks-270x140.jpg); }
+.heroBelts {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/accessories/Belts-297x154.jpg); }
+
+.heroCampingAcc {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/accessories/CampingAccessories-297x154.jpg); }
+
+.heroWalkPoles {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/accessories/WalkingPoles-297x154.jpg); }
+
+.heroTravelAcc {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/accessories/TravelAccessories-297x154.jpg); }
+
+.heroPetAcc {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/accessories/Pets-297x154.jpg); }
+
+.heroProofers {
+  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/accessories/Proofer-297x154.jpg); }
 
 /* Mobile Menu */
-.menuSection {
+/*.menuSection {
   width: 17% !important;
+  text-align: left;
+}
+
+.menuSection.menuCollection {
+  width: 49% !important;
+  
+}*/
+.menuSection {
+  width: 11% !important;
   text-align: left; }
 
 .menuSection.menuCollection {
-  width: 49% !important; }
+  width: 67% !important; }
 
 .menuSection.menuBrands {
   width: 100% !important; }
@@ -3028,13 +3052,17 @@ a.c-product-size__size-guide-link:hover {
 
 .collectionItem {
   width: 100%;
-  max-width: 270px !important;
+  max-width: 260px !important;
   position: relative;
   margin-bottom: 1.2%; }
 
-.collectionItem:nth-child(2),
+/*.collectionItem:nth-child(2),
 .collectionItem:nth-child(4) {
-  margin: 0 0 12px 12px; }
+    margin: 0 0 12px 12px;
+}*/
+.collectionItem:nth-child(2),
+.collectionItem:nth-child(5) {
+  margin: 0 12px 12px 12px !important; }
 
 .s-main-menu .block .category-items {
   padding-top: 10px; }
@@ -3092,22 +3120,60 @@ a.c-product-size__size-guide-link:hover {
 .category-items.mobileItems {
   display: none; }
 
+.menuSection.menuAccessories {
+  width: 100% !important; }
+
+.menuAccessories .collectionItem {
+  display: inline-block;
+  max-width: 297px !important;
+  margin-bottom: 0.7%;
+  margin-right: 0.7% !important; }
+
+.menuAccessories .collectionItem:nth-child(2),
+.menuAccessories .collectionItem:nth-child(5) {
+  margin: 0 0.7% 0.7% 0 !important; }
+
+.menuAccessories .collectionItem:nth-child(4),
+.menuAccessories .collectionItem:nth-child(8) {
+  margin-right: 0 !important; }
+
+.s-main-menu .block .category-items .menuAccessories .collectionItem a {
+  padding: 22% 0px !important; }
+
+.collectionItem:nth-child(2),
+.collectionItem:nth-child(4) {
+  margin: 0; }
+
 @media only screen and (max-width: 1227px) {
   .collectionItem {
-    max-width: 180px; }
+    max-width: 207px !important; }
 
-  .collectionItem a.collection-moutdoor,
+  /*.collectionItem a.collection-moutdoor,
   .collectionItem a.collection-mdofe,
   .collectionItem a.collection-mdiscovery,
   .collectionItem a.collection-woutdoor,
   .collectionItem a.collection-wdofe,
   .collectionItem a.collection-wdiscovery {
     padding: 27% 0;
-    line-height: 1; }
-
+    
+  }*/
   .menuAmbassadors .collectionItem {
     max-width: 100px;
-    line-height: 1.2; } }
+    line-height: 1.2; }
+
+  .s-main-menu .block .category-items .collectionItem a {
+    padding: 23% 0px !important;
+    line-height: 1; }
+
+  .menuAccessories .collectionItem {
+    max-width: 239px !important; }
+
+  .s-main-menu .block .category-items .menuAccessories .collectionItem a {
+    padding: 23% 0px !important; }
+
+  .collectionItem:nth-child(2),
+  .collectionItem:nth-child(4) {
+    margin: 0; } }
 @media only screen and (max-width: 989px) {
   .collectionItem:nth-child(even),
   .collectionItem:nth-child(odd) {
@@ -3117,10 +3183,11 @@ a.c-product-size__size-guide-link:hover {
     max-width: 100%; }
 
   .s-main-menu .block .category-items .collectionItem a {
-    color: #343334 !important;
+    color: #000 !important;
     text-align: left !important;
     padding: 0 !important;
-    background: none; }
+    background: none;
+    padding: 10px 0 !important; }
 
   .menuSection,
   .menuSection.menuCollection {
@@ -3129,10 +3196,23 @@ a.c-product-size__size-guide-link:hover {
   .menuAmbassadors .collectionItem {
     max-width: 100%;
     margin-left: 0;
-    line-height: 2; } }
+    line-height: 2; }
+
+  .collectionItem:nth-child(2),
+  .collectionItem:nth-child(5) {
+    margin: 0 !important; }
+
+  .menuAccessories .collectionItem {
+    max-width: 100% !important; }
+
+  .s-main-menu .block .category-items .menuAccessories .collectionItem a {
+    padding: 10px 0 !important; } }
 @media only screen and (max-width: 700px) {
   .collectionItem a {
-    background: transparent; } }
+    background: transparent; }
+
+  .collectionItem {
+    max-width: 100% !important; } }
 @media only screen and (max-width: 678px) {
   .ui-menu.ui-widget.active {
     display: block !important; }
@@ -3448,7 +3528,8 @@ a.c-product-size__size-guide-link:hover {
   .c-mobile-menu__secondary-menu {
     padding-left: 20px; }
 
-  .s-main-menu .block .category-items .collectionItem a {
+  .s-main-menu .block .category-items .collectionItem a,
+  .s-main-menu .block .category-items .menuAccessories .collectionItem a {
     padding: 20px !important; }
 
   html.nav-open,
