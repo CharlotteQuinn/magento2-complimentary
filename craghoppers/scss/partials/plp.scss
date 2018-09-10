@@ -219,15 +219,15 @@ p.c-price__group.nowPrice span:before {
     content: 'Now: ';
 }
 
-.c-price.c-price--small.noRRP .c-price__group.sale{
+.c-price.c-price--small.noRrp .c-price__group.sale{
 	color:#333333;
 }
 
-.c-price.c-price--small.hasRRP .c-price__group.original{
+.c-price.c-price--small.hasRrp .c-price__group.original{
 	color:#333333;
 }
 
-.c-price.c-price--small.hasRRP .c-price__group.sale{
+.c-price.c-price--small.hasRrp .c-price__group.sale{
 	color:#ff0000;
 }
 
