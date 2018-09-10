@@ -846,3 +846,178 @@ All code must be cleared after it goes live
 	}
 }
 /* PDP Updates END */
+
+
+.columnHead {
+    display: block;
+}
+
+.menuSection ul.columnContent.columnExperimentOne {
+    max-width: 460px;
+    display: inline-flex !important;
+}
+
+.menuSection ul.columnContent.columnExperimentTwo {
+    max-width: 255px;
+    display: inline-flex !important;
+    vertical-align: top;
+    padding-left: 1% !important;
+}
+
+.columnExperimentTwo .collectionItem {
+    max-width: 255px;
+}
+
+.columnExperimentTwo .collectionItem a {
+    padding: 59% 0 !important;
+    background-size: cover !important;
+}
+
+.columnExperimentOne .collectionItem {
+    display: inline-flex;
+    margin: 0;
+}
+
+.s-main-menu .block .category-items .collectionItem a.collection-mdofe {
+    padding: 24% 0;
+}
+
+.columnExperimentOne .collectionItem:nth-child(1),
+.columnExperimentOne .collectionItem:nth-child(2) {
+    margin-bottom: 2%;
+}
+
+.columnExperimentOne .collectionItem:nth-child(1),
+.columnExperimentOne .collectionItem:nth-child(3) {
+    margin-right: 2%;
+}
+
+.collectionMobile{
+	display:none !important;
+}
+
+
+
+
+
+
+
+/*
+.collectionItem {
+    width: 100%;
+    max-width: 220px;
+    position: relative;
+    margin-bottom: 1.2%;
+}
+
+.menuSection ul.columnContent.columnExperimentOne {
+    max-width: 450px;
+    display: inline-flex !important;
+}
+
+.columnExperimentOne .collectionItem:nth-child(1), .columnExperimentOne .collectionItem:nth-child(3) {
+    margin-right: 10px;
+}
+
+.columnExperimentOne .collectionItem:nth-child(1), .columnExperimentOne .collectionItem:nth-child(2) {
+    margin-bottom: 2%;
+}
+
+.columnExperimentOne .collectionItem {
+    display: inline-flex;
+    margin: 0;
+}
+
+.s-main-menu .block .category-items .collectionItem a {
+    color: #fff;
+    text-align: center;
+    padding: 28.7% 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.s-main-menu .block .category-items .collectionItem a.collection-mdofe {
+    padding: 22.7% 0;
+}
+
+.menuSection ul.columnContent.columnExperimentTwo {
+    max-width: 228px;
+    display: inline-flex !important;
+    vertical-align: top;
+    padding-left: 1% !important;
+}
+
+.columnExperimentTwo .collectionItem {
+    max-width: 220px;
+    margin-bottom: 0;
+}
+
+.columnExperimentTwo .collectionItem a {
+    padding: 65% 0 !important;
+    background-size: cover !important;
+}
+
+*/
+
+
+
+
+
+
+@media only screen and (max-width:1228px){
+	.menuSection ul.columnContent.columnExperimentOne {
+	    max-width: 368px;
+	}
+
+	.menuSection ul.columnContent.columnExperimentTwo {
+	    max-width: 204px;
+	}
+
+	.s-main-menu .block .category-items .collectionItem a {
+	    padding: 28% 0px;
+	}
+
+	.columnExperimentOne .collectionItem:nth-child(1),
+	.columnExperimentOne .collectionItem:nth-child(2) {
+	    margin-bottom: 1%;
+	}
+
+	.columnExperimentTwo .collectionItem a {
+    	padding: 57.3% 0 !important;
+	}
+
+
+
+
+/*
+	.collectionItem {
+	    max-width: 180px;
+	}
+
+	.columnExperimentOne .collectionItem:nth-child(1),
+	.columnExperimentOne .collectionItem:nth-child(3) {
+	    margin-right: 7px;
+	}
+
+	.s-main-menu .block .category-items .collectionItem a {
+	    padding: 28% 0px;
+	}
+
+	.s-main-menu .block .category-items .collectionItem a.collection-moutdoor,
+	.s-main-menu .block .category-items .collectionItem a.collection-mdofe {
+	    //padding: 21% 0;
+	    padding: 27% 0;
+	}*/
+
+
+}
+
+@media only screen and (max-width:989px){
+	.collectionMobile{
+		display:block !important;
+	}
+
+	.columnExperimentTwo{
+		display: none !important;
+	}
+}

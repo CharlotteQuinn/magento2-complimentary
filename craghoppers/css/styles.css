@@ -7875,6 +7875,15 @@ html .catalog-category-view .c-product-tile.u-heading-epsilon .c-rating__reviews
 p.c-price__group.nowPrice span:before {
   content: 'Now: '; }
 
+.c-price.c-price--small.noRRP .c-price__group.sale {
+  color: #333333; }
+
+.c-price.c-price--small.hasRRP .c-price__group.original {
+  color: #333333; }
+
+.c-price.c-price--small.hasRRP .c-price__group.sale {
+  color: #ff0000; }
+
 @media only screen and (max-width: 550px) {
   .pageothertext {
     padding: 0 10px; }
