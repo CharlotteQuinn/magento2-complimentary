@@ -69,6 +69,7 @@ requirejs(['jquery'], function( $ ) {
             var accountIcon = document.createElement("DIV");
             accountIcon.classList.add("accountIcon");
             accountIcon.classList.add("stickyIcon");
+            accountIcon.classList.add("iconClose");
             var list = document.querySelector(".s-main-menu ul + .o-layout__item .o-layout .o-layout__item");    
             list.insertBefore(accountIcon, list.childNodes[0]);
           
@@ -76,6 +77,7 @@ requirejs(['jquery'], function( $ ) {
             var searchIcon = document.createElement("DIV");
             searchIcon.classList.add("searchIcon");
             searchIcon.classList.add("stickyIcon");
+            searchIcon.classList.add("iconClose");
             var list = document.querySelector(".s-main-menu ul + .o-layout__item .o-layout:nth-child(2) .o-layout__item");    
             list.insertBefore(searchIcon, list.childNodes[0]);
 
@@ -127,6 +129,7 @@ function clickCheck(){
     }
       
     jQuery(this).toggleClass("iconActive");
+    jQuery(this).toggleClass("iconClose");
 
   });  
 
@@ -137,7 +140,9 @@ function clickCheck(){
     }
     
     jQuery(this).toggleClass("iconActive");
+    jQuery(this).toggleClass("iconClose");
 
   });
+
 
 };
