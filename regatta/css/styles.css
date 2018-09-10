@@ -1010,10 +1010,15 @@ html .catalog-category-view {
   html .catalog-category-view .c-price.c-price--small > p.c-price__group:first-child {
     font-size: 12px;
     text-align: center; }
+  html .catalog-category-view .c-price.c-price--small.noRrp .c-price__group.sale {
+    color: #333333; }
+  html .catalog-category-view .c-price.c-price--small.hasRrp .c-price__group.original {
+    color: #333333; }
+  html .catalog-category-view .c-price.c-price--small.hasRrp .c-price__group.sale {
+    color: #D32526; }
   html .catalog-category-view .c-price.c-price--small > p.c-price__group:last-child {
     font-size: 18px;
     text-align: center;
-    color: #D32526;
     font-weight: bold; }
   html .catalog-category-view .c-price.c-price--small > p.c-price__group:last-child .c-price__final.u-color-highlight {
     font-size: inherit; }
@@ -1138,10 +1143,18 @@ html .search-index-index {
   html .search-index-index .c-price.c-price--small > p.c-price__group:first-child {
     font-size: 12px;
     text-align: center; }
+  html .search-index-index .c-price.c-price--small > p.c-price__group:first-child {
+    font-size: 12px;
+    text-align: center; }
+  html .search-index-index .c-price.c-price--small.noRrp .c-price__group.sale {
+    color: #333333; }
+  html .search-index-index .c-price.c-price--small.hasRrp .c-price__group.original {
+    color: #333333; }
+  html .search-index-index .c-price.c-price--small.hasRrp .c-price__group.sale {
+    color: #D32526; }
   html .search-index-index .c-price.c-price--small > p.c-price__group:last-child {
     font-size: 18px;
     text-align: center;
-    color: #D32526;
     font-weight: bold; }
   html .search-index-index .c-price.c-price--small > p.c-price__group:last-child .c-price__final.u-color-highlight {
     font-size: inherit; }
