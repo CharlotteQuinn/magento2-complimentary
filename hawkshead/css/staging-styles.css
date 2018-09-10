@@ -4781,44 +4781,4 @@ div#monVars.roundelhide + .product-info-stock-sku > .save__product-page {
   .hh-clearance-store .clearance-store-wrapper.Xmas .col-6.cs-hero .cs-title {
     margin-bottom: 0.5%; } }
 
-.heroCraghoppers {
-  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/brands/Crags-Mega-445x175.jpg); }
-
-.heroRegatta {
-  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/brands/Regatta-Mega-445x175.jpg); }
-
-.heroDare2b {
-  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/brands/Dare2B-Mega-445x175.jpg); }
-
-.heroLowa {
-  background-image: url(https://cdn.hawkshead.com/img/AW18/UK/misc/mega_menu/brands/Lowa-Mega-445x175.jpg); }
-
-.brandsSection.brandHero {
-  width: 75% !important; }
-
-.brandHero .collectionItem {
-  display: inline-block;
-  max-width: 438px !important; }
-
-.s-main-menu .block .category-items .brandHero .collectionItem a {
-  padding: 17% 0px; }
-
-.brandHero .collectionItem {
-  display: inline-block;
-  max-width: 445px !important;
-  margin: 0 1% 1% 0 !important; }
-
-.brandHero .collectionItem:nth-child(2), .brandHero .collectionItem:nth-child(4) {
-  margin-right: 0 !important; }
-
-@media only screen and (max-width: 1227px) {
-  .s-main-menu .block .category-items .brandHero .collectionItem a {
-    padding: 18% 0px !important; }
-
-  .brandHero .collectionItem {
-    max-width: 357px !important; } }
-@media only screen and (max-width: 989px) {
-  .brandsSection.brandHero {
-    display: none; } }
-
 /*# sourceMappingURL=staging-styles.css.map */
