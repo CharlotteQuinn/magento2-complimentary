@@ -10401,144 +10401,145 @@ All code must be cleared after it goes live
     opacity: 0; }
   100% {
     opacity: 1; } }
-.cms-homepage-promo-grid-ch-us {
-  /* search etc features */
-  /* search etc features END */
-  /* CHUS Header Updates END */
-  /* Gender align filters */ }
-  .cms-homepage-promo-grid-ch-us .o-layout__item.headFeatures.headFeaturesHide {
-    display: none; }
-  .cms-homepage-promo-grid-ch-us .headerSticky {
-    /*.s-main-menu ul + .o-layout__item.headFeatures{
-        float: right;
-        width: 23% !important;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }*/
-    /*.s-main-menu ul + .o-layout__item .o-layout {
-        width: 50% !important;
-        display: inline-block;
-    }*/
-    /*.s-header-links {
-        display: none;
-    }*/
-    /*.stickyIcon.iconActive + div {
-        display: block !important;
-    }*/
-    /*.s-main-menu ul + .o-layout__item .o-layout {
-        float: left !important;
-        margin-left: 0;
-        width: auto !important;
-    }*/
-    		/*.accountIcon + .s-header-links ul li {
-    	    	height: 0;
-    	    	transition: height 1s;
-    		}
-    
-    		.accountIcon.iconActive + .s-header-links ul li {
-    		    height: 30px;
-    		    transition: height 1s;
-    		}*/ }
-    .cms-homepage-promo-grid-ch-us .headerSticky .sections.nav-sections,
-    .cms-homepage-promo-grid-ch-us .headerSticky .generic-usp {
-      display: none; }
-    .cms-homepage-promo-grid-ch-us .headerSticky ul#ui-id-3::before {
-      background-image: url(https://cdn.craghoppers.com/img/logo/logoMouflon.svg);
-      display: inline-block;
-      content: '';
-      width: 30px;
-      height: 30px;
-      float: left;
-      margin-top: 8px;
-      background-repeat: no-repeat;
-      position: relative;
-      left: 160px; }
-    .cms-homepage-promo-grid-ch-us .headerSticky div#header {
-      position: fixed;
-      z-index: 9;
-      animation-name: headerSticky;
-      animation-duration: 1s;
-      animation-fill-mode: forwards;
-      animation-timing-function: linear; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .c-page-wrapper {
-      padding-top: 8%; }
-    .cms-homepage-promo-grid-ch-us .headerSticky div#top-search {
-      display: none;
-      width: 100vw;
-      left: -82vw;
-      position: relative;
-      background: #fff;
-      padding: 5% 0;
-      margin-top: 11%; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .c-header .o-region__inner .o-layout .o-layout__item {
-      display: none; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .s-main-menu ul + .o-layout__item {
+.cms-homepage-promo-grid-ch-us .o-layout__item.headFeatures.headFeaturesHide {
+  display: none; }
+
+/* search etc features */
+.cms-homepage-promo-grid-ch-us.headerSticky {
+  /*.s-main-menu ul + .o-layout__item.headFeatures{
       float: right;
       width: 23% !important;
       position: absolute;
       right: 0;
-      top: 0; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .c-mini-cart-btn__items.counter.qty {
-      display: none; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .accountIcon {
-      background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/header/user_account.svg);
-      width: 25px;
-      height: 25px;
-      display: block;
-      background-size: contain;
-      background-repeat: no-repeat;
-      margin-top: 6%; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .searchIcon {
-      background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20width%3D%2241px%22%20height%3D%2240px%22%20viewBox%3D%220%200%2041%2040%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%20%20%20%20%20%20%20%20%3Ctitle%3Esearch%3C%2Ftitle%3E%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C%2Fdesc%3E%20%20%20%20%3Cdefs%3E%3C%2Fdefs%3E%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%20%20%20%20%20%20%20%20%3Cg%20id%3D%22search%22%20fill%3D%22%23DFE0E1%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M41%2C36.9%20C41%2C38.6%2039.6%2C40%2037.9%2C40%20C37.1%2C40%2036.3%2C39.7%2035.7%2C39.1%20L27.5%2C30.9%20C24.7%2C32.9%2021.3%2C33.9%2017.9%2C33.9%20C15.6%2C33.9%2013.4%2C33.5%2011.3%2C32.6%20C7.2%2C30.9%204%2C27.7%202.3%2C23.6%20C0.5%2C19.4%200.5%2C14.7%202.3%2C10.5%20C4%2C6.4%207.2%2C3.2%2011.3%2C1.5%20C15.5%2C-0.3%2020.2%2C-0.3%2024.4%2C1.5%20C28.5%2C3.2%2031.7%2C6.4%2033.4%2C10.5%20C34.3%2C12.6%2034.7%2C14.8%2034.7%2C17.1%20C34.7%2C20.5%2033.7%2C23.9%2031.7%2C26.7%20L39.9%2C34.9%20C40.7%2C35.3%2041%2C36.1%2041%2C36.9%20Z%20M25.5%2C24.5%20C29.7%2C20.3%2029.7%2C13.5%2025.5%2C9.3%20C21.3%2C5.1%2014.5%2C5.1%2010.3%2C9.3%20C6.1%2C13.5%206.1%2C20.3%2010.3%2C24.5%20C12.3%2C26.5%2015%2C27.6%2017.9%2C27.6%20C20.8%2C27.7%2023.5%2C26.6%2025.5%2C24.5%20Z%22%20id%3D%22search.svg%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%3C%2Fg%3E%3C%2Fsvg%3E") !important;
-      width: 25px;
-      height: 25px;
-      display: block;
-      background-size: contain;
-      background-repeat: no-repeat;
-      margin-top: 6%; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .accountIcon + .s-header-links {
-      background: #fff; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .s-main-menu ul + .o-layout__item .o-layout {
+      top: 0;
+  }*/
+  /*.s-main-menu ul + .o-layout__item .o-layout {
+      width: 50% !important;
+      display: inline-block;
+  }*/
+  /*.s-header-links {
+      display: none;
+  }*/
+  /*.stickyIcon.iconActive + div {
+      display: block !important;
+  }*/
+  /*.s-main-menu ul + .o-layout__item .o-layout {
       float: left !important;
-      margin-left: 0; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .s-main-menu ul + .o-layout__item .o-layout:nth-child(1) {
-      width: 20% !important; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .s-main-menu ul + .o-layout__item .o-layout:nth-child(2) {
-      width: 40% !important; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .accountIcon + .s-header-links {
-      width: 200px;
-      position: relative;
-      left: -30px;
-      height: 0;
-      opacity: 0;
-      transition: height 1s; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .accountIcon.iconActive + .s-header-links {
-      height: 150px;
-      opacity: 1;
-      transition: height 1s; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .accountIcon + .s-header-links ul {
-      display: none; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .accountIcon.iconActive + .s-header-links ul {
-      text-align: left;
-      display: block; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .accountIcon.iconActive + .s-header-links ul li {
-      width: 100% !important;
-      padding-left: 10px !important; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .authorization-link a[data-bind="visible: !isLoggedIn()"]:after {
-      display: none !important; }
-    .cms-homepage-promo-grid-ch-us .headerSticky li.greet.welcome {
-      display: none; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .c-header-search {
-      width: 100%;
-      margin: 0 auto;
-      max-width: 559px; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .stickyIcon {
-      cursor: pointer; }
-    .cms-homepage-promo-grid-ch-us .headerSticky .searchIcon.iconActive + div#top-search {
-      display: block; }
-  .cms-homepage-promo-grid-ch-us .o-layout__item.c-selected-facets--position {
-    margin-top: 9%; }
+      margin-left: 0;
+      width: auto !important;
+  }*/
+  		/*.accountIcon + .s-header-links ul li {
+  	    	height: 0;
+  	    	transition: height 1s;
+  		}
+  
+  		.accountIcon.iconActive + .s-header-links ul li {
+  		    height: 30px;
+  		    transition: height 1s;
+  		}*/ }
+  .cms-homepage-promo-grid-ch-us.headerSticky .sections.nav-sections,
+  .cms-homepage-promo-grid-ch-us.headerSticky .generic-usp {
+    display: none; }
+  .cms-homepage-promo-grid-ch-us.headerSticky ul#ui-id-3::before {
+    background-image: url(https://cdn.craghoppers.com/img/logo/logoMouflon.svg);
+    display: inline-block;
+    content: '';
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 8px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 160px; }
+  .cms-homepage-promo-grid-ch-us.headerSticky div#header {
+    position: fixed;
+    z-index: 9;
+    animation-name: headerSticky;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .c-page-wrapper {
+    padding-top: 8%; }
+  .cms-homepage-promo-grid-ch-us.headerSticky div#top-search {
+    display: none;
+    width: 100vw;
+    left: -82vw;
+    position: relative;
+    background: #fff;
+    padding: 5% 0;
+    margin-top: 11%; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .c-header .o-region__inner .o-layout .o-layout__item {
+    display: none; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .s-main-menu ul + .o-layout__item {
+    float: right;
+    width: 23% !important;
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .c-mini-cart-btn__items.counter.qty {
+    display: none; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .accountIcon {
+    background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/header/user_account.svg);
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 6%; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .searchIcon {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20width%3D%2241px%22%20height%3D%2240px%22%20viewBox%3D%220%200%2041%2040%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%20%20%20%20%20%20%20%20%3Ctitle%3Esearch%3C%2Ftitle%3E%20%20%20%20%3Cdesc%3ECreated%20with%20Sketch.%3C%2Fdesc%3E%20%20%20%20%3Cdefs%3E%3C%2Fdefs%3E%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%20%20%20%20%20%20%20%20%3Cg%20id%3D%22search%22%20fill%3D%22%23DFE0E1%22%3E%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M41%2C36.9%20C41%2C38.6%2039.6%2C40%2037.9%2C40%20C37.1%2C40%2036.3%2C39.7%2035.7%2C39.1%20L27.5%2C30.9%20C24.7%2C32.9%2021.3%2C33.9%2017.9%2C33.9%20C15.6%2C33.9%2013.4%2C33.5%2011.3%2C32.6%20C7.2%2C30.9%204%2C27.7%202.3%2C23.6%20C0.5%2C19.4%200.5%2C14.7%202.3%2C10.5%20C4%2C6.4%207.2%2C3.2%2011.3%2C1.5%20C15.5%2C-0.3%2020.2%2C-0.3%2024.4%2C1.5%20C28.5%2C3.2%2031.7%2C6.4%2033.4%2C10.5%20C34.3%2C12.6%2034.7%2C14.8%2034.7%2C17.1%20C34.7%2C20.5%2033.7%2C23.9%2031.7%2C26.7%20L39.9%2C34.9%20C40.7%2C35.3%2041%2C36.1%2041%2C36.9%20Z%20M25.5%2C24.5%20C29.7%2C20.3%2029.7%2C13.5%2025.5%2C9.3%20C21.3%2C5.1%2014.5%2C5.1%2010.3%2C9.3%20C6.1%2C13.5%206.1%2C20.3%2010.3%2C24.5%20C12.3%2C26.5%2015%2C27.6%2017.9%2C27.6%20C20.8%2C27.7%2023.5%2C26.6%2025.5%2C24.5%20Z%22%20id%3D%22search.svg%22%3E%3C%2Fpath%3E%20%20%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%3C%2Fg%3E%3C%2Fsvg%3E") !important;
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 6%; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .accountIcon + .s-header-links {
+    background: #fff; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .s-main-menu ul + .o-layout__item .o-layout {
+    float: left !important;
+    margin-left: 0; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .s-main-menu ul + .o-layout__item .o-layout:nth-child(1) {
+    width: 20% !important; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .s-main-menu ul + .o-layout__item .o-layout:nth-child(2) {
+    width: 40% !important; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .accountIcon + .s-header-links {
+    width: 200px;
+    position: relative;
+    left: -30px;
+    height: 0;
+    opacity: 0;
+    transition: height 1s; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .accountIcon.iconActive + .s-header-links {
+    height: 150px;
+    opacity: 1;
+    transition: height 1s; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .accountIcon + .s-header-links ul {
+    display: none; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .accountIcon.iconActive + .s-header-links ul {
+    text-align: left;
+    display: block; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .accountIcon.iconActive + .s-header-links ul li {
+    width: 100% !important;
+    padding-left: 10px !important; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .authorization-link a[data-bind="visible: !isLoggedIn()"]:after {
+    display: none !important; }
+  .cms-homepage-promo-grid-ch-us.headerSticky li.greet.welcome {
+    display: none; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .c-header-search {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 559px; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .stickyIcon {
+    cursor: pointer; }
+  .cms-homepage-promo-grid-ch-us.headerSticky .searchIcon.iconActive + div#top-search {
+    display: block; }
+
+/* search etc features END */
+/* CHUS Header Updates END */
+/* Gender align filters */
+.cms-homepage-promo-grid-ch-us .o-layout__item.c-selected-facets--position {
+  margin-top: 9%; }
 
 @media only screen and (max-width: 1227px) {
   .cms-homepage-promo-grid-ch-us .o-layout__item.c-selected-facets--position {

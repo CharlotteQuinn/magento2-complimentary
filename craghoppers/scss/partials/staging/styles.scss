@@ -588,9 +588,9 @@ All code must be cleared after it goes live
 	.o-layout__item.headFeatures.headFeaturesHide {
 		display: none;
 	}
-
+}
 	/* search etc features */
-	.headerSticky{
+	.cms-homepage-promo-grid-ch-us.headerSticky{
 
 		.sections.nav-sections,
 		.generic-usp {
@@ -784,7 +784,7 @@ All code must be cleared after it goes live
 	/* CHUS Header Updates END */
 
 	/* Gender align filters */
-
+.cms-homepage-promo-grid-ch-us{
 	.o-layout__item.c-selected-facets--position {
 	    margin-top: 9%;
 	}
