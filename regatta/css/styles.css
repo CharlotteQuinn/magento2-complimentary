@@ -968,6 +968,11 @@ html .s-usp {
 /*//////////////////////////////*/
 /*  New PLP theme Category page */
 /*//////////////////////////////*/
+.page-product-configurable #content .c-tabs {
+  background: none !important;
+  border-top: solid 1px #eaeaea;
+  border-bottom: solid 1px #eaeaea; }
+
 .search-index-index .c-product-tile .c-product-tile__btn {
   color: #6EB134 !important;
   background: #fff !important;
@@ -985,7 +990,9 @@ html .catalog-category-view {
     display: block; }
   html .catalog-category-view .c-product-tile__title {
     color: #5f5f5e;
-    font-weight: normal; }
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px; }
   html .catalog-category-view .s-text-banner {
     padding: 0% 1%;
     text-align: left;
@@ -1029,7 +1036,8 @@ html .catalog-category-view {
     color: #a7a7a7; }
   @media only screen and (max-width: 1228px) {
     html .catalog-category-view .c-product-tile__title {
-      line-height: 18px; }
+      font-size: 12px;
+      line-height: 14px; }
     html .catalog-category-view .c-product-tile.u-heading-epsilon .c-rating__reviews::after {
       display: none; } }
   @media only screen and (max-width: 989px) {
@@ -1066,7 +1074,7 @@ html .catalog-category-view {
         transform: scale(0.9);
         margin: 0px; }
       html .catalog-category-view .c-product-tile.u-heading-epsilon .c-product-tile__save {
-        bottom: 85px; }
+        bottom: 73px; }
       html .catalog-category-view .c-btn.c-btn--secondary.c-btn--expanded.c-product-tile__btn {
         margin-top: 40px;
         padding: 5px 10px; }
@@ -1678,6 +1686,18 @@ html .c-basket__payment-icons {
 /*//////////////////////////
 /* Footer Block */
 /*////////////////////////*/
+.emailSignUp {
+  margin-top: 20px;
+  display: block; }
+
+.emailSignUp img {
+  max-width: 30px;
+  display: inline-block;
+  float: left;
+  height: 70px;
+  padding-bottom: 45px;
+  padding-right: 10px; }
+
 .c-feefo p, .c-feefo h4, .c-feefo h5 {
   color: #fff; }
 
@@ -2034,7 +2054,7 @@ body .c-product-tile .c-product-tile__btn {
   max-width: 1228px;
   padding: 0; }
 
-.catalog-category-view .s-text-banner h2, .catalog-category-view .s-text-banner h3, .catalog-category-view .s-text-banner p {
+.catalog-category-view .s-text-banner p {
   margin: 0; }
 
 .catalog-category-view .columns .column.main {
@@ -2498,7 +2518,8 @@ html .catalog-category-view .c-btn.c-btn--secondary.c-btn--expanded.c-product-ti
   border-radius: 4px !important;
   background: #fff !important;
   border: solid 2px #6EB134 !important;
-  color: #6EB134 !important; }
+  color: #6EB134 !important;
+  margin-top: 40px !important; }
 
 /*////////////////////////////////*/
 /*/ MEGA MENU                     */
