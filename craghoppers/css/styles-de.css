@@ -2234,13 +2234,18 @@ ul.fullWidthSlider__slidesList {
     height: 65vw;
     max-height: 324px; } }
 /* Homepage SEO show/hide */
-.pageSection--Seo p {
-  height: 50px;
+.pageSection--Seo {
+  height: 140px;
   overflow: hidden; }
 
-.pageSection--Seo.seo-open p {
+.pageSection--Seo.seo-open {
   height: auto;
   overflow: visible; }
+
+.pageSection.pageSection--Seo h2,
+.pageSection.pageSection--Seo h3,
+.pageSection.pageSection--Seo h4 {
+  font-size: 18px; }
 
 .readmore {
   margin: auto;
