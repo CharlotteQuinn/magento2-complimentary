@@ -31,6 +31,108 @@ li#switcher-currency-nav {
 /*//////////////////////////////*/
 /*  Product Page                */
 /*//////////////////////////////*/
+/* More Colours arrow styles (More than 4 items)*/
+.products.wrapper.grid.products-grid.products-related {
+  margin: 0px 20px;
+  position: relative;
+}
+
+.products.wrapper.grid.products-grid.products-related ol {
+  float: left;
+  display: block;
+  overflow: auto;
+  white-space: nowrap;
+  position: relative;
+  transition: all ease 0.5s;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.products.wrapper.grid.products-grid.products-related ol::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.products.wrapper.grid.products-grid.products-related li {
+  margin-bottom: 18px;
+  background: #ffffff;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+  margin: 0;
+  display: inline-block;
+  float: none;
+}
+
+.nextArrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.previousArrow {
+  background: url(https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/black-arrow-line.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px;
+  width: 15px;
+  height: 110px;
+  position: absolute;
+  left: -30px;
+  top: 0;
+  display: block;
+  z-index: 1;
+  font-size: 0px;
+  -ms-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.nextArrow {
+  background: url(https://dbdhuxde2t9el.cloudfront.net/AW16/img/global/black-arrow-line.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px;
+  width: 15px;
+  height: 110px;
+  position: absolute;
+  right: -30px;
+  top: 0;
+  display: block;
+  z-index: 1;
+  font-size: 0px;
+}
+
+@media only screen and (max-width:600px) {
+  .products.wrapper.grid.products-grid.products-related {
+    display: inline-block;
+  }
+
+  .products.wrapper.grid.products-grid.products-related ol {
+    width: calc(100% - 30px);
+    margin: auto;
+    float: none;
+  }
+
+  .nextArrow {
+    background-size: 12px;
+    right: -25px;
+    top: 0;
+    width: 30px;
+    height: 100%;
+  }
+
+  .previousArrow {
+    background-size: 12px;
+    left: -25px;
+    top: 0;
+    width: 30px;
+    height: 100%;
+  }
+
+}
+
 .page-product-configurable .c-price.js-price-highlight .c-price--large  .price-label + .c-price__final.price-wrapper > .price{
     color: #D32526;
 }
