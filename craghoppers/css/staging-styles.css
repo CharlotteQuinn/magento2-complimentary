@@ -10768,11 +10768,46 @@ All code must be cleared after it goes live
   margin-bottom: 0; }
 
 .columnCollectionSingle .collectionItem a {
-  padding: 65% 0 !important;
-  background-size: cover !important; }
+  padding: 65% 0 !important; }
 
 .collectionMobile {
   display: none !important; }
+
+.collection-mdofe {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/mens/MensDofE.jpg"); }
+
+.collection-minsect {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/mens/MensInsectProtectiveClothing.jpg"); }
+
+.collection-moutdoor {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/mens/MensOutdoorProtection.jpg"); }
+
+.collection-mrecycled {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/mens/MensRecycledClothing.jpg"); }
+
+.collection-msun {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/mens/MensSunProtective.jpg"); }
+
+.collection-wdofe {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/womens/WomensDofE.jpg"); }
+
+.collection-winsect {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/womens/WomensInsectProtectiveClothing.jpg"); }
+
+.collection-woutdoor {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/womens/WomensOutdoorProtection.jpg"); }
+
+.collection-wrecycled {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/womens/WomensRecycledClothing.jpg"); }
+
+.collection-wsun {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/womens/WomensSunProtective.jpg"); }
+
+.collection-koutdoor {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/womens/WomensOutdoorProtection.jpg"); }
+
+.menuSection.menuCollection .columnHead {
+  margin-top: 1.6%; }
 
 @media only screen and (max-width: 1228px) {
   .menuSection ul.columnContent.columnCollectionQuad {
