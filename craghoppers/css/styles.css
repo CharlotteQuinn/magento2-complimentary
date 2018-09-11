@@ -7224,26 +7224,38 @@ a:nth-child(2) .fp-CTA {
   .affiliateAll a {
     width: 70%; } }
 /* Affiliates END */
-.plp-fleece {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-desktop.jpg"); }
-
-.plp-trousers {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-desktop.jpg"); }
-
-.plp-jackets {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets-desktop.jpg"); }
-
-.plp-shirts {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts-desktop.jpg"); }
-
 .plp-headerMens {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Mens-desktop.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-Banners-Mens.jpg"); }
 
 .plp-headerWomens {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Womens-desktop.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-Banners-Womens.jpg"); }
 
 .plp-headerKids {
-  background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Kids-desktop.jpg"); }
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-Banners-Kids.jpg"); }
+
+.plp-fleeceMens {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-MensFleece.jpg"); }
+
+.plp-trousersMens {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-MensTrousers.jpg"); }
+
+.plp-jacketsMens {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-MensJackets.jpg"); }
+
+.plp-shirtsMens {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-MensShirts.jpg"); }
+
+.plp-fleeceWomens {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-WomensFleece.jpg"); }
+
+.plp-trousersWomens {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-WomensTrousers.jpg"); }
+
+.plp-jacketsWomens {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-WomensJackets.jpg"); }
+
+.plp-shirtsWomens {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-WomensShirts.jpg"); }
 
 .plp-headerKidsSchool {
   background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-desktop.jpg"); }
@@ -7298,26 +7310,38 @@ a:nth-child(2) .fp-CTA {
   width: 100% !important; }
 
 @media only screen and (max-width: 1000px) {
-  .plp-fleece {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-tablet.jpg"); }
-
-  .plp-trousers {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-tablet.jpg"); }
-
-  .plp-jackets {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets-tablet.jpg"); }
-
-  .plp-shirts {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts-tablet.jpg"); }
-
   .plp-headerMens {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Mens-tablet.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-BannersTablet-Mens.jpg"); }
 
   .plp-headerWomens {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Womens-tablet.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-BannersTablet-Womens.jpg"); }
 
   .plp-headerKids {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Kids-tablet.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-BannersTablet-Kids.jpg"); }
+
+  .plp-fleeceMens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersTablet-MensFleece.jpg"); }
+
+  .plp-trousersMens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersTablet-MensTrousers.jpg"); }
+
+  .plp-jacketsMens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersTablet-MensJackets.jpg"); }
+
+  .plp-shirtsMens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersTablet-MensShirts.jpg"); }
+
+  .plp-fleeceWomens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersTablet-WomensFleece.jpg"); }
+
+  .plp-trousersWomens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersTablet-WomensTrousers.jpg"); }
+
+  .plp-jacketsWomens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersTablet-WomensJackets.jpg"); }
+
+  .plp-shirtsWomens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersTablet-WomensShirts.jpg"); }
 
   .plp-headerKidsSchool {
     background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-tablet.jpg"); }
@@ -7325,26 +7349,38 @@ a:nth-child(2) .fp-CTA {
   .plp-header.plp-toplevel {
     padding: 7% 0; } }
 @media only screen and (max-width: 700px) {
-  .plp-fleece {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-mobile.jpg"); }
-
-  .plp-trousers {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-mobile.jpg"); }
-
-  .plp-jackets {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets-mobile.jpg"); }
-
-  .plp-shirts {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts-mobile.jpg"); }
-
   .plp-headerMens {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Mens-mobile.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-BannersMobile-Mens.jpg"); }
 
   .plp-headerWomens {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Womens-mobile.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-BannersMobile-Womens.jpg"); }
 
   .plp-headerKids {
-    background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Kids-mobile.jpg"); }
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-BannersMobile-Kids.jpg"); }
+
+  .plp-fleeceMens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersMobile-MensFleece.jpg"); }
+
+  .plp-trousersMens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersMobile-MensTrousers.jpg"); }
+
+  .plp-jacketsMens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersMobile-MensJackets.jpg"); }
+
+  .plp-shirtsMens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersMobile-MensShirts.jpg"); }
+
+  .plp-fleeceWomens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersMobile-WomensFleece.jpg"); }
+
+  .plp-trousersWomens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersMobile-WomensTrousers.jpg"); }
+
+  .plp-jacketsWomens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersMobile-WomensJackets.jpg"); }
+
+  .plp-shirtsWomens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/secondary_level/TopLevel-BannersMobile-WomensShirts.jpg"); }
 
   .plp-headerKidsSchool {
     background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-mobile.jpg"); }
