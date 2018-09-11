@@ -847,62 +847,11 @@ All code must be cleared after it goes live
 }
 /* PDP Updates END */
 
-
+/* CHUK Menu Update AW18 */
 .columnHead {
     display: block;
 }
 
-.menuSection ul.columnContent.columnExperimentOne {
-    max-width: 460px;
-    display: inline-flex !important;
-}
-
-.menuSection ul.columnContent.columnExperimentTwo {
-    max-width: 255px;
-    display: inline-flex !important;
-    vertical-align: top;
-    padding-left: 1% !important;
-}
-
-.columnExperimentTwo .collectionItem {
-    max-width: 255px;
-}
-
-.columnExperimentTwo .collectionItem a {
-    padding: 59% 0 !important;
-    background-size: cover !important;
-}
-
-.columnExperimentOne .collectionItem {
-    display: inline-flex;
-    margin: 0;
-}
-
-.s-main-menu .block .category-items .collectionItem a.collection-mdofe {
-    padding: 24% 0;
-}
-
-.columnExperimentOne .collectionItem:nth-child(1),
-.columnExperimentOne .collectionItem:nth-child(2) {
-    margin-bottom: 2%;
-}
-
-.columnExperimentOne .collectionItem:nth-child(1),
-.columnExperimentOne .collectionItem:nth-child(3) {
-    margin-right: 2%;
-}
-
-.collectionMobile{
-	display:none !important;
-}
-
-
-
-
-
-
-
-/*
 .collectionItem {
     width: 100%;
     max-width: 220px;
@@ -910,20 +859,22 @@ All code must be cleared after it goes live
     margin-bottom: 1.2%;
 }
 
-.menuSection ul.columnContent.columnExperimentOne {
+.menuSection ul.columnContent.columnCollectionQuad {
     max-width: 450px;
     display: inline-flex !important;
 }
 
-.columnExperimentOne .collectionItem:nth-child(1), .columnExperimentOne .collectionItem:nth-child(3) {
-    margin-right: 10px;
+.columnCollectionQuad .collectionItem:nth-child(1),
+.columnCollectionQuad .collectionItem:nth-child(3) {
+	margin-right: 10px;
 }
 
-.columnExperimentOne .collectionItem:nth-child(1), .columnExperimentOne .collectionItem:nth-child(2) {
-    margin-bottom: 2%;
+.columnCollectionQuad .collectionItem:nth-child(1),
+.columnCollectionQuad .collectionItem:nth-child(2) {
+	margin-bottom: 2%;
 }
 
-.columnExperimentOne .collectionItem {
+.columnCollectionQuad .collectionItem {
     display: inline-flex;
     margin: 0;
 }
@@ -940,24 +891,26 @@ All code must be cleared after it goes live
     padding: 22.7% 0;
 }
 
-.menuSection ul.columnContent.columnExperimentTwo {
+.menuSection ul.columnContent.columnCollectionSingle {
     max-width: 228px;
     display: inline-flex !important;
     vertical-align: top;
     padding-left: 1% !important;
 }
 
-.columnExperimentTwo .collectionItem {
+.columnCollectionSingle .collectionItem {
     max-width: 220px;
     margin-bottom: 0;
 }
 
-.columnExperimentTwo .collectionItem a {
+.columnCollectionSingle .collectionItem a {
     padding: 65% 0 !important;
     background-size: cover !important;
 }
 
-*/
+.collectionMobile{
+	display:none !important;
+}
 
 
 
@@ -965,37 +918,29 @@ All code must be cleared after it goes live
 
 
 @media only screen and (max-width:1228px){
-	.menuSection ul.columnContent.columnExperimentOne {
+	.menuSection ul.columnContent.columnCollectionQuad {
 	    max-width: 368px;
 	}
 
-	.menuSection ul.columnContent.columnExperimentTwo {
+	.menuSection ul.columnContent.columnCollectionSingle {
 	    max-width: 204px;
 	}
 
-	.s-main-menu .block .category-items .collectionItem a {
-	    padding: 28% 0px;
-	}
-
-	.columnExperimentOne .collectionItem:nth-child(1),
-	.columnExperimentOne .collectionItem:nth-child(2) {
+	.columnCollectionQuad .collectionItem:nth-child(1),
+	.columnCollectionQuad .collectionItem:nth-child(2) {
 	    margin-bottom: 1%;
 	}
 
-	.columnExperimentTwo .collectionItem a {
+	.columnCollectionSingle .collectionItem a {
     	padding: 57.3% 0 !important;
 	}
 
-
-
-
-/*
 	.collectionItem {
 	    max-width: 180px;
 	}
 
-	.columnExperimentOne .collectionItem:nth-child(1),
-	.columnExperimentOne .collectionItem:nth-child(3) {
+	.columnCollectionQuad .collectionItem:nth-child(1),
+	.columnCollectionQuad .collectionItem:nth-child(3) {
 	    margin-right: 7px;
 	}
 
@@ -1005,9 +950,8 @@ All code must be cleared after it goes live
 
 	.s-main-menu .block .category-items .collectionItem a.collection-moutdoor,
 	.s-main-menu .block .category-items .collectionItem a.collection-mdofe {
-	    //padding: 21% 0;
 	    padding: 27% 0;
-	}*/
+	}
 
 
 }
@@ -1017,7 +961,17 @@ All code must be cleared after it goes live
 		display:block !important;
 	}
 
-	.columnExperimentTwo{
+	.menuSection ul.columnContent.columnCollectionSingle{
 		display: none !important;
 	}
+
+	.columnContent .collectionItem {
+	    margin: 12px 0;
+	}
+
+	.s-main-menu .block .category-items .collectionItem a {
+	    line-height: 1.3;
+	}
 }
+
+/* CHUK Menu Update AW18 END */
