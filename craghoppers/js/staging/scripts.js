@@ -48,60 +48,74 @@ requirejs(['jquery'], function( $ ) {
       jQuery('.product-info-stock-sku + .product-info-price').addClass("noReviews");
     }
 
-    // Stick header scroll detect
-    jQuery(window).scroll(function(){
-      var ScrollTop = parseInt(jQuery(window).scrollTop());
-      //console.log(ScrollTop);
+    var viewportWidth = window.matchMedia("(min-width: 771px)");
+    viewportListener(viewportWidth);
+    viewportWidth.addListener(viewportListener);
 
-      if (ScrollTop > 102) {
-        document.querySelector('body').classList.add('headerSticky');
+    function viewportListener(viewportWidth) {
 
-        if (jQuery(".headerSticky .s-main-menu ul + .o-layout__item").length == 0){
+      if (viewportWidth.matches) {
 
+        // Stick header scroll detect
+        jQuery(window).scroll(function(){
+          var ScrollTop = parseInt(jQuery(window).scrollTop());
+          //console.log(ScrollTop);
 
-          //append header funtions to sticky
-          var headFunctions = document.querySelector(".c-header .o-region__inner .o-layout .o-layout__item:nth-child(2)");
-          document.querySelector(".s-main-menu").appendChild(headFunctions);
+          if (ScrollTop > 102) {
+            document.querySelector('body').classList.add('headerSticky');
 
-          if (jQuery(".accountIcon").length == 0){
-
-            //create account icon
-            var accountIcon = document.createElement("DIV");
-            accountIcon.classList.add("accountIcon");
-            accountIcon.classList.add("stickyIcon");
-            accountIcon.classList.add("iconClose");
-            var list = document.querySelector(".s-main-menu ul + .o-layout__item .o-layout .o-layout__item");    
-            list.insertBefore(accountIcon, list.childNodes[0]);
-          
-            //create search icon
-            var searchIcon = document.createElement("DIV");
-            searchIcon.classList.add("searchIcon");
-            searchIcon.classList.add("stickyIcon");
-            searchIcon.classList.add("iconClose");
-            var list = document.querySelector(".s-main-menu ul + .o-layout__item .o-layout:nth-child(2) .o-layout__item");    
-            list.insertBefore(searchIcon, list.childNodes[0]);
-
-          }
-
-        }
-
-      } else{
-        jQuery('body').removeClass('headerSticky');
-        if (jQuery(".headFeatures").length > 0){
-          document.querySelector(".s-main-menu ul + .o-layout__item.headFeatures").classList.add("headFeaturesHide");
-        }
-
-        if (jQuery(".c-header .o-layout .o-layout__item:nth-child(2)").length == 0){
-
-          var headRevert = document.querySelector(".s-main-menu ul + .o-layout__item");
-          document.querySelector(".c-header .o-region__inner .o-layout").appendChild(headRevert);
-
-        }
-
-      }// END IF Statement   
+            if (jQuery(".headerSticky .s-main-menu ul + .o-layout__item").length == 0){
 
 
-    }); // END scroll detect
+              //append header funtions to sticky
+              var headFunctions = document.querySelector(".c-header .o-region__inner .o-layout .o-layout__item:nth-child(2)");
+              document.querySelector(".s-main-menu").appendChild(headFunctions);
+
+              if (jQuery(".accountIcon").length == 0){
+
+                //create account icon
+                var accountIcon = document.createElement("DIV");
+                accountIcon.classList.add("accountIcon");
+                accountIcon.classList.add("stickyIcon");
+                accountIcon.classList.add("iconClose");
+                var list = document.querySelector(".s-main-menu ul + .o-layout__item .o-layout .o-layout__item");    
+                list.insertBefore(accountIcon, list.childNodes[0]);
+              
+                //create search icon
+                var searchIcon = document.createElement("DIV");
+                searchIcon.classList.add("searchIcon");
+                searchIcon.classList.add("stickyIcon");
+                searchIcon.classList.add("iconClose");
+                var list = document.querySelector(".s-main-menu ul + .o-layout__item .o-layout:nth-child(2) .o-layout__item");    
+                list.insertBefore(searchIcon, list.childNodes[0]);
+
+              }
+
+            }
+
+          } else{
+            jQuery('body').removeClass('headerSticky');
+            if (jQuery(".headFeatures").length > 0){
+              document.querySelector(".s-main-menu ul + .o-layout__item.headFeatures").classList.add("headFeaturesHide");
+            }
+
+            if (jQuery(".c-header .o-layout .o-layout__item:nth-child(2)").length == 0){
+
+              var headRevert = document.querySelector(".s-main-menu ul + .o-layout__item");
+              document.querySelector(".c-header .o-region__inner .o-layout").appendChild(headRevert);
+
+            }
+
+          }// END IF Statement   
+
+
+        }); // END scroll detect
+
+      }
+
+    }
+
+    
 
   }
   /* CHUS only script END */

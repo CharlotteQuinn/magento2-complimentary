@@ -52,8 +52,8 @@ All code must be cleared after it goes live
 	        top: 9px !important;
 	    }
 
-	    .c-mini-cart__drop-down {
-	        top: 40px !important;
+	    .c-mini-cart-btn__price:after{
+	    	display: none;
 	    }
 
 	    /*.o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(1) {
@@ -164,6 +164,10 @@ All code must be cleared after it goes live
 	    .authorization-link a:nth-child(2) {
 	        margin-right: 13%;
 	    }
+
+	    .c-mini-cart__drop-down {
+		    top: 38px;
+		}
 
 
 	} 
@@ -626,11 +630,11 @@ All code must be cleared after it goes live
 		div#top-search {
 		    display: none;
 		    width: 100vw;
-		    left: -82vw;
+		    left: -80vw;
 		    position: relative;
 		    background: #fff;
 		    padding: 5% 0;
-		    margin-top: 11%;
+		    margin-top: 27%;
 		}
 
 		.c-header .o-region__inner .o-layout .o-layout__item {
@@ -679,6 +683,7 @@ All code must be cleared after it goes live
 		    display: block;
 		    background-size: contain;
 		    background-repeat: no-repeat;
+		    margin:0 auto;
 		    margin-top: 6%;
 		}
 
@@ -703,15 +708,16 @@ All code must be cleared after it goes live
 		.s-main-menu ul + .o-layout__item .o-layout {
 		    float: left !important;
 		    margin-left: 0;
+		    margin-top: 6px;
 		}
 
-		.s-main-menu ul + .o-layout__item .o-layout:nth-child(1) {
+		/*.s-main-menu ul + .o-layout__item .o-layout:nth-child(1) {
 			width:20% !important;
 		}
 
 		.s-main-menu ul + .o-layout__item .o-layout:nth-child(2) {
 			width:40% !important;
-		}
+		}*/
 
 		.accountIcon + .s-header-links {
 			width: 200px;
@@ -765,6 +771,22 @@ All code must be cleared after it goes live
 		    display: block;
 		}
 
+		.s-main-menu ul + .o-layout__item .o-layout:nth-child(1) {
+		    width: 25px;
+		}
+
+		.cms-homepage-promo-grid-ch-us.headerSticky .s-main-menu ul + .o-layout__item .o-layout:nth-child(2) {
+		    width: 100px !important;
+		}
+
+		.o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(1) {
+		    width: 40px !important;
+		}
+
+		.o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(2) {
+		    width: 40px !important;
+		}
+
 		/*.accountIcon + .s-header-links ul li {
 	    	height: 0;
 	    	transition: height 1s;
@@ -775,10 +797,84 @@ All code must be cleared after it goes live
 		    transition: height 1s;
 		}*/
 
+		.s-main-menu ul + .o-layout__item .o-layout:nth-child(1) .o-layout__item {
+		    padding: 0;
+		}
+
+		.s-main-menu ul + .o-layout__item .o-layout:nth-child(2) {
+		    margin-left: 2%;
+		}
+
+		.c-mini-cart-btn {
+		    height: auto;
+		    background: transparent;
+    		padding: 0;
+		}
+
+		.c-mini-cart-btn__price {
+    		top: 0;
+    		padding: 0 10px;
+    		line-height: 1;
+    	}
+
+		.c-mini-cart-btn__price:before {
+		    width: 25px;
+		    height: 25px;
+		}
+
+		.menuSection.menuCollection .columnHead {
+		    margin-top: 1%;
+		}
+
+		.c-mini-cart-btn__price:before {
+		    margin: 0;
+		    display: block;
+		    position: relative;
+		}
+
+		.c-mini-cart__drop-down {
+	        top: 37px !important;
+	        min-width: 300px;
+    		left: -115px;
+	    }
+
+	    .o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(1) .c-header-search__suggestions > div {
+		    width: 50% !important;
+		}
+
+		.c-header-search__suggestions {
+		    top: 42px;
+		}
+
 		
 
 
 	}
+
+	@media only screen and (max-width:1228px){
+		.cms-homepage-promo-grid-ch-us.headerSticky{
+			.c-mini-cart__drop-down {
+			    left: -150px;
+			}
+
+			div#top-search {
+			    left: -81vw;
+			}
+		}
+	}
+
+	@media only screen and (max-width:989px){
+		.cms-homepage-promo-grid-ch-us.headerSticky{
+			ul#ui-id-3::before {
+			    left: 100px;
+			}
+			
+			div#top-search {
+			    margin-top: 25%;
+			}
+		}
+	}
+
 	/* search etc features END */
 
 	/* CHUS Header Updates END */
