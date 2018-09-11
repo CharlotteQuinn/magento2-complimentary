@@ -6122,7 +6122,7 @@ a:nth-child(2) .fp-CTA {
   padding: 6% 0; }
 
 .plp-header {
-  text-align: center;
+  text-align: left;
   background-repeat: no-repeat;
   padding: 2.5% 0;
   background-size: cover;
@@ -6130,7 +6130,7 @@ a:nth-child(2) .fp-CTA {
   margin-bottom: 1%; }
 
 .plp-header h1 {
-  text-align: center;
+  text-align: left;
   color: #000;
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   margin-bottom: 2%;
@@ -6140,7 +6140,7 @@ a:nth-child(2) .fp-CTA {
   font-weight: 300; }
 
 .plp-header a {
-  margin: 0 2%;
+  margin: 0 2% 0 0;
   text-transform: uppercase;
   letter-spacing: 1px; }
 
@@ -6153,6 +6153,10 @@ a:nth-child(2) .fp-CTA {
 .category-view__description {
   font-size: 14px;
   width: 100% !important; }
+
+.plp-header-inner {
+  max-width: 1228px;
+  margin: 0 auto; }
 
 @media only screen and (max-width: 1000px) {
   .plp-headerMens {
@@ -6192,7 +6196,10 @@ a:nth-child(2) .fp-CTA {
     background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-tablet.jpg"); }
 
   .plp-header.plp-toplevel {
-    padding: 7% 0; } }
+    padding: 7% 0; }
+
+  .plp-container {
+    padding-left: 1.5%; } }
 @media only screen and (max-width: 700px) {
   .plp-headerMens {
     background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-BannersMobile-Mens.jpg"); }
@@ -6237,7 +6244,10 @@ a:nth-child(2) .fp-CTA {
     padding: 13% 0; }
 
   .plp-header h1 {
-    font-size: 4.6vw; } }
+    font-size: 4.6vw; }
+
+  .plp-container {
+    padding-left: 10px; } }
 /* Mobile SEO show/hide */
 .seemore {
   margin: 0 auto;
