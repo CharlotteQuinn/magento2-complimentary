@@ -1285,3 +1285,19 @@ i.c-header__icon.c-icon--menu.menuOpen::after{
   }
 
 }
+
+@media only screen and (max-width:740px) {
+  .menuSection ul.columnContent.columnCollectionQuad {
+    display: none !important;
+  }
+
+  .menuSection ul.columnContent.columnCollectionQuad.active {
+    display: block !important;
+    max-width: 100%;
+  }
+
+  .columnCollectionQuad .collectionItem {
+    max-width: 100%;
+  }
+
+}
