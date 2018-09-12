@@ -522,7 +522,8 @@ p.deliveryBar__text {
     .slider-cta {
       display: block;
       margin: 0 auto;
-      width: 45%;
+      min-width: 130px;
+      width: 37%;
       margin-bottom: 1%;
     }
 
