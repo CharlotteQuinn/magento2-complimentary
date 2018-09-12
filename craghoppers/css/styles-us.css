@@ -8505,6 +8505,16 @@ a.mm-outlet {
 
   .s-main-menu .block .category-items .collectionItem a {
     line-height: 1.3; } }
+@media only screen and (max-width: 740px) {
+  .menuSection ul.columnContent.columnCollectionQuad {
+    display: none !important; }
+
+  .menuSection ul.columnContent.columnCollectionQuad.active {
+    display: block !important;
+    max-width: 100%; }
+
+  .columnCollectionQuad .collectionItem {
+    max-width: 100%; } }
 .kg-container {
   width: 100%;
   max-width: 926px;
