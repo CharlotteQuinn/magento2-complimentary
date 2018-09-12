@@ -1861,7 +1861,8 @@ a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo {
   .slider-cta {
     display: block;
     margin: 0 auto;
-    width: 45%;
+    min-width: 130px;
+    width: 37%;
     margin-bottom: 1%; }
 
   .slider-cta:last-of-type {
