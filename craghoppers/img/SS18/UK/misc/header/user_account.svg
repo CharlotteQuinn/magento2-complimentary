@@ -1,24 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 79 79">
-  <defs>
-    <style>
-      .cls-1 {
-        clip-path: url(#clip-my_account);
-      }
-
-      .cls-2 {
-        fill: #fff;
-      }
-    </style>
-    <clipPath id="clip-my_account">
-      <rect width="79" height="79"/>
-    </clipPath>
-  </defs>
-  <g id="my_account" data-name="my account" class="cls-1">
-    <rect class="cls-2" width="79" height="79"/>
-    <circle id="Ellipse_1" data-name="Ellipse 1" cx="10" cy="10" r="10" transform="translate(30 18)"/>
-    <path id="Path_4" data-name="Path 4" d="M10-.187c5.523,0,17.562,5.535,20.366,19.922h-40.8C-6.491,4.115,4.477-.187,10-.187Z" transform="translate(30 39)"/>
-    <path id="Path_1" data-name="Path 1" d="M0,38.972A38.972,38.972,0,0,1,38.972,0h0A38.972,38.972,0,0,1,77.945,38.972h0A38.974,38.974,0,0,1,38.972,77.945h0A38.974,38.974,0,0,1,0,38.972ZM12.131,12.131A37.841,37.841,0,0,0,1.013,38.972h0A37.841,37.841,0,0,0,12.131,65.814h0A37.84,37.84,0,0,0,38.972,76.931h0A37.842,37.842,0,0,0,65.814,65.814h0A37.833,37.833,0,0,0,76.932,38.972h0A37.834,37.834,0,0,0,65.814,12.131h0A37.841,37.841,0,0,0,38.972,1.013h0A37.837,37.837,0,0,0,12.131,12.131Z" transform="translate(1 1)"/>
-    <path id="Path_2" data-name="Path 2" d="M28.2,26.825a10.771,10.771,0,0,1,10.77-10.77h0a10.771,10.771,0,0,1,10.769,10.77h0A10.771,10.771,0,0,1,38.973,37.6h0A10.771,10.771,0,0,1,28.2,26.825Zm1.07,0a9.713,9.713,0,0,0,9.7,9.7h0a9.713,9.713,0,0,0,9.7-9.7h0a9.71,9.71,0,0,0-9.7-9.7h0a9.71,9.71,0,0,0-9.7,9.7Z" transform="translate(1 1)"/>
-    <path id="Path_3" data-name="Path 3" d="M18.1,58.345l.07-.566C19.556,46.414,28.306,37.6,38.972,37.6h0c10.667.006,19.418,8.819,20.806,20.184h0l-.5.061v0l.5-.061.069.566Zm40.6-1.012C57.137,46.681,48.872,38.6,38.971,38.606h0c-9.9-.006-18.166,8.075-19.724,18.727H58.7Z" transform="translate(1 1)"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#DFE0E1;stroke-width:2;stroke-linejoin:round;}
+</style>
+<title></title>
+<g id="_41-User">
+	<circle class="st0" cx="16" cy="8" r="7"/>
+	<path class="st0" d="M27,26c0-6.1-4.9-11-11-11S5,19.9,5,26v5h22V26z"/>
+</g>
 </svg>
