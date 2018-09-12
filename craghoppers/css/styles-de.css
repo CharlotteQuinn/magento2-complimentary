@@ -8370,6 +8370,132 @@ a.mm-outlet {
   .menuSale .collectionItem:nth-child(3) {
     margin: 0; } }
 /* END */
+.columnHead {
+  display: block; }
+
+.collectionItem {
+  width: 100%;
+  max-width: 220px;
+  position: relative;
+  margin-bottom: 1.2%; }
+
+.menuSection ul.columnContent.columnCollectionQuad {
+  max-width: 450px;
+  display: inline-flex !important; }
+
+.columnCollectionQuad .collectionItem:nth-child(1),
+.columnCollectionQuad .collectionItem:nth-child(3) {
+  margin-right: 10px; }
+
+.columnCollectionQuad .collectionItem:nth-child(1),
+.columnCollectionQuad .collectionItem:nth-child(2) {
+  margin-bottom: 2%; }
+
+.columnCollectionQuad .collectionItem {
+  display: inline-flex;
+  margin: 0; }
+
+.s-main-menu .block .category-items .collectionItem a {
+  color: #fff;
+  text-align: center;
+  padding: 28.7% 0px;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.s-main-menu .block .category-items .collectionItem a.collection-mdofe {
+  padding: 22.7% 0; }
+
+.menuSection ul.columnContent.columnCollectionSingle {
+  max-width: 228px;
+  display: inline-flex !important;
+  vertical-align: top;
+  padding-left: 1% !important; }
+
+.columnCollectionSingle .collectionItem {
+  max-width: 220px;
+  margin-bottom: 0; }
+
+.columnCollectionSingle .collectionItem a {
+  padding: 65% 0 !important; }
+
+.collectionMobile {
+  display: none !important; }
+
+.collection-mdofe {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/mens/MensDofE.jpg"); }
+
+.collection-minsect {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/mens/MensInsectProtectiveClothing.jpg"); }
+
+.collection-moutdoor {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/mens/MensOutdoorProtection.jpg"); }
+
+.collection-mrecycled {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/mens/MensRecycledClothing.jpg"); }
+
+.collection-msun {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/mens/MensSunProtective.jpg"); }
+
+.collection-wdofe {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/womens/WomensDofE.jpg"); }
+
+.collection-winsect {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/womens/WomensInsectProtectiveClothing.jpg"); }
+
+.collection-woutdoor {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/womens/WomensOutdoorProtection.jpg"); }
+
+.collection-wrecycled {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/womens/WomensRecycledClothing.jpg"); }
+
+.collection-wsun {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/womens/WomensSunProtective.jpg"); }
+
+.collection-koutdoor {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/misc/mega_menu/kids/KidsOutdoorProtection.jpg"); }
+
+.menuSection.menuCollection .columnHead {
+  margin-top: 1.6%; }
+
+@media only screen and (max-width: 1228px) {
+  .menuSection ul.columnContent.columnCollectionQuad {
+    max-width: 368px; }
+
+  .menuSection ul.columnContent.columnCollectionSingle {
+    max-width: 204px; }
+
+  .columnCollectionQuad .collectionItem:nth-child(1),
+  .columnCollectionQuad .collectionItem:nth-child(2) {
+    margin-bottom: 1%; }
+
+  .columnCollectionSingle .collectionItem a {
+    padding: 57.3% 0 !important; }
+
+  .collectionItem {
+    max-width: 180px; }
+
+  .columnCollectionQuad .collectionItem:nth-child(1),
+  .columnCollectionQuad .collectionItem:nth-child(3) {
+    margin-right: 7px; }
+
+  .s-main-menu .block .category-items .collectionItem a {
+    padding: 28% 0px; }
+
+  .s-main-menu .block .category-items .collectionItem a.collection-moutdoor,
+  .s-main-menu .block .category-items .collectionItem a.collection-mdofe {
+    padding: 27% 0; } }
+@media only screen and (max-width: 989px) {
+  .collectionMobile {
+    display: block !important; }
+
+  .menuSection ul.columnContent.columnCollectionSingle {
+    display: none !important; }
+
+  .columnContent .collectionItem {
+    margin: 12px 0; }
+
+  .s-main-menu .block .category-items .collectionItem a {
+    line-height: 1.3; } }
 .utc {
   font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
 
