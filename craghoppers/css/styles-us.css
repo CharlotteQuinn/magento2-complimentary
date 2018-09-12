@@ -8505,7 +8505,10 @@ a.mm-outlet {
     max-width: 100%; }
 
   .columnCollectionQuad .collectionItem {
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  .collectionItem a {
+    width: 100%; } }
 .kg-container {
   width: 100%;
   max-width: 926px;
