@@ -8514,7 +8514,10 @@ a.mm-outlet {
     max-width: 100%; }
 
   .columnCollectionQuad .collectionItem {
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  .collectionItem a {
+    width: 100%; } }
 .utc {
   font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
 
