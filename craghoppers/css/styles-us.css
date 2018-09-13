@@ -8357,12 +8357,6 @@ a.mm-outlet {
     animation-duration: 1s;
     animation-fill-mode: forwards; }
 
-  .c-icon--right-grey, .s-main-menu .categories > li.menuBack a:before {
-    background-image: url(https://cdn.craghoppers.com/img/theme/mega_menu/arrows/BlackArrow.svg) !important;
-    animation-name: arrowSpinReverse;
-    animation-duration: 1s;
-    animation-fill-mode: forwards; }
-
   @keyframes arrowSpin {
     0% {
       transform: rotate(0deg); }
