@@ -555,56 +555,6 @@ All code must be cleared after it goes live
 
 /* CHUS Header Updates END */
 
-/* Gender align filters */
-
-.o-layout__item.c-selected-facets--position {
-	margin-top: 9%;
-}
-
-@media only screen and (max-width:1227px) {
-	.o-layout__item.c-selected-facets--position {
-		margin-top: 10%;
-	}
-
-}
-
-@media only screen and (max-width:989px) {
-	.o-layout__item.c-selected-facets--position {
-		margin-top: 12%;
-	}
-
-}
-
-@media only screen and (max-width:740px) {
-	ul.o-list-stacked.c-mobile-facet-list {
-		margin-top: 0%;
-	}
-
-}
-
-/* Gender align filters END */
-
-/* Breadcrumbs Update */
-
-.c-breadcrumbs__item:after {
-	content: '>' !important;
-}
-
-.c-breadcrumbs__item:last-child:after {
-	content: "" !important;
-}
-
-.breadcrumbs.c-breadcrumbs {
-	margin-bottom: 0;
-	margin: 4px 0;
-}
-
-.s-text-banner p:empty {
-	display: none;
-}
-
-/* Breadcrumbs Update END */
-
 /* PDP Updates */
 .c-rating__wrap.noReviews {
 	display: none;
