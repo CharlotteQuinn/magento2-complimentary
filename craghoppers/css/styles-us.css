@@ -2717,6 +2717,12 @@ ul.slides.fullWidthSlider__slidesList {
 .squarelovin-branding {
   display: none !important; }
 
+.squarelovin-productstream-arrow {
+  margin-top: 0; }
+
+div.squarelovin-widget-container .squarelovin-productstream-arrow img {
+  max-width: 10px; }
+
 @media only screen and (max-width: 767px) {
   .imageSocialFeed .squarelovin-container {
     padding: 0 5% !important; }
@@ -2783,7 +2789,10 @@ ul.slides.fullWidthSlider__slidesList {
 
   .pageSection--halves .pageBanner:first-child {
     margin: 0 1% 0 0;
-    /*new*/ } }
+    /*new*/ }
+
+  .squarelovin-container .squarelovin-productstream-arrow {
+    top: 61px !important; } }
 @media only screen and (max-width: 650px) {
   .pageSection.imageSocialFeed {
     display: block !important; } }
