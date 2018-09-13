@@ -2121,8 +2121,8 @@ a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo {
   .slider-cta {
     display: block;
     margin: 0 auto;
-    min-width: 130px;
-    width: 37%;
+    min-width: 120px;
+    width: 30%;
     margin-bottom: 1%; }
 
   .slider-cta:last-of-type {
@@ -2130,7 +2130,10 @@ a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo {
     margin: 0 auto; }
 
   .slider-contentarea {
-    margin-bottom: 14%; } }
+    margin-bottom: 14%; }
+
+  .AW18Story .slider-cta {
+    min-width: 130px; } }
 @media only screen and (max-width: 450px) {
   .slider-contentarea {
     margin-bottom: 9%; } }
