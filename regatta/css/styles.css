@@ -1897,11 +1897,53 @@ html .c-basket__payment-icons {
 
 #top-level-cat-banner-text li a {
   color: #333;
-  padding-right: 10px; }
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  background-color: white;
+  border-radius: 48px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 7px 20px 7px 16px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px 10px 0px 0px;
+  transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  position: relative; }
+
+#top-level-cat-banner-text li a:hover {
+  background: #f1f1f1; }
+
+#top-level-cat-banner-text li a:after {
+  content: '';
+  background-image: url("https://cdn.regatta.com/img/global-images/icon-pack/next-1.svg");
+  display: inline-block;
+  height: 10px;
+  width: 20px;
+  margin-right: -10px;
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  float: right;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  margin: auto;
+  right: 0; }
 
 #top-level-cat-banner-text > p {
   font-size: 14px; }
 
+@media screen and (max-width: 770px) {
+  #top-level-cat-banner-text li {
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: 0 !Important;
+    display: block;
+    text-align: center; }
+
+  #top-level-cat-banner-text li a {
+    margin: 10px 0px 0px 0px; } }
 @media screen and (max-width: 989px) {
   #top-level-cat-banner-img {
     display: none; }
@@ -1910,6 +1952,9 @@ html .c-basket__payment-icons {
     width: 100%;
     padding: 20px; } }
 @media screen and (max-width: 550px) {
+  #top-level-cat-banner-text li a {
+    margin: 5px; }
+
   .s-text-banner #top-level-cat-banner-text ul {
     display: block;
     overflow: auto;
@@ -1920,13 +1965,6 @@ html .c-basket__payment-icons {
     flex-basis: unset;
     margin: 0 !Important;
     display: inline-block; }
-
-  .s-text-banner #top-level-cat-banner-text li a {
-    padding: 7px; }
-
-  .s-text-banner #top-level-cat-banner-text li a:after {
-    margin-right: 0px !important;
-    margin-top: -1px !important; }
 
   .s-text-banner #top-level-cat-banner-text ul::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -2073,33 +2111,8 @@ body .c-product-tile .c-product-tile__btn {
     margin-bottom: 0;
     padding: 0 !important; }
 
-  #top-level-cat-banner-text li {
-    flex-grow: 1;
-    flex-basis: auto;
-    margin: 0 !Important;
-    display: block; }
-
-  #top-level-cat-banner-text li a {
-    display: block;
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 2px 4px;
-    border: 1px solid #ddd;
-    margin: 4px;
-    border-radius: 10px;
-    color: #333 !important;
-    background: #fff !important; }
-
   .category-outlet #top-level-cat-banner-text.closing h1 {
     margin-top: 10px; }
-
-  #top-level-cat-banner-text li a:after {
-    content: '>';
-    margin-left: 8px;
-    transform: scale(0.8, 1.4) !important;
-    display: inline-block;
-    float: right;
-    margin-right: 8px; }
 
   #top-level-cat-banner-text button {
     display: none !important; } }
