@@ -1545,6 +1545,9 @@ li#switcher-currency-nav {
 h3.c-footer__header {
   text-align: center; }
 
+.footerMobile {
+  display: none; }
+
 @media only screen and (max-width: 989px) {
   .s-footer-links-social .c-icon--facebook,
   .s-footer-links-social .c-icon--google,
@@ -1609,6 +1612,9 @@ h3.c-footer__header {
     min-height: auto;
     margin-bottom: 1%; } }
 @media only screen and (max-width: 740px) {
+  .footerMobile {
+    display: block; }
+
   .column--footer ul.active {
     display: block;
     margin-left: 0; }
