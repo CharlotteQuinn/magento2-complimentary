@@ -522,8 +522,8 @@ p.deliveryBar__text {
     .slider-cta {
       display: block;
       margin: 0 auto;
-      min-width: 130px;
-      width: 37%;
+      min-width: 120px;
+      width: 30%;
       margin-bottom: 1%;
     }
 
@@ -534,6 +534,10 @@ p.deliveryBar__text {
 
     .slider-contentarea {
       margin-bottom: 14%;
+    }
+
+    .AW18Story .slider-cta{
+      min-width: 130px;
     }
  
 }
