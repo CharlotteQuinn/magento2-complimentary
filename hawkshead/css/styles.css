@@ -1259,7 +1259,10 @@ h3.c-footer__header {
 
   .s-footer-links-social p.socialFollow {
     min-height: auto;
-    margin-bottom: 1%; } }
+    margin-bottom: 1%; }
+
+  .c-footer .o-layout__item:nth-child(3) {
+    padding-left: 2%; } }
 @media only screen and (max-width: 740px) {
   .footerMobile {
     display: block; }
