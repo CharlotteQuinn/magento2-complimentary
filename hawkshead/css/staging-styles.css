@@ -1132,10 +1132,6 @@ li#switcher-currency-nav {
 .follow-us li:first-of-type {
   margin: 0; }
 
-.c-footer__payment-icons {
-  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/footer/cardPayments.png);
-  background-size: contain; }
-
 .c-footer__links {
   padding: 20px 0 0; }
 
@@ -1170,7 +1166,6 @@ li#switcher-currency-nav {
   display: none; }
 
 .s-footer-links-social p.socialFollow {
-  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
   font-size: 14px;
   min-height: 35px;
   color: #343334;
@@ -1306,7 +1301,6 @@ h3.c-footer__header {
     display: none; }
 
   .footerHeaderMobile.active {
-    /*border-bottom: 1px solid #e6e6e6;*/
     text-decoration: underline; }
 
   .column--footer p:before {
@@ -1316,10 +1310,7 @@ h3.c-footer__header {
   .column--footer p.active:before {
     transform: rotate(180deg);
     transition: all 1s;
-    -webkit-transition: all 1s;
-                           	    /*border-style: solid;
-border-width: 0 7px 7px 7px;
-border-color: transparent transparent #afafaf transparent;*/ }
+    -webkit-transition: all 1s; }
 
   .c-accordion__content input#newsletter {
     font-size: 12px; }
