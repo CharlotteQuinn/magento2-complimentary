@@ -1168,9 +1168,9 @@ li#switcher-currency-nav {
 .s-footer-links-social p.socialFollow {
   font-size: 14px;
   min-height: 35px;
-  color: #343334;
   margin: 0;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  font-weight: 700; }
 
 .follow-us {
   padding-top: 0 !important; }
@@ -1193,6 +1193,9 @@ h3.c-footer__header {
 
 .footerMobile {
   display: none; }
+
+.s-footer-links .column h4 a {
+  font-size: 14px !important; }
 
 @media only screen and (max-width: 989px) {
   .s-footer-links-social .c-icon--facebook,
