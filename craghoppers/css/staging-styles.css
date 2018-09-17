@@ -520,6 +520,12 @@
   font-weight: normal;
   font-style: normal; }
 @font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-semibold/OpenSans-SemiBold.eot");
+  src: url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-semibold/OpenSans-SemiBold.woff2") format("woff2"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-semibold/OpenSans-SemiBold.woff") format("woff"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-semibold/OpenSans-SemiBold.ttf") format("truetype"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-semibold/OpenSans-SemiBold.otf") format("otf"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-semibold/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'OpenSans-Light';
   src: url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-light/OpenSans-Light.eot");
   src: url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-light/OpenSans-Light.woff2") format("woff2"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-light/OpenSans-Light.woff") format("woff"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-light/OpenSans-Light.ttf") format("truetype"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-light/OpenSans-Light.otf") format("otf"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-light/OpenSans-Light.eot?#iefix") format("embedded-opentype");
