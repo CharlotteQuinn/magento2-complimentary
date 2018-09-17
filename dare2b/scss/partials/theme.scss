@@ -891,24 +891,45 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div{
   float: right;
   clear: right;
 }
-#monVars {
-  position: relative;
+.c-grid--position li.u-flex-display  {
+  position: relative; overflow: hidden;
+}
+
+.c-product-tile__badge-content #monVars {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 0;
+    top: 0;
 }
 .roundel {
-  position: absolute;
-  right: 0;
-  z-index: 1;
-  background: #2676ba;
-  max-width: 53px;
-  padding: 10px;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 15px;
-  border-radius: 6px 6px 6px 0px;
-  color: #ffffff;
-  box-shadow: 0px 3px 6px -5px #000000;
-  display: block !important;
+    position: absolute;
+    top: 25%;
+    right: -55%;
+    z-index: 1;
+    padding: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    line-height: 13px;
+    border-radius: 0px;
+    color: #ffffff;
+    box-shadow: 0px 3px 6px -5px #000000;
+    display: block !important;
+    width: 220%;
+    max-width: 200%;
+    background: #000000 !important;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg); 
 }
+@media only screen and (max-width: 989px) {
+  .roundel {
+      top: 25%;
+      right: -55%;
+  }
+}
+
 @media only screen and (max-width: 350px) {
   .mon-badge {
     z-index: 1;

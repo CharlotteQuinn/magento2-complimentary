@@ -1784,6 +1784,9 @@ html .c-basket__payment-icons {
   padding: 10px;
   display: inline-block; }
 
+@media only screen and (max-width: 600px) {
+  #content + div.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder .c-campaign > .s-text-banner {
+    display: none; } }
 /*//////////////////////////
 /* Footer Block */
 /*////////////////////////*/
