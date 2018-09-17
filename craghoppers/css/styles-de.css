@@ -685,6 +685,9 @@ html {
   margin-top: 1vw;
   color: #fff; }
 
+.c-header-search__suggestions {
+  z-index: 9; }
+
 @media screen and (max-width: 1180px) {
   .bannerOverlay__text {
     font-size: 1.3vw; } }
