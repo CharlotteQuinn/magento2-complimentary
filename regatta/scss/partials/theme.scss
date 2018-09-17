@@ -1422,7 +1422,9 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div{
 .s-text-banner div > p.active {
     max-height: 50px;
 }
-
+.s-text-banner div > p {
+        height: 100%;
+}
 .s-text-banner button{
   width: 120px;
   display: block;
