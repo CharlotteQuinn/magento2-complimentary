@@ -83,8 +83,41 @@ requirejs(['jquery'], function( $ ) {
               var list = document.querySelector(".s-main-menu ul + .o-layout__item .o-layout:nth-child(2) .o-layout__item");    
               list.insertBefore(searchIcon, list.childNodes[0]);
 
-            }
+            }// END
 
+          }// END
+
+          //logo creation
+          var currentURL = window.location.href;
+          var ukURL = location.href === "https://www.craghoppers.com/";
+          var usURL = location.href === "https://www.craghoppers.com/us/";
+          var deURL = location.href === "https://www.craghoppers.de/";
+          var usStaging = location.href === "https://staging-craghoppers.basecamp-nonprod.com/us/?no_cache=true";
+          // if current URL is equal to locale homepage
+          if(currentURL === ukURL || usURL || deURL || usStaging){
+            if (jQuery(".stickyLogo").length <= 0){
+              var stickyLogo = document.createElement("img");
+              stickyLogo.src="https://cdn.craghoppers.com/img/logo/logoMouflon.svg";
+              stickyLogo.classList.add("stickyLogo");
+              var list = document.querySelector(".headerSticky .ui-menu");
+              list.insertBefore(stickyLogo, list.childNodes[0]);
+            }
+            return false;              
+          } else {
+            if (jQuery(".stickyLogo").length <= 0){
+              var logoAnchor = document.createElement("a");
+              logoAnchor.href="https://www.craghoppers.com/us/";
+              logoAnchor.classList.add("logoAnchor");
+              var list = document.querySelector(".headerSticky .ui-menu");
+              list.insertBefore(logoAnchor, list.childNodes[0]);
+
+              var stickyLogo = document.createElement("img");
+              stickyLogo.src="https://cdn.craghoppers.com/img/logo/logoMouflon.svg";
+              stickyLogo.classList.add("stickyLogo");
+              var list = document.querySelector(".logoAnchor");
+              list.insertBefore(stickyLogo, list.childNodes[0]);
+            }
+            return false; 
           }
 
         } else{
@@ -100,7 +133,8 @@ requirejs(['jquery'], function( $ ) {
 
           }
 
-        }// END IF Statement   
+        }// END IF Statement 
+   
 
 
       }); // END scroll detect

@@ -303,6 +303,14 @@ All code must be cleared after it goes live
 	display: none;
 }
 
+.stickyLogo{
+	display:none;
+}
+
+div#top-search {
+    width: 85%;
+    float: right;
+}
 /* search etc features */
 .headerSticky {
 	.sections.nav-sections,
@@ -310,7 +318,7 @@ All code must be cleared after it goes live
 		display: none;
 	}
 
-	ul#ui-id-3::before {
+	/*ul#ui-id-3::before {
 		background-image: url(https://cdn.craghoppers.com/img/logo/logoMouflon.svg);
 		display: inline-block;
 		content: '';
@@ -319,6 +327,16 @@ All code must be cleared after it goes live
 		float: left;
 		margin-top: 8px;
 		background-repeat: no-repeat;
+		position: relative;
+		left: 160px;
+	}*/
+
+	.stickyLogo{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		float: left;
+		margin-top: 8px;
 		position: relative;
 		left: 160px;
 	}
@@ -344,6 +362,7 @@ All code must be cleared after it goes live
 		background: #fff;
 		padding: 5% 0 20% 0;
 		margin-top: 27%;
+		float: none;
 	}
 
 	.c-header .o-region__inner .o-layout .o-layout__item {
@@ -448,10 +467,48 @@ All code must be cleared after it goes live
 		display: block;
 	}
 
+	/*.accountIcon + .s-header-links ul li {
+	    position: absolute;
+	    height:0;
+	    transition: all 1s;
+	}*/
+
 	.accountIcon.iconActive + .s-header-links ul li {
 		width: 100% !important;
 		padding-left: 10px !important;
+		position: relative;
 	}
+
+
+	/*ul.header.links li a {
+	    position: absolute;
+	    top: -15px;
+	    transition: all 1s
+	}
+
+	ul.header.links li:nth-child(3) a {
+	    top: -22px;
+	}
+
+	ul.header.links li:nth-child(5) a {
+	    top: -37px;
+	}
+
+	ul.header.links li:nth-child(6) a {
+	    top: -61px;
+	}
+
+	ul.header.links li:nth-child(7) a {
+	    top: -83px;
+	}
+
+	.iconActive + .s-header-links ul.header.links li a {
+	    position: relative;
+	    top: 0;
+	    transition: all 1s
+	}*/
+
+
 
 	.authorization-link a[data-bind="visible: !isLoggedIn()"]:after {
 		display: none !important;
@@ -548,6 +605,7 @@ All code must be cleared after it goes live
 	.c-header-search__suggestions {
 		top: 42px;
 	}
+
 
 }
 
