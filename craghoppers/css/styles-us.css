@@ -7001,7 +7001,8 @@ body .c-checkbox-option__input:checked ~ .c-checkbox-option__checkbox {
   text-align: center;
   color: #343334 !important;
   width: 100%;
-  font-family: 'OpenSans-SemiBold' !important; }
+  font-family: 'OpenSans-SemiBold' !important;
+  font-weight: normal !important; }
 
 .c-price.c-price--small {
   color: #343334 !important; }
@@ -7318,6 +7319,10 @@ body._has-modal {
   height: 100%; }
 
 /* END */
+.c-breadcrumbs__item {
+  font-family: 'OpenSans-SemiBold' !important;
+  font-weight: normal !important; }
+
 /* Trouser Campaign Styles */
 .trou-vid-title {
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
