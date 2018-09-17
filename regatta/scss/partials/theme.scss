@@ -1121,6 +1121,7 @@ html .c-basket__payment-icons {
 /*//////////////////////////
 /* SEO Footer Text */
 /*////////////////////////*/
+
 #content + .c-campaign > .s-text-banner {
   background: #f9f9f9;
 }
@@ -1130,6 +1131,13 @@ html .c-basket__payment-icons {
   padding: 10px;
   display: inline-block;
 }
+
+@media only screen and (max-width: 600px) {
+    #content + div.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder .c-campaign > .s-text-banner {
+        display: none;
+    }
+}
+
 
 /*//////////////////////////
 /* Footer Block */
