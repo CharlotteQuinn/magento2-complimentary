@@ -43,7 +43,7 @@ requirejs(['jquery'], function( $ ) {
   }
 
   // Sticky Header
-  var viewportWidth = window.matchMedia("(min-width: 771px)");
+  var viewportWidth = window.matchMedia("(min-width: 767px)");
   viewportListener(viewportWidth);
   viewportWidth.addListener(viewportListener);
 
@@ -94,6 +94,7 @@ requirejs(['jquery'], function( $ ) {
           var usURL = location.href === "https://www.craghoppers.com/us/";
           var deURL = location.href === "https://www.craghoppers.de/";
           var usStaging = location.href === "https://staging-craghoppers.basecamp-nonprod.com/us/?no_cache=true";
+          var homeURL = jQuery(".c-header__logo")[0].href;
           // if current URL is equal to locale homepage
           if(currentURL === ukURL || usURL || deURL || usStaging){
             if (jQuery(".stickyLogo").length <= 0){
@@ -106,17 +107,20 @@ requirejs(['jquery'], function( $ ) {
             return false;              
           } else {
             if (jQuery(".stickyLogo").length <= 0){
+              // IF Start
               var logoAnchor = document.createElement("a");
-              logoAnchor.href="https://www.craghoppers.com/us/";
+              logoAnchor.href=homeURL;
               logoAnchor.classList.add("logoAnchor");
               var list = document.querySelector(".headerSticky .ui-menu");
               list.insertBefore(logoAnchor, list.childNodes[0]);
 
               var stickyLogo = document.createElement("img");
-              stickyLogo.src="https://cdn.craghoppers.com/img/logo/logoMouflon.svg";
+              stickyLogo.src="https://cdn.craghoppers.com/img/logo/logoMouflon.svg";    
               stickyLogo.classList.add("stickyLogo");
               var list = document.querySelector(".logoAnchor");
               list.insertBefore(stickyLogo, list.childNodes[0]);
+
+              // IF End
             }
             return false; 
           }
