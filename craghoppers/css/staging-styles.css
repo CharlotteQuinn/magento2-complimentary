@@ -10888,7 +10888,7 @@ div#top-search {
     position: fixed;
     z-index: 9;
     animation-name: headerSticky;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
     animation-timing-function: linear; }
   .headerSticky .c-page-wrapper {
@@ -10979,11 +10979,13 @@ div#top-search {
   .headerSticky .o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(1) {
     width: 40px !important; }
   .headerSticky .o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(2) {
-    width: 40px !important; }
+    width: 40px !important;
+    margin-left: 10px; }
   .headerSticky .s-main-menu ul + .o-layout__item .o-layout:nth-child(1) .o-layout__item {
     padding: 0; }
   .headerSticky .s-main-menu ul + .o-layout__item .o-layout:nth-child(2) {
-    margin-left: 1%; }
+    margin-left: 10px;
+    width: 100px; }
   .headerSticky .c-mini-cart-btn {
     height: auto;
     background: transparent;
@@ -11010,6 +11012,9 @@ div#top-search {
   .headerSticky .c-header-search__suggestions {
     top: 42px; }
 
+@media only screen and (max-width: 1400px) {
+  .headerSticky .s-main-menu ul + .o-layout__item {
+    width: 18% !important; } }
 @media only screen and (max-width: 1228px) {
   .headerSticky {
     /*div#top-search {
@@ -11017,11 +11022,17 @@ div#top-search {
     }*/ }
     .headerSticky .c-mini-cart__drop-down {
       left: -150px; } }
+@media only screen and (max-width: 1100px) {
+  .headerSticky .s-main-menu ul + .o-layout__item {
+    width: 155px !important; } }
 @media only screen and (max-width: 989px) {
   .headerSticky ul#ui-id-3::before {
     left: 100px; }
   .headerSticky div#top-search {
-    margin-top: 25%; } }
+    margin-top: 25%;
+    left: -100vw; }
+  .headerSticky .stickyLogo {
+    left: 45px; } }
 /* search etc features END */
 /* CHUS Header Updates END */
 /* PDP Updates */
