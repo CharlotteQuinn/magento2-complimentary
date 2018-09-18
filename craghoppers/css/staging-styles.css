@@ -10786,6 +10786,11 @@ div#top-search {
   	position: relative;
   	left: 160px;
   }*/
+  /*.iconClose + .s-header-links {
+      height: 0;
+      transition: height 1s;
+      overflow: hidden;
+  }*/
   /*.s-main-menu ul + .o-layout__item.headFeatures{
       float: right;
       width: 23% !important;
@@ -10877,14 +10882,20 @@ div#top-search {
   .headerSticky .c-page-wrapper {
     padding-top: 8%; }
   .headerSticky div#top-search {
-    display: none;
     width: 125vw;
     left: -91vw;
     position: relative;
     background: #fff;
     padding: 5% 0 20% 0;
     margin-top: 27%;
-    float: none; }
+    float: none;
+    position: relative;
+    top: -50px;
+    z-index: -1;
+    transition: all 0.5s; }
+  .headerSticky .searchIcon.iconActive + div#top-search {
+    top: 0;
+    transition: all 0.5s; }
   .headerSticky .c-header .o-region__inner .o-layout .o-layout__item {
     display: none; }
   .headerSticky .s-main-menu ul + .o-layout__item {
@@ -10923,12 +10934,12 @@ div#top-search {
     position: relative;
     left: -30px;
     height: 0;
-    opacity: 0;
-    transition: height 1s; }
+    overflow: hidden;
+    transition: height 0.5s; }
   .headerSticky .accountIcon.iconActive + .s-header-links {
     height: 150px;
     opacity: 1;
-    transition: height 1s;
+    transition: height 0.5s;
     overflow: hidden; }
   .headerSticky .accountIcon + .s-header-links ul {
     display: none; }
@@ -10949,8 +10960,6 @@ div#top-search {
     max-width: 559px; }
   .headerSticky .stickyIcon {
     cursor: pointer; }
-  .headerSticky .searchIcon.iconActive + div#top-search {
-    display: block; }
   .headerSticky .s-main-menu ul + .o-layout__item .o-layout:nth-child(1) {
     width: 25px; }
   .headerSticky .cms-homepage-promo-grid-ch-us.headerSticky .s-main-menu ul + .o-layout__item .o-layout:nth-child(2) {

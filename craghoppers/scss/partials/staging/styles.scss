@@ -355,7 +355,6 @@ div#top-search {
 	}
 
 	div#top-search {
-		display: none;
 		width: 125vw;
 		left: -91vw;
 		position: relative;
@@ -363,7 +362,22 @@ div#top-search {
 		padding: 5% 0 20% 0;
 		margin-top: 27%;
 		float: none;
+		position: relative;
+	    top: -50px;
+	    z-index: -1;
+	    transition: all 0.5s;
 	}
+
+	.searchIcon.iconActive + div#top-search {
+	    top: 0;
+	    transition: all 0.5s;
+	}
+
+	/*.iconClose + .s-header-links {
+	    height: 0;
+	    transition: height 1s;
+	    overflow: hidden;
+	}*/
 
 	.c-header .o-region__inner .o-layout .o-layout__item {
 		display: none;
@@ -448,14 +462,14 @@ div#top-search {
 		position: relative;
 		left: -30px;
 		height: 0;
-		opacity: 0;
-		transition: height 1s;
+		overflow: hidden;
+		transition: height 0.5s;
 	}
 
 	.accountIcon.iconActive + .s-header-links {
 		height: 150px;
 		opacity: 1;
-		transition: height 1s;
+		transition: height 0.5s;
 		overflow: hidden;
 	}
 
@@ -479,6 +493,8 @@ div#top-search {
 		padding-left: 10px !important;
 		position: relative;
 	}
+
+	
 
 
 	/*ul.header.links li a {
@@ -527,10 +543,6 @@ div#top-search {
 
 	.stickyIcon {
 		cursor: pointer;
-	}
-
-	.searchIcon.iconActive + div#top-search {
-		display: block;
 	}
 
 	.s-main-menu ul + .o-layout__item .o-layout:nth-child(1) {
