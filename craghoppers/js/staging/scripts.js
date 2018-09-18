@@ -42,6 +42,7 @@ requirejs(['jquery'], function( $ ) {
     jQuery('.product-info-stock-sku + .product-info-price').addClass("noReviews");
   }
 
+  // Sticky Header
   var viewportWidth = window.matchMedia("(min-width: 771px)");
   viewportListener(viewportWidth);
   viewportWidth.addListener(viewportListener);
@@ -120,7 +121,7 @@ requirejs(['jquery'], function( $ ) {
             return false; 
           }
 
-        } else{
+        } else {
           jQuery('body').removeClass('headerSticky');
           if (jQuery(".headFeatures").length > 0){
             document.querySelector(".s-main-menu ul + .o-layout__item.headFeatures").classList.add("headFeaturesHide");
@@ -133,6 +134,14 @@ requirejs(['jquery'], function( $ ) {
 
           }
 
+          /*var iconCheck = setInterval(function(){
+            console.log(jQuery(".stickyIcon.iconActive").length);
+            if (jQuery(".stickyIcon.iconActive").length == 1){
+              //console.log("Hello World");
+              jQuery(".stickyIcon").removeClass(".iconActive");
+            }
+          }, 1000);*/
+
         }// END IF Statement 
    
 
@@ -141,7 +150,7 @@ requirejs(['jquery'], function( $ ) {
 
     }
 
-  }
+  } // Sticky Header END
   
   var stickyCheck = setInterval(function(){
     if (jQuery(".stickyIcon").length > 0) {  

@@ -345,7 +345,7 @@ div#top-search {
 		position: fixed;
 		z-index: 9;
 		animation-name: headerSticky;
-		animation-duration: 1s;
+		animation-duration: 0.5s;
 		animation-fill-mode: forwards;
 		animation-timing-function: linear;
 	}
@@ -559,6 +559,7 @@ div#top-search {
 
 	.o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(2) {
 		width: 40px !important;
+		margin-left: 10px;
 	}
 
 	/*.accountIcon + .s-header-links ul li {
@@ -575,7 +576,8 @@ div#top-search {
 	}
 
 	.s-main-menu ul + .o-layout__item .o-layout:nth-child(2) {
-		margin-left: 1%;
+		margin-left: 10px;
+    	width: 100px;
 	}
 
 	.c-mini-cart-btn {
@@ -622,6 +624,14 @@ div#top-search {
 
 }
 
+@media only screen and (max-width:1400px) {
+	.headerSticky{
+		.s-main-menu ul + .o-layout__item {
+		    width: 18% !important;
+		}
+	}
+}
+
 @media only screen and (max-width:1228px) {
 	.headerSticky {
 		.c-mini-cart__drop-down {
@@ -635,6 +645,14 @@ div#top-search {
 
 }
 
+@media only screen and (max-width:1100px) {
+	.headerSticky{
+		.s-main-menu ul + .o-layout__item {
+		    width: 155px !important;
+		}
+	}
+}
+
 @media only screen and (max-width:989px) {
 	.headerSticky {
 		ul#ui-id-3::before {
@@ -643,6 +661,11 @@ div#top-search {
 
 		div#top-search {
 			margin-top: 25%;
+			left: -100vw;
+		}
+
+		.stickyLogo {
+		    left: 45px;
 		}
 
 	}
