@@ -3978,6 +3978,11 @@ a.c-product-size__size-guide-link:hover {
   padding-left: 0 !important; }
 
 /* padding left on menu ul  end */
+/* Add padding to mens mm dropdown start*/
+.collectionItem.colski {
+  padding-bottom: 15px; }
+
+/* Add padding to mens mm dropdown end*/
 .c-product-tile .c-product-tile__btn {
   display: none; }
 
