@@ -456,6 +456,7 @@ div#top-search {
 		height: 150px;
 		opacity: 1;
 		transition: height 1s;
+		overflow: hidden;
 	}
 
 	.accountIcon + .s-header-links ul {
