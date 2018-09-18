@@ -921,7 +921,7 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div{
     background: #000000 !important;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+    transform: rotate(45deg); 
 }
 @media only screen and (max-width: 989px) {
   .roundel {
@@ -929,7 +929,6 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div{
       right: -55%;
   }
 }
-
 
 @media only screen and (max-width: 350px) {
   .mon-badge {
