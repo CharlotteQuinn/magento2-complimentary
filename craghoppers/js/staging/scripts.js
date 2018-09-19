@@ -15,6 +15,26 @@ requirejs(['jquery'], function( $ ) {
   //DONT ADD ANY JQUERY ABOVE HERE//
   ////////////////////////////////// 
 
+  if ($j('.flexslider').length) {
+    setTimeout(function(){
+      $j('.flexslider').flexslider({
+
+        start: function(slider){
+          slider.removeClass('loading');
+        },
+        after: function(slider){
+            if(slider.currentSlide == 2){
+                slider.pause();
+                setTimeout(function(){
+                    slider.play();
+                }, 2000);
+            }
+        }
+
+      });
+    }, 500);
+  }
+
   setTimeout(function(){
     var basketCheck = setInterval(function(){
       if (jQuery('.c-mini-cart-btn.action.showcart .c-mini-cart-btn__price br').length > 0){
