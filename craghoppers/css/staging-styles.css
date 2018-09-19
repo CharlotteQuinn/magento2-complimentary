@@ -10593,7 +10593,7 @@ All code must be cleared after it goes live
 
 /* END CHUS Staging styles */
 /* Header Updates */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 767px) {
   /* Search update */
   /*.o-layout__item:nth-child(2) .o-layout:nth-child(2) {
       width: 46%;
