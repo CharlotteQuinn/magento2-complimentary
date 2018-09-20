@@ -4543,6 +4543,22 @@ html .s-main-menu .block {
 .page-product-bundle .price-individually:after {
   content: ":";
   margin-left: -3px; }
+@media only screen and (max-width: 650px) {
+  .page-product-bundle h1.c-product-details__title {
+    margin-bottom: 30px;
+    text-align: center; }
+  .page-product-bundle .minimal-price > div {
+    width: 49.333%; }
+  .page-product-bundle .save-price {
+    width: 100%; }
+  .page-product-bundle .bundle-select-right {
+    width: 100%; }
+  .page-product-bundle .product-details .box-tocart .fieldset .field.qty.o-layout__item.u-clear-right {
+    width: 100% !important; }
+  .page-product-bundle .c-qty.c-qty--pdp {
+    text-align: center;
+    margin: auto auto 10px auto;
+    display: inline-block; } }
 
 /* IE STYLES ONLY */
 html:lang(en-IE) .s-header-links .links > li:nth-child(5), html:lang(en-IE) .s-header-links .links > li:nth-child(4) {
