@@ -631,12 +631,6 @@ html {
 	    margin-top: 1.5%;
 	}
 
-	.column--footer p.toggleMain:before {
-	    border-style: solid;
-	    border-width: 0 7px 7px 7px;
-	    border-color: transparent transparent #afafaf transparent;
-	}
-
 }
 
 .c-footer__social {
@@ -1173,12 +1167,6 @@ ul.follow-us {
 	}
 }
 
-@media only screen and (max-width:500px){
-	#footer .s-footer-links > div {
-		width: 100% !important;
-		padding-bottom: 0;
-	}
-}
 /* END */
 
 
@@ -1577,6 +1565,13 @@ h3.c-footer__header {
 		display: none;
 	}
 
+}
+
+@media only screen and (max-width:500px){
+	#footer .s-footer-links > div {
+		width: 100% !important;
+		padding-bottom: 0;
+	}
 }
 
 /* Footer Updates END */

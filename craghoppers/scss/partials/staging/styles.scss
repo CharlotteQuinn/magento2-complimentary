@@ -18,6 +18,18 @@ All code must be cleared after it goes live
 
 /* END CHUS Staging styles */
 
+/* PLP Swatch update */
+.c-product-swatch-wrapper {
+    transition: all .2s;
+}
+
+.c-product-swatch-wrapper:hover {
+    transform: scale(2);
+    transition: all .2s;
+    bottom: 35px !important;
+}
+/* PLP Swatch update END */
+
 /* Header Updates */
 @media only screen and (min-width:760px) {
 
@@ -164,6 +176,14 @@ All code must be cleared after it goes live
 
 	.c-mini-cart__drop-down {
 		top: 38px;
+	}
+
+	.c-mini-cart.c-mini-cart--fixed.is-active {
+	    top: 98px !important;
+	}
+	.c-mini-cart.minicart-wrapper.is-active.c-mini-cart--fixed .c-mini-cart__drop-down {
+	    left: -465px;
+	    max-width: 500px;
 	}
 
 }/* END */
@@ -355,7 +375,7 @@ div#header.headStick {
 		left: 160px;
 	}
 
-	
+
 
 	.c-page-wrapper {
 		padding-top: 8%;
@@ -501,7 +521,7 @@ div#header.headStick {
 		position: relative;
 	}
 
-	
+
 
 
 	/*ul.header.links li a {
@@ -753,6 +773,15 @@ div#header.headStick {
 
 	}
 
+}
+
+@media (max-width: 61.865em) and (min-width: 46.25em){
+	.desktop-theme.headerSticky #header.headStick{
+		.c-mini-cart.c-mini-cart--fixed.is-active {
+		    right: -722px;
+		    top: 5px !important;
+		}
+	}
 }
 
 /* search etc features END */

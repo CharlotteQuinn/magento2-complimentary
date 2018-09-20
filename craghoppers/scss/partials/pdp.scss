@@ -282,3 +282,13 @@ body._has-modal {
 	font-family: 'OpenSans-SemiBold' !important;
 	font-weight: normal !important;
 }
+
+/* Product With No Reviews */
+.c-rating__wrap.noReviews {
+    display: none;
+}
+
+.product-info-price.noReviews {
+    margin-bottom: 3%;
+}
+/* Product With No Reviews END */
