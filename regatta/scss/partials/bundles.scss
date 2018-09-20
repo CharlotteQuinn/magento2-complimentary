@@ -42,4 +42,27 @@
     content: ":";
     margin-left: -3px;
   }
+  @media only screen and (max-width: 650px) {
+    h1.c-product-details__title {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .minimal-price > div {
+      width: 49.333%;
+    }
+    .save-price{
+      width: 100%;
+    }
+    .bundle-select-right {
+      width: 100%;
+    }
+    .product-details .box-tocart .fieldset .field.qty.o-layout__item.u-clear-right{
+      width: 100% !important;
+    }
+    .c-qty.c-qty--pdp {
+      text-align: center;
+      margin: auto auto 10px auto;
+      display: inline-block;
+    }
+  }
 }
