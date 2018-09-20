@@ -15,26 +15,6 @@ requirejs(['jquery'], function( $ ) {
   //DONT ADD ANY JQUERY ABOVE HERE//
   ////////////////////////////////// 
 
-  if ($j('.flexslider').length) {
-    setTimeout(function(){
-      $j('.flexslider').flexslider({
-
-        start: function(slider){
-          slider.removeClass('loading');
-        },
-        after: function(slider){
-            if(slider.currentSlide == 2){
-                slider.pause();
-                setTimeout(function(){
-                    slider.play();
-                }, 2000);
-            }
-        }
-
-      });
-    }, 500);
-  }
-
   setTimeout(function(){
     var basketCheck = setInterval(function(){
       if (jQuery('.c-mini-cart-btn.action.showcart .c-mini-cart-btn__price br').length > 0){
@@ -63,13 +43,14 @@ requirejs(['jquery'], function( $ ) {
   }
 
   // Sticky Header
-  var viewportWidth = window.matchMedia("(min-width: 767px)");
+  //var setWidth = window.innerWidth == "760";
+  var viewportWidth = window.matchMedia("(min-width: 760px)");
   viewportListener(viewportWidth);
   viewportWidth.addListener(viewportListener);
 
   function viewportListener(viewportWidth) {
 
-    if (viewportWidth.matches) {
+    if (viewportWidth.matches && jQuery(".desktop-theme").length > 0) {
 
       // Stick header scroll detect
       jQuery(window).scroll(function(){
@@ -78,6 +59,7 @@ requirejs(['jquery'], function( $ ) {
 
         if (ScrollTop > 102) {
           document.querySelector('body').classList.add('headerSticky');
+          jQuery("#header").addClass("headStick");
 
           if (jQuery(".headerSticky .s-main-menu ul + .o-layout__item").length == 0){
 
@@ -108,45 +90,9 @@ requirejs(['jquery'], function( $ ) {
 
           }// END
 
-          //logo creation
-          var currentURL = window.location.href;
-          var ukURL = location.href === "https://www.craghoppers.com/";
-          var usURL = location.href === "https://www.craghoppers.com/us/";
-          var deURL = location.href === "https://www.craghoppers.de/";
-          var usStaging = location.href === "https://staging-craghoppers.basecamp-nonprod.com/us/?no_cache=true";
-          var homeURL = jQuery(".c-header__logo")[0].href;
-          // if current URL is equal to locale homepage
-          if(currentURL === ukURL || usURL || deURL || usStaging){
-            if (jQuery(".stickyLogo").length <= 0){
-              var stickyLogo = document.createElement("img");
-              stickyLogo.src="https://cdn.craghoppers.com/img/logo/logoMouflon.svg";
-              stickyLogo.classList.add("stickyLogo");
-              var list = document.querySelector(".headerSticky .ui-menu");
-              list.insertBefore(stickyLogo, list.childNodes[0]);
-            }
-            return false;              
-          } else {
-            if (jQuery(".stickyLogo").length <= 0){
-              // IF Start
-              var logoAnchor = document.createElement("a");
-              logoAnchor.href=homeURL;
-              logoAnchor.classList.add("logoAnchor");
-              var list = document.querySelector(".headerSticky .ui-menu");
-              list.insertBefore(logoAnchor, list.childNodes[0]);
-
-              var stickyLogo = document.createElement("img");
-              stickyLogo.src="https://cdn.craghoppers.com/img/logo/logoMouflon.svg";    
-              stickyLogo.classList.add("stickyLogo");
-              var list = document.querySelector(".logoAnchor");
-              list.insertBefore(stickyLogo, list.childNodes[0]);
-
-              // IF End
-            }
-            return false; 
-          }
-
         } else {
           jQuery('body').removeClass('headerSticky');
+          jQuery("#header").removeClass("headStick");
           if (jQuery(".headFeatures").length > 0){
             document.querySelector(".s-main-menu ul + .o-layout__item.headFeatures").classList.add("headFeaturesHide");
           }
@@ -171,6 +117,55 @@ requirejs(['jquery'], function( $ ) {
 
 
       }); // END scroll detect
+
+
+      var logoCheck = setInterval(function(){
+        if (jQuery(".headStick .s-main-menu").length > 0){
+
+          //logo creation
+            var currentURL = window.location.href;
+            var ukURL = location.href === "https://www.craghoppers.com/";
+            var usURL = location.href === "https://www.craghoppers.com/us/";
+            var deURL = location.href === "https://www.craghoppers.de/";
+            var usStaging = location.href === "https://staging-craghoppers.basecamp-nonprod.com/us/?no_cache=true";
+            var homeURL = jQuery(".c-header__logo")[0].href;
+            // if current URL is equal to locale homepage
+            if(currentURL === ukURL || usURL || deURL || usStaging){
+              if (jQuery(".stickyLogo").length <= 0){
+                var stickyLogo = document.createElement("img");
+                stickyLogo.src="https://cdn.craghoppers.com/img/logo/logoMouflon.svg";
+                stickyLogo.classList.add("stickyLogo");
+                var list = document.querySelector(".headerSticky .ui-menu");
+                list.insertBefore(stickyLogo, list.childNodes[0]);
+                clearInterval(logoCheck);
+              }
+              return false;              
+            } else {
+              if (jQuery(".stickyLogo").length <= 0){
+                // IF Start
+                var logoAnchor = document.createElement("a");
+                logoAnchor.href=homeURL;
+                logoAnchor.classList.add("logoAnchor");
+                var list = document.querySelector(".headerSticky .ui-menu");
+                list.insertBefore(logoAnchor, list.childNodes[0]);
+
+                var stickyLogo = document.createElement("img");
+                stickyLogo.src="https://cdn.craghoppers.com/img/logo/logoMouflon.svg";    
+                stickyLogo.classList.add("stickyLogo");
+                var list = document.querySelector(".logoAnchor");
+                list.insertBefore(stickyLogo, list.childNodes[0]);
+
+                clearInterval(logoCheck);
+                // IF End
+              }
+              return false; 
+            }
+
+        }
+      }, 500);
+
+
+
 
     }
 
