@@ -48,7 +48,7 @@ requirejs(['jquery'], function($) {
       var clientHeight = document.getElementById('header').clientHeight;
       var scroll = jQuery(window).scrollTop();
 
-      if (scroll >= clientHeight && jQuery(".desktop-theme").length > 0 && jQuery(".mobile-theme").length == 0) {
+      if (scroll >= clientHeight && jQuery(".mobile-theme").length == 0) {
         document.querySelector('body').classList.add('headerSticky');
         jQuery("#header").addClass("headStick");
 
