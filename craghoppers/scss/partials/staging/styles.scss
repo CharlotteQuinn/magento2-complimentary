@@ -19,7 +19,7 @@ All code must be cleared after it goes live
 /* END CHUS Staging styles */
 
 /* Header Updates */
-@media only screen and (min-width:767px) {
+@media only screen and (min-width:760px) {
 
 	/* Search update */
 
@@ -166,9 +166,8 @@ All code must be cleared after it goes live
 		top: 38px;
 	}
 
-}
+}/* END */
 
-/* END */
 
 /* CHUS Menu Updates */
 
@@ -323,11 +322,11 @@ div#header.headStick {
 	top:0;
 }
 
-.headerSticky .c-page-wrapper {
+.desktop-theme.headerSticky .c-page-wrapper {
     margin-top: 13.3%;
 }
 
-.headerSticky #header.headStick{
+.desktop-theme.headerSticky #header.headStick{
 	.sections.nav-sections,
 	.generic-usp {
 		display: none;
@@ -557,7 +556,7 @@ div#header.headStick {
 		width: 25px;
 	}
 
-	.cms-homepage-promo-grid-ch-us.headerSticky #header.headStick .s-main-menu ul + .o-layout__item .o-layout:nth-child(2) {
+	.cms-homepage-promo-grid-ch-us.desktop-theme.headerSticky #header.headStick .s-main-menu ul + .o-layout__item .o-layout:nth-child(2) {
 		width: 100px !important;
 	}
 
@@ -653,7 +652,7 @@ div#header.headStick {
 }
 
 @media only screen and (max-width:1400px) {
-	.headerSticky #header.headStick{
+	.desktop-theme.headerSticky #header.headStick{
 		.s-main-menu ul + .o-layout__item {
 		    width: 205px !important;
 		    padding-left: 0;
@@ -666,7 +665,7 @@ div#header.headStick {
 }
 
 @media only screen and (max-width:1228px) {
-	.headerSticky #header.headStick{
+	.desktop-theme.headerSticky #header.headStick{
 		/*.c-mini-cart__drop-down {
 			left: -150px;
 		}*/
@@ -679,7 +678,7 @@ div#header.headStick {
 }
 
 @media only screen and (max-width:1100px) {
-	.headerSticky #header.headStick{
+	.desktop-theme.headerSticky #header.headStick{
 		.s-main-menu ul + .o-layout__item {
 		    width: 195px !important;
 		    padding-left: 0;
@@ -690,11 +689,14 @@ div#header.headStick {
 		.o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(2) {
 		    margin-left: 0;
 		}
+		.c-mini-cart__drop-down {
+		    left: -392px;
+		}
 	}
 }
 
 @media only screen and (max-width:1100px) {
-	.headerSticky #header.headStick{
+	.desktop-theme.headerSticky #header.headStick{
 		.c-mini-cart-btn__price {
 		    padding: 2px 5px;
 		}
@@ -715,7 +717,7 @@ div#header.headStick {
 }
 
 @media only screen and (max-width:989px) {
-	.headerSticky #header.headStick{
+	.desktop-theme.headerSticky #header.headStick{
 		ul#ui-id-3::before {
 			left: 100px;
 		}
