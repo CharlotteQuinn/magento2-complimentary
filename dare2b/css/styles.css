@@ -3047,6 +3047,67 @@ html:lang(en) .catalog-category-view {
     display: inline-block;
     padding: 4px !important;
     line-height: 18px; } }
+.page-product-bundle .bundle-price-container > .minimal-price {
+  display: inline-block;
+  width: 100%; }
+.page-product-bundle .bundle-price-container > .minimal-price > .minimal-price-float {
+  width: 100%;
+  text-align: left;
+  padding: 0px 7px;
+  display: none; }
+.page-product-bundle .minimal-price > div {
+  width: 33.333%;
+  float: left !important;
+  display: inline-block;
+  text-align: center; }
+.page-product-bundle .save-price .price-divider {
+  float: left; }
+.page-product-bundle .total-price .price-divider {
+  float: right; }
+.page-product-bundle .fieldset.fieldset-bundle-options > .field.option.required {
+  border-bottom: solid 1px #e2e2e2;
+  display: inline-block;
+  margin-bottom: 20px; }
+.page-product-bundle .field.option.required > label {
+  display: none; }
+.page-product-bundle .bundle-select-left img {
+  padding: 0px 20px; }
+.page-product-bundle .save-price {
+  color: #d1000b; }
+.page-product-bundle .price-divider {
+  color: initial; }
+.page-product-bundle .price-individually:after {
+  content: ":";
+  margin-left: -3px; }
+@media only screen and (max-width: 650px) {
+  .page-product-bundle h1.c-product-details__title {
+    margin-bottom: 30px !important;
+    text-align: center; }
+  .page-product-bundle .minimal-price > div {
+    width: 49.333% !important; }
+  .page-product-bundle .save-price {
+    width: 100% !important; }
+  .page-product-bundle .bundle-select-right {
+    width: 100% !important; }
+  .page-product-bundle .product-details .box-tocart .fieldset .field.qty.o-layout__item.u-clear-right {
+    width: 100% !important;
+    text-align: center; }
+  .page-product-bundle .product-options-wrapper .fieldset p.required {
+    display: none; }
+  .page-product-bundle .product-options-wrapper .fieldset > h2 {
+    text-align: center; }
+  .page-product-bundle .c-qty.c-qty--pdp {
+    text-align: center;
+    margin: auto auto 10px auto;
+    display: inline-block; }
+  .page-product-bundle .price-box.price-configured_price {
+    width: 100%;
+    text-align: center; }
+  .page-product-bundle .page-product-bundle .c-product-details .c-price__group {
+    float: none !important; }
+  .page-product-bundle .bundle-select-left {
+    width: 100%; } }
+
 /* Singles */
 #homepage section img {
   width: 100%; }
