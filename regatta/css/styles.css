@@ -1775,6 +1775,12 @@ html .c-basket__payment-icons {
 /*//////////////////////////
 /* SEO Footer Text */
 /*////////////////////////*/
+#content + div.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder .c-campaign > .s-text-banner h2, #content + div.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder .c-campaign > .s-text-banner h3 {
+  margin: 10px 0px; }
+
+#content + div.js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder .c-campaign > .s-text-banner p {
+  font-size: 13px; }
+
 #content + .c-campaign > .s-text-banner {
   background: #f9f9f9; }
 
@@ -1905,7 +1911,7 @@ html .c-basket__payment-icons {
   border-radius: 48px;
   box-sizing: border-box;
   overflow: hidden;
-  padding: 7px 20px 7px 16px;
+  padding: 7px 20px 7px 13px;
   display: inline-block;
   text-decoration: none;
   margin: 10px 10px 0px 0px;
@@ -1935,7 +1941,7 @@ html .c-basket__payment-icons {
   right: 0; }
 
 #top-level-cat-banner-text > p {
-  font-size: 14px; }
+  font-size: 13px; }
 
 @media screen and (max-width: 770px) {
   #top-level-cat-banner-text li {
