@@ -11082,7 +11082,16 @@ div#header.headStick {
   .desktop-theme.headerSticky #header.headStick .s-main-menu ul + .o-layout__item {
     width: 105px !important; }
   .desktop-theme.headerSticky #header.headStick .c-mini-cart__drop-down {
-    left: -465px; } }
+    left: -465px; }
+  .desktop-theme.headerSticky #header.headStick .c-mini-cart.c-mini-cart--fixed.is-active {
+    top: 98px !important; }
+  .desktop-theme.headerSticky #header.headStick .c-mini-cart.minicart-wrapper.is-active.c-mini-cart--fixed .c-mini-cart__drop-down {
+    left: -465px;
+    max-width: 500px; } }
+@media (max-width: 61.865em) and (min-width: 46.25em) {
+  .desktop-theme.headerSticky #header.headStick .c-mini-cart.c-mini-cart--fixed.is-active {
+    right: -722px;
+    top: 5px !important; } }
 /* search etc features END */
 /* CHUS Header Updates END */
 /* PDP Updates */
