@@ -10596,7 +10596,7 @@ All code must be cleared after it goes live
 .c-product-swatch-wrapper {
   transition: all .2s; }
 
-li.u-flex-display:hover .c-product-swatch-wrapper {
+.c-product-swatch-wrapper:hover {
   transform: scale(2);
   transition: all .2s;
   bottom: 35px !important; }
