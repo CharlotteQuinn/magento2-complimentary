@@ -10592,6 +10592,16 @@ All code must be cleared after it goes live
   max-width: 100%; }
 
 /* END CHUS Staging styles */
+/* PLP Swatch update */
+.c-product-swatch-wrapper {
+  transition: all .2s; }
+
+li.u-flex-display:hover .c-product-swatch-wrapper {
+  transform: scale(2);
+  transition: all .2s;
+  bottom: 35px !important; }
+
+/* PLP Swatch update END */
 /* Header Updates */
 @media only screen and (min-width: 760px) {
   /* Search update */
