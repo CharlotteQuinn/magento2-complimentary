@@ -2139,9 +2139,6 @@ html:lang(en) .catalog-category-view {
       border-bottom: solid 1px #ebebeb;
       margin-bottom: 20px;
       background: #ffffff; }
-    html:lang(en) .catalog-category-view .js-fredhopper-fredhopper-hero-wrapper-placeholder {
-      background: #F5F5F5;
-      box-shadow: 0px 1px 1px #e4e4e4; }
     html:lang(en) .catalog-category-view #top-level-cat-banner {
       background: #F5F5F5 !important; }
     html:lang(en) .catalog-category-view .c-facet-list.selected-facets h3 {
@@ -2859,7 +2856,7 @@ html:lang(en) .catalog-category-view {
   font-size: 15px;
   box-sizing: border-box;
   overflow: hidden;
-  padding: 5px 20px 5px 15px;
+  padding: 5px 20px 10px 15px;
   display: inline-block;
   text-decoration: none;
   margin: 0px 5px 0px 0px;
