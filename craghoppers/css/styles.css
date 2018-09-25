@@ -2764,7 +2764,7 @@ div.squarelovin-widget-container .squarelovin-productstream-arrow img {
     left: 0 !important;
     bottom: 0 !important; }
 
-  section.pageSection.imageSocialFeed span:nth-child(2) {
+  section.pageSection.imageSocialFeed span:nth-child(1) {
     display: none; }
 
   .imageSocialFeedHeader {
