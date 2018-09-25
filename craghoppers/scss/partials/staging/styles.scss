@@ -191,69 +191,6 @@ All code must be cleared after it goes live
 
 /* CHUS Menu Updates */
 
-/*Ambassadors */
-.cms-homepage-promo-grid-ch-us {
-	.menuSection.menuCollection {
-		width: 100% !important;
-	}
-
-	.menuSection.menuGenderCollection {
-		width: 80% !important;
-	}
-
-	.menuAmbassadors .collectionItem {
-		max-width: 236px;
-	}
-
-	.s-main-menu .block .category-items .menuAmbassadors .collectionItem a {
-		padding: 29% 0px;
-	}
-
-	.ambass-ben{
-		background-image: url('https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-BenSadd.jpg');
-	}
-	.ambass-coyote{
-		background-image: url('https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-CoyotePeterson.jpg');
-	}
-	.ambass-kevin{
-		background-image: url('https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-KevinRichardson.jpg');
-	}
-	.ambass-felix{
-		background-image: url('https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-FelixNdagijimana.jpg');
-	}
-	.ambass-tasmin{
-		background-image: url('https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-TamsinJones.jpg');
-	}
-	.ambass-faruk{
-		background-image: url('https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-FarukAkbas.jpg');
-	}
-	.ambass-pip{
-		background-image: url('https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-PipStewart.jpg');
-	}
-	.ambass-david{
-		background-image: url('https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-DavidLove.jpg');
-	}
-	.ambass-brandon{
-		background-image: url('https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-BrandonEckroth.jpg');
-	}
-	.ambass-louisa{
-		background-image: url('https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-DrLouisaPreston.jpg');
-	}
-
-}
-
-@media only screen and (max-width:1227px) {
-	.cms-homepage-promo-grid-ch-us {
-		.menuAmbassadors .collectionItem {
-			max-width: 188px;
-		}
-
-	}
-
-}
-
-/*Ambassadors END*/
-
 /* Gender Menu */
 .cms-homepage-promo-grid-ch-us {
 	.menuGenderCollection {

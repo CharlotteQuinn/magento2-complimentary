@@ -10729,40 +10729,6 @@ All code must be cleared after it goes live
     max-width: 500px; } }
 /* END */
 /* CHUS Menu Updates */
-/*Ambassadors */
-.cms-homepage-promo-grid-ch-us .menuSection.menuCollection {
-  width: 100% !important; }
-.cms-homepage-promo-grid-ch-us .menuSection.menuGenderCollection {
-  width: 80% !important; }
-.cms-homepage-promo-grid-ch-us .menuAmbassadors .collectionItem {
-  max-width: 236px; }
-.cms-homepage-promo-grid-ch-us .s-main-menu .block .category-items .menuAmbassadors .collectionItem a {
-  padding: 29% 0px; }
-.cms-homepage-promo-grid-ch-us .ambass-ben {
-  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-BenSadd.jpg"); }
-.cms-homepage-promo-grid-ch-us .ambass-coyote {
-  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-CoyotePeterson.jpg"); }
-.cms-homepage-promo-grid-ch-us .ambass-kevin {
-  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-KevinRichardson.jpg"); }
-.cms-homepage-promo-grid-ch-us .ambass-felix {
-  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-FelixNdagijimana.jpg"); }
-.cms-homepage-promo-grid-ch-us .ambass-tasmin {
-  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-TamsinJones.jpg"); }
-.cms-homepage-promo-grid-ch-us .ambass-faruk {
-  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-FarukAkbas.jpg"); }
-.cms-homepage-promo-grid-ch-us .ambass-pip {
-  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-PipStewart.jpg"); }
-.cms-homepage-promo-grid-ch-us .ambass-david {
-  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-DavidLove.jpg"); }
-.cms-homepage-promo-grid-ch-us .ambass-brandon {
-  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-BrandonEckroth.jpg"); }
-.cms-homepage-promo-grid-ch-us .ambass-louisa {
-  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-DrLouisaPreston.jpg"); }
-
-@media only screen and (max-width: 1227px) {
-  .cms-homepage-promo-grid-ch-us .menuAmbassadors .collectionItem {
-    max-width: 188px; } }
-/*Ambassadors END*/
 /* Gender Menu */
 .cms-homepage-promo-grid-ch-us .menuGenderCollection .collectionItem:nth-child(2),
 .cms-homepage-promo-grid-ch-us .menuGenderCollection .collectionItem:nth-child(5) {
