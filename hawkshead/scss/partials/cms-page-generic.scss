@@ -1104,7 +1104,11 @@ h3.c-footer__header {
 	}
 
 	.c-footer__links {
-		padding: 20px 10px;
+		padding: 20px 10px 10px 10px;
+	}
+
+	.c-footer__copyright {
+	    border-top: 0;
 	}
 
 }
