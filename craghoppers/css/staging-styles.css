@@ -984,12 +984,7 @@ html {
     border-width: 7px 7px 0 7px;
     border-color: #afafaf transparent transparent transparent;
     float: right;
-    margin-top: 1.5%; }
-
-  .column--footer p.toggleMain:before {
-    border-style: solid;
-    border-width: 0 7px 7px 7px;
-    border-color: transparent transparent #afafaf transparent; } }
+    margin-top: 1.5%; } }
 .c-footer__social {
   padding: 30px 0 20px 0; }
 
@@ -1413,10 +1408,6 @@ ul.follow-us {
 
   .footerHeaderMobile {
     display: block; } }
-@media only screen and (max-width: 500px) {
-  #footer .s-footer-links > div {
-    width: 100% !important;
-    padding-bottom: 0; } }
 /* END */
 /* REGISTER GUARANTEE FORM */
 .guaranteehead {
@@ -1730,6 +1721,10 @@ border-color: transparent transparent #afafaf transparent;*/ }
 
   .c-footer__copyright {
     display: none; } }
+@media only screen and (max-width: 500px) {
+  #footer .s-footer-links > div {
+    width: 100% !important;
+    padding-bottom: 0; } }
 /* Footer Updates END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
@@ -2699,13 +2694,13 @@ section.pageSection.imageSocialFeed {
 
 .imageSocialFeedHeader {
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
-  font-size: 30px;
-  line-height: 1;
-  margin-bottom: 1%; }
+  text-transform: uppercase;
+  margin-bottom: 0.5%;
+  font-size: 20px; }
 
 .imageSocialFeedInfo {
-  font-size: 16px;
-  margin-bottom: 2%; }
+  font-size: 20px;
+  margin-bottom: 1%; }
 
 .galleryButton {
   border: 1px solid;
@@ -8625,6 +8620,14 @@ body._has-modal {
   font-family: 'OpenSans-SemiBold' !important;
   font-weight: normal !important; }
 
+/* Product With No Reviews */
+.c-rating__wrap.noReviews {
+  display: none; }
+
+.product-info-price.noReviews {
+  margin-bottom: 3%; }
+
+/* Product With No Reviews END */
 .utc {
   font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
 
@@ -10722,7 +10725,14 @@ All code must be cleared after it goes live
     margin-right: 13%; }
 
   .c-mini-cart__drop-down {
-    top: 38px; } }
+    top: 38px; }
+
+  .c-mini-cart.c-mini-cart--fixed.is-active {
+    top: 98px !important; }
+
+  .c-mini-cart.minicart-wrapper.is-active.c-mini-cart--fixed .c-mini-cart__drop-down {
+    left: -465px;
+    max-width: 500px; } }
 /* END */
 /* CHUS Menu Updates */
 /*Ambassadors */
@@ -11103,6 +11113,7 @@ div#header.headStick {
   .desktop-theme.headerSticky #header.headStick .c-mini-cart.minicart-wrapper.is-active.c-mini-cart--fixed .c-mini-cart__drop-down {
     left: -465px;
     max-width: 500px; } }
+
 @media (max-width: 61.865em) and (min-width: 46.25em) {
   .desktop-theme.headerSticky #header.headStick .c-mini-cart.c-mini-cart--fixed.is-active {
     right: -722px;
