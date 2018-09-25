@@ -97,11 +97,10 @@ requirejs(['jquery'], function($) {
         var ukURL = location.href === "https: //www.craghoppers.com/";
         var usURL = location.href === "https: //www.craghoppers.com/us/";
         var deURL = location.href === "https: //www.craghoppers.de/";
-        var usStaging = location.href === "https: //staging-craghoppers.basecamp-nonprod.com/us/?no_cache=true";
         var homeURL = jQuery(".c-header__logo")[0].href;
 
         // if current URL is equal to locale homepage
-        if(currentURL === ukURL || usURL || deURL || usStaging) {
+        if(currentURL === ukURL || usURL || deURL) {
           if (jQuery(".stickyLogo").length <= 0) {
             var stickyLogo = document.createElement("img");
             stickyLogo.src="https://cdn.craghoppers.com/img/logo/logoMouflon.svg";
