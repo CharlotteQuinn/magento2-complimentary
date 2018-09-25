@@ -36,13 +36,6 @@ requirejs(['jquery'], function($) {
       }, 5000);
     }
 
-    // PDP reviews check
-    // if no reviews on product, add class and then hide in CSS
-    if (jQuery('.reviews-actions .js-reviews-click').length == 0) {
-      jQuery('.product-info-price .c-rating__wrap').addClass("noReviews");
-      jQuery('.product-info-stock-sku + .product-info-price').addClass("noReviews");
-    }
-
     // Sticky Header 
     jQuery(window).scroll(function() {
       var clientHeight = document.getElementById('header').clientHeight;
