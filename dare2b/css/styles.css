@@ -3016,9 +3016,6 @@ body .c-product-tile .c-product-tile__btn {
   .category-container-aw17 img {
     display: none; }
 
-  .category-container-aw17 {
-    background: #fff; }
-
   .category-container-aw17 .category-banner-text,
   .category-container-aw17 .category-links {
     text-align: center !important; }
@@ -3075,28 +3072,40 @@ body .c-product-tile .c-product-tile__btn {
     flex-wrap: wrap;
     margin-top: 8px;
     margin-bottom: 0;
-    padding: 0 !important; }
+    padding: 0 !important;
+    display: block;
+    overflow: auto;
+    white-space: nowrap; }
+
+  .category-banner-text:after {
+    content: 'Scroll to see more ';
+    margin-bottom: 0px;
+    display: block;
+    opacity: 0.7;
+    font-size: 12px;
+    text-align: left; }
+
+  .category-links::-webkit-scrollbar {
+    height: 5px; }
+
+  /* Track */
+  .category-links::-webkit-scrollbar-track {
+    background: #f1f1f1; }
+
+  /* Handle */
+  .category-links::-webkit-scrollbar-thumb {
+    background: #888; }
+
+  /* Handle on hover */
+  .category-links::-webkit-scrollbar-thumb:hover {
+    background: #555; }
 
   .category-container-aw17 .category-links > a {
     flex-grow: 1;
     flex-basis: auto;
-    margin: 0 !Important;
-    background: #333;
-    display: block;
-    box-sizing: border-box;
-    color: #fff !important;
-    text-decoration: none;
-    padding: 2px 4px;
-    border: 1px solid #fff;
-    font-size: 12px; }
-
-  .category-container-aw17 .category-links > a:after {
-    content: '>';
-    margin-left: 8px;
-    transform: scale(0.8, 1.4) !important;
-    display: inline-block;
-    float: right;
-    margin-right: 8px; } }
+    margin: 4px !Important;
+    font-size: 12px;
+    text-align: left; } }
 /* 770px media query ENDS */
 @media screen and (max-width: 640px) {
   html body .category-container-aw17 .category-links {
@@ -3112,7 +3121,8 @@ body .c-product-tile .c-product-tile__btn {
     background: none; }
 
   .category-view .s-text-banner h1 {
-    margin-bottom: -20px; }
+    margin-bottom: -20px;
+    margin-top: 10px; }
 
   .s-text-banner__links-wrapper {
     display: none; } }
