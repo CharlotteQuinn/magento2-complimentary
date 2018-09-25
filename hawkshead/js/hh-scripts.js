@@ -446,6 +446,14 @@ var todayDate = new Date();
   }
 // END
 
+// PDP reviews check
+function pdpReviewCheck(){
+  if (jQuery('.reviews-actions .js-reviews-click').length == 0) {
+    jQuery('.product-info-price .c-rating__wrap').addClass("noReviews");
+    jQuery('.product-info-stock-sku + .product-info-price').addClass("noReviews");
+  }
+}
+
 requirejs(['jquery'], function( $ ) {
 
   var $j = jQuery.noConflict();
