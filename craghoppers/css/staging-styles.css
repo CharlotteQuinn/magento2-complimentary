@@ -10780,6 +10780,8 @@ All code must be cleared after it goes live
   background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-BrandonEckroth.jpg"); }
 .cms-homepage-promo-grid-ch-us .ambass-louisa {
   background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-DrLouisaPreston.jpg"); }
+.cms-homepage-promo-grid-ch-us .ambass-penny {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-PipStewart.jpg"); }
 
 @media only screen and (max-width: 1227px) {
   .cms-homepage-promo-grid-ch-us .menuAmbassadors .collectionItem {
