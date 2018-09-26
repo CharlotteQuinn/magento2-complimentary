@@ -11017,8 +11017,9 @@ div#header.headStick {
 
 .o-layout.mobile-flex .c-toolbar--position .o-layout.u-flex-row .o-layout__item:nth-child(1) ul li {
   display: inline-block;
-  margin-right: 4%;
-  cursor: pointer; }
+  margin-right: 1%;
+  cursor: pointer;
+  font-size: 12px; }
 
 .o-layout.mobile-flex .c-toolbar--position .o-layout.u-flex-row .o-layout__item:nth-child(1) ul li:hover {
   text-decoration: underline; }
@@ -11028,13 +11029,20 @@ div#header.headStick {
 
 li.toggleable > span.sortby-icon {
   vertical-align: text-top;
-  margin-left: 5px; }
+  margin-left: 5px;
+  display: none; }
 
 .o-layout.mobile-flex .c-toolbar--position .o-layout.u-flex-row .o-layout__item:nth-child(1) ul li.selected {
   background: transparent;
   color: #343334;
   text-decoration: underline;
   font-weight: bold; }
+
+.o-layout.mobile-flex .c-toolbar--position .o-layout.u-flex-row .o-layout__item:nth-child(1) ul li:last-of-type + span {
+  display: none; }
+
+.o-layout.mobile-flex .c-toolbar--position .o-layout.u-flex-row .o-layout__item:nth-child(1) ul li + span {
+  margin-right: 1%; }
 
 /* PLP Updates END */
 /* PLP Accordion */
