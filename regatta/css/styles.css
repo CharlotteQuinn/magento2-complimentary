@@ -4585,6 +4585,12 @@ html.RCIE .s-header-links .links > li:nth-child(5), html.RCIE .s-header-links .l
 /* IT STYLES ONLY */
 /* RU STYLES ONLY */
 /* ES STYLES ONLY */
+/* PL STYLES ONLY */
+html:lang(pl) {
+  /*/////////////////////////////////////////*/
+  /* Regatta Commerce Polish Styles Only     */
+  /*/////////////////////////////////////////*/ }
+
 /* Singles */
 
 /*# sourceMappingURL=styles.css.map */

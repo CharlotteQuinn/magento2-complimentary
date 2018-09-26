@@ -55,4 +55,10 @@ html:lang(es-ES) {
 	@import 'partials/spain.scss';
 }
 
+/* PL STYLES ONLY */
+
+html:lang(pl) {
+	@import 'partials/poland.scss';
+}
+
 /* Singles */
