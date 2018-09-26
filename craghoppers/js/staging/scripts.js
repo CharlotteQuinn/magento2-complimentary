@@ -149,12 +149,14 @@ requirejs(['jquery'], function($) {
     var facetCheck = setInterval(function(){
       if (jQuery(".o-list-stacked li:first-of-type ul").length > 0){
         jQuery('.o-list-stacked li:first-of-type .c-facet-list__list').addClass("facetOpen");
+        jQuery('.c-facet-list__list').click(function(){
+          jQuery(this).toggleClass("facetOpen");
+        });
+        jQuery(".o-layout.mobile-flex .c-toolbar--position .o-layout.u-flex-row .o-layout__item:nth-child(1) ul li").after("<span>|</span>");
         clearInterval(facetCheck);
       }
     }, 1000);
-    jQuery('.c-facet-list__list').click(function(){
-      jQuery(this).toggleClass("facetOpen");
-    });
+    
 
 
     var elementTop = jQuery(".o-layout__item.c-toolbar--position").offset().top;
