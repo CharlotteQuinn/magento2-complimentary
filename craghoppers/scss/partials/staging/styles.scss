@@ -182,11 +182,26 @@ All code must be cleared after it goes live
 	    top: 98px !important;
 	}
 	.c-mini-cart.minicart-wrapper.is-active.c-mini-cart--fixed .c-mini-cart__drop-down {
-	    left: -465px;
+	    left: -303px;
 	    max-width: 500px;
 	}
 
+	.desktop-theme.headerSticky #header.headStick{
+
+		.c-mini-cart.c-mini-cart--fixed.is-active {
+		    top: 5px !important;
+		}
+
+		.c-mini-cart.c-mini-cart--fixed.is-active {
+		    right: -83%;
+		}
+
+	}
+
 }/* END */
+
+
+
 
 
 /* CHUS Menu Updates */
