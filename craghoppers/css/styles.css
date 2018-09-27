@@ -6814,7 +6814,8 @@ a.micro-product__button {
 
 .FA-DiscoverFilm {
   padding-top: 1%;
-  max-width: 234px; }
+  max-width: 234px;
+  margin-left: 1.5%; }
 
 ul.FA-list {
   list-style: none;
@@ -7186,8 +7187,8 @@ a:nth-child(2) .fp-CTA {
 
 .fp-top-footer-right {
   font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 22px;
+  line-height: 26px;
   text-align: center;
   letter-spacing: 1px;
   color: #fff; }
