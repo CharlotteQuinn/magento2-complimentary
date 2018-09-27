@@ -11875,6 +11875,12 @@ li.toggleable > span.sortby-icon {
   .fp-montage-inner:hover .fp-montage-item.fp-montage-item-7 {
     padding: 5% 0 !important; } }
 /*film prize new homepage end*/
+.flex-item.col-12.fp-banner-nopadding {
+  padding: 0 !important; }
+
+.FA-MainContainer {
+  padding: 0 2% 2% 2%; }
+
 /* FILM PRIZE END */
 
 /*# sourceMappingURL=staging-styles.css.map */
