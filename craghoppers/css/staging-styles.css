@@ -11117,10 +11117,12 @@ li.toggleable > span.sortby-icon {
 .cms-filmprize-guardian .flex-container {
   margin: 0 !important; }
 
+.cms-filmprize .c-breadcrumbs,
 .cms-filmprize-guardian2 .c-breadcrumbs,
 .cms-filmprize-guardian .c-breadcrumbs {
   display: none; }
 
+.cms-filmprize .columns .o-region__inner,
 .cms-filmprize-guardian2 .columns .o-region__inner,
 .cms-filmprize-guardian .columns .o-region__inner {
   width: 100%; }
@@ -11144,7 +11146,8 @@ li.toggleable > span.sortby-icon {
   display: block;
   position: absolute;
   z-index: -0;
-  left: 0; }
+  left: 0;
+  top: 0; }
 
 .fp-container:after {
   content: "";
@@ -11535,18 +11538,8 @@ li.toggleable > span.sortby-icon {
     width: 105px; } }
 /*film prize guardian page end */
 /*film prize new homepage start*/
-.fp-inner {
-  max-width: 1228px;
-  margin: 0 auto; }
-
 .fp-inner-white {
   background-color: #fff; }
-
-.cms-filmprize2 .c-breadcrumbs {
-  display: none; }
-
-.cms-filmprize2 .columns .o-region__inner {
-  width: 100%; }
 
 .video-container {
   position: relative;
