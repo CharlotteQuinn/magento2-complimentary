@@ -160,6 +160,10 @@ All code must be cleared after it goes live
 		    max-width: 500px;
 		}
 
+		ul.header.links.isLoggedIn li:first-of-type {
+		    display: inline-block !important;
+		}
+
 	}
 
 	.desktop-theme.headerSticky #header.headStick{

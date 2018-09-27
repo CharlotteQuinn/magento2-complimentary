@@ -1590,6 +1590,10 @@ h3.c-footer__header {
 	    border-top: 0;
 	}
 
+	.c-footer__copyright .o-layout__item {
+	    width: 100% !important;
+	}
+
 }
 
 @media only screen and (max-width:500px){
