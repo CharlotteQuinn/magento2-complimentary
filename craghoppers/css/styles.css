@@ -1739,8 +1739,12 @@ border-color: transparent transparent #afafaf transparent;*/ }
   .c-footer__copyright {
     border-top: 0; }
 
-  .c-footer__copyright .o-layout__item {
-    width: 100% !important; } }
+  .c-footer__copyright .o-layout__item:nth-child(1),
+  .c-footer__copyright .o-layout__item:nth-child(3) {
+    width: 100% !important; }
+
+  .c-footer__copyright .o-layout__item:nth-child(3) {
+    margin-bottom: 2%; } }
 @media only screen and (max-width: 500px) {
   #footer .s-footer-links > div {
     width: 100% !important;

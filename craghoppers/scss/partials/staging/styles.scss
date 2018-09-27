@@ -156,12 +156,25 @@ All code must be cleared after it goes live
 		    top: 98px !important;
 		}
 		.c-mini-cart.minicart-wrapper.is-active.c-mini-cart--fixed .c-mini-cart__drop-down {
-		    left: -303px;
+		    //left: -318px;
 		    max-width: 500px;
 		}
 
 		ul.header.links.isLoggedIn li:first-of-type {
 		    display: inline-block !important;
+		}
+
+		.s-header-links .links.isLoggedIn > li:nth-child(3) {
+		    width: auto;
+		    padding-left: 15px;
+		}
+
+		.s-header-links .links.isLoggedIn > li.greet.welcome {
+		    padding-left: 15px;
+		}
+
+		.c-mini-cart-btn {
+		    padding: 0 5px;
 		}
 
 	}
@@ -174,6 +187,10 @@ All code must be cleared after it goes live
 
 		.c-mini-cart.c-mini-cart--fixed.is-active {
 		    right: -83%;
+		}
+
+		.c-mini-cart.minicart-wrapper.is-active.c-mini-cart--fixed .c-mini-cart__drop-down {
+		    left: -381px !important;
 		}
 
 	}
@@ -663,7 +680,7 @@ div#header.headStick {
 		}
 
 		.c-mini-cart.c-mini-cart--fixed.is-active {
-		    top: 98px !important;
+		    top: 83px !important;
 		}
 		.c-mini-cart.minicart-wrapper.is-active.c-mini-cart--fixed .c-mini-cart__drop-down {
 		    left: -465px;
