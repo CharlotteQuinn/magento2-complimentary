@@ -1737,7 +1737,10 @@ border-color: transparent transparent #afafaf transparent;*/ }
     padding: 20px 10px 10px 10px; }
 
   .c-footer__copyright {
-    border-top: 0; } }
+    border-top: 0; }
+
+  .c-footer__copyright .o-layout__item {
+    width: 100% !important; } }
 @media only screen and (max-width: 500px) {
   #footer .s-footer-links > div {
     width: 100% !important;

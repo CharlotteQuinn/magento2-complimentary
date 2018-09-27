@@ -35,6 +35,18 @@ requirejs(['jquery'], function($) {
         jQuery('.or').html('/');
       }, 5000);
     }
+    
+    var loggedInCheck = setInterval(function() {
+
+      // check if user logged in
+      if (jQuery('a[data-bind="visible: isLoggedIn()').is(":visible")){
+        jQuery("#header ul.header.links").addClass("isLoggedIn");
+        clearInterval(loggedInCheck);
+      } else if (jQuery('a[data-bind="visible: !isLoggedIn()').is(":visible")){
+        clearInterval(loggedInCheck);
+      }
+
+    }, 1000);
 
     // Sticky Header 
     jQuery(window).scroll(function() {
