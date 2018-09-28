@@ -10159,26 +10159,35 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
 
 /* END */
 /* Mega menu */
-.collection-mrfid {
-  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/RFID.jpg); }
-
 .collection-mrecycled {
-  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/Recycled.jpg); }
+  background-image: url(https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/mens/Mens-MegaMenu-RecycledClothing.jpg); }
 
-.collection-wrfid {
-  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/WRFID.jpg); }
+.collection-mgore {
+  background-image: url(https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/mens/Mens-MegaMenu-GORE-TEX.jpg); }
+
+.collection-minsect {
+  background-image: url(https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/mens/Mens-MegaMenu-InsectShield.jpg); }
+
+.collection-mbestseller {
+  background-image: url(https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/mens/Mens-MegaMenu-NewArrivals.jpg); }
 
 .collection-wrecycled {
-  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/WRecycled.jpg); }
+  background-image: url(https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/womens/Womens-MegaMenu-Recycled.jpg); }
 
-.collection-koutdoor {
-  background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/kids/KidsOutdoorProtection.jpg); }
+.collection-wgore {
+  background-image: url(https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/womens/Mens-MegaMenu-GORE-TEX.jpg); }
 
-.collection-mcya {
-  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/MensChooseYourAdventure.jpg); }
+.collection-winsect {
+  background-image: url(https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/womens/Womens-MegaMenu-InsectShield.jpg); }
 
-.collection-wcya {
-  background-image: url(https://cdn.craghoppers.com/img/SS18/US/misc/mega_menu/WomensChooseYourAdventure.jpg); }
+.collection-wbestseller {
+  background-image: url(https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/womens/Womens-MegaMenu-NewArrivals.jpg); }
+
+.collection-ktoppick {
+  background-image: url(https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/womens/Kids-MegaMenu-TopPicks.jpg); }
+
+.collection-wbestseller {
+  background-image: url(https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/womens/Kids-MegaMenu-NewArrivals.jpg); }
 
 .collection-moutdoor {
   background-image: url(https://cdn.craghoppers.com/img/SS18/UK/misc/mega_menu/mens/MensOutdoorProtection.jpg) !important; }
@@ -10242,10 +10251,127 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
         background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-BannersTablet-Womens.jpg") !important;
     }
 }
+
+
+@media only screen and (max-width: 700px){
+    
+    .plp-headerMens{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Mens-mobile.jpg") !important;
+    }
+    .plp-headerWomens{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Womens-mobile.jpg") !important;
+    }
+    .plp-headerKids{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Kids-mobile.jpg") !important;
+    }
+    .plp-fleeceMens{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-mobile.jpg") !important;
+    }
+    .plp-trousersMens{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-mobile.jpg") !important;
+    }
+    .plp-jacketsMens{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets-mobile.jpg") !important;
+    }
+    .plp-shirtsMens{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-MensShirts.jpg") !important;
+    }
+    .plp-fleeceWomens{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Fleece-mobile.jpg") !important;
+    }
+    .plp-trousersWomens{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Trousers-mobile.jpg") !important;
+    }
+    .plp-jacketsWomens{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Jackets-mobile.jpg") !important;
+    }
+    .plp-shirtsWomens{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Shirts-mobile.jpg") !important;
+    }
+    .plp-jacketsKids{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-BannersMobile-KidsJackets.jpg") !important;
+    }
+    .plp-headerKidsSchool{
+        background-image: url("https://cdn.craghoppers.com/img/SS18/UK/cat/top_level/TopLevel-Banner-BacktoSchool-mobile.jpg") !important;
+    }
+}*/
+/* SS18 Headers END */
+/* AW18 Updates */
+.menuSection.menuCollection {
+  width: 100% !important; }
+
+.menuSection.menuGenderCollection {
+  width: 80% !important; }
+
+.menuAmbassadors .collectionItem {
+  max-width: 236px; }
+
+.s-main-menu .block .category-items .menuAmbassadors .collectionItem a {
+  padding: 29% 0px; }
+
+.ambass-ben {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-BenSadd.jpg"); }
+
+.ambass-coyote {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-CoyotePeterson.jpg"); }
+
+.ambass-kevin {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-KevinRichardson.jpg"); }
+
+.ambass-felix {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-FelixNdagijimana.jpg"); }
+
+.ambass-tasmin {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-TamsinJones.jpg"); }
+
+.ambass-faruk {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-FarukAkbas.jpg"); }
+
+.ambass-pip {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-PipStewart.jpg"); }
+
+.ambass-david {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-DavidLove.jpg"); }
+
+.ambass-brandon {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-BrandonEckroth.jpg"); }
+
+.ambass-louisa {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-DrLouisaPreston.jpg"); }
+
+.ambass-penny {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/misc/mega_menu/ambassadors/USA-Ambassadors-PennyRobartes.jpg"); }
+
+@media only screen and (max-width: 1227px) {
+  .menuAmbassadors .collectionItem {
+    max-width: 188px; } }
+.menuGenderCollection .collectionItem:nth-child(2),
+.menuGenderCollection .collectionItem:nth-child(5) {
+  margin: 0; }
+.menuGenderCollection .collectionItem {
+  max-width: 476px; }
+.menuGenderCollection .collection {
+  background-image: url("https://via.placeholder.com/476x141"); }
+.menuGenderCollection .collectionItem:nth-child(1),
+.menuGenderCollection .collectionItem:nth-child(3) {
+  margin-right: 12px; }
+.menuGenderCollection .collectionItem:nth-child(1),
+.menuGenderCollection .collectionItem:nth-child(2) {
+  margin-bottom: 1.2%; }
+.menuGenderCollection .collectionItem:nth-child(4) {
+  margin: 0; }
+.menuGenderCollection .collectionItem a {
+  padding: 12.3% 0px !important; }
+
+@media only screen and (max-width: 1227px) {
+  .menuGenderCollection .collectionItem {
+    max-width: 381px; } }
+
 */
 @media only screen and (max-width: 700px) {
   .plp-headerWomens {
     background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-BannersMobile-Womens.jpg") !important; } }
 /* AW18 Headers END */
+
 
 /*# sourceMappingURL=styles-us.css.map */
