@@ -104,14 +104,14 @@ All code must be cleared after it goes live
 			font-size: 14px !important;
 		}
 
-		.s-header-links .links>li:nth-child(3) {
+		/*.s-header-links .links>li:nth-child(3) {
 			padding-left: 2px;
 			width: 10%;
 		}
 
 		.s-header-links .links>li:last-child {
 			padding-left: 0px;
-		}
+		}*/
 
 		.c-header-search .c-header-search__input::placeholder {
 			font-size: 14px;
@@ -133,7 +133,7 @@ All code must be cleared after it goes live
 			padding: 0 !important;
 		}
 
-		.authorization-link a[data-bind="visible: !isLoggedIn()"]:after {
+		/*.authorization-link a[data-bind="visible: !isLoggedIn()"]:after {
 			background: url(https://cdn.craghoppers.com/img/SS18/UK/misc/header/user_account.svg);
 			background-size: contain;
 			background-repeat: no-repeat;
@@ -142,7 +142,7 @@ All code must be cleared after it goes live
 			width: 20px;
 			height: 20px;
 			float: right;
-		}
+		}*/
 
 		.authorization-link a:nth-child(2) {
 			margin-right: 13%;
