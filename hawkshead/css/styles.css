@@ -705,7 +705,11 @@
 
   .column--footer a {
     color: #5f5e5e;
-    text-decoration: none; } }
+    text-decoration: none; }
+
+  .c-footer__copyright .o-layout__item:nth-child(1),
+  .c-footer__copyright .o-layout__item:nth-child(3) {
+    width: 100% !important; } }
 /* mobile footer END */
 /* No results styles*/
 .noresults__container a {
