@@ -133,9 +133,9 @@ requirejs(['jquery'], function($) {
 
       }
 
-    }, 500);*/
+    }, 500);
 
-    /*var stickyCheck = setInterval(function() {
+    var stickyCheck = setInterval(function() {
       if (jQuery(".stickyIcon").length > 0) {
         clickCheck();
         clearInterval(stickyCheck);

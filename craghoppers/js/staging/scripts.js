@@ -49,7 +49,7 @@ requirejs(['jquery'], function($) {
     }, 1000);
 
     // Sticky Header 
-    jQuery(window).scroll(function() {
+    /*jQuery(window).scroll(function() {
       var clientHeight = document.getElementById('header').clientHeight;
       var scroll = jQuery(window).scrollTop();
 
@@ -155,7 +155,7 @@ requirejs(['jquery'], function($) {
         clearInterval(stickyCheck);
       }
 
-    }, 100);
+    }, 100);*/
 
     if (jQuery(".page-products").length > 0){ // check to see if on PLP
 
@@ -215,7 +215,7 @@ requirejs(['jquery'], function($) {
   });
 });
 
-function clickCheck() {
+/*function clickCheck() {
   jQuery(".accountIcon").click(function() {
     if (jQuery(".searchIcon.iconActive").length > 0) {
       jQuery(".searchIcon.iconActive").removeClass("iconActive");
@@ -235,4 +235,4 @@ function clickCheck() {
   }
 
   );
-};
+};*/

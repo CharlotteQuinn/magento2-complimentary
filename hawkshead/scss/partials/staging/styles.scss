@@ -155,11 +155,11 @@
 	}*/
 
 }/* END */
-/*
-div#header.headStick + #wrapper {
+
+/*div#header.headStick + #wrapper {
     margin-top: 9.5vw;
-}
-*/
+}*/
+
 
 /* Header updates */
 /*@keyframes headerSticky {
@@ -186,11 +186,11 @@ div#header.headStick + #wrapper {
 	    width: 85%;
 	    float: right;
 	}
-}*/
-
+}
+*/
 /* search etc features */
-
-/*div#header.headStick {
+/*
+div#header.headStick {
 	position: fixed;
 	z-index: 9;
 	animation-name: headerSticky;
@@ -541,18 +541,18 @@ div#header.headStick + #wrapper {
 /* Header Updates END */
 
 /* PDP Updates */
-/*.c-rating__wrap.noReviews {
+.c-rating__wrap.noReviews {
 	display: none;
 }
 
 .product-info-price.noReviews {
 	margin-bottom: 3%;
-}*/
+}
 
 /* PDP Updates END */
 
 /* PLP Updates */
-/*.o-layout.mobile-flex .c-toolbar--position .o-layout.u-flex-row .o-layout__item:nth-child(1) {
+.o-layout.mobile-flex .c-toolbar--position .o-layout.u-flex-row .o-layout__item:nth-child(1) {
 	width: 50% !important;
 }
 
@@ -598,12 +598,12 @@ li.toggleable > span.sortby-icon {
 
 .o-layout.mobile-flex .c-toolbar--position .o-layout.u-flex-row .o-layout__item:nth-child(1) ul li + span {
     margin-right: 1%;
-}*/
+}
 
 /* PLP Updates END */
 
 /* PLP Accordion */
-/*.c-facet-list__facet-header {
+.c-facet-list__facet-header {
 	margin-bottom: 10px !important;
 }
 
@@ -686,5 +686,5 @@ li.toggleable > span.sortby-icon {
 		width: 126px !important;
 	}
 
-}*/
+}
 /* PLP Accordion END */
