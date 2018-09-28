@@ -269,6 +269,11 @@
     	text-decoration: none;
 	}
 
+	.c-footer__copyright .o-layout__item:nth-child(1),
+	.c-footer__copyright .o-layout__item:nth-child(3) {
+	    width: 100% !important;
+	}
+
 }
 
 /* mobile footer END */
