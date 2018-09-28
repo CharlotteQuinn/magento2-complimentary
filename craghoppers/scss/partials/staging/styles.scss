@@ -197,9 +197,9 @@ All code must be cleared after it goes live
 
 }/* END */
 
-div#header.headStick + #wrapper {
+/*div#header.headStick + #wrapper {
     margin-top: 9.5vw;
-}
+}*/
 
 
 
@@ -208,7 +208,7 @@ div#header.headStick + #wrapper {
 /* CHUS Menu Updates */
 
 /*Ambassadors */
-.cms-homepage-promo-grid-ch-us {
+/*.cms-homepage-promo-grid-ch-us {
 	.menuSection.menuCollection {
 		width: 100% !important;
 	}
@@ -269,12 +269,12 @@ div#header.headStick + #wrapper {
 
 	}
 
-}
+}*/
 
 /*Ambassadors END*/
 
 /* Gender Menu */
-.cms-homepage-promo-grid-ch-us {
+/*.cms-homepage-promo-grid-ch-us {
 	.menuGenderCollection {
 		.collectionItem:nth-child(2),
 		.collectionItem:nth-child(5) {
@@ -319,14 +319,14 @@ div#header.headStick + #wrapper {
 
 	}
 
-}
+}*/
 
 /* Gender Menu END */
 
 /* CHUS Menu Updates END */
 
 /* CHUS Header updates */
-@keyframes headerSticky {
+/*@keyframes headerSticky {
 	0% {
 		opacity: 0;
 	}
@@ -350,11 +350,11 @@ div#header.headStick + #wrapper {
 	    width: 85%;
 	    float: right;
 	}
-}
+}*/
 
 /* search etc features */
 
-div#header.headStick {
+/*div#header.headStick {
 	position: fixed;
 	z-index: 9;
 	animation-name: headerSticky;
@@ -698,7 +698,7 @@ div#header.headStick {
 		    top: 5px !important;
 		}
 	}
-}
+}*/
 
 /* search etc features END */
 
