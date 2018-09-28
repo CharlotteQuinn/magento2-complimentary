@@ -1772,6 +1772,9 @@ border-color: transparent transparent #afafaf transparent;*/ }
     	width: 20px;
     	height: 20px;
     	float: right;
+    }*/
+    /*.c-mini-cart.c-mini-cart--fixed.is-active {
+        top: 98px !important;
     }*/ }
     #header .c-header-search .c-header-search__input {
       border-radius: 7px !important; }
@@ -1826,7 +1829,7 @@ border-color: transparent transparent #afafaf transparent;*/ }
     #header .c-mini-cart__drop-down {
       top: 38px; }
     #header .c-mini-cart.c-mini-cart--fixed.is-active {
-      top: 98px !important; }
+      top: 45px !important; }
     #header .c-mini-cart.minicart-wrapper.is-active.c-mini-cart--fixed .c-mini-cart__drop-down {
       max-width: 500px; }
     #header ul.header.links.isLoggedIn li:first-of-type {
