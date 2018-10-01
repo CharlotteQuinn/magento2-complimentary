@@ -1400,3 +1400,54 @@ li.toggleable > span.sortby-icon {
     padding: 0 2% 2% 2%;
 }
 /* FILM PRIZE END */
+
+/* Search page gender filter */
+.c-gender-facet--position {
+	.c-facet-list__facet-header {
+		text-align: center;
+	}
+
+	.c-facet-list__facet-header::before,
+	.c-facet-list__facet-header::after {
+		display: none;
+	}
+
+	.o-list-stacked {
+		text-align: center;
+	}
+
+	li.c-facet-list__item {
+	    display: inline-block;
+	    width: 140px;
+	    border: 1px solid #bfbfbf;
+	    text-align: center;
+	    margin-right: 15px;
+	    padding: 2px 0;
+	    text-transform: uppercase;
+	    letter-spacing: 1px;
+	}
+
+	li.c-facet-list__item label {
+		padding: 0;
+	}
+
+	li.c-facet-list__item .c-checkbox-option__checkbox {
+		display: none;
+	}
+
+	.c-facet-list__list {
+		margin: 10px !important;
+		padding-bottom: 10px !important;
+	}
+
+	li.c-facet-list__item:hover {
+	    background: #000;
+	    border-color: #000;
+	}
+
+	li.c-facet-list__item:hover a {
+	    color: #fff;
+	}
+
+}
+/* Search page gender filter END */
