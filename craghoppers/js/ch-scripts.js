@@ -762,6 +762,58 @@ requirejs(['jquery'], function( $ ) {
     }, 500);
 
   }
+
+  if (jQuery(".page-products").length > 0){ // check to see if on PLP
+
+      // PLP Facet Accordion
+      var facetCheck = setInterval(function(){
+        if (jQuery(".o-list-stacked li:first-of-type ul").length > 0){
+          jQuery('.o-list-stacked li:first-of-type .c-facet-list__list').addClass("facetOpen");
+          jQuery('.c-facet-list__list').click(function(){
+            jQuery(this).toggleClass("facetOpen");
+          });
+          jQuery(".o-layout.mobile-flex .c-toolbar--position .o-layout.u-flex-row .o-layout__item:nth-child(1) ul li").after("<span>|</span>");
+          clearInterval(facetCheck);
+        }
+      }, 1000);
+      
+
+
+      var elementTop = jQuery(".o-layout__item.c-toolbar--position").offset().top;
+      var elementHeight = jQuery(".o-layout__item.c-toolbar--position").outerHeight() - 55;
+      jQuery(window).scroll(function(){
+          if(jQuery(window).scrollTop() > (elementTop + elementHeight)){
+            jQuery(".o-layout__item.c-selected-facets--position").addClass("facetScroll");
+            jQuery(".c-back-to-top-btn__wrapper").addClass("btnScroll");
+            jQuery(".c-back-to-top-btn__wrapper").css("top", "0");
+          }
+          else{
+            if (jQuery(".facetScroll").length > 0){
+              jQuery(".o-layout__item.c-selected-facets--position").removeClass("facetScroll");
+              jQuery(".c-back-to-top-btn__wrapper").removeClass("btnScroll");
+            }
+          }
+      });
+
+    }
+
+
+    setInterval(function(){ // keep checking size to adjust stop point
+      var containerHeight = jQuery(".o-layout.mobile-flex").outerHeight();
+      var facetHeight = jQuery(".o-layout__item.c-selected-facets--position").outerHeight() / 2;
+      var totalHeight = (containerHeight - facetHeight);
+
+      jQuery(window).scroll(function(){
+          if(jQuery(window).scrollTop() > totalHeight){
+            jQuery(".o-layout__item.c-selected-facets--position.facetScroll").addClass("facetbottom");
+            jQuery(".o-layout__item.c-selected-facets--position").removeClass("facetScroll");
+          }
+          else{
+            jQuery(".o-layout__item.c-selected-facets--position.facetScroll").removeClass("facetbottom");
+          }
+      });
+    }, 1000);
+    // PLP Facet Accordion END
    
 
   //////////////////////////////////  
