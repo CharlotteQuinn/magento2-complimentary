@@ -1307,6 +1307,11 @@ h3.c-footer__header {
 		    float: right;
 		}
 
+		header.c-header .o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(1) {
+		    width: 60% !important;
+		    padding-left: 0% !important;
+		}
+
 	}
 
 	.desktop-theme.headerSticky #header.headStick{
