@@ -11804,6 +11804,9 @@ li.toggleable > span.sortby-icon {
   display: inline-block;
   top: initial; }
 
+.c-back-to-top-btn__wrapper {
+  display: none; }
+
 @media only screen and (max-width: 1228px) {
   .o-layout__item.c-selected-facets--position.facetScroll {
     width: 168px !important;
