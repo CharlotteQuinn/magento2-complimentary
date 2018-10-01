@@ -2260,6 +2260,12 @@ a.bannerOverlay__cta.bannerOverlay__cta--slider.gtm-promo {
 @media only screen and (max-width: 450px) {
   .slider-contentarea {
     margin-bottom: 9%; } }
+@media only screen and (max-width: 400px) {
+  .slider-cta {
+    padding: 8px 0; }
+
+  .slider-contentarea {
+    margin-bottom: 6%; } }
 /* Tehnologies */
 .pageSection--technologies {
   background-color: #e7eff2;
