@@ -1387,6 +1387,106 @@ h3.c-footer__header {
   .c-footer__copyright {
     border-top: 0; } }
 /* Footer Updates END */
+/* Header Updates */
+@media only screen and (min-width: 760px) {
+  #header {
+    /* Search update */
+    /* Search update END */
+    		/*.s-header-links .links>li:nth-child(3) {
+    			padding-left: 2px;
+    			width: 10%;
+    		}
+    
+    		.s-header-links .links>li:last-child {
+    			padding-left: 0px;
+    		}*/
+    /*.authorization-link a[data-bind="visible: !isLoggedIn()"]:after {
+    	background: url(https://cdn.craghoppers.com/img/SS18/UK/misc/header/user_account.svg);
+    	background-size: contain;
+    	background-repeat: no-repeat;
+    	display: block;
+    	content: '';
+    	width: 20px;
+    	height: 20px;
+    	float: right;
+    }*/
+    /*.c-mini-cart.c-mini-cart--fixed.is-active {
+        top: 98px !important;
+    }*/ }
+    #header .c-header-search .c-header-search__input {
+      border-radius: 7px !important; }
+    #header .c-header-search .c-input-wrap__icon {
+      top: 2px !important;
+      border-radius: 30px !important;
+      right: 7px; }
+    #header .c-input-wrap.c-input-wrap--icon-right {
+      padding-top: 0 !important;
+      margin-bottom: 0 !important; }
+    #header .c-mini-cart {
+      padding-top: 0 !important; }
+    #header .c-header-search .c-input-wrap__clear {
+      top: 9px !important; }
+    #header .c-mini-cart-btn__price:after {
+      display: none; }
+    #header .o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(1) {
+      width: 60% !important;
+      padding-left: 0% !important; }
+    #header .o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(2) {
+      width: 40% !important;
+      padding-left: 0%; }
+    #header .o-layout__item .o-layout:nth-child(2) .c-header-search__suggestions-column.o-layout__item {
+      padding-left: 0 !important;
+      width: 50% !important; }
+    #header .o-layout__item .o-layout:nth-child(2) .c-header-search__column.o-layout__item {
+      width: 50% !important; }
+    #header .o-layout__item:nth-child(2) .o-layout.o-layout--collapsed {
+      width: 100%; }
+    #header .c-header__logo {
+      padding-top: 10px !important; }
+    #header .s-header-links {
+      padding-top: 10px !important; }
+    #header ul.header.links li:first-of-type {
+      display: none !important; }
+    #header ul.header.links li a,
+    #header li.greet.welcome .or {
+      font-size: 14px !important; }
+    #header .c-header-search .c-header-search__input::placeholder {
+      font-size: 14px;
+      padding-left: 5px; }
+    #header span.welcome-name {
+      font-size: 14px;
+      display: inline-flex; }
+    #header .c-mini-cart-btn__items {
+      padding-right: 0; }
+    #header .o-layout__item:nth-child(2) .o-layout.o-layout--collapsed p.o-layout__item {
+      width: 50% !important;
+      padding: 0 !important; }
+    #header .authorization-link a:nth-child(2) {
+      margin-right: 13%; }
+    #header .c-mini-cart__drop-down {
+      top: 38px; }
+    #header .c-mini-cart.c-mini-cart--fixed.is-active {
+      top: 45px !important; }
+    #header .c-mini-cart.minicart-wrapper.is-active.c-mini-cart--fixed .c-mini-cart__drop-down {
+      max-width: 500px; }
+    #header ul.header.links.isLoggedIn li:first-of-type {
+      display: inline-block !important; }
+    #header .s-header-links .links.isLoggedIn > li:nth-child(3) {
+      width: auto;
+      padding-left: 15px; }
+    #header .s-header-links .links.isLoggedIn > li.greet.welcome {
+      padding-left: 15px; }
+    #header .c-mini-cart-btn {
+      padding: 0 5px; }
+    #header div#top-search {
+      width: 90%;
+      float: right; }
+
+  .desktop-theme.headerSticky #header.headStick .c-mini-cart.c-mini-cart--fixed.is-active {
+    top: 5px !important; }
+  .desktop-theme.headerSticky #header.headStick .c-mini-cart.c-mini-cart--fixed.is-active {
+    right: -83%; } }
+/* END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */
