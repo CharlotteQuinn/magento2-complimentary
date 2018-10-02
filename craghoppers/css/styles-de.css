@@ -8379,6 +8379,12 @@ li.toggleable > span.sortby-icon {
 .o-layout.mobile-flex .c-toolbar--position .o-layout.u-flex-row .o-layout__item:nth-child(1) ul li + span {
   margin-right: 1%; }
 
+@media only screen and (max-width: 1260px) {
+  .plp-container {
+    margin: 0 2%; }
+
+  .seoheader {
+    margin: 0 2%; } }
 /* PLP Updates END */
 /* PLP Accordion */
 .c-facet-list__facet-header {

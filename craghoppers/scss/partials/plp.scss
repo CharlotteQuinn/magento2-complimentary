@@ -386,6 +386,16 @@ li.toggleable > span.sortby-icon {
     margin-right: 1%;
 }
 
+@media only screen and (max-width:1260px){
+	.plp-container {
+	    margin: 0 2%;
+	}
+
+	.seoheader {
+	    margin: 0 2%;
+	}
+}
+
 /* PLP Updates END */
 
 /* PLP Accordion */
