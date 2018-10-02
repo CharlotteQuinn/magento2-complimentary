@@ -354,6 +354,7 @@ p.c-price__group.nowPrice span:before {
 	margin-right: 1%;
 	cursor: pointer;
 	font-size: 12px;
+	text-transform: capitalize;
 }
 
 .o-layout.mobile-flex .c-toolbar--position .o-layout.u-flex-row .o-layout__item:nth-child(1) ul li:hover {
