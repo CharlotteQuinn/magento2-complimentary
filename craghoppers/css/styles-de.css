@@ -7205,6 +7205,358 @@ a:nth-child(2) .fp-CTA {
   .affiliateAll a {
     width: 70%; } }
 /* Affiliates END */
+/* GORE-TEX START */
+.cms-gore-tex .c-breadcrumbs {
+  display: none; }
+
+.cms-gore-tex .columns .o-region__inner {
+  width: 100%; }
+
+.gt-page {
+  max-width: 1228px;
+  margin: 0 auto; }
+
+.gt-img {
+  float: left; }
+
+.gt-coll-btn-container {
+  text-align: center;
+  display: block; }
+
+.gt-coll-btn {
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 1% 5%;
+  text-decoration: none;
+  text-align: center;
+  margin: 2% auto 6%;
+  display: inline-block;
+  background-color: #000000; }
+
+.gt-coll-btn:hover {
+  background-color: #363636; }
+
+.gt-coll-btn-bottom {
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 1% 5%;
+  text-decoration: none;
+  text-align: center;
+  margin: 2% auto 6%;
+  display: inline-block;
+  background-color: #000000;
+  min-width: 275px; }
+
+.coll-btn-bottom:hover {
+  background-color: #363636; }
+
+.gt-hero-copy {
+  text-align: center;
+  padding: 3% 0;
+  color: #000; }
+
+.gt-hero-copy > div:nth-child(1) {
+  font-size: 24px;
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif; }
+
+.gt-hero-copy > div:nth-child(2) {
+  font-size: 30px;
+  font-family: 'CrimsonText-Regular'; }
+
+.gt-copy-container-top {
+  float: left;
+  color: #000;
+  padding: 0 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif; }
+
+.gt-copy-inner-top {
+  color: #000; }
+
+.gt-copy-inner-top > div:nth-child(1) {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: 'CrimsonText-Regular';
+  padding-bottom: 2%; }
+
+.gt-copy-inner-top > div:nth-child(2) {
+  padding-bottom: 3%; }
+
+.gt-copy-inner-top > div:nth-child(2),
+.gt-copy-inner-top > div:nth-child(3) {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif; }
+
+.gt-copy-container {
+  float: left;
+  color: #000;
+  padding: 0 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.gt-copy-inner {
+  color: #000;
+  padding: 0 10px; }
+
+.gt-copy-inner > div:nth-child(1) {
+  font-size: 26px;
+  font-family: 'CrimsonText-Regular';
+  text-transform: uppercase;
+  padding-bottom: 2%; }
+
+.gt-copy-inner > div:nth-child(2),
+.gt-copy-inner > div:nth-child(3) {
+  font-size: 18px;
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif;
+  line-height: 30px;
+  padding-bottom: 2%; }
+
+.gt-mens {
+  background-image: url(https://cdn.craghoppers.com/img/AW18/UK/page/gore-tex/gt-mens.jpg); }
+
+.gt-womens {
+  background-image: url(https://cdn.craghoppers.com/img/AW18/UK/page/gore-tex/gt-womens.jpg); }
+
+.gt-gender-container {
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.gt-gender-container-inner {
+  color: #fff;
+  text-align: center;
+  display: table;
+  width: 100%;
+  min-height: 595px; }
+
+.gt-gender-inner {
+  display: table-cell;
+  vertical-align: middle; }
+
+.gt-gender-inner-top {
+  font-size: 30px;
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  line-height: 33px;
+  color: #fff; }
+
+.gt-gender-inner-bottom {
+  font-size: 31px;
+  font-family: 'CrimsonText-Regular';
+  line-height: 32px;
+  letter-spacing: 2px;
+  color: #fff; }
+
+.gt-gender-a {
+  width: 49%; }
+
+.gt-product-container {
+  text-align: center;
+  color: #000; }
+
+.gt-product-container img {
+  max-width: 400px; }
+
+.gt-product-container-title {
+  font-size: 28px;
+  font-family: 'OpenSans-SemiBold';
+  padding: 2% 0; }
+
+.gt-product-container-copy {
+  font-size: 20px;
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif;
+  line-height: 30px;
+  padding: 0 2%; }
+
+.gt-title {
+  color: #000;
+  padding-top: 2%; }
+
+.gt-title > div:nth-child(1) {
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: 2%;
+  font-family: 'CrimsonText-Regular'; }
+
+.gt-title > div:nth-child(2),
+.gt-title > div:nth-child(3) {
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 1%;
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif; }
+
+.gt-desktop {
+  display: block; }
+
+.gt-mobile {
+  display: none; }
+
+.gt-video {
+  margin: 0 auto;
+  padding: 1% 0 2% 0; }
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto; }
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+ul.gt-product-container-list-1 {
+  font-size: 18px;
+  list-style-type: disc;
+  margin: 0 auto;
+  padding: 3% 0 3% 2%;
+  width: 27%;
+  text-align: left; }
+
+ul.gt-product-container-list-2 {
+  font-size: 18px;
+  list-style-type: disc;
+  margin: 0 auto;
+  padding: 3% 0 3% 2%;
+  width: 31%;
+  text-align: left; }
+
+@media only screen and (max-width: 1200px) {
+  ul.gt-product-container-list-1 {
+    width: 34%; }
+
+  ul.gt-product-container-list-2 {
+    width: 38%; } }
+@media only screen and (max-width: 1000px) {
+  .gt-page {
+    padding: 0 10px; }
+
+  .gt-product-container-title {
+    font-size: 21px; }
+
+  .flex-item.col-6.gt-gender-container {
+    margin: 0 10px;
+    width: 47% !important; }
+
+  .gt-product-container-copy {
+    padding: 0 6% 4% 0; }
+
+  ul.gt-product-container-list-1 {
+    width: 37%; }
+
+  ul.gt-product-container-list-2 {
+    width: 43%; } }
+@media only screen and (max-width: 850px) {
+  ul.gt-product-container-list-1 {
+    width: 43%; }
+
+  ul.gt-product-container-list-2 {
+    width: 50%; } }
+@media only screen and (max-width: 750px) {
+  .gt-page img {
+    width: 70%; }
+
+  .gt-desktop {
+    display: none; }
+
+  .gt-mobile {
+    display: block; }
+
+  .gt-product-container img {
+    max-width: 70%; }
+
+  .gt-product-container-title {
+    font-size: 18px; }
+
+  .gt-product-container-copy {
+    font-size: 16px; }
+
+  ul.gt-product-container-list-1 {
+    font-size: 16px;
+    width: 39%; }
+
+  ul.gt-product-container-list-2 {
+    font-size: 16px;
+    width: 48%; }
+
+  .gt-title {
+    padding: 8% 0; }
+
+  .gt-title > div:nth-child(1) {
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 2%; }
+
+  .gt-title > div:nth-child(2),
+  .gt-title > div:nth-child(3) {
+    font-size: 16px; }
+
+  .gt-img {
+    text-align: center; }
+
+  .gt-copy-inner > div:nth-child(1) {
+    font-size: 22px; }
+
+  .gt-coll-btn {
+    font-size: 16px; }
+
+  .gt-coll-btn-bottom {
+    font-size: 16px;
+    margin: 0;
+    min-width: 275px; }
+
+  .gt-copy-inner-top > div:nth-child(1) {
+    font-size: 22px; }
+
+  .gt-copy-inner-top > div:nth-child(2),
+  .gt-copy-inner-top > div:nth-child(3) {
+    font-size: 16px; }
+
+  .gt-hero-copy > div:nth-child(1) {
+    font-size: 19px; }
+
+  .gt-hero-copy > div:nth-child(2) {
+    font-size: 22px; }
+
+  .gt-gender-container {
+    background-position-y: top; }
+
+  .gt-gender-container-inner {
+    min-height: 350px;
+    margin: 2% 0; }
+
+  .gt-gender-inner {
+    padding-top: 65%; }
+
+  .gt-coll-btn-container {
+    padding-bottom: 5%; }
+
+  .gt-gender-inner-top {
+    font-size: 26px; }
+
+  .gt-gender-inner-bottom {
+    font-size: 27px; }
+
+  .flex-item.col-6.gt-gender-container {
+    margin-bottom: 3%; }
+
+  .gt-copy-inner > div:nth-child(2),
+  .gt-copy-inner > div:nth-child(3) {
+    font-size: 16px; } }
+/* GORE-TEX END */
 .plp-headerMens {
   background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-Banners-Mens.jpg"); }
 
