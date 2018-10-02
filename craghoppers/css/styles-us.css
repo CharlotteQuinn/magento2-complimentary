@@ -10694,7 +10694,7 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
 /* Newsletter sign up END */
 /* AW18 Headers */
 .plp-headerWomens {
-  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-Banners-Womens.jpg") !important; }
+  background-image: url("https://cdn.craghoppers.com/img/AW18/US/cat/top_level/TopLevel-Banners-Womens.jpg") !important; }
 
 /*
 @media only screen and (max-width: 1000px){
@@ -10705,7 +10705,7 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
 */
 @media only screen and (max-width: 700px) {
   .plp-headerWomens {
-    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-BannersMobile-Womens.jpg") !important; } }
+    background-image: url("https://cdn.craghoppers.com/img/AW18/US/cat/top_level/TopLevel-BannersMobile-Womens.jpg") !important; } }
 /* SS18 Headers END */
 /* AW18 Updates */
 .menuSection.menuCollection {
