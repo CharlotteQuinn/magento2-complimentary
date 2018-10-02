@@ -10699,16 +10699,15 @@ li.fullWidthSlider__slideContainer.pageBanner:nth-child(2) div div a:hover {
 
 /* Newsletter sign up END */
 /* AW18 Headers */
+a.collection-ktoppick {
+  color: #000 !important; }
+
 .plp-headerWomens {
   background-image: url("https://cdn.craghoppers.com/img/AW18/US/cat/top_level/TopLevel-Banners-Womens.jpg") !important; }
 
-/*
-@media only screen and (max-width: 1000px){
-    .plp-headerWomens{
-        background-image: url("https://cdn.craghoppers.com/img/AW18/UK/cat/top_level/TopLevel-BannersTablet-Womens.jpg") !important;
-    }
-}
-*/
+@media only screen and (max-width: 1000px) {
+  .plp-headerWomens {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/US/cat/top_level/TopLevel-BannersTablet-Womens.jpg") !important; } }
 @media only screen and (max-width: 700px) {
   .plp-headerWomens {
     background-image: url("https://cdn.craghoppers.com/img/AW18/US/cat/top_level/TopLevel-BannersMobile-Womens.jpg") !important; } }
