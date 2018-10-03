@@ -11615,6 +11615,9 @@ a:nth-child(2) .fp-CTA {
   .fp-blue-title {
     font-size: 38px;
     line-height: 44px; } }
+@media screen and (max-width: 750px) {
+  .fp-about-prizes .flex-item.col-3 {
+    width: 50%; } }
 @media screen and (max-width: 500px) {
   .fp-copy-black {
     font-size: 14px;
@@ -11630,10 +11633,7 @@ a:nth-child(2) .fp-CTA {
   .fp-blue-title {
     font-size: 22px;
     line-height: 26px;
-    padding: 4% 0; }
-
-  .fp-about-prizes .flex-item.col-3 {
-    width: 50%; } }
+    padding: 4% 0; } }
 /*film prize about page end*/
 .flex-item.col-12.fp-banner-nopadding {
   padding: 0 !important; }

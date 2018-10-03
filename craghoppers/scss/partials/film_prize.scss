@@ -1231,6 +1231,12 @@ a:nth-child(2) .fp-CTA {
     }
 }
 
+@media screen and (max-width: 750px) {
+    .fp-about-prizes .flex-item.col-3 {
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .fp-copy-black {
         font-size: 14px;
@@ -1247,9 +1253,6 @@ a:nth-child(2) .fp-CTA {
         font-size: 22px;
         line-height: 26px;
         padding: 4% 0;
-    }
-    .fp-about-prizes .flex-item.col-3 {
-        width: 50%;
     }
 }
 /*film prize about page end*/
