@@ -61,6 +61,24 @@ function rlPromo(){
 
 }
 
+function rlPromoDE(){
+
+  var query = "#monVars_price_saving_percent";
+
+  // product listing page
+  Array.from(document.querySelectorAll('.c-product-details')).forEach(function(item){
+    var value = item.querySelector(query).value != '' ? item.querySelector(query).value.substr(0,2) : null;
+    if(value) document.querySelector(".product-info-stock-sku").innerHTML += "<span class='save__product-page' style='display:none;'>" + value + " Rabatt</span>";
+  });
+
+  // product details page
+  Array.from(document.querySelectorAll('.c-product-tile__badge-content #monVars')).forEach(function(item){
+    var value = item.querySelector(query).value != '' ? item.querySelector(query).value.substr(0,2) : null;
+    if(value) item.innerHTML += "<div class='roundel' style='display:none;'>" + value + " Rabatt</div>";
+  });
+
+}
+
 /*///////// Toggle Behaviour ////////*/
 
 function rlToggle(){

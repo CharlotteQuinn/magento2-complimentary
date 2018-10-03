@@ -177,4 +177,21 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.roundel {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    background: #E43A23;
+    max-width: 63px;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 30px;
+    color: #ffffff;
+    display: block !important;
+    font-size: 12px;
+}
+
 /* Badges END */
