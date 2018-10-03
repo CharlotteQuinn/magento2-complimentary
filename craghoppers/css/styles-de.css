@@ -10564,11 +10564,79 @@ Simon Reeve Micro site
 .srLightbox.active {
   display: block;
   position: absolute;
-  background: #fff;
-  width: 900px;
-  left: 13%;
-  padding: 10px; }
+  background: rgba(255, 255, 255, 0.95);
+  width: 100%;
+  max-width: 900px;
+  left: 10vw;
+  padding: 10px;
+  margin-top: 4.5%;
+  box-shadow: 0px 0px 10px; }
+  .srLightbox.active .lightboxClose {
+    text-align: right;
+    margin-top: -10px; }
+    .srLightbox.active .lightboxClose span {
+      font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+      font-size: 20px;
+      line-height: 1;
+      cursor: pointer; }
 
+.productDetail {
+  text-align: left;
+  padding-left: 20px; }
+  .productDetail > * {
+    display: block; }
+  .productDetail .productTitle {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px; }
+  .productDetail .productTech {
+    list-style-type: none;
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 1.2; }
+    .productDetail .productTech li::before {
+      content: '-';
+      font-weight: 700;
+      margin-right: 1%; }
+  .productDetail .productPrice {
+    font-size: 20px;
+    line-height: 1;
+    margin: 3% 0; }
+  .productDetail .productDesc {
+    margin: 0 0 4% 0;
+    font-size: 18px; }
+  .productDetail .productButton {
+    background: #ff9000;
+    max-width: 160px;
+    text-align: center;
+    padding: 1.5% 0;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 12%;
+    border: 1px solid #ff9000;
+    transition: all 0.5s; }
+  .productDetail .productButton:hover {
+    background: #fff;
+    color: #000;
+    transition: all 0.5s; }
+
+@media only screen and (max-width: 1228px) {
+  .srLightbox.active {
+    left: 4vw;
+    margin-top: 0%; }
+
+  .productImage {
+    max-width: 270px;
+    margin: 0 auto 1% auto; }
+
+  .productDetail .productPrice {
+    margin: 1% 0; }
+  .productDetail .productDesc {
+    margin: 0 0 1% 0; }
+  .productDetail .productButton {
+    max-width: 200px;
+    padding: 1% 0;
+    margin: 0 auto; } }
 /** Lightbox END **/
 /** On Craghoppers **/
 .srCraghoppers {
@@ -10582,7 +10650,8 @@ Simon Reeve Micro site
     .srCraghoppers .srIntro .onCHProduct {
       position: relative;
       top: 40%;
-      left: 25%; }
+      left: 25%;
+      cursor: pointer; }
     .srCraghoppers .srIntro span.quote {
       font-size: 35px;
       line-height: 1.5;
@@ -10598,11 +10667,16 @@ Simon Reeve Micro site
       text-transform: uppercase;
       margin-top: 2%;
       display: block; }
+  .srCraghoppers .srInfo p {
+    margin: 4% auto;
+    max-width: 880px; }
   .srCraghoppers .srMedia span {
     font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 1.1px;
-    font-size: 28px; }
+    font-size: 30px;
+    margin: 0 0 2% 0;
+    display: block; }
 
 /** On Craghoppers END **/
 /* *********** FILM PRIZE *********** */
