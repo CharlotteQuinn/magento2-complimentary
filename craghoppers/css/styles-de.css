@@ -8448,6 +8448,9 @@ li.toggleable > span.sortby-icon {
 .c-back-to-top-btn__wrapper {
   display: none; }
 
+h3.c-facet-list__facet-header {
+  font-weight: 300; }
+
 @media only screen and (max-width: 1228px) {
   .o-layout__item.c-selected-facets--position.facetScroll {
     width: 168px !important;
@@ -11439,13 +11442,16 @@ Simon Reeve Micro site
   color: #000; }
 
 .sr-nav-item-current {
-  font-family: "CrimsonText-Bolds", Helvetica, Arial, sans-serif; }
+  font-family: "CrimsonText-Bold", Helvetica, Arial, sans-serif; }
 
 .sr-nav-divide {
   background-color: #000;
   height: 2px;
   margin: 2.5% 0; }
 
+@media only screen and (max-width: 989px) {
+  .sr-nav-item {
+    padding: 0 4%; } }
 @media only screen and (max-width: 800px) {
   .sr-nav-title {
     padding: 3% 0; }
@@ -11458,52 +11464,43 @@ Simon Reeve Micro site
     font-size: 28px; }
 
   .sr-nav-item {
-    font-size: 14px;
     padding: 0 3%; } }
 /***** nav END *******/
 /***** Competition Page ********/
-.sr-comp-container .flex-item {
-  padding: 0 !important; }
-
-.sr-comp-container {
+.srContainer {
   text-align: center;
   color: #343334; }
 
-.sr-comp-title {
+.srComp .flex-item {
+  padding: 0 !important; }
+.srComp .sr-comp-title {
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 24px;
   text-transform: uppercase;
   padding-bottom: 2%; }
-
-.sr-comp-copy {
+.srComp .sr-comp-copy {
   font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif;
   font-size: 16px;
   padding: 0 16%; }
-
-.sr-comp-product {
+.srComp .sr-comp-product {
   font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif;
   font-size: 20px;
   color: #343334;
   padding-bottom: 2%; }
-
-.sr-comp-product span {
+.srComp .sr-comp-product span {
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: underline; }
-
-.sr-comp-product:hover {
+.srComp .sr-comp-product:hover {
   color: #000; }
-
-.sr-comp-form {
+.srComp .sr-comp-form {
   padding: 4% 0; }
-
-.sr-comp-form .sr-comp-form-inner {
+.srComp .sr-comp-form .sr-comp-form-inner {
   width: 100%;
   margin: 0 auto;
   background-color: #ededed;
   padding: 4% 10%; }
-
-.sr-comp-form .redeye-form button {
+.srComp .sr-comp-form .redeye-form button {
   float: none;
   margin: 1% auto;
   background-color: #fff;
@@ -11514,25 +11511,29 @@ Simon Reeve Micro site
   padding: 8px 40px;
   font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
   font-size: 16px; }
-
-.sr-comp-form .redeye-form button:hover {
+.srComp .sr-comp-form .redeye-form button:hover {
   background-color: #b4b3b4; }
-
-.redeye-form input {
+.srComp .redeye-form input {
   width: 70%;
   border-style: none;
   margin-bottom: 1%;
   padding: 3.5% 2%; }
-
-.sr-comp-terms p {
+.srComp .sr-comp-terms p {
   padding-top: 2%;
   margin-bottom: 0 !important;
   font-size: 13px;
   text-align: left; }
+.srComp .newsletter.text.full.sr-comp-terms input[type=checkbox] {
+  margin-right: 5px;
+  width: auto; }
+.srComp .flex-item.col-8 {
+  width: 70%; }
+.srComp .flex-item.col-4 {
+  width: 30%; }
 
-.newsletter.text.full.sr-comp-terms input[type=checkbox] {
-  margin-right: 5px; }
-
+@media only screen and (max-width: 989px) {
+  .sr-comp-container .flex-item.col-4 {
+    display: none; } }
 /***** Competition Page END ********/
 .cms-homepage-promo-grid-ch-de .o-region__inner.column.main,
 .cms-homepage-promo-grid-ch-de .o-region__inner.s-promo-grid {
