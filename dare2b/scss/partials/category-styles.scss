@@ -220,6 +220,10 @@ body .c-product-tile .c-product-tile__btn {
 /* 1227px media query ENDS */
 /* 989px media query STARTS */
 @media screen and (max-width: 989px) {
+  .category-view .js-fredhopper-fredhopper-hero-wrapper-placeholder {
+      background: none;
+      box-shadow: none;
+  }
   .category-container-aw17 img {
     display: none;
   }
@@ -338,11 +342,7 @@ body .c-product-tile .c-product-tile__btn {
 }
 /* 770px media query ENDS */
 @media screen and (max-width: 640px) {
-  .category-view .js-fredhopper-fredhopper-hero-wrapper-placeholder {
-      background: none;
-      box-shadow: none;
 
-  }
 
   .category-container-aw17 .category-links, .s-text-banner > div:nth-child(2) .category-links {
     padding: 8px !important;
