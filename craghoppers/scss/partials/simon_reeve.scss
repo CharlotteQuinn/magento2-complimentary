@@ -266,11 +266,119 @@ Simon Reeve Micro site
 .srLightbox.active {
 	display: block;
     position: absolute;
-    background: #fff;
-    width: 900px;
-    left: 13%;
+    background: rgba(255,255,255,0.95);
+    width: 100%;
+    max-width: 900px;
+    left: 10vw;
     padding: 10px;
+    margin-top: 4.5%;
+    box-shadow: 0px 0px 10px;
+
+	.lightboxClose {
+	    text-align: right;
+	    margin-top: -10px;
+
+	    span {
+		    font-family: $osbold;
+		    font-size: 20px;
+		    line-height: 1;
+		    cursor: pointer;
+		}
+	}
+
 }
+
+.productDetail {
+	text-align: left;
+	padding-left: 20px;
+
+	> * {
+		display: block;
+	}
+
+	.productTitle {
+		font-size: 22px;
+		text-transform: uppercase;
+		letter-spacing: 1.2px;
+	}
+
+	.productTech {
+		list-style-type: none;
+		margin-left: 0;
+		font-size: 16px;
+    	line-height: 1.2;
+
+		li::before{
+			content: '-';
+		    font-weight: 700;
+		    margin-right: 1%;
+		}
+	}
+
+	.productPrice {
+	    font-size: 20px;
+	    line-height: 1;
+	    margin: 3% 0;
+	}
+
+	.productDesc {
+	    margin: 0 0 4% 0;
+	    font-size: 18px;
+	}
+
+	.productButton {
+	    background: #ff9000;
+	    max-width: 160px;
+	    text-align: center;
+	    padding: 1.5% 0;
+	    color: #fff;
+	    text-transform: uppercase;
+	    margin-top: 12%;
+	    border: 1px solid #ff9000;
+	    transition: all 0.5s;
+	}
+
+	.productButton:hover {
+	    background: #fff;
+	    color: #000;
+	    transition: all 0.5s;
+	}
+
+}
+
+@media only screen and (max-width:1228px){
+	.srLightbox.active {
+	    left: 4vw;
+	    margin-top: 0%;
+	}
+
+	.productImage {
+	    max-width: 270px;
+	    margin: 0 auto 1% auto;
+	}
+
+	.productDetail {
+
+		.productPrice {
+		    margin: 1% 0;
+		}
+
+		.productDesc {
+		    margin: 0 0 1% 0;
+		}
+
+		.productButton {
+		    max-width: 200px;
+		    padding: 1% 0;
+		    margin: 0 auto;
+		}
+
+	}
+
+}
+
+
+
 
 /** Lightbox END **/
 
@@ -293,6 +401,7 @@ Simon Reeve Micro site
 			position: relative;
 			top: 40%;
 			left: 25%;
+			cursor: pointer;
 		}
 
 		span.quote {
@@ -316,12 +425,19 @@ Simon Reeve Micro site
 
 	}
 
+	.srInfo p {
+	    margin: 4% auto;
+	    max-width: 880px;
+	}
+
 	.srMedia {
 		span {
-			font-family: $crimreg;
-			text-transform: uppercase;
-			letter-spacing: 1.1px;
-			font-size: 28px;
+		font-family: $crimreg;
+	    text-transform: uppercase;
+	    letter-spacing: 1.1px;
+	    font-size: 30px;
+	    margin: 0 0 2% 0;
+	    display: block;
 		}
 
 	}
