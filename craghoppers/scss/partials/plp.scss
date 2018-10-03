@@ -492,4 +492,37 @@ h3.c-facet-list__facet-header {
 	}
 
 }
+
+@media only screen and (max-width:740px) {
+	.c-facet-list__facet-header::before,
+	.c-facet-list__facet-header::after {
+		display: none;
+	}
+
+	h3.c-facet-list__facet-header {
+		margin-bottom: 0 !important;
+	}
+
+	.c-facet-list__option--selected {
+	    margin-bottom: 0;
+	}
+
+	.c-facet-list__list.c-checkbox-option--small {
+	    padding-bottom: 7px !important;
+	}
+
+	i.c-icon--down.c-mobile-menu--dropdown {
+	    transition: all 0.5s;
+	    transform: rotate(0deg);
+	}
+
+	i.c-icon--down.c-mobile-menu--dropdown.u-flip-icon--vertical {
+	    transform: rotate(180deg);
+	    transition: all 0.5s;
+	}
+
+}
+
+
+
 /* PLP Accordion END */

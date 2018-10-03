@@ -8717,6 +8717,27 @@ h3.c-facet-list__facet-header {
 @media only screen and (max-width: 989px) {
   .o-layout__item.c-selected-facets--position.facetScroll {
     width: 126px !important; } }
+@media only screen and (max-width: 740px) {
+  .c-facet-list__facet-header::before,
+  .c-facet-list__facet-header::after {
+    display: none; }
+
+  h3.c-facet-list__facet-header {
+    margin-bottom: 0 !important; }
+
+  .c-facet-list__option--selected {
+    margin-bottom: 0; }
+
+  .c-facet-list__list.c-checkbox-option--small {
+    padding-bottom: 7px !important; }
+
+  i.c-icon--down.c-mobile-menu--dropdown {
+    transition: all 0.5s;
+    transform: rotate(0deg); }
+
+  i.c-icon--down.c-mobile-menu--dropdown.u-flip-icon--vertical {
+    transform: rotate(180deg);
+    transition: all 0.5s; } }
 /* PLP Accordion END */
 .c-rating__wrap {
   padding-top: 8px; }
@@ -10917,6 +10938,9 @@ Simon Reeve Micro site
   height: 2px;
   margin: 2.5% 0 0 0; }
 
+@media only screen and (max-width: 1024px) {
+  .sr-nav-title {
+    padding: 2% 0; } }
 @media only screen and (max-width: 989px) {
   .sr-nav-item {
     padding: 0 4%; } }
@@ -11000,6 +11024,9 @@ Simon Reeve Micro site
     display: none; } }
 /***** Competition Page END ********/
 /** Generic styling **/
+.cms-simonreeve-oncraghoppers .breadcrumbs.c-breadcrumbs {
+  display: none; }
+
 .srContainer {
   text-align: center;
   color: #343334;
@@ -11059,6 +11086,9 @@ Simon Reeve Micro site
   color: #fff;
   transition: all 0.5s; }
 
+@media only screen and (max-width: 1024px) {
+  .srVideo {
+    padding-top: 50%; } }
 /** Generic styling END **/
 /** Lightbox **/
 .srLightbox {
@@ -11140,6 +11170,9 @@ Simon Reeve Micro site
     max-width: 200px;
     padding: 1% 0;
     margin: 0 auto; } }
+@media only screen and (max-width: 1024px) {
+  .srLightbox.active {
+    left: 0vw; } }
 /** Lightbox END **/
 /** On Craghoppers **/
 .srCraghoppers {
@@ -11181,6 +11214,31 @@ Simon Reeve Micro site
     margin: 0 0 2% 0;
     display: block; }
 
+@media only screen and (max-width: 1024px) {
+  .srCraghoppers .srIntro .srHeroHover {
+    max-width: 346px;
+    margin: 0 auto; }
+  .srCraghoppers .srIntro span.quote {
+    font-size: 26px;
+    padding-top: 0%;
+    width: 100%;
+    max-width: 100%; }
+  .srCraghoppers .srIntro span.quoteOwner {
+    font-size: 22px;
+    margin: 1% 0; }
+  .srCraghoppers .srIntro .srHeroHover {
+    max-width: 346px;
+    margin: 0 auto; } }
+@media only screen and (max-width: 740px) {
+  .srHeroHover .srHeroOverlay {
+    display: block; }
+
+  .srCraghoppers .srIntro {
+    padding: 20px 20px 0 20px; }
+    .srCraghoppers .srIntro span.quote {
+      font-size: 4.5vw; }
+    .srCraghoppers .srIntro span.quoteOwner {
+      font-size: 4.5vw; } }
 /** On Craghoppers END **/
 /* *********** FILM PRIZE *********** */
 .cms-filmprize .o-list-inline,
