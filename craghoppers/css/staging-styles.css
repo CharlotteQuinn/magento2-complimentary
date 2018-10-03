@@ -10915,7 +10915,7 @@ Simon Reeve Micro site
 .sr-nav-divide {
   background-color: #000;
   height: 2px;
-  margin: 2.5% 0; }
+  margin: 2.5% 0 0 0; }
 
 @media only screen and (max-width: 989px) {
   .sr-nav-item {
@@ -10935,10 +10935,6 @@ Simon Reeve Micro site
     padding: 0 3%; } }
 /***** nav END *******/
 /***** Competition Page ********/
-.srContainer {
-  text-align: center;
-  color: #343334; }
-
 .srComp .flex-item {
   padding: 0 !important; }
 .srComp .sr-comp-title {
@@ -11004,6 +11000,11 @@ Simon Reeve Micro site
     display: none; } }
 /***** Competition Page END ********/
 /** Generic styling **/
+.srContainer {
+  text-align: center;
+  color: #343334;
+  position: relative; }
+
 .srIntro {
   background-color: #f2f2f2; }
 
@@ -11018,6 +11019,8 @@ Simon Reeve Micro site
   width: 100%;
   height: 100%;
   display: none; }
+.srHeroHover img {
+  vertical-align: bottom; }
 
 .srHeroHover:hover .srHeroOverlay {
   display: block; }
@@ -11028,33 +11031,81 @@ Simon Reeve Micro site
   padding: 1px 6px;
   line-height: 1; }
 
+.srVideo {
+  position: relative;
+  width: 100%;
+  padding-top: 32.25%;
+  max-width: 760px;
+  margin: 0 auto; }
+
+.srVideo iframe {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.endcapButton {
+  border: 1px solid;
+  padding: 0.5% 0;
+  width: 100%;
+  min-width: 200px;
+  display: block;
+  max-width: 200px;
+  margin: 1% auto 0 auto;
+  transition: all 0.5s; }
+
+.endcapButton:hover {
+  background: black;
+  color: #fff;
+  transition: all 0.5s; }
+
 /** Generic styling END **/
+/** Lightbox **/
+.srLightbox {
+  display: none; }
+
+.srLightbox.active {
+  display: block;
+  position: absolute;
+  background: #fff;
+  width: 900px;
+  left: 13%;
+  padding: 10px; }
+
+/** Lightbox END **/
 /** On Craghoppers **/
-.srCraghoppers .srIntro {
-  padding: 20px 50px 0 50px; }
-  .srCraghoppers .srIntro .flex-container {
-    margin: 0; }
-  .srCraghoppers .srIntro .flex-item {
-    text-align: left; }
-  .srCraghoppers .srIntro .onCHProduct {
-    position: relative;
-    top: 40%;
-    left: 25%; }
-  .srCraghoppers .srIntro span.quote {
-    font-size: 35px;
-    line-height: 1.5;
-    padding-top: 8%;
-    display: block;
-    width: 100%;
-    letter-spacing: 1.2px;
-    max-width: 580px; }
-  .srCraghoppers .srIntro span.quoteOwner {
-    font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
-    letter-spacing: 1.1px;
-    font-size: 25px;
+.srCraghoppers {
+  margin-top: 0; }
+  .srCraghoppers .srIntro {
+    padding: 20px 50px 0 50px; }
+    .srCraghoppers .srIntro .flex-container {
+      margin: 0; }
+    .srCraghoppers .srIntro .flex-item {
+      text-align: left; }
+    .srCraghoppers .srIntro .onCHProduct {
+      position: relative;
+      top: 40%;
+      left: 25%; }
+    .srCraghoppers .srIntro span.quote {
+      font-size: 35px;
+      line-height: 1.5;
+      padding-top: 8%;
+      display: block;
+      width: 100%;
+      letter-spacing: 1.2px;
+      max-width: 580px; }
+    .srCraghoppers .srIntro span.quoteOwner {
+      font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+      letter-spacing: 1.1px;
+      font-size: 25px;
+      text-transform: uppercase;
+      margin-top: 2%;
+      display: block; }
+  .srCraghoppers .srMedia span {
+    font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    margin-top: 2%;
-    display: block; }
+    letter-spacing: 1.1px;
+    font-size: 28px; }
 
 /** On Craghoppers END **/
 /* *********** FILM PRIZE *********** */
