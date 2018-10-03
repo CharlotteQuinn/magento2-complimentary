@@ -359,7 +359,7 @@ a:nth-child(2) .fp-CTA {
 
 /* *********** FILM PRIZE NEW AMENDS *********** */
 
-/*film prize guardian page start */
+/* guardian page start */
 .cms-filmprize-winners .flex-container,
 .cms-filmprize-aboutcraghoppers .flex-container,
 .cms-filmprize-enter .flex-container,
@@ -393,7 +393,6 @@ a:nth-child(2) .fp-CTA {
 .fp-inner {
     z-index: 10;
     position: relative;
-
 }
 .fp-container:before {
     content: "";
@@ -536,7 +535,6 @@ a:nth-child(2) .fp-CTA {
     color: #fff;
     vertical-align: middle;
 }
-/* change */
 
 @media screen and (max-width: 1200px) {
     .fp-hero-inner-2 {
@@ -793,9 +791,9 @@ a:nth-child(2) .fp-CTA {
     }
 }
 
-/*film prize guardian page end */
+/*guardian page end */
 
-/*film prize new homepage start*/
+/* new homepage start */
 .fp-inner-white {
     background-color: #fff;
 }
@@ -1134,10 +1132,10 @@ a:nth-child(2) .fp-CTA {
         padding: 5% 0 !important;
     }
 }
-/*film prize new homepage end*/
+/* new homepage end */
 
 
-/*film prize about page start*/
+/* about page start */
 .fp-blue-title {
     text-transform: uppercase;
     font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
@@ -1168,9 +1166,9 @@ a:nth-child(2) .fp-CTA {
     font-family: "Gotham-Light", Helvetica, Arial, sans-serif;
     color: #000;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
-    padding: 0.5% 8%;
+    padding: 0.5% 6%;
 }
 .flex-container.fp-about-prizes {
     margin: 10px 30px !important;
@@ -1255,8 +1253,26 @@ a:nth-child(2) .fp-CTA {
         padding: 4% 0;
     }
 }
-/*film prize about page end*/
+/* about page end */
 
+
+/* discover page start */
+
+.fp-blue-title.fp-discover {
+    padding: 2% 5%;
+}
+.fp-copy-orange.fp-discover {
+    padding: 0.5% 9%;
+}
+.fp-copy-black.fp-copy-bold {
+    font-family: "Gotham-Medium", Helvetica, Arial, sans-serif !important;
+}
+.fp-copy-black.fp-copy-small {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* discover page end */
 
 .flex-item.col-12.fp-banner-nopadding {
     padding: 0!important;
