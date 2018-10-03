@@ -9742,6 +9742,9 @@ li.toggleable > span.sortby-icon {
 .c-back-to-top-btn__wrapper {
   display: none; }
 
+h3.c-facet-list__facet-header {
+  font-weight: 300; }
+
 @media only screen and (max-width: 1228px) {
   .o-layout__item.c-selected-facets--position.facetScroll {
     width: 168px !important;
