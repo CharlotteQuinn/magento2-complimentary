@@ -1173,7 +1173,11 @@ a:nth-child(2) .fp-CTA {
     padding: 0.5% 8%;
 }
 .flex-container.fp-winners-prizes {
-    margin: 10px 30px;
+    margin: 10px 30px !important;
+}
+.fp-winners-prizes .flex-item.col-4 {
+    line-height: 0;
+    padding: 0 !important;
 }
 .fp-winners-montage .flex-item.col-4 {
     width: 33.3% !important;
