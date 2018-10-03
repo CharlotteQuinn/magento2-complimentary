@@ -10702,7 +10702,7 @@ a:nth-child(2) .fp-CTA {
     position: relative;
     top: 40%;
     left: 25%; }
-  .srCraghoppers .srIntro .flex-item:nth-child(1) span {
+  .srCraghoppers .srIntro span.quote {
     font-size: 35px;
     line-height: 1.5;
     padding-top: 8%;
@@ -10710,6 +10710,13 @@ a:nth-child(2) .fp-CTA {
     width: 100%;
     letter-spacing: 1.2px;
     max-width: 580px; }
+  .srCraghoppers .srIntro span.quoteOwner {
+    font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+    letter-spacing: 1.1px;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 2%;
+    display: block; }
 
 /** On Craghoppers END **/
 
