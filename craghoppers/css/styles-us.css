@@ -10611,9 +10611,10 @@ a:nth-child(2) .fp-CTA {
 .flex-container.fp-about-prizes {
   margin: 10px 30px !important; }
 
-.fp-about-prizes .flex-item.col-4 {
+.fp-about-prizes .flex-item.col-3 {
   line-height: 0;
-  padding: 0 !important; }
+  padding: 0 !important;
+  padding: 3% 2%; }
 
 .fp-about-montage .flex-item.col-4 {
   width: 33.3% !important;
@@ -10656,6 +10657,25 @@ a:nth-child(2) .fp-CTA {
   .fp-blue-title {
     font-size: 38px;
     line-height: 44px; } }
+@media screen and (max-width: 500px) {
+  .fp-copy-black {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0.5% 4%; }
+
+  .fp-copy-orange {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0.5% 7%; }
+
+  .fp-orange-title,
+  .fp-blue-title {
+    font-size: 22px;
+    line-height: 26px;
+    padding: 4% 0; }
+
+  .fp-about-prizes .flex-item.col-3 {
+    width: 50%; } }
 /*film prize about page end*/
 .flex-item.col-12.fp-banner-nopadding {
   padding: 0 !important; }
