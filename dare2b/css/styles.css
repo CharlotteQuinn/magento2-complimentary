@@ -3070,7 +3070,7 @@ body .c-product-tile .c-product-tile__btn {
     line-height: 1.3em; }
 
   .category-container-aw17 .category-banner-text {
-    padding: 0 0 0 !important; }
+    padding: 10px 10px 0px 10px !important; }
 
   .category-container-aw17 .category-text,
   html body .category-container.full .category-text,
@@ -3089,7 +3089,7 @@ body .c-product-tile .c-product-tile__btn {
     overflow: auto;
     white-space: nowrap; }
 
-  .category-banner-text:after {
+  .s-text-banner > div:nth-child(2):after {
     content: 'Scroll to see more ';
     margin-bottom: 0px;
     display: block;
@@ -3120,8 +3120,9 @@ body .c-product-tile .c-product-tile__btn {
     text-align: left; } }
 /* 770px media query ENDS */
 @media screen and (max-width: 640px) {
-  html body .category-container-aw17 .category-links, html body .s-text-banner > div:nth-child(2) .category-links {
-    margin-top: 25px !important; }
+  .category-view .js-fredhopper-fredhopper-hero-wrapper-placeholder {
+    background: none;
+    box-shadow: none; }
 
   .category-container-aw17 .category-links, .s-text-banner > div:nth-child(2) .category-links {
     padding: 8px !important; }
@@ -3131,10 +3132,6 @@ body .c-product-tile .c-product-tile__btn {
 
   .category-view .s-text-banner {
     background: none; }
-
-  .category-view .s-text-banner h1 {
-    margin-bottom: -20px;
-    margin-top: 10px; }
 
   .s-text-banner__links-wrapper {
     display: none; } }
