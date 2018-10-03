@@ -43,6 +43,12 @@ Simon Reeve Micro site
 	margin: 2.5% 0 0 0;
 }
 
+@media only screen and (max-width:1024px){
+	.sr-nav-title {
+	    padding: 2% 0;
+	}
+}
+
 @media only screen and (max-width:989px) {
 	.sr-nav-item {
 		padding: 0 4%;
@@ -182,6 +188,10 @@ Simon Reeve Micro site
 /***** Competition Page END ********/
 
 /** Generic styling **/
+.cms-simonreeve-oncraghoppers .breadcrumbs.c-breadcrumbs {
+    display: none;
+}
+
 .srContainer {
 	text-align: center;
 	color: #343334;
@@ -254,6 +264,12 @@ Simon Reeve Micro site
 	background: rgba(0, 0, 0, 1);
 	color: #fff;
 	transition: all 0.5s;
+}
+
+@media only screen and (max-width:1024px){
+	.srVideo {
+	    padding-top: 50%;
+	}
 }
 
 /** Generic styling END **/
@@ -377,6 +393,12 @@ Simon Reeve Micro site
 
 }
 
+@media only screen and (max-width:1024px){
+	.srLightbox.active {
+	    left: 0vw;
+	}
+}
+
 
 
 
@@ -440,6 +462,61 @@ Simon Reeve Micro site
 	    display: block;
 		}
 
+	}
+
+}
+
+@media only screen and (max-width:1024px) {
+	.srCraghoppers {
+		.srIntro {
+			.srHeroHover {
+				max-width: 346px;
+				margin: 0 auto;
+			}
+
+			span.quote {
+				font-size: 26px;
+				padding-top: 0%;
+				width: 100%;
+				max-width: 100%;
+			}
+
+			span.quoteOwner {
+				font-size: 22px;
+				margin: 1% 0;
+			}
+
+			.srHeroHover {
+			    max-width: 346px;
+			    margin: 0 auto;
+			}
+
+		}
+
+	}
+
+}
+
+@media only screen and (max-width:740px){
+	.srHeroHover{
+		.srHeroOverlay {
+	    	display: block;
+		}
+	}
+
+	.srCraghoppers{
+		.srIntro {
+		    padding: 20px 20px 0 20px;
+
+		    span.quote {
+			    font-size: 4.5vw;
+			}
+			
+			span.quoteOwner {
+			    font-size: 4.5vw;
+			}
+
+		}
 	}
 
 }
