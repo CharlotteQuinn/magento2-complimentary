@@ -11003,964 +11003,1094 @@ Simon Reeve Micro site
   .sr-comp-container .flex-item.col-4 {
     display: none; } }
 /***** Competition Page END ********/
-.utc {
-  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
-
-.cms-ultimate-travel-collection #content .columns .o-region__inner,
-.cms-ultimate-travel-collection-have-a-safe-journey #content .columns .o-region__inner,
-.cms-ultimate-travel-collection-tailored-technologies #content .columns .o-region__inner,
-.cms-ultimate-travel-collection-mens #content .columns .o-region__inner,
-.cms-ultimate-travel-collection-womens #content .columns .o-region__inner,
-.cms-ultimate-travel-collection-massgeschneiderte-technologien .columns .o-region__inner,
-.cms-ultimate-travel-collection-herren .columns .o-region__inner,
-.cms-ultimate-travel-collection-damen .columns .o-region__inner {
-  width: 100%; }
-
-.cms-ultimate-travel-collection .c-page-wrapper,
-.cms-ultimate-travel-collection-have-a-safe-journey .c-page-wrapper,
-.cms-ultimate-travel-collection-tailored-technologies .c-page-wrapper,
-.cms-ultimate-travel-collection-mens .c-page-wrapper,
-.cms-ultimate-travel-collection-womens .c-page-wrapper {
-  padding: 0; }
-
-.cms-ultimate-travel-collection .o-list-inline,
-.cms-ultimate-travel-collection-have-a-safe-journey .o-list-inline,
-.cms-ultimate-travel-collection-tailored-technologies .o-list-inline,
-.cms-ultimate-travel-collection-mens .o-list-inline,
-.cms-ultimate-travel-collection-womens .o-list-inline {
+/* *********** FILM PRIZE *********** */
+.cms-filmprize .o-list-inline,
+.cms-filmprize-about .o-list-inline,
+.cms-filmprize-discover .o-list-inline,
+.cms-filmprize-enter .o-list-inline,
+.cms-filmprize-aboutcraghoppers .o-list-inline {
   display: none; }
 
-.cms-ultimate-travel-collection-mens .flex-container,
-.cms-ultimate-travel-collection-womens .flex-container {
-  margin: 0; }
+.FA-Logo {
+  max-width: 170px; }
 
-.utc-strip-padding {
-  margin-top: 3%; }
+.FA-SocialContainer,
+.FA-NavContainer {
+  text-align: right; }
 
-/* UTC Header */
-.utc-header {
-  width: 100%;
-  display: flex;
-  background-size: cover;
-  background-position: center center;
-  padding: 0; }
+.FA-Social {
+  padding: 0% 0 0 1%;
+  display: inline-block; }
 
-.utc-car {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/UTCProdPageBanner.jpg); }
+.FA-Social-Hashtag {
+  color: #000;
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px; }
 
-.utc-plane {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/UTCHomeBanner6.jpg); }
-
-.utc-room {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-2.jpg); }
-
-.utc-product {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-tech-header.jpg); }
-
-.utc-heromale {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-header-tech-1.jpg); }
-
-.utc-herofemale {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/banners/utc-womens-header.jpg); }
-
-.utc-header .col-12 {
-  text-align: center; }
-
-.utc-headwrapper {
-  margin: 0 auto; }
-
-.utc-logo {
-  margin: 3% 0; }
-
-.utc-header ul {
-  list-style-type: none;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
-  line-height: 2.5;
-  margin: 0;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 0.3% 0; }
-
-.utc-header ul a {
-  color: #fff;
+.FA-NavItem {
+  padding: 6% 0 0 3.5%;
   display: inline-block;
-  margin: 0 1%; }
+  font-family: "Gotham-Light", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
 
-.utc-activelink,
-.utc-header ul li:hover {
+.FA-NavItem a {
+  color: #000; }
+
+.FA-NavItemBlue,
+.FA-NavItemBlue a {
+  color: #000 !important;
+  text-decoration: none;
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif; }
+
+.FA-Banner {
+  padding-top: 2%; }
+
+.FA-Main-Header {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 21px;
+  padding: 2% 0 1% 0;
+  letter-spacing: 1.5px; }
+
+.FA-Main-Header-Grey {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #656565;
+  font-size: 19px;
+  padding: 1% 0; }
+
+.FA-Main-Copy {
+  font-family: "Gotham-Book", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 17px;
+  padding: 0 23% 0 0; }
+
+.FA-Main-Copy a {
   text-decoration: underline; }
 
-@media only screen and (max-width: 600px) {
-  .utc-headwrapper {
-    display: none; }
+.FA-Main-Copy-Small {
+  font-family: "Gotham-Book", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 15px;
+  padding: 2% 23% 0 0; }
 
-  .utc-header ul a {
-    display: block; } }
-/* END */
-/* UTC Footer */
-.utc-footer {
-  background: #000;
-  text-align: center;
-  color: #fff;
-  padding: 2% 0;
-  margin-top: 1%; }
+.FA-Main-Copy-Italic {
+  font-style: italic; }
 
-.utc-footer p {
-  margin: 0;
-  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 7px; }
+.FA-DiscoverFilm {
+  padding-top: 1%;
+  max-width: 234px;
+  margin-left: 1.5%; }
 
-.utc-footer p:first-child {
-  font-size: 30px;
-  margin-bottom: 1%;
-  letter-spacing: 15px; }
+ul.FA-list {
+  list-style: none;
+  font-family: "Gotham-Book", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 18px;
+  margin: 0; }
 
-.utc-footer p:last-child {
-  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
-  font-size: 20px; }
+ul.FA-list1 {
+  float: left;
+  padding-right: 20%; }
 
-@media only screen and (max-width: 400px) {
-  .utc-footer p:first-child {
-    letter-spacing: 8px; }
+.FA-SocialContainerMobile {
+  display: none; }
 
-  .utc-footer p:last-child {
+@media screen and (max-width: 1024px) {
+  .cms-filmprize .flex-item.col-2,
+  .cms-filmprize-about .flex-item.col-2,
+  .cms-filmprize-discover .flex-item.col-2,
+  .cms-filmprize-enter .flex-item.col-2,
+  .cms-filmprize-aboutcraghoppers .flex-item.col-2 {
+    width: 20%; }
+
+  .cms-filmprize .flex-item.col-10,
+  .cms-filmprize-about .flex-item.col-10,
+  .cms-filmprize-discover .flex-item.col-10,
+  .cms-filmprize-enter .flex-item.col-10,
+  .cms-filmprize-aboutcraghoppers .flex-item.col-10 {
+    width: 80%; }
+
+  .FA-Logo {
+    max-width: 150px; } }
+@media screen and (max-width: 900px) {
+  .FA-NavItem {
+    padding: 6% 0 0 5%;
+    font-size: 16px; }
+
+  .FA-Social {
+    padding: 10% 0 0 1%; } }
+@media only screen and (max-width: 700px) {
+  .FA-Social {
+    padding: 11% 0 0 1%; }
+
+  .FA-NavItem {
+    padding: 5% 0 0 2%;
     font-size: 14px; } }
+@media only screen and (max-width: 770px) {
+  .FA-Social {
+    padding: 11% 0 0 1%; }
+
+  .FA-NavItem {
+    padding: 6% 0 0 2%; }
+
+  .FA-Main-Copy {
+    padding: 0; } }
 @media only screen and (max-width: 600px) {
-  .utc-nav {
+  .cms-filmprize .flex-item.col-2,
+  .cms-filmprize-about .flex-item.col-2,
+  .cms-filmprize-discover .flex-item.col-2,
+  .cms-filmprize-enter .flex-item.col-2,
+  .cms-filmprize-aboutcraghoppers .flex-item.col-2,
+  .cms-filmprize .flex-item.col-10,
+  .cms-filmprize-about .flex-item.col-10,
+  .cms-filmprize-discover .flex-item.col-10,
+  .cms-filmprize-enter .flex-item.col-10,
+  .cms-filmprize-aboutcraghoppers .flex-item.col-10 {
     width: 100%; }
 
-  .utc-nav ul {
+  .FA-Logo {
+    margin: auto; }
+
+  .FA-Logo,
+  .FA-SocialContainer,
+  .FA-NavContainer {
+    text-align: center; }
+
+  .FA-NavItem {
+    padding: 2% 4.5% 0 4.5%;
+    font-size: 16px; }
+
+  .FA-Main-Header {
+    font-size: 18px;
+    letter-spacing: 1px; }
+
+  .FA-Main-Header-Grey {
+    font-size: 16px;
+    letter-spacing: 1px; }
+
+  .FA-Main-Copy {
+    font-size: 14px; }
+
+  .FA-Social {
+    padding: 6% 0 1% 1%; }
+
+  ul.FA-list {
+    font-size: 14px; }
+
+  .FA-Logo {
+    max-width: 120px; }
+
+  .FA-SocialContainer {
+    display: none; }
+
+  .FA-SocialContainerMobile {
+    display: block;
+    text-align: center; }
+
+  .FA-MainContainer {
+    padding: 0 1%; }
+
+  ul.FA-list1 {
     float: none;
-    padding: 0; } }
-/* END */
-/* Center Container */
-.utc-centralcont {
+    padding-right: 0; } }
+/* *********** END *********** */
+.fp-Container h3 {
+  background-color: #626262;
+  color: #fff;
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  font-size: 35px;
+  padding: 35px;
+  padding-left: 20px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  text-transform: none;
+  padding-right: 12%; }
+
+.fp-section {
+  display: flex; }
+
+.fp-Container img {
+  width: 100%; }
+
+.fp-topleft {
+  width: 40%; }
+
+.fp-tophero {
+  width: 60%; }
+
+.fp-Container p {
+  font-family: "Gotham-Book", Helvetica, Arial, sans-serif; }
+
+.fp-story h4,
+.fp-Container .fp-storySub {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif; }
+
+.fp-Intro p {
+  letter-spacing: 1px; }
+
+.fp-Intro {
+  width: 100%;
+  max-width: 352px;
+  margin-left: 5%;
+  margin-top: 7%; }
+
+.fp-story {
+  width: 50%; }
+
+.fp-story div {
+  margin-left: 3%; }
+
+.fp-story h4 span {
+  display: flex; }
+
+.fp-story h4 {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 1px; }
+
+.fp-storySub {
+  text-transform: uppercase; }
+
+.fp-section:nth-child(2),
+.fp-section:nth-child(3) {
+  margin-top: 4%; }
+
+.fp-low {
+  width: 42%;
+  display: flex; }
+
+a:nth-child(2) .fp-CTA {
+  margin: 0 20px; }
+
+.fp-CTA img {
+  width: auto; }
+
+@media only screen and (max-width: 1227px) {
+  .fp-low,
+  .fp-low + div {
+    width: 50%; } }
+@media only screen and (max-width: 989px) {
+  .fp-low {
+    width: 100%;
+    display: block; }
+
+  .fp-low .fp-CTA,
+  .fp-CTA img,
+  .fp-topleft,
+  .fp-story {
+    width: 100%; }
+
+  a:nth-child(2) .fp-CTA {
+    margin: 0; }
+
+  .fp-low + div,
+  .fp-tophero {
+    display: none; }
+
+  .fp-Intro {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 0%;
+    padding: 0 10px; }
+
+  .fp-section {
+    display: block; }
+
+  .fp-story div {
+    margin-left: 0; }
+
+  .fp-story:last-of-type {
+    margin-top: 3%;
+    padding: 0 10px; } }
+/* *********** END *********** */
+/* *********** FILM PRIZE NEW AMENDS *********** */
+/*film prize guardian page start */
+.cms-filmprize-winners .flex-container,
+.cms-filmprize-aboutcraghoppers .flex-container,
+.cms-filmprize-enter .flex-container,
+.cms-filmprize-discover .flex-container,
+.cms-filmprize-about .flex-container,
+.cms-filmprize .flex-container,
+.cms-filmprize-guardian .flex-container {
+  margin: 0 !important; }
+
+.cms-filmprize-winners .c-breadcrumbs,
+.cms-filmprize-aboutcraghoppers .c-breadcrumbs,
+.cms-filmprize-enter .c-breadcrumbs,
+.cms-filmprize-discover .c-breadcrumbs,
+.cms-filmprize-about .c-breadcrumbs,
+.cms-filmprize .c-breadcrumbs,
+.cms-filmprize-guardian .c-breadcrumbs {
+  display: none; }
+
+.cms-filmprize-winners .columns .o-region__inner,
+.cms-filmprize-aboutcraghoppers .columns .o-region__inner,
+.cms-filmprize-enter .columns .o-region__inner,
+.cms-filmprize-discover .columns .o-region__inner,
+.cms-filmprize-about .columns .o-region__inner,
+.cms-filmprize .columns .o-region__inner,
+.cms-filmprize-guardian .columns .o-region__inner {
+  width: 100%; }
+
+.fp-container {
+  background-color: #131b1d; }
+
+.fp-inner {
+  z-index: 10;
+  position: relative; }
+
+.fp-container:before {
+  content: "";
+  background-image: url(https://cdn.craghoppers.com/img/AW18/UK/page/film-prize/fp-background.jpg);
+  background-repeat: no-repeat;
+  background-color: #131b1d;
+  background-position: top left 50%;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  display: block;
+  position: absolute;
+  z-index: -0;
+  left: 0;
+  top: 0; }
+
+.fp-container:after {
+  content: "";
+  background-image: url(https://cdn.craghoppers.com/img/AW18/UK/page/film-prize/fp-background.jpg);
+  background-repeat: no-repeat;
+  background-color: #131b1d;
+  background-position: top right 60%;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  display: block;
+  position: absolute;
+  z-index: -0;
+  right: 0;
+  top: 0; }
+
+.fp-inner {
   max-width: 1228px;
   margin: 0 auto; }
 
-.flex-container.utc-centralcont.utc-subnav.tabs {
-  margin: 0 auto;
-  text-transform: uppercase; }
+.FA-Logo2 {
+  padding: 57px 0 0 20px; }
 
-/* END */
-/* UTC Homepage */
-.utc-strip {
-  max-width: 223px;
-  margin-top: 40px;
-  border-bottom: 6px solid #000000;
-  display: inline-block; }
+.fp-hero-inner-1 {
+  margin: 12% auto; }
 
-.utc-title {
-  font-family: "Montserrat-Medium", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 26px;
-  letter-spacing: 5px;
-  color: #000;
-  padding: 2% 0 1% 0;
-  line-height: 1.3; }
-
-.utc-subnav {
-  background: #000;
-  color: #fff;
-  padding: 1.5% 0; }
-
-.cms-ultimate-travel-collection .action-tabs .tabs-content {
-  border: 0;
-  padding: 0; }
-
-.utc-multihero {
-  text-align: center; }
-
-.utc-multihero .utc-producttitle {
-  text-transform: uppercase;
-  margin: 5% 0;
-  display: table;
+.fp-hero-logo-1 {
   width: 100%;
-  letter-spacing: 1px; }
-
-.utc-multihero .utc-productdesc {
-  font-size: 12px;
-  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
-  width: 75%;
+  max-width: 390px;
   margin: 0 auto; }
 
-.utc-multihero .utc-productdesc + span {
-  text-transform: uppercase;
-  display: table;
+.fp-hero-logo-2 {
   width: 100%;
-  margin: 4% 0 7% 0;
-  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  cursor: pointer; }
+  max-width: 206px;
+  margin: 0 auto;
+  padding-bottom: 1%; }
 
-.flex-item.col-6.active {
-  background: #000 !important;
-  text-decoration: underline; }
+.fp-hero-inner-2 {
+  margin: 5% auto; }
 
-.action-tabs .utc-subnav.tabs li {
-  text-align: left;
-  border: 0; }
+.fpHeroIntro {
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%; }
 
-.action-tabs .utc-subnav.tabs li:first-of-type {
-  text-align: right; }
+.fpHeroOne {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/page/film-prize/hero1.jpg"); }
 
-.action-tabs .utc-subnav.tabs li:hover {
-  background: #000;
-  text-decoration: underline; }
+.fpHeroTwo {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/page/film-prize/hero2.jpg"); }
 
-.utc-button {
-  background: transparent;
-  border: 1px solid #000;
+.fpHeroIntro.fpHeroOne button,
+.fpHeroIntro.fpHeroTwo button {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  display: block;
+  width: 206px;
   text-transform: uppercase;
-  color: #000;
-  padding: 0.5% 4%; }
-
-.utc-technical {
-  width: 271px;
+  background-color: #fff;
+  border: none;
   font-size: 18px;
-  color: #000; }
+  padding: 8px 10px; }
 
-.utc-striphero {
-  padding: 4% 0px;
-  margin-top: 3%; }
+.fpHeroIntro.fpHeroOne button:hover,
+.fpHeroIntro.fpHeroTwo button:hover {
+  background: rgba(255, 255, 255, 0.8); }
 
-.utc-lowerhero.utc-herofemale {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Womens.jpg); }
+.fp-header {
+  background-color: #fff;
+  padding: 25px; }
 
-.utc-femaletechone {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_WomensTech_Down.jpg); }
+.fp-top-footer {
+  background-color: #f56600;
+  padding: 25px; }
 
-.utc-femaletechtwo {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_WomensTech_RFID.jpg); }
-
-.utc-femaletechthree {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_WomensTech_Reversible.jpg); }
-
-.utc-lowerhero {
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.utc-techsection p {
-  margin: 0;
-  color: #fff; }
-
-.utc-journeytech {
-  padding: 0;
-  color: #fff; }
-
-.utc-techsection {
-  padding: 39% 0 4% 4%;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.utc-lowerhero .utc-producttitle {
-  font-size: 16px;
+.fp-top-footer button {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  margin: 5% auto 0 auto;
+  display: block;
+  width: 206px;
   text-transform: uppercase;
-  line-height: 1.3;
-  display: table;
-  margin-bottom: 2%;
-  letter-spacing: 2px;
-  color: #000;
-  margin-top: 29%;
-  margin-left: 2%; }
+  background-color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 8px 10px;
+  color: #f56600; }
 
-.utc-lowerhero .utc-productdesc {
-  width: 208px;
-  font-size: 12px;
-  margin-left: 2%; }
+.fp-top-footer button:hover {
+  background: rgba(255, 255, 255, 0.7); }
 
-.utc-lowerhero .utc-productdesc + span {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-left: 2%;
-  cursor: pointer; }
-
-.utc-techsection span {
-  text-transform: uppercase;
-  font-family: "Montserrat-Bold", Helvetica, Arial, sans-serif;
-  font-size: 20px;
+.fp-top-footer-left {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
   letter-spacing: 1px;
   color: #fff; }
 
-.utc-techsection span span {
-  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
+.fp-top-footer-right {
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff; }
 
-.utc-safejourney {
-  margin-top: 5%; }
-
-.utc-intro {
-  margin: 1% 0; }
-
-.utc-intro p {
-  font-size: 14px;
-  margin-bottom: 1%;
-  line-height: 1.2;
-  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif; }
-
-.utc-lowerhero .utc-title {
-  margin-left: 2%; }
-
-.utc-lowerhero .utc-strip {
-  margin-left: 2%; }
-
-.utc-lowerhero.utc-heromale {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Mens.jpg); }
-
-.utc-maletechone {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_MensTech_Goretex.jpg); }
-
-.utc-maletechtwo {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_MensTech_RFID.jpg); }
-
-.utc-heromale + .utc-safejourney .utc-techsection {
-  padding: 64% 0 4% 4%; }
-
-.utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
-  margin-top: 27%; }
-
-.utc-clear {
-  width: 100%;
-  clear: both; }
-
-.utc-titleheader {
+.fp-top-footer-right span {
   font-size: 18px;
-  margin-bottom: 0.5%;
-  margin-top: 2%; }
+  font-family: "Gotham-Light", Helvetica, Arial, sans-serif; }
 
-.utc-subheader {
-  font-size: 16px;
-  margin-bottom: 0.5%;
-  line-height: 1.3; }
+.fp-bottom-footer {
+  padding: 25px 0 75px 0; }
 
-.flex-item.col-12.utc-intro {
-  padding: 0; }
+.fp-bottom-footer-left {
+  font-family: "Gotham-Light", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #fff; }
 
-.utc-strip.utc-topstrip {
-  margin-top: 1%; }
-
-.utc-headerbutton:first-of-type {
-  margin-right: 0.5%; }
-
-.utc-headerbutton {
-  display: inline-block;
+.FA-Social-Hashtag-bottom {
+  font-family: "Gotham-Light", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
   color: #fff;
-  text-transform: uppercase;
-  border: 1px solid #fff;
-  padding: 0.5% 0;
-  width: 143px;
-  margin-top: 2%;
-  font-size: 12px; }
+  vertical-align: middle; }
 
-.utc-header .col-6 {
-  text-align: center; }
+/* change */
+@media screen and (max-width: 1200px) {
+  .fp-hero-inner-2 {
+    margin: 3% auto; }
 
-.utc-headerbutton:hover {
-  background: #fff;
-  color: #000; }
+  .fp-hero-inner-1 {
+    margin: 11% auto; } }
+@media screen and (max-width: 1050px) {
+  .fp-hero-inner-2 {
+    margin: 2% auto; } }
+@media screen and (max-width: 1050px) {
+  .FA-Logo {
+    max-width: 93px; }
 
-.utc-logo img {
-  max-width: 300px; }
+  .flex-item.col-1.fp-flex {
+    width: 14% !important; }
 
-.utc-lowerseo {
-  margin-top: 1.5%; }
+  .flex-item.col-10.fp-flex {
+    width: 72% !important; }
 
-.utc-lowerseo p {
-  margin-bottom: 0;
-  font-size: 14px; }
+  .fp-hero-logo-1 {
+    max-width: 320px; }
 
-.utc-multihero span img {
-  width: 100%;
-  cursor: pointer; }
+  .fp-hero-logo-2 {
+    max-width: 160px; }
 
-.utc-productmain img {
-  width: 89%; }
+  .fp-hero-inner-1 {
+    margin: 11% auto; }
 
-.utc-productmain {
-  text-align: center; }
+  .fp-hero-inner-2 {
+    margin: 5% auto; } }
+@media screen and (max-width: 950px) {
+  .fp-hero-logo-2 {
+    max-width: 140px; }
 
-@media only screen and (max-width: 1125px) {
-  .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
-    margin-top: 23%; } }
-@media only screen and (max-width: 1024px) {
-  .flex-item.col-4.utc-multihero {
-    width: 33.32%; }
+  .fp-hero-inner-2 {
+    margin: 3% auto; } }
+@media screen and (max-width: 900px) {
+  .FA-NavItem {
+    padding: 8% 0 0 3.5%;
+    font-size: 13px; }
 
-  .flex-item.col-8.utc-lowerhero {
-    width: 66.64%; }
+  .fp-hero-inner-1 {
+    margin: 9% auto; }
 
-  .flex-item.col-4.utc-journeytech {
-    width: 33.32%; }
+  .fp-hero-inner-2 {
+    margin: 2% auto; } }
+@media only screen and (max-width: 800px) {
+  .fp-container {
+    background-image: none; }
 
-  .utc-lowerhero .utc-producttitle {
-    margin-top: 22%; }
+  .FA-NavItem {
+    font-size: 13px; }
 
-  .utc-intro + .flex-item.col-5 {
+  .FA-Social-Hashtag {
+    font-size: 14px; }
+
+  .fpHeroIntro.fpHeroOne button,
+  .fpHeroIntro.fpHeroTwo button {
+    width: 180px;
+    font-size: 16px;
+    padding: 8px 10px; }
+
+  .fp-top-footer button {
+    margin: 1% auto 0 auto;
+    width: 180px;
+    font-size: 16px;
+    padding: 8px 10px; }
+
+  .fp-top-footer-left {
+    font-size: 14px;
+    line-height: 22px; }
+
+  .fp-top-footer-right {
+    font-size: 14px;
+    line-height: 22px; }
+
+  .fp-top-footer-right span {
+    font-size: 12px;
+    letter-spacing: 0px; }
+
+  .fp-bottom-footer {
+    padding: 25px 5px; }
+
+  .FA-NavItem {
+    padding: 11% 0 0 3.5%; }
+
+  .FA-Logo1 {
+    max-width: 120px; }
+
+  .FA-Logo2 {
+    max-width: 120px;
+    padding: 57px 0 0 20px; }
+
+  .fp-hero-logo-1 {
+    max-width: 210px; }
+
+  .fp-hero-logo-2 {
+    max-width: 100px; }
+
+  .fp-hero-inner-1 {
+    margin: 11% auto; }
+
+  .fp-hero-inner-2 {
+    margin: 4.5% auto; } }
+@media screen and (max-width: 750px) {
+  .fp-hero-inner-1 {
+    margin: 10% auto; }
+
+  .fp-hero-inner-2 {
+    margin: 5% auto; }
+
+  .flex-item.col-1.fp-flex {
+    width: 50% !important; }
+
+  .flex-item.col-10.fp-flex {
+    width: 100% !important; }
+
+  .FA-NavItem {
+    padding: 2% 0 0 3.5%; }
+
+  .FA-Logo1 {
+    float: right; }
+
+  .FA-Logo2 {
+    float: left;
+    padding: 70px 0 0 0px; }
+
+  .FA-Logo {
+    padding-bottom: 10px; }
+
+  .FA-SocialContainer {
     display: none; }
 
-  .utc-striphero .flex-item.col-7 {
-    width: 60%; }
-
-  .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
-    margin-top: 20%; } }
-@media only screen and (max-width: 950px) {
-  .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
-    margin-top: 17%; } }
-@media only screen and (max-width: 900px) {
-  .flex-item.col-8.utc-lowerhero {
-    width: 100%; }
-
-  .flex-item.col-4.utc-journeytech {
-    width: 100%; }
-
-  .flex-item.col-12.utc-techsection {
-    width: 33.4%;
-    display: inline-block;
-    padding: 10% 0 2% 1%;
-    margin-right: -5px; }
-
-  .utc-techsection p {
-    font-size: 1.8vw; }
-
-  .utc-striphero.utc-heromale + .utc-safejourney .utc-techsection {
-    width: 50%;
-    margin-right: -4px; }
-
-  .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
-    margin-top: 31%; }
-
-  .utc-lowerhero.utc-heromale .utc-productdesc + span {
-    display: block;
-    margin-bottom: 2%; } }
-@media only screen and (max-width: 770px) {
-  .utc-footer p:first-child {
-    font-size: 4.5vw; } }
-@media only screen and (max-width: 600px) {
-  #browsewomens #femaleherotwo,
-  #browsemens #maleheroone {
-    display: none; } }
-@media only screen and (max-width: 550px) {
-  .utc-multihero .utc-producttitle {
-    min-height: 48px; } }
-@media only screen and (max-width: 550px) {
-  .utc-nav + .flex-item.col-6 {
-    display: none; }
-
-  .utc-header {
-    padding: 0;
-    margin-top: 16px; }
-
-  .flex-item.col-4.utc-multihero {
-    width: 50%;
-    flex-grow: 0; }
-
-  .utc-striphero .flex-item.col-7 {
-    display: none; }
-
-  .utc-technical {
-    width: 100%;
-    font-size: 16px; }
-
-  .utc-striphero .utc-strip {
-    margin-top: 0; }
-
-  .utc-striphero {
-    background-position: right center;
-    padding: 6% 3%; }
-
-  .utc-lowerhero .utc-title {
-    line-height: 1.3; }
-
-  .flex-item.col-8.utc-lowerhero {
-    padding: 2% 0;
-    background-position: top right;
-    background-color: #bcab8f; }
-
-  .flex-item.col-12.utc-techsection {
-    width: 100%;
-    background-position: center; }
-
-  .utc-techsection p {
-    font-size: 2.6vw; }
-
-  .utc-button {
-    padding: 0.5% 8%; }
-
-  .utc-title {
-    line-height: 1.3; }
-
-  .utc-striphero.utc-heromale + .utc-safejourney .utc-techsection {
-    width: 100%; }
-
-  .flex-item.col-8.utc-lowerhero.utc-heromale {
-    background-size: cover; }
-
-  .utc-lowerhero.utc-herofemale {
-    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Womens-Mobile.jpg); }
-
-  .utc-lowerhero.utc-heromale {
-    background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/safe_journey/UTC_Mens-Mobile.jpg); }
-
-  .utc-lowerhero .utc-producttitle,
-  .utc-striphero.utc-heromale + .utc-safejourney .utc-producttitle {
-    margin-top: 0; } }
-@media only screen and (max-width: 450px) {
-  .flex-item.col-4.utc-multihero {
-    width: 100%; }
-
-  .action-tabs .utc-subnav.tabs li,
-  .action-tabs .utc-subnav.tabs li:first-of-type {
+  .FA-SocialContainer,
+  .FA-NavContainer {
     text-align: center; }
 
-  .utc-multihero img {
-    width: 70%; }
+  .fp-hero-inner-2 {
+    margin: 3.5% auto; } }
+@media only screen and (max-width: 700px) {
+  .fp-hero-inner-1 {
+    margin: 9% auto; }
 
-  .utc-multihero .utc-producttitle {
-    min-height: 0; }
+  .fp-hero-inner-2 {
+    margin: 2.5% auto; }
 
-  .utc-title {
-    font-size: 24px; } }
-@media only screen and (max-width: 420px) {
-  .flex-item.col-8.utc-lowerhero,
-  .flex-item.col-8.utc-lowerhero.utc-heromale {
-    padding: 2% 0 80% 0;
-    background-position-y: 100%;
-    background-size: contain;
-    background-color: transparent; }
+  .fp-hero-logo-2 {
+    max-width: 90px; } }
+@media screen and (max-width: 650px) {
+  .fpHeroIntro.fpHeroOne button {
+    width: 130px;
+    font-size: 14px;
+    padding: 6px 8px; }
 
-  .utc-lowerhero .utc-productdesc {
-    width: 100%; } }
-/* Lightbox */
-.utc-lightbox.rl-pop.active {
-  margin-top: 2%;
-  height: 845px;
-  overflow-y: scroll; }
+  .fpHeroIntro.fpHeroTwo button {
+    width: 155px;
+    font-size: 14px;
+    padding: 6px 8px; }
 
-.utc-producthighlights {
-  text-align: center; }
+  .fp-top-footer button {
+    margin: 4% auto 4% auto;
+    width: 130px;
+    font-size: 14px;
+    padding: 6px 8px; }
 
-.utc-producthighlights img {
-  width: 58%; }
+  .fp-hero-inner-1 {
+    margin: 6% auto; }
 
-.utc-producthighlights .col-12 {
-  background: #f2f2f2;
+  .fp-hero-inner-2 {
+    margin: 3% auto; } }
+@media screen and (max-width: 650px) {
+  .fpHeroIntro.fpHeroOne button {
+    width: 110px;
+    font-size: 12px;
+    padding: 4px 6px; }
+
+  .fpHeroIntro.fpHeroTwo button {
+    width: 135px;
+    font-size: 12px;
+    padding: 4px 6px; }
+
+  .fp-top-footer button {
+    margin: 4% auto 4% auto;
+    width: 110px;
+    font-size: 12px;
+    padding: 4px 6px; } }
+@media only screen and (max-width: 500px) {
+  .fpHeroOne {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/page/film-prize/hero1-mob.jpg"); }
+
+  .fpHeroTwo {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/page/film-prize/hero2-mob.jpg"); }
+
+  .fp-hero-logo-1 {
+    max-width: 150px;
+    margin: 17.5% auto 0 auto; }
+
+  .fp-hero-logo-2 {
+    max-width: 100px; }
+
+  .fp-hero-inner-1 {
+    margin: 25% auto; }
+
+  .fp-hero-inner-2 {
+    margin: 11% auto; }
+
+  .fp-bottom-footer-left {
+    text-align: center; }
+
+  .FA-SocialContainer.FA-SocialContainer-bottom {
+    display: block;
+    padding-top: 5px; }
+
+  .FA-Social.FA-Social-Hashtag-bottom {
+    display: none; }
+
+  .FA-Logo2 {
+    padding: 74px 0 0 0px; }
+
+  .FA-Logo.FA-Logo2 img {
+    width: 105px; } }
+/*film prize guardian page end */
+/*film prize new homepage start*/
+.fp-inner-white {
+  background-color: #fff; }
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+  overflow: hidden; }
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/*montage start*/
+.fp-montage-inner {
+  position: relative;
+  transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  overflow: hidden;
+  height: 100%; }
+
+.fp-montage-inner > .fp-montage-item {
+  display: none; }
+
+.fp-montage-inner:hover > .fp-montage-item {
+  display: block; }
+
+.fp-montage-inner .fp-montage-item > div {
+  opacity: 0; }
+
+.fp-montage-inner:hover .fp-montage-item > div {
+  opacity: 1;
+  transition: 0.3s;
+  -moz-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  z-index: 1;
+  position: relative; }
+
+.fp-montage-inner:hover .fp-montage-item {
+  position: absolute;
+  background-color: rgba(245, 102, 0, 0.6);
+  text-align: center;
+  color: #ffffff;
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 19% 0; }
+
+.fp-montage-inner:hover .fp-montage-item.fp-montage-item-7 {
+  padding: 14% 0 !important; }
+
+/*montage end*/
+.fp-montage-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.fp-montage-copy-top {
+  text-transform: uppercase;
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 1px; }
+
+.fp-montage-copy-bottom {
+  text-transform: initial;
+  font-family: "Gotham-Light", Helvetica, Arial, sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 22px; }
+
+.fp-showcasing-title {
+  text-transform: uppercase;
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  color: #218391;
+  text-align: center;
+  font-size: 70px;
+  line-height: 76px;
+  padding: 2% 10% 0 10%; }
+
+.flex-container.fp-montage-container .flex-item.col-4 {
+  padding: 0 !important; }
+
+.flex-item.col-4.fp-montage-inner {
+  width: 33.3% !important;
+  line-height: 0; }
+
+.fp-montage-container {
+  padding: 1.6% 3.6% 3.6% 3.6%; }
+
+.fp-top-footer2 {
+  background-color: #218391;
+  padding: 25px;
+  width: 100%; }
+
+.fp-top-footer2 button {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  margin: 5% auto 0 auto;
+  display: block;
+  width: 206px;
+  text-transform: uppercase;
+  background-color: #218391;
+  border: none;
+  font-size: 18px;
+  padding: 8px 10px;
+  color: #fff;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 1px; }
+
+.fp-top-footer2 button:hover {
+  background: rgba(33, 131, 145, 0.7); }
+
+.fp-rewarding-title {
+  text-transform: uppercase;
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  color: #f56600;
+  text-align: center;
+  font-size: 60px;
+  line-height: 66px;
+  padding: 2% 4%; }
+
+.fp-watch-title {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  color: #000;
+  text-align: center;
+  font-size: 34px;
+  line-height: 76px;
+  padding: 2% 0; }
+
+.fp-footer-title {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  line-height: 34px;
   padding: 4% 0; }
 
-.utc-producthighlights .col-12:nth-child(2) {
-  margin: 3% 0; }
+.fp-footer-title span {
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif; }
 
-.utc-showfull {
-  text-transform: uppercase; }
-
-.utc-producttitle {
-  text-transform: uppercase; }
-
-.utc-lightbox .utc-title {
-  width: 100%;
-  margin-bottom: 0; }
-
-.utc-modelDetails {
-  max-width: 625px;
-  margin: 0 auto;
-  text-align: left;
-  font-size: 14px;
-  margin-top: 0.5%; }
-
-@media only screen and (max-width: 600px) {
-  .utc-lightbox.rl-pop.active {
-    margin-top: 22%;
-    height: 665px; }
-
-  .utc-productmain img {
-    width: 70%; } }
-@media only screen and (max-width: 550px) {
-  .utc-lightbox.rl-pop.active {
-    margin-top: 18%;
-    height: 84%; }
-
-  .utc-productmain {
-    text-align: center; }
-
-  .utc-productmain img {
-    width: 70%; } }
-/* END */
-/*PLP START */
-.cms-ultimate-travel-collection-mens #content .columns .o-region__inner,
-.cms-ultimate-travel-collection-womens #content .columns .o-region__inner {
-  background-color: #f2f2f2; }
-
-.cms-ultimate-travel-collection-mens p:nth-child(1),
-.cms-ultimate-travel-collection-womens p:nth-child(1) {
-  margin-bottom: 1rem; }
-
-.flex-container-styles {
-  padding: 1.5% 0;
-  background-color: #fff;
-  margin: 4% 0 6% 0; }
-
-.utc-plp-container,
-.utc-plp-container-w {
-  border-right: #9d9d9c;
-  border-width: 1px;
-  border-right-style: solid;
-  box-sizing: border-box;
-  padding: 0px; }
-
-.utc-plp-container:nth-child(3),
-.utc-plp-container:nth-child(7),
-.utc-plp-container:nth-child(11) {
-  border-right: none; }
-
-.utc-plp-container-w:nth-child(3),
-.utc-plp-container-w:nth-child(7),
-.utc-plp-container-w:nth-child(10),
-.utc-plp-container-w:nth-child(11) {
-  border-right: none; }
-
-.utc-plp-title {
+.fp-rewarding-copy-black {
+  font-family: "Gotham-Light", Helvetica, Arial, sans-serif;
   color: #000;
-  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
-  padding: 0 0 1% 0;
   text-align: center;
-  font-size: 100%;
-  letter-spacing: 2px;
-  text-transform: uppercase; }
+  font-size: 22px;
+  line-height: 28px;
+  padding: 0.5% 5%; }
 
-.utc-plp-image {
-  width: 75%;
-  margin: auto; }
+.fp-rewarding-copy-black span {
+  font-style: italic;
+  font-family: "Gotham-Medium", Helvetica, Arial, sans-serif; }
 
-.utc-plp-description {
-  /*color: #716d68;*/
-  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
-  padding: 1% 6%;
+.fp-rewarding-copy-blue {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  color: #218391;
   text-align: center;
-  font-size: 100%;
-  min-height: 12vh; }
+  font-size: 22px;
+  line-height: 28px;
+  padding: 0.5% 5%; }
 
-.utc-plp-price {
-  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
-  padding: 2% 0;
-  text-align: center;
-  font-size: 90%; }
+@media screen and (max-width: 1000px) {
+  .fp-showcasing-title {
+    font-size: 44px;
+    line-height: 50px; }
 
-.utc-plp-swatches {
-  text-align: center; }
+  .fp-rewarding-title {
+    font-size: 32px;
+    line-height: 38px; }
 
-.utc-plp-swatch-inner {
-  padding: 0 0.5%; }
+  .fp-rewarding-copy-black,
+  .fp-rewarding-copy-blue {
+    font-size: 16px;
+    line-height: 20px; }
 
-.utc-plp-product-link {
-  /*color: #716d68;*/
-  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
-  padding: 1% 0 1% 0;
-  text-align: center;
-  font-size: 90%;
-  letter-spacing: 2px;
+  .fp-footer-title {
+    font-size: 20px;
+    line-height: 26px; }
+
+  .fp-montage-copy-top {
+    font-size: 18px;
+    line-height: 24px; }
+
+  .fp-montage-copy-bottom {
+    font-size: 14px;
+    line-height: 20px; } }
+@media screen and (max-width: 800px) {
+  .fp-montage-container {
+    padding: 1.5% 3% 3% 3%; }
+
+  .fp-showcasing-title {
+    font-size: 38px;
+    line-height: 44px;
+    padding: 3% 10% 0 10%; }
+
+  .fp-rewarding-title {
+    font-size: 32px;
+    line-height: 38px; }
+
+  .fp-rewarding-copy-black,
+  .fp-rewarding-copy-blue {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0.5% 4%; }
+
+  .fp-watch-title {
+    font-size: 24px;
+    line-height: 30px;
+    padding: 3% 0; }
+
+  .fp-footer-title {
+    font-size: 22px;
+    line-height: 30px;
+    padding: 4% 0; }
+
+  .fp-montage-copy-top {
+    font-family: "Gotham-Medium", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0; }
+
+  .fp-montage-copy-bottom {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0; }
+
+  .fp-montage-inner:hover .fp-montage-item {
+    padding: 17% 0; }
+
+  .fp-montage-inner:hover .fp-montage-item.fp-montage-item-7 {
+    padding: 8% 0 !important; }
+
+  .fp-top-footer-right span {
+    font-size: 13px;
+    letter-spacing: 0px !important; } }
+@media screen and (max-width: 700px) {
+  .fp-rewarding-title {
+    padding: 2% 4%; }
+
+  .fp-rewarding-copy {
+    padding-bottom: 3%; }
+
+  .fp-watch-title {
+    font-size: 22px;
+    line-height: 30px; }
+
+  .fp-footer-title {
+    font-size: 18px;
+    line-height: 24px; }
+
+  .flex-item.col-4.fp-montage-inner {
+    width: 50% !important; } }
+@media screen and (max-width: 600px) {
+  .fp-showcasing-title {
+    font-size: 32px;
+    line-height: 38px; }
+
+  .fp-rewarding-title {
+    font-size: 28px;
+    line-height: 34px; }
+
+  .fp-watch-title {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 3% 9%; }
+
+  .fp-footer-title {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 4% 6%; } }
+@media screen and (max-width: 500px) {
+  .fp-montage-container {
+    padding: 0.5% 0%; }
+
+  .fp-showcasing-title {
+    font-size: 22px;
+    line-height: 28px; }
+
+  .fp-rewarding-title {
+    font-size: 16px;
+    line-height: 22px; }
+
+  .fp-rewarding-copy-black,
+  .fp-rewarding-copy-blue {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0.5% 1%; }
+
+  .fp-watch-title {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 3% 9%; }
+
+  .fp-montage-copy-top {
+    font-size: 12px;
+    line-height: 14px; }
+
+  .fp-montage-copy-bottom {
+    font-size: 12px;
+    line-height: 13px; }
+
+  .fp-montage-inner:hover .fp-montage-item {
+    padding: 17% 0; }
+
+  .fp-montage-inner:hover .fp-montage-item.fp-montage-item-4 {
+    padding: 14% 0 !important; }
+
+  .fp-montage-inner:hover .fp-montage-item.fp-montage-item-5 {
+    padding: 11% 0 !important; }
+
+  .fp-montage-inner:hover .fp-montage-item.fp-montage-item-7 {
+    padding: 5% 0 !important; } }
+/*film prize new homepage end*/
+/*film prize winners page start*/
+.fp-blue-title {
   text-transform: uppercase;
-  text-decoration: none; }
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  color: #218391;
+  text-align: center;
+  font-size: 78px;
+  line-height: 78px;
+  padding: 2% 14%; }
 
-.utc-plp-product-horiz-divide {
-  height: 1px;
+.fp-orange-title {
+  text-transform: uppercase;
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  color: #f56600;
+  text-align: center;
+  font-size: 78px;
+  line-height: 78px;
+  padding: 2% 0; }
+
+.fp-copy-orange {
+  font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
+  color: #f56600;
+  text-align: center;
+  font-size: 33px;
+  line-height: 38px;
+  padding: 0.5% 24%; }
+
+.fp-copy-black {
+  font-family: "Gotham-Light", Helvetica, Arial, sans-serif;
   color: #000;
-  background-color: #9d9d9c;
-  width: 100%;
-  margin: 1.2%; }
-
-h2.utc-title-lower {
-  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
-  padding-top: 4%; }
-
-.utc-lower-seo {
-  padding-bottom: 1.5%; }
-
-@media only screen and (max-width: 1025px) {
-  .utc-plp-container,
-  .utc-plp-container-w {
-    width: 33.3% !important; } }
-@media only screen and (max-width: 950px) {
-  .utc-plp-description {
-    padding: 1% 6% 5% 6%;
-    min-height: 13vh;
-    line-height: 160%; } }
-@media only screen and (max-width: 900px) {
-  .utc-plp-title {
-    padding: 0 4% 3% 4%;
-    height: 60px;
-    font-size: 90%; } }
-@media only screen and (max-width: 770px) {
-  .utc-plp-title {
-    height: 50px; }
-
-  .utc-plp-product-link {
-    padding: 5% 0 1% 0; }
-
-  .utc-plp-container,
-  .utc-plp-container-w {
-    width: 33.3% !important; } }
-@media only screen and (max-width: 740px) {
-  .utc-plp-container,
-  .utc-plp-container-w {
-    width: 33.3% !important; } }
-@media only screen and (max-width: 600px) {
-  .utc-plp-container,
-  .utc-plp-container-w {
-    border-right: none;
-    border-bottom: #9d9d9c;
-    border-width: 1px;
-    border-bottom-style: solid;
-    width: 46% !important;
-    margin: 2%; }
-
-  .utc-plp-product-horiz-divide {
-    display: none; }
-
-  .utc-plp-title {
-    padding: 5% 0 3% 0;
-    height: 55px; }
-
-  .utc-plp-description {
-    min-height: 15vh;
-    line-height: 160%;
-    font-size: 120%; }
-
-  .utc-plp-product-link {
-    padding: 3% 0 5% 0; }
-
-  .cms-ultimate-travel-collection-mens #content .columns .o-region__inner,
-  .cms-ultimate-travel-collection-womens #content .columns .o-region__inner {
-    background-color: #fff; }
-
-  .utc-plp-container-w:nth-child(11) {
-    border-bottom: none; }
-
-  .utc-plp-empty {
-    display: none; } }
-@media only screen and (max-width: 540px) {
-  .utc-plp-description {
-    min-height: 18vh; } }
-@media only screen and (max-width: 460px) {
-  .utc-plp-description {
-    min-height: 21vh;
-    line-height: 150%; } }
-@media only screen and (max-width: 400px) {
-  .utc-plp-description {
-    min-height: 21vh; } }
-@media only screen and (max-width: 400px) {
-  .utc-plp-description {
-    min-height: 22vh; } }
-@media only screen and (max-width: 350px) {
-  .utc-plp-description {
-    min-height: 31vh;
-    line-height: 120%;
-    font-size: 110%; } }
-/*PLP END */
-/* UTC Story Start */
-.utc-story-goretex {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-goretex.jpg); }
-
-.utc-story-rfid {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-rfid.jpg); }
-
-.utc-story-aquadry {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-aquadry.jpg); }
-
-.utc-story-nosilife {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-nosilife.jpg); }
-
-.utc-story-antibacterial {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-antibac.jpg); }
-
-.utc-story-down {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/story/story-down.jpg); }
-
-.utc-story-box-img {
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  max-width: 190px;
-  min-height: 190px;
-  margin-bottom: 10px; }
-
-.utc-story-box-title {
-  color: #fff;
-  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
-  font-size: 110%;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  padding: 45% 0 0 0;
-  text-align: center; }
-
-.utc-story-box-title-bold {
-  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
-
-.utc-story-img {
-  padding-top: 4%;
-  text-align: center; }
-
-.utc-story-divide {
-  background: #000;
-  height: 7px;
-  max-width: 223px;
-  margin: 4% 0 1% 0; }
-
-.utc-story-title {
-  color: #000;
-  font-family: "Montserrat-Medium", Helvetica, Arial, sans-serif;
-  font-size: 26px;
-  letter-spacing: 5px;
-  padding: 2% 0 0 0;
-  text-transform: uppercase;
-  line-height: 1.3; }
-
-.utc-story-copy {
-  color: #000;
-  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
-  font-size: 110%;
-  padding: 3% 15% 1% 0;
-  text-align: left;
-  line-height: 200%; }
-
-@media only screen and (max-width: 1024px) {
-  .utc-story-copy {
-    padding: 3% 1% 1% 0;
-    font-size: 85%; }
-
-  .flex-item.col-8.utc-story-main {
-    width: 50%; }
-
-  .flex-item.col-2.story-col-2 {
-    width: 16.6%; } }
-@media only screen and (max-width: 770px) {
-  .utc-story-box-title {
-    font-size: 100%; }
-
-  .utc-story-box-img {
-    min-height: 160px; } }
-@media only screen and (max-width: 740px) {
-  .cms-ultimate-travel-collection-have-a-safe-journey .utc-story-img img {
-    width: 75%;
-    padding: 3% 0; } }
-@media only screen and (max-width: 400px) {
-  .cms-ultimate-travel-collection-have-a-safe-journey .col-2 {
-    width: 50%; }
-
-  .flex-item.col-2.story-col-2 {
-    width: 33.3%; }
-
-  .utc-story-box-img {
-    min-height: 120px !important; }
-
-  .utc-story-box-title {
-    padding: 35% 0 0 0; }
-
-  .utc-story-title {
-    font-size: 24px; } }
-/* UTC Story End */
-/* Technologies Start */
-.utc-technology-goretex {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/goretex.jpg); }
-
-.utc-technology-aquadry {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/aquadry.jpg); }
-
-.utc-technology-solarshield {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/solarshield.jpg); }
-
-.utc-technology-down {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/down.jpg); }
-
-.utc-technology-nosilife {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/nosilife.jpg); }
-
-.utc-technology-moisture-control {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/moisture-control.jpg); }
-
-.utc-technology-wash-wear {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/wash-wear.jpg); }
-
-.utc-technology-rfidshield {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/rfid.jpg); }
-
-.utc-technology-lightweight {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/lightweight.jpg); }
-
-.utc-technology-security {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/security.jpg); }
-
-.utc-technology-anti-bacterial {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/anti-bac.jpg); }
-
-.utc-technology-reversible {
-  background-image: url(https://cdn.craghoppers.com/img/SS17/UK/page/utc/technologies/reversible.jpg); }
-
-.utc-technology-img {
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  max-width: 400px;
-  min-height: 400px; }
-
-.utc-technology-box-title {
-  color: #fff;
-  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
-  font-size: 220%;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  padding: 37% 0 0 0;
   text-align: center;
-  line-height: 120%; }
+  font-size: 24px;
+  line-height: 30px;
+  padding: 0.5% 8%; }
 
-.utc-technology-box-title-bold {
-  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif; }
+.flex-container.fp-winners-prizes {
+  margin: 10px 30px; }
 
-.utc-technology-box-copy {
-  color: #fff;
-  font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
-  font-size: 90%;
-  padding: 5% 4% 0 4%;
-  text-align: center; }
+.fp-winners-montage .flex-item.col-4 {
+  width: 33.3% !important;
+  line-height: 0;
+  padding: 0 !important; }
 
-.flex-item-tech {
-  margin-bottom: 10px; }
+.flex-container.fp-winners-montage {
+  padding: 3%; }
 
-.utc-footer-padding {
-  margin-top: 4%; }
+.fp-footer-title.fp-footer-title-grey {
+  background-color: #cccccc; }
 
-@media only screen and (max-width: 1024px) {
-  .flex-item.col-4.flex-item-tech {
-    width: 33%; } }
-@media only screen and (max-width: 850px) {
-  .utc-technology-box-copy {
-    font-size: 100%; } }
-@media only screen and (max-width: 770px) {
-  .utc-technology-img {
-    min-height: 260px; }
+/*film prize winners page end*/
+.flex-item.col-12.fp-banner-nopadding {
+  padding: 0 !important; }
 
-  .utc-technology-box-title {
-    font-size: 180%;
-    padding: 20% 0 0 0; } }
-@media only screen and (max-width: 400px) {
-  .utc-technology-img {
-    min-height: 190px; }
+.FA-MainContainer {
+  padding: 0 2% 2% 2%; }
 
-  .utc-technology-box-title {
-    font-size: 140%; }
-
-  .utc-technology-box-copy {
-    font-size: 80%;
-    padding: 5% 4% 0 4%; }
-
-  .flex-item.col-4.flex-item-tech {
-    width: 50%; } }
-/*Technologies End */
-/* Homepage Slider */
-@media only screen and (max-width: 600px) {
-  .bannerOverlay__cta.bannerOverlay__cta--slider.utc-cta {
-    margin-top: 32%; } }
-/* END */
+/* *********** END *********** */
 /*********************************************
 
 CH Staging styles
