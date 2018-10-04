@@ -360,6 +360,7 @@ a:nth-child(2) .fp-CTA {
 /* *********** FILM PRIZE NEW AMENDS *********** */
 
 /* guardian page start */
+.cms-page-testing-ls3 .flex-container,
 .cms-filmprize-winners .flex-container,
 .cms-filmprize-aboutcraghoppers .flex-container,
 .cms-filmprize-enter .flex-container,
@@ -369,6 +370,7 @@ a:nth-child(2) .fp-CTA {
 .cms-filmprize-guardian .flex-container {
     margin: 0 !important;
 }
+.cms-page-testing-ls3 .c-breadcrumbs,
 .cms-filmprize-winners .c-breadcrumbs,
 .cms-filmprize-aboutcraghoppers .c-breadcrumbs,
 .cms-filmprize-enter .c-breadcrumbs,
@@ -378,6 +380,7 @@ a:nth-child(2) .fp-CTA {
 .cms-filmprize-guardian .c-breadcrumbs {
     display: none;
 }
+.cms-page-testing-ls3 .columns .o-region__inner,
 .cms-filmprize-winners .columns .o-region__inner,
 .cms-filmprize-aboutcraghoppers .columns .o-region__inner,
 .cms-filmprize-enter .columns .o-region__inner,
@@ -1294,6 +1297,9 @@ a:nth-child(2) .fp-CTA {
 
 /* craghoppers start */
 
+.fpHeroTwo-crags {
+    padding: 20%;
+}
 .fp-copy-orange.fp-craghoppers {
     font-family: "Gotham-Bold", Helvetica, Arial, sans-serif;
     color: #f56600;
