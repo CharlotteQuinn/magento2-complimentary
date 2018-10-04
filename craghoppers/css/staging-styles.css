@@ -11086,9 +11086,25 @@ Simon Reeve Micro site
   color: #fff;
   transition: all 0.5s; }
 
+.srMedia span {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  font-size: 30px;
+  margin: 0 0 2% 0;
+  display: block; }
+
+.srInfo p {
+  margin: 4% auto;
+  max-width: 880px; }
+
 @media only screen and (max-width: 1024px) {
   .srVideo {
     padding-top: 50%; } }
+@media only screen and (max-width: 500px) {
+  .srMedia span {
+    font-size: 6vw;
+    line-height: 1.3; } }
 /** Generic styling END **/
 /** Lightbox **/
 .srLightbox {
@@ -11203,16 +11219,6 @@ Simon Reeve Micro site
       text-transform: uppercase;
       margin-top: 2%;
       display: block; }
-  .srCraghoppers .srInfo p {
-    margin: 4% auto;
-    max-width: 880px; }
-  .srCraghoppers .srMedia span {
-    font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.1px;
-    font-size: 30px;
-    margin: 0 0 2% 0;
-    display: block; }
 
 @media only screen and (max-width: 1024px) {
   .srCraghoppers .srIntro .srHeroHover {
@@ -11239,11 +11245,34 @@ Simon Reeve Micro site
       font-size: 4.5vw; }
     .srCraghoppers .srIntro span.quoteOwner {
       font-size: 4.5vw; } }
-@media only screen and (max-width: 500px) {
-  .srCraghoppers .srMedia span {
-    font-size: 6vw;
-    line-height: 1.3; } }
 /** On Craghoppers END **/
+/** On Kit **/
+.srKit .srIntro .flex-container {
+  margin: 10px 0 0 0; }
+.srKit .srInfo p {
+  font-size: 26px;
+  max-width: 965px; }
+  .srKit .srInfo p span {
+    display: block;
+    font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    margin-top: 1%; }
+
+@media only screen and (max-width: 740px) {
+  .srKit .srIntro {
+    overflow: scroll; }
+    .srKit .srIntro .flex-container {
+      width: 200%;
+      flex-wrap: nowrap;
+      display: block; }
+    .srKit .srIntro .flex-item.col-3 {
+      width: 21%;
+      display: inline-block;
+      float: left;
+      flex-grow: 0; } }
+/** On Kit END **/
 /* *********** FILM PRIZE *********** */
 .cms-filmprize .o-list-inline,
 .cms-filmprize-about .o-list-inline,
