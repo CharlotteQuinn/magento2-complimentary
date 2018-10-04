@@ -9600,8 +9600,8 @@ Simon Reeve Micro site
 .srVideo {
   position: relative;
   width: 100%;
-  padding-top: 32.25%;
-  max-width: 760px;
+  padding-top: 37%;
+  max-width: 800px;
   margin: 0 auto; }
 
 .srVideo iframe {
@@ -9637,9 +9637,98 @@ Simon Reeve Micro site
   margin: 4% auto;
   max-width: 880px; }
 
+span.quote {
+  font-size: 35px;
+  line-height: 1.5;
+  padding-top: 8%;
+  display: block;
+  width: 100%;
+  letter-spacing: 1.2px;
+  max-width: 580px;
+  text-align: left; }
+
+span.quoteOwner {
+  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+  letter-spacing: 1.1px;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 2%;
+  display: block;
+  text-align: left; }
+
+.srBlogPost .srBlog {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  font-size: 30px;
+  display: block;
+  line-height: 1;
+  margin-top: 2%; }
+.srBlogPost .srBlogTitle {
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-top: 0.5%;
+  display: block;
+  margin-bottom: 2%; }
+.srBlogPost .blogContent {
+  overflow: hidden;
+  height: 55px; }
+.srBlogPost .srBlogButton {
+  border: 1px solid;
+  padding: 0.5% 0;
+  width: 100%;
+  min-width: 200px;
+  display: block;
+  max-width: 200px;
+  margin: 1% auto 0 auto;
+  transition: all 0.5s;
+  cursor: pointer; }
+.srBlogPost .srBlogButton:hover {
+  background: #000;
+  color: #fff;
+  transition: all 0.5s; }
+.srBlogPost .blogContent {
+  overflow: hidden;
+  transition: all 1s; }
+.srBlogPost .blogContent.active {
+  transition: all 1s; }
+
+.desktopHero {
+  display: block; }
+
+.mobileHero {
+  display: none; }
+
 @media only screen and (max-width: 1024px) {
   .srVideo {
-    padding-top: 50%; } }
+    padding-top: 50%; }
+
+  span.quote {
+    font-size: 26px;
+    padding-top: 0%;
+    width: 100%;
+    max-width: 100%; }
+
+  span.quoteOwner {
+    font-size: 22px;
+    margin: 1% 0; } }
+/*@media only screen and (max-width:740px) {
+	span.quote {
+		font-size: 4.5vw;
+	}
+
+	span.quoteOwner {
+		font-size: 4.5vw;
+	}
+
+}*/
+@media only screen and (max-width: 740px) {
+  .desktopHero {
+    display: none; }
+
+  .mobileHero {
+    display: block; } }
 @media only screen and (max-width: 500px) {
   .srMedia span {
     font-size: 6vw;
@@ -9743,34 +9832,11 @@ Simon Reeve Micro site
       top: 40%;
       left: 25%;
       cursor: pointer; }
-    .srCraghoppers .srIntro span.quote {
-      font-size: 35px;
-      line-height: 1.5;
-      padding-top: 8%;
-      display: block;
-      width: 100%;
-      letter-spacing: 1.2px;
-      max-width: 580px; }
-    .srCraghoppers .srIntro span.quoteOwner {
-      font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
-      letter-spacing: 1.1px;
-      font-size: 25px;
-      text-transform: uppercase;
-      margin-top: 2%;
-      display: block; }
 
 @media only screen and (max-width: 1024px) {
   .srCraghoppers .srIntro .srHeroHover {
     max-width: 346px;
     margin: 0 auto; }
-  .srCraghoppers .srIntro span.quote {
-    font-size: 26px;
-    padding-top: 0%;
-    width: 100%;
-    max-width: 100%; }
-  .srCraghoppers .srIntro span.quoteOwner {
-    font-size: 22px;
-    margin: 1% 0; }
   .srCraghoppers .srIntro .srHeroHover {
     max-width: 346px;
     margin: 0 auto; } }
@@ -9779,11 +9845,7 @@ Simon Reeve Micro site
     display: block; }
 
   .srCraghoppers .srIntro {
-    padding: 20px 20px 0 20px; }
-    .srCraghoppers .srIntro span.quote {
-      font-size: 4.5vw; }
-    .srCraghoppers .srIntro span.quoteOwner {
-      font-size: 4.5vw; } }
+    padding: 20px 20px 0 20px; } }
 /** On Craghoppers END **/
 /** On Kit **/
 .srKit .srIntro .flex-container {
@@ -9813,8 +9875,7 @@ Simon Reeve Micro site
       flex-grow: 0; }
   .srKit .srInfo p {
     font-size: 3.5vw; }
-
-  .srIntro::after {
+  .srKit .srIntro::after {
     content: '';
     background-image: url(https://cdn.craghoppers.com/img/AW18/UK/page/simon-reeve/misc/right-arrow.svg);
     display: block;
@@ -9835,6 +9896,93 @@ Simon Reeve Micro site
   .srKit .srIntro::after {
     top: 12%; } }
 /** On Kit END **/
+/** On Plastic **/
+.srPlastic .srIntro {
+  padding: 20px 50px 0 50px; }
+.srPlastic .flex-container {
+  margin-bottom: 0; }
+.srPlastic .srInfo p span {
+  display: block;
+  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  margin-top: 1%; }
+.srPlastic .srTechFocus {
+  margin: 2% 0; }
+  .srPlastic .srTechFocus .techHeader {
+    font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    font-size: 30px;
+    margin: 0 0 2% 0;
+    display: block; }
+  .srPlastic .srTechFocus .flex-container {
+    max-width: 700px;
+    margin: 0 auto; }
+  .srPlastic .srTechFocus .col-4 img {
+    max-width: 140px;
+    margin: 0 auto; }
+  .srPlastic .srTechFocus .techDetail {
+    text-align: left; }
+    .srPlastic .srTechFocus .techDetail span {
+      font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      letter-spacing: 1.1px;
+      margin-top: 3%;
+      display: block; }
+
+@media only screen and (max-width: 1024px) {
+  .srPlastic .srIntro span.quote {
+    font-size: 26px; }
+  .srPlastic .srIntro span.quoteOwner {
+    font-size: 22px; }
+  .srPlastic .srIntro .srHeroHover {
+    max-width: 346px;
+    margin: 0 auto; }
+  .srPlastic .srTechFocus .flex-item.col-4.techImg {
+    width: 40%; }
+  .srPlastic .srTechFocus .flex-item.col-8.techDetail {
+    width: 60%; } }
+@media only screen and (max-width: 500px) {
+  .srPlastic .srTechFocus .flex-item.col-4.techImg {
+    width: 100%; }
+  .srPlastic .srTechFocus .flex-item.col-8.techDetail {
+    width: 100%; } }
+/** On Plastic END**/
+/** On Travel **/
+.srTravel .srIntro {
+  padding: 20px 50px 0 50px; }
+  .srTravel .srIntro .flex-container {
+    margin-bottom: 0; }
+.srTravel .srInfo.srInfoSimon p {
+  font-style: italic;
+  max-width: 838px;
+  font-size: 18px; }
+.srTravel .srInfo.srInfoTech p {
+  margin: 2% auto; }
+.srTravel .srInfo.srInfoTech p:last-of-type {
+  font-style: italic; }
+.srTravel .srInfo.srInfoTech span:first-of-type {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  font-size: 30px;
+  margin: 2% 0;
+  display: block; }
+.srTravel .srInfo.srInfoTech span:last-of-type {
+  display: block;
+  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  margin-top: 1%; }
+
+@media only screen and (max-width: 740px) {
+  .srTravel .srIntro .srHeroHover {
+    max-width: 346px;
+    margin: 0 auto; } }
+/** On Travel END **/
 /* *********** FILM PRIZE *********** */
 .cms-filmprize .o-list-inline,
 .cms-filmprize-about .o-list-inline,

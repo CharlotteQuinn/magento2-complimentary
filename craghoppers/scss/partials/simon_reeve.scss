@@ -238,8 +238,8 @@ Simon Reeve Micro site
 .srVideo {
 	position: relative;
 	width: 100%;
-	padding-top: 32.25%;
-	max-width: 760px;
+	padding-top: 37%;
+    max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -284,9 +284,126 @@ Simon Reeve Micro site
 	max-width: 880px;
 }
 
+span.quote {
+	font-size: 35px;
+	line-height: 1.5;
+	padding-top: 8%;
+	display: block;
+	width: 100%;
+	letter-spacing: 1.2px;
+	max-width: 580px;
+	text-align: left;
+}
+
+span.quoteOwner {
+	font-family: $osbold;
+	letter-spacing: 1.1px;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-top: 2%;
+	display: block;
+	text-align: left;
+}
+
+.srBlogPost {
+	.srBlog {
+		font-family: $crimreg;
+		text-transform: uppercase;
+		letter-spacing: 1.1px;
+		font-size: 30px;
+		display: block;
+		line-height: 1;
+		margin-top: 2%;
+	}
+
+	.srBlogTitle {
+		font-size: 20px;
+		letter-spacing: 1.2px;
+		text-transform: uppercase;
+		margin-top: 0.5%;
+		display: block;
+		margin-bottom: 2%;
+	}
+
+	.blogContent {
+	    overflow: hidden;
+	    height: 55px;
+	}
+
+	.srBlogButton {
+	    border: 1px solid;
+	    padding: 0.5% 0;
+	    width: 100%;
+	    min-width: 200px;
+	    display: block;
+	    max-width: 200px;
+	    margin: 1% auto 0 auto;
+	    transition: all 0.5s;
+	    cursor: pointer;
+	}
+
+	.srBlogButton:hover{
+		background: #000;
+    	color: #fff;
+    	transition: all 0.5s;
+	}
+
+	.blogContent {
+	    overflow: hidden;
+	    transition: all 1s;
+	}
+
+	.blogContent.active {
+	    transition: all 1s;
+	}
+
+}
+
+.desktopHero{
+	display:block;
+}
+
+.mobileHero{
+	display:none;
+}
+
 @media only screen and (max-width:1024px) {
 	.srVideo {
 		padding-top: 50%;
+	}
+
+	span.quote {
+		font-size: 26px;
+		padding-top: 0%;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	span.quoteOwner {
+		font-size: 22px;
+		margin: 1% 0;
+	}
+
+}
+
+/*@media only screen and (max-width:740px) {
+	span.quote {
+		font-size: 4.5vw;
+	}
+
+	span.quoteOwner {
+		font-size: 4.5vw;
+	}
+
+}*/
+
+@media only screen and (max-width:740px) {
+	.desktopHero {
+		display: none;
+	}
+
+	.mobileHero {
+		display: block;
 	}
 
 }
@@ -455,25 +572,6 @@ Simon Reeve Micro site
 			cursor: pointer;
 		}
 
-		span.quote {
-			font-size: 35px;
-			line-height: 1.5;
-			padding-top: 8%;
-			display: block;
-			width: 100%;
-			letter-spacing: 1.2px;
-			max-width: 580px;
-		}
-
-		span.quoteOwner {
-			font-family: $osbold;
-			letter-spacing: 1.1px;
-			font-size: 25px;
-			text-transform: uppercase;
-			margin-top: 2%;
-			display: block;
-		}
-
 	}
 
 }
@@ -484,18 +582,6 @@ Simon Reeve Micro site
 			.srHeroHover {
 				max-width: 346px;
 				margin: 0 auto;
-			}
-
-			span.quote {
-				font-size: 26px;
-				padding-top: 0%;
-				width: 100%;
-				max-width: 100%;
-			}
-
-			span.quoteOwner {
-				font-size: 22px;
-				margin: 1% 0;
 			}
 
 			.srHeroHover {
@@ -520,15 +606,6 @@ Simon Reeve Micro site
 	.srCraghoppers {
 		.srIntro {
 			padding: 20px 20px 0 20px;
-
-			span.quote {
-				font-size: 4.5vw;
-			}
-
-			span.quoteOwner {
-				font-size: 4.5vw;
-			}
-
 		}
 
 	}
@@ -593,22 +670,22 @@ Simon Reeve Micro site
 
 		}
 
-	}
+		.srIntro::after {
+			content: '';
+			background-image: url(https://cdn.craghoppers.com/img/AW18/UK/page/simon-reeve/misc/right-arrow.svg);
+			display: block;
+			width: 40px;
+			height: 40px;
+			position: absolute;
+			right: 1%;
+			background-size: 100%;
+			top: 19%;
+			background-color: #fff;
+			border-radius: 90px;
+			opacity: 0.25;
+			background-repeat: no-repeat;
+		}
 
-	.srIntro::after {
-		content: '';
-		background-image: url(https://cdn.craghoppers.com/img/AW18/UK/page/simon-reeve/misc/right-arrow.svg);
-		display: block;
-		width: 40px;
-		height: 40px;
-		position: absolute;
-		right: 1%;
-		background-size: 100%;
-		top: 19%;
-		background-color: #fff;
-		border-radius: 90px;
-		opacity: 0.25;
-		background-repeat: no-repeat;
 	}
 
 }
@@ -634,3 +711,182 @@ Simon Reeve Micro site
 }
 
 /** On Kit END **/
+
+/** On Plastic **/
+.srPlastic {
+	.srIntro {
+		padding: 20px 50px 0 50px;
+	}
+
+	.flex-container {
+		margin-bottom: 0;
+	}
+
+	.srInfo {
+		p span {
+			display: block;
+			font-family: $osbold;
+			text-transform: uppercase;
+			font-size: 20px;
+			letter-spacing: 1.2px;
+			margin-top: 1%;
+		}
+
+	}
+
+	.srTechFocus {
+		margin: 2% 0;
+
+		.techHeader {
+			font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 1.1px;
+			font-size: 30px;
+			margin: 0 0 2% 0;
+			display: block;
+		}
+
+		.flex-container {
+		    max-width: 700px;
+		    margin: 0 auto;
+		}
+
+		.col-4 img {
+		    max-width: 140px;
+		    margin: 0 auto;
+		}
+
+		.techDetail {
+		    text-align: left;
+
+		    span {
+			    font-family: $osbold;
+			    font-size: 18px;
+			    letter-spacing: 1.1px;
+			    margin-top: 3%;
+    			display: block;
+			}
+		}
+
+	}
+
+}
+
+@media only screen and (max-width:1024px) {
+	.srPlastic {
+		.srIntro {
+			span.quote {
+			    font-size: 26px;
+			}
+			span.quoteOwner {
+    			font-size: 22px;
+    		}
+
+			.srHeroHover {
+				max-width: 346px;
+				margin: 0 auto;
+			}
+
+		}
+		
+		.srTechFocus{
+			.flex-item.col-4.techImg {
+			    width: 40%;
+			}
+
+			.flex-item.col-8.techDetail {
+			    width: 60%;
+			}
+		}
+
+	}
+
+}
+
+@media only screen and (max-width:500px) {
+	.srPlastic {
+		.srTechFocus {
+			.flex-item.col-4.techImg {
+				width: 100%;
+			}
+
+			.flex-item.col-8.techDetail {
+			    width: 100%;
+			}
+
+		}
+
+	}
+
+}
+
+/** On Plastic END**/
+
+/** On Travel **/
+.srTravel {
+
+	.srIntro {
+	    padding: 20px 50px 0 50px;
+
+	    .flex-container {
+			margin-bottom: 0;
+		}
+	}
+
+	.srInfo.srInfoSimon {		
+
+		p {
+			font-style: italic;
+			max-width: 838px;
+			font-size: 18px;
+		}
+
+	}
+
+	.srInfo.srInfoTech {
+		p {
+			margin: 2% auto;
+		}
+
+		p:last-of-type {
+		    font-style: italic;
+		}
+
+		span:first-of-type{
+			font-family: $crimreg;
+		    text-transform: uppercase;
+		    letter-spacing: 1.1px;
+		    font-size: 30px;
+		    margin: 2% 0;
+		    display: block;
+		}
+		span:last-of-type{
+		    display: block;
+		    font-family: $osbold;
+		    text-transform: uppercase;
+		    font-size: 20px;
+		    letter-spacing: 1.2px;
+		    margin-top: 1%;
+		}
+
+	}
+
+
+
+}
+
+@media only screen and (max-width:740px) {
+	.srTravel {
+		.srIntro {
+			.srHeroHover {
+				max-width: 346px;
+				margin: 0 auto;
+			}
+
+		}
+
+	}
+
+}
+
+/** On Travel END **/
