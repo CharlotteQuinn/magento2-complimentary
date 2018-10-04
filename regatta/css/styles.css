@@ -2297,19 +2297,19 @@ body .c-product-tile .c-product-tile__btn {
 
   /* mobile nav images */
   li.dropdown.womens > a {
-    background-image: url(https://cdn.regatta.com/img/SS18/mega-menu/womens.gif) !important;
+    background-image: url(https://cdn.regatta.com/images/uk/AW18/mega-menu/womens.png) !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: 95% 0px !important; }
 
   li.dropdown.mens > a {
-    background-image: url(https://cdn.regatta.com/img/SS18/mega-menu/mens.gif) !important;
+    background-image: url(https://cdn.regatta.com/images/uk/AW18/mega-menu/mens.png) !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: 95% 0px !important; }
 
   li.dropdown.kids > a {
-    background-image: url(https://cdn.regatta.com/img/SS18/mega-menu/kids.gif) !important;
+    background-image: url(https://cdn.regatta.com/images/uk/AW18/mega-menu/kids.png) !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: 95% 0px !important; }
@@ -2321,7 +2321,7 @@ body .c-product-tile .c-product-tile__btn {
     background-position: 95% -10px !important; }
 
   li.dropdown.jackets > a {
-    background-image: url(https://cdn.regatta.com/img/SS18/mega-menu/jackets.gif) !important;
+    background-image: url(https://cdn.regatta.com/images/uk/AW18/mega-menu/jackets.png) !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: 95% 0px !important; }
