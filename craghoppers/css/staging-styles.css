@@ -11311,6 +11311,7 @@ a:nth-child(2) .fp-CTA {
 /* *********** END *********** */
 /* *********** FILM PRIZE NEW AMENDS *********** */
 /* guardian page start */
+.cms-page-testing-ls .flex-container,
 .cms-filmprize-winners .flex-container,
 .cms-filmprize-aboutcraghoppers .flex-container,
 .cms-filmprize-enter .flex-container,
@@ -11320,6 +11321,7 @@ a:nth-child(2) .fp-CTA {
 .cms-filmprize-guardian .flex-container {
   margin: 0 !important; }
 
+.cms-page-testing-ls .c-breadcrumbs,
 .cms-filmprize-winners .c-breadcrumbs,
 .cms-filmprize-aboutcraghoppers .c-breadcrumbs,
 .cms-filmprize-enter .c-breadcrumbs,
@@ -11329,6 +11331,7 @@ a:nth-child(2) .fp-CTA {
 .cms-filmprize-guardian .c-breadcrumbs {
   display: none; }
 
+.cms-page-testing-ls .columns .o-region__inner,
 .cms-filmprize-winners .columns .o-region__inner,
 .cms-filmprize-aboutcraghoppers .columns .o-region__inner,
 .cms-filmprize-enter .columns .o-region__inner,
