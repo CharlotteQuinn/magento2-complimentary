@@ -10768,7 +10768,30 @@ Simon Reeve Micro site
       width: 21%;
       display: inline-block;
       float: left;
-      flex-grow: 0; } }
+      flex-grow: 0; }
+  .srKit .srInfo p {
+    font-size: 3.5vw; }
+
+  .srIntro::after {
+    content: '';
+    background-image: url(https://cdn.craghoppers.com/img/AW18/UK/page/simon-reeve/misc/right-arrow.svg);
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 1%;
+    background-size: 100%;
+    top: 19%;
+    background-color: #fff;
+    border-radius: 90px;
+    opacity: 0.25;
+    background-repeat: no-repeat; } }
+@media only screen and (max-width: 470px) {
+  .srKit .srIntro::after {
+    top: 15%; } }
+@media only screen and (max-width: 350px) {
+  .srKit .srIntro::after {
+    top: 12%; } }
 /** On Kit END **/
 /* *********** FILM PRIZE *********** */
 .cms-filmprize .o-list-inline,
