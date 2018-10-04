@@ -11311,7 +11311,6 @@ a:nth-child(2) .fp-CTA {
 /* *********** END *********** */
 /* *********** FILM PRIZE NEW AMENDS *********** */
 /* guardian page start */
-.cms-page-testing-ls .flex-container,
 .cms-filmprize-winners .flex-container,
 .cms-filmprize-aboutcraghoppers .flex-container,
 .cms-filmprize-enter .flex-container,
@@ -11321,7 +11320,6 @@ a:nth-child(2) .fp-CTA {
 .cms-filmprize-guardian .flex-container {
   margin: 0 !important; }
 
-.cms-page-testing-ls .c-breadcrumbs,
 .cms-filmprize-winners .c-breadcrumbs,
 .cms-filmprize-aboutcraghoppers .c-breadcrumbs,
 .cms-filmprize-enter .c-breadcrumbs,
@@ -11331,7 +11329,6 @@ a:nth-child(2) .fp-CTA {
 .cms-filmprize-guardian .c-breadcrumbs {
   display: none; }
 
-.cms-page-testing-ls .columns .o-region__inner,
 .cms-filmprize-winners .columns .o-region__inner,
 .cms-filmprize-aboutcraghoppers .columns .o-region__inner,
 .cms-filmprize-enter .columns .o-region__inner,
@@ -11413,6 +11410,12 @@ a:nth-child(2) .fp-CTA {
 
 .fpHeroTwo {
   background-image: url("https://cdn.craghoppers.com/img/AW18/UK/page/film-prize/hero2.jpg"); }
+
+.fpHeroOne-crags {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/page/film-prize/craghoppers-hero-1.jpg"); }
+
+.fpHeroTwo-crags {
+  background-image: url("https://cdn.craghoppers.com/img/AW18/UK/page/film-prize/craghoppers-hero-2.jpg"); }
 
 .fpHeroIntro.fpHeroOne button,
 .fpHeroIntro.fpHeroTwo button {
@@ -11681,6 +11684,12 @@ a:nth-child(2) .fp-CTA {
 
   .fpHeroTwo {
     background-image: url("https://cdn.craghoppers.com/img/AW18/UK/page/film-prize/hero2-mob.jpg"); }
+
+  .fpHeroOne-crags {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/page/film-prize/craghoppers-hero-1-mobile.jpg"); }
+
+  .fpHeroTwo-crags {
+    background-image: url("https://cdn.craghoppers.com/img/AW18/UK/page/film-prize/craghoppers-hero-2-mobile.jpg"); }
 
   .fp-hero-logo-1 {
     max-width: 150px;
