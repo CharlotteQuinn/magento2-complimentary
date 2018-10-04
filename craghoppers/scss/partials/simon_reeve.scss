@@ -511,12 +511,26 @@ Simon Reeve Micro site
 		    span.quote {
 			    font-size: 4.5vw;
 			}
-			
+
 			span.quoteOwner {
 			    font-size: 4.5vw;
 			}
 
 		}
+	}
+
+}
+
+@media only screen and (max-width:500px) {
+	.srCraghoppers {
+		.srMedia {
+			span {
+				font-size: 6vw;
+				line-height: 1.3;
+			}
+
+		}
+
 	}
 
 }
