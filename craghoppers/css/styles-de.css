@@ -12032,14 +12032,22 @@ a:nth-child(2) .fp-CTA {
     max-width: 275px; } }
 @media screen and (max-width: 600px) {
   .fp-hero-inner-1-crags {
-    margin: 12% auto; }
+    margin: 31% auto; }
 
   .fp-hero-logo-1-crags {
     max-width: 175px; }
 
   .fp-copy-orange.fp-craghoppers {
     font-size: 14px;
-    line-height: 20px; } }
+    line-height: 20px; }
+
+  .fpHeroTwo-crags {
+    padding: 34% 0; }
+
+  .fpHeroIntro.fpHeroTwo-crags button {
+    width: 170px;
+    font-size: 16px;
+    padding: 6px 8px; } }
 /* craghoppers end */
 /* *********** END *********** */
 .cms-homepage-promo-grid-ch-de .o-region__inner.column.main,
