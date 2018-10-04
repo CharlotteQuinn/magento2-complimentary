@@ -10736,6 +10736,10 @@ Simon Reeve Micro site
       font-size: 4.5vw; }
     .srCraghoppers .srIntro span.quoteOwner {
       font-size: 4.5vw; } }
+@media only screen and (max-width: 500px) {
+  .srCraghoppers .srMedia span {
+    font-size: 6vw;
+    line-height: 1.3; } }
 /** On Craghoppers END **/
 /* *********** FILM PRIZE *********** */
 .cms-filmprize .o-list-inline,
