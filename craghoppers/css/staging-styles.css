@@ -11475,6 +11475,12 @@ span.quoteOwner {
   font-size: 20px;
   letter-spacing: 1.2px;
   margin-top: 1%; }
+.srTravel .onCHProduct.srProductOne {
+  top: 38%;
+  left: -15%; }
+.srTravel .onCHProduct.srProductTwo {
+  top: 86%;
+  left: 19%; }
 
 @media only screen and (max-width: 740px) {
   .srTravel .srIntro .srHeroHover {
