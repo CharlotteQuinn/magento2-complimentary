@@ -11162,6 +11162,10 @@ span.quoteOwner {
 .mobileHero {
   display: none; }
 
+.onCHProduct {
+  position: relative;
+  cursor: pointer; }
+
 @media only screen and (max-width: 1024px) {
   .srVideo {
     padding-top: 50%; }
@@ -11323,6 +11327,32 @@ span.quoteOwner {
     letter-spacing: 1.2px;
     margin-top: 1%; }
 
+.heroOne .onCHProduct.srProductOne {
+  top: 43%;
+  left: 20%; }
+.heroOne .onCHProduct.srProductTwo {
+  top: 38%;
+  right: 13%; }
+
+.heroTwo .onCHProduct.srProductOne {
+  top: 35%;
+  right: 18%; }
+.heroTwo .onCHProduct.srProductTwo {
+  top: 63%; }
+
+.heroThree .onCHProduct.srProductOne {
+  top: 38%;
+  right: 15%; }
+.heroThree .onCHProduct.srProductTwo {
+  top: 62%; }
+
+.heroFour .onCHProduct.srProductOne {
+  top: 37%;
+  right: 9%; }
+.heroFour .onCHProduct.srProductTwo {
+  top: 94%;
+  left: 15%; }
+
 @media only screen and (max-width: 740px) {
   .srKit .srIntro {
     overflow: scroll; }
@@ -11393,6 +11423,12 @@ span.quoteOwner {
       letter-spacing: 1.1px;
       margin-top: 3%;
       display: block; }
+.srPlastic .onCHProduct.srProductOne {
+  top: 38%;
+  left: -15%; }
+.srPlastic .onCHProduct.srProductTwo {
+  top: 86%;
+  left: 19%; }
 
 @media only screen and (max-width: 1024px) {
   .srPlastic .srIntro span.quote {

@@ -368,6 +368,11 @@ span.quoteOwner {
 	display:none;
 }
 
+.onCHProduct {
+    position: relative;
+    cursor: pointer;
+}
+
 @media only screen and (max-width:1024px) {
 	.srVideo {
 		padding-top: 50%;
@@ -644,6 +649,59 @@ span.quoteOwner {
 
 }
 
+.heroOne {
+	.onCHProduct.srProductOne {
+		top: 43%;
+		left: 20%;
+	}
+
+	.onCHProduct.srProductTwo {
+		top: 38%;
+		right: 13%;
+	}
+
+}
+
+.heroTwo {
+	.onCHProduct.srProductOne {
+		top: 35%;
+		right: 18%;
+	}
+
+	.onCHProduct.srProductTwo {
+		top: 63%;
+	}
+
+}
+
+.heroThree {
+	.onCHProduct.srProductOne {
+		top: 38%;
+		right: 15%;
+	}
+
+	.onCHProduct.srProductTwo {
+		top: 62%;
+	}
+
+}
+
+.heroFour {
+
+	.onCHProduct.srProductOne {
+	    top: 37%;
+	    right: 9%;
+	}
+
+	.onCHProduct.srProductTwo {
+	    top: 94%;
+	    left: 15%;
+	}
+
+}
+
+
+
 @media only screen and (max-width:740px) {
 	.srKit {
 		.srIntro {
@@ -769,6 +827,16 @@ span.quoteOwner {
 			}
 		}
 
+	}
+
+	.onCHProduct.srProductOne {
+		top: 38%;
+		left: -15%;
+	}
+
+	.onCHProduct.srProductTwo {
+		top: 86%;
+		left: 19%;
 	}
 
 }
