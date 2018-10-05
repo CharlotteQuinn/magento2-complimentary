@@ -10415,7 +10415,6 @@ Simon Reeve Micro site
   text-align: center; }
 
 .sr-nav-item {
-  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   color: #343334;
   font-size: 16px;
   display: inline-block;
@@ -10428,7 +10427,7 @@ Simon Reeve Micro site
   color: #000; }
 
 .sr-nav-item-current {
-  font-family: "CrimsonText-Bold", Helvetica, Arial, sans-serif; }
+  font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif; }
 
 .sr-nav-divide {
   background-color: #000;
@@ -10462,7 +10461,8 @@ Simon Reeve Micro site
   font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
   font-size: 24px;
   text-transform: uppercase;
-  padding-bottom: 2%; }
+  padding-bottom: 2%;
+  padding-top: 2%; }
 .srComp .sr-comp-copy {
   font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -10521,6 +10521,13 @@ Simon Reeve Micro site
     display: none; } }
 /***** Competition Page END ********/
 /** Generic styling **/
+.cms-simon-reeve-on-craghoppers .breadcrumbs.c-breadcrumbs,
+.cms-simon-reeve-on-plastics .breadcrumbs.c-breadcrumbs,
+.cms-simon-reeve-on-kit .breadcrumbs.c-breadcrumbs,
+.cms-simon-reeve-on-travel .breadcrumbs.c-breadcrumbs,
+.cms-simon-reeve-competition- .breadcrumbs.c-breadcrumbs {
+  display: none; }
+
 .cms-simonreeve-oncraghoppers .breadcrumbs.c-breadcrumbs {
   display: none; }
 
@@ -10573,7 +10580,7 @@ Simon Reeve Micro site
   border: 1px solid;
   padding: 0.5% 0;
   width: 100%;
-  min-width: 200px;
+  min-width: 250px;
   display: block;
   max-width: 200px;
   margin: 1% auto 0 auto;
@@ -10599,7 +10606,7 @@ Simon Reeve Micro site
 span.quote {
   font-size: 35px;
   line-height: 1.5;
-  padding-top: 8%;
+  padding-top: 15%;
   display: block;
   width: 100%;
   letter-spacing: 1.2px;
@@ -10622,7 +10629,8 @@ span.quoteOwner {
   font-size: 30px;
   display: block;
   line-height: 1;
-  margin-top: 2%; }
+  margin-top: 2%;
+  margin-bottom: 2%; }
 .srBlogPost .srBlogTitle {
   font-size: 20px;
   letter-spacing: 1.2px;
@@ -10632,7 +10640,7 @@ span.quoteOwner {
   margin-bottom: 2%; }
 .srBlogPost .blogContent {
   overflow: hidden;
-  height: 55px; }
+  text-align: left; }
 .srBlogPost .srBlogButton {
   border: 1px solid;
   padding: 0.5% 0;
@@ -10663,13 +10671,25 @@ span.quoteOwner {
   position: relative;
   cursor: pointer; }
 
+.srEndcap > div {
+  margin: 0 auto; }
+
+.mt_sliderTop .mt_title {
+  font-family: "CrimsonText-Regular", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  font-size: 30px;
+  margin: 2% 0;
+  display: block;
+  font-weight: 300; }
+
 @media only screen and (max-width: 1024px) {
   .srVideo {
     padding-top: 50%; }
 
   span.quote {
     font-size: 26px;
-    padding-top: 0%;
+    padding-top: 0% !important;
     width: 100%;
     max-width: 100%; }
 
@@ -10926,6 +10946,8 @@ span.quoteOwner {
 .srPlastic .onCHProduct.srProductTwo {
   top: 86%;
   left: 19%; }
+.srPlastic span.quote {
+  padding-top: 25%; }
 
 @media only screen and (max-width: 1024px) {
   .srPlastic .srIntro span.quote {
@@ -10978,6 +11000,8 @@ span.quoteOwner {
 .srTravel .onCHProduct.srProductTwo {
   top: 86%;
   left: 19%; }
+.srTravel span.quote {
+  padding-top: 25%; }
 
 @media only screen and (max-width: 740px) {
   .srTravel .srIntro .srHeroHover {
