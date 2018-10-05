@@ -189,6 +189,17 @@ Simon Reeve Micro site
 /***** Competition Page END ********/
 
 /** Generic styling **/
+.cms-simon-reeve-on-craghoppers,
+.cms-simon-reeve-on-plastics,
+.cms-simon-reeve-on-kit,
+.cms-simon-reeve-on-travel,
+.cms-simon-reeve-competition- {
+	.breadcrumbs.c-breadcrumbs {
+		display: none;
+	}
+
+}
+
 .cms-simonreeve-oncraghoppers .breadcrumbs.c-breadcrumbs {
 	display: none;
 }
