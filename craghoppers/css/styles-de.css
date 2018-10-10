@@ -12521,10 +12521,10 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
 
 /*END*/
 /* Badges */
-.c-product-tile__img-wrapper a[href="https://www.craghoppers.de/nosilife-cargo-shorts-black-pepper/"]:before,
-.c-product-tile__img-wrapper a[href="https://www.craghoppers.de/nosilife-cargo-shorts-ocean-blue/"]:before,
-.c-product-tile__img-wrapper a[href="https://www.craghoppers.de/nosilife-cargo-shorts-parchment/"]:before,
-.c-product-tile__img-wrapper a[href="https://www.craghoppers.de/nosilife-cargo-shorts-desert-sand/"]:before {
+.c-product-tile__img-wrapper > a[href="https://www.craghoppers.de/nosilife-cargo-shorts-black-pepper/"]::before,
+.c-product-tile__img-wrapper > a[href="https://www.craghoppers.de/nosilife-cargo-shorts-ocean-blue/"]::before,
+.c-product-tile__img-wrapper > a[href="https://www.craghoppers.de/nosilife-cargo-shorts-parchment/"]::before,
+.c-product-tile__img-wrapper > a[href="https://www.craghoppers.de/nosilife-cargo-shorts-desert-sand/"]::before {
   content: '';
   display: block;
   background: url(https://cdn.craghoppers.com/img/SS18/DE/misc/product_badge/wandermagazin.png);
