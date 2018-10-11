@@ -5523,6 +5523,14 @@ a.mm-outlet {
 
   .collectionItem a {
     width: 100%; } }
+/* Travel Clothing */
+.menuTravelClothing .menuSection {
+  width: 25% !important; }
+
+@media only screen and (max-width: 678px) {
+  .menuTravelClothing .menuSection {
+    width: 100% !important; } }
+/* Travel Clothing END */
 /* Lookbook */
 /* Dump From Live */
 /*.cms-ss17-lookbook .main-container {
