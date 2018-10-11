@@ -1308,3 +1308,18 @@ i.c-header__icon.c-icon--menu.menuOpen::after{
   }
 
 }
+
+/* Travel Clothing */
+.menuTravelClothing .menuSection {
+  width: 25% !important;
+}
+
+@media only screen and (max-width:678px){
+  
+  .menuTravelClothing .menuSection {
+    width: 100% !important;
+  }
+
+}
+
+/* Travel Clothing END */
