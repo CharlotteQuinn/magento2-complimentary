@@ -4601,6 +4601,12 @@ html:lang(pl) {
   /*/////////////////////////////////////////*/
   /* Regatta Commerce Polish Styles Only     */
   /*/////////////////////////////////////////*/ }
+  html:lang(pl) .catalog-category-view .c-facet-list__facet-header--title {
+    line-height: 40px;
+    margin: 0; }
+  html:lang(pl) .catalog-category-view .c-facet-list__refine-clear.c-facet-list__refine-clear-all {
+    position: relative;
+    width: 100%; }
 
 /* Singles */
 
