@@ -33,7 +33,7 @@ html .s-usp {
 /*  Checkout Success            */
 /*//////////////////////////////*/
 .checkout-onepage-success #wrapper > #content{
-      text-align: center;
+    text-align: center;
 
 }
 .checkout-onepage-success #wrapper > #content h1.u-heading-beta.page-title:before {
@@ -48,6 +48,13 @@ html .s-usp {
 /*//////////////////////////////*/
 /*  Product Page                */
 /*//////////////////////////////*/
+
+.has-cheaper-price.no-display {
+  display: block;
+  color: #ffb300;
+  font-size: 18px;
+}
+
 /* More Colours arrow styles (More than 4 items)*/
 .products.wrapper.grid.products-grid.products-related {
   margin: 0px 20px;
@@ -170,6 +177,8 @@ html .s-usp {
 /*//////////////////////////////*/
 /*  New PLP theme Category page */
 /*//////////////////////////////*/
+
+
 .page-product-configurable #content .c-tabs {
     background: none !important;
     border-top: solid 1px #eaeaea;
@@ -232,17 +241,22 @@ html .catalog-category-view {
     color:#D32526;
   }
 
-  .c-price.c-price--small > p.c-price__group:last-child {
-    font-size: 18px;
+  .c-price.c-price--small > p.c-price__group {
     text-align: center;
-    font-weight: bold;
+    font-size: 15px;
   }
 
-/*  .c-price.c-price--small > p.c-price__group:last-child:before {
-    content: "Now:";
-    font-weight: inherit;
-    font-size: inherit;
-  }*/
+  .c-price__group.loyalty {
+    display: block;
+    font-weight: bold;
+    color: #ffb300;
+  }
+
+   .c-price__group.loyalty .c-price__loyalty {
+    display: block;
+    font-size: 18px;
+  }
+
 
   .c-price.c-price--small > p.c-price__group:last-child .c-price__final.u-color-highlight {
     font-size: inherit;
