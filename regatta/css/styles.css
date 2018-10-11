@@ -957,6 +957,12 @@ html .s-usp {
   color: #ffb300;
   font-size: 18px; }
 
+.has-cheaper-price.no-display .price {
+  font-weight: bold;
+  color: #ffb300;
+  margin-left: 10px;
+  font-size: 22px; }
+
 /* More Colours arrow styles (More than 4 items)*/
 .products.wrapper.grid.products-grid.products-related {
   margin: 0px 20px;
