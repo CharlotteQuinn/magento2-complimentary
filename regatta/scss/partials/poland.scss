@@ -1,3 +1,12 @@
 /*/////////////////////////////////////////*/
 /* Regatta Commerce Polish Styles Only     */
 /*/////////////////////////////////////////*/
+
+.catalog-category-view .c-facet-list__facet-header--title {
+    line-height: 40px;
+    margin: 0;
+}
+.catalog-category-view .c-facet-list__refine-clear.c-facet-list__refine-clear-all{
+	position: relative;
+    width: 100%
+}
