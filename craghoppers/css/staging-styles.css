@@ -483,72 +483,88 @@
 /* UTC Fonts */
 @font-face {
   font-family: 'Montserrat-Regular';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.otf); }
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Regular.otf);
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'Montserrat-Medium';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.otf); }
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Medium.otf);
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'Montserrat-Light';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.otf); }
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Light.otf);
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'Montserrat-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf); }
+  src: url(https://cdn.craghoppers.com/fonts/montserrat/Montserrat-Bold.otf);
+  -webkit-font-smoothing: antialiased; }
 /* Film Awards Fonts */
 @font-face {
   font-family: 'Gotham-Black';
-  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Black.otf); }
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Black.otf);
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'Gotham-Bold';
-  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Bold.otf); }
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Bold.otf);
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'Gotham-Book';
-  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Book.otf); }
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Book.otf);
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'Gotham-Light';
-  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Light.otf); }
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Light.otf);
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'Gotham-Medium';
-  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Medium.otf); }
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-Medium.otf);
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'Gotham-MediumItalic';
-  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-MediumItalic.otf); }
+  src: url(https://cdn.craghoppers.com/fonts/gotham/Gotham-MediumItalic.otf);
+  -webkit-font-smoothing: antialiased; }
 /* SS18 Fonts */
 @font-face {
   font-family: 'OpenSans-Bold';
   src: url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-bold/OpenSans-Bold.eot");
   src: url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-bold/OpenSans-Bold.woff2") format("woff2"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-bold/OpenSans-Bold.woff") format("woff"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-bold/OpenSans-Bold.ttf") format("truetype"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-bold/OpenSans-Bold.otf") format("otf"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-bold/OpenSans-Bold.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'OpenSans-SemiBold';
   src: url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-semibold/OpenSans-SemiBold.eot");
   src: url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-semibold/OpenSans-SemiBold.woff2") format("woff2"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-semibold/OpenSans-SemiBold.woff") format("woff"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-semibold/OpenSans-SemiBold.ttf") format("truetype"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-semibold/OpenSans-SemiBold.otf") format("otf"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-semibold/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'OpenSans-Light';
   src: url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-light/OpenSans-Light.eot");
   src: url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-light/OpenSans-Light.woff2") format("woff2"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-light/OpenSans-Light.woff") format("woff"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-light/OpenSans-Light.ttf") format("truetype"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-light/OpenSans-Light.otf") format("otf"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-light/OpenSans-Light.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'OpenSans-Regular';
   src: url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-regular/OpenSans-Regular.eot");
   src: url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-regular/OpenSans-Regular.woff2") format("woff2"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-regular/OpenSans-Regular.woff") format("woff"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-regular/OpenSans-Regular.ttf") format("truetype"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-regular/OpenSans-Regular.otf") format("otf"), url("https://cdn.craghoppers.com/fonts/open_sans/OS/os-regular/OpenSans-Regular.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'CrimsonText-Bold';
   src: url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-bold/CrimsonText-Bold.eot");
   src: url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-bold/CrimsonText-Bold.woff2") format("woff2"), url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-bold/CrimsonText-Bold.woff") format("woff"), url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-bold/CrimsonText-Bold.ttf") format("truetype"), url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-bold/CrimsonText-Bold.svg#CrimsonText-Bold") format("svg"), url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-bold/CrimsonText-Bold.eot?#iefix") format("embedded-opentype"), url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-bold/CrimsonText-Bold.otf") format("otf");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
 @font-face {
   font-family: 'CrimsonText-Regular';
   src: url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-regular/CrimsonText-Regular.eot");
   src: url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-regular/CrimsonText-Regular.woff2") format("woff2"), url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-regular/CrimsonText-Regular.woff") format("woff"), url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-regular/CrimsonText-Regular.ttf") format("truetype"), url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-regular/CrimsonText-Regular.svg#CrimsonText-Regular") format("svg"), url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-regular/CrimsonText-Regular.eot?#iefix") format("embedded-opentype"), url("https://cdn.craghoppers.com/fonts/crimson/crimson/crimson-regular/CrimsonText-Regular.otf") format("otf");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
 /* Generic stuff that can be used on any/every CMS page */
 html {
   font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif; }
@@ -13213,5 +13229,15 @@ div#header.headStick {
   color: #fff; }
 
 /* Search page gender filter END */
+/** Insect Shield Page **/
+.containerCenter {
+  max-width: 1228px;
+  margin: 0 auto; }
+  .containerCenter .insectLogo {
+    max-width: 287px;
+    margin: 0 auto;
+    display: block; }
+
+/** Insect Shield Page END **/
 
 /*# sourceMappingURL=staging-styles.css.map */
