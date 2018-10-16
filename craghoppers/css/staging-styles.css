@@ -13235,8 +13235,69 @@ div#header.headStick {
   margin: 0 auto; }
   .containerCenter .insectLogo {
     max-width: 287px;
-    margin: 0 auto;
+    margin: 2% auto;
     display: block; }
+  .containerCenter .logoText {
+    margin: 0 auto 2% auto;
+    text-align: center;
+    max-width: 530px; }
+  .containerCenter .isCTA {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    max-width: 32.46%;
+    background: #49aa42;
+    color: #fff;
+    padding: 1% 0;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+    border: 1px solid #49aa42;
+    transition: all 0.5s; }
+  .containerCenter .isCTA:nth-child(4) {
+    margin: 0 1%; }
+  .containerCenter .isCTA:hover {
+    background: #fff;
+    color: #49aa42;
+    transition: all 0.5s; }
+  .containerCenter .points {
+    margin-left: 20px;
+    font-family: "OpenSans-SemiBold", Helvetica, Arial, sans-serif; }
+  .containerCenter .insectHeader {
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: #49aa42;
+    margin: 2% 0;
+    font-size: 25px;
+    font-family: "OpenSans-SemiBold", Helvetica, Arial, sans-serif; }
+  .containerCenter .listHeader {
+    font-family: "OpenSans-Bold", Helvetica, Arial, sans-serif;
+    letter-spacing: 1.1px;
+    text-transform: uppercase; }
+  .containerCenter .insectVideo {
+    position: relative;
+    width: 100%;
+    padding-top: 57%;
+    max-width: 800px;
+    margin: 0 auto; }
+    .containerCenter .insectVideo iframe {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+
+.insectMedia .insectHeader {
+  text-align: left;
+  width: 335px;
+  line-height: 1.4; }
+.insectMedia p:first-of-type {
+  width: 454px; }
+.insectMedia p:last-of-type {
+  width: 399px; }
+
+.insectBackground {
+  background: #e7e7e7;
+  margin-top: 3%; }
 
 /** Insect Shield Page END **/
 
