@@ -13360,7 +13360,7 @@ div#header.headStick {
 
 .insectSection .flex-item {
   border: none !important;
-  padding: 0 5px !important;
+  padding: 0 !important;
   background: transparent !important; }
 .insectSection .insectSection .col-2.active {
   background: transparent !important; }
@@ -13378,6 +13378,13 @@ div#header.headStick {
   content: '';
   display: block;
   margin: 0 auto; }
+.insectSection .insectContainer {
+  width: 100%;
+  text-align: center; }
+  .insectSection .insectContainer .flex-item {
+    display: inline-block;
+    width: 16.4%;
+    padding: 0 !important; }
 .insectSection .tabs-content .active {
   background: #e7e7e7 !important;
   padding: 20px !important;
@@ -13395,6 +13402,14 @@ div#header.headStick {
     margin: 0; }
   .containerCenter .isCTA {
     max-width: 33%; } }
+@media only screen and (max-width: 1149px) {
+  .insectSection .insectContainer .flex-item {
+    display: inline-block;
+    width: 16.3%; } }
+@media only screen and (max-width: 840px) {
+  .insectSection .insectContainer .flex-item {
+    display: inline-block;
+    width: 16.2%; } }
 @media only screen and (max-width: 820px) {
   .containerCenter .insectHeader {
     font-size: 3.4vw; }
