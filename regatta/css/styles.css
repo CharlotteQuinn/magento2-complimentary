@@ -4601,12 +4601,17 @@ html:lang(pl) {
   /*/////////////////////////////////////////*/
   /* Regatta Commerce Polish Styles Only     */
   /*/////////////////////////////////////////*/ }
+
+  html:lang(pl) .c-basket__payment-icons {
+    background: url(https://cdn.regatta.com/images/pl/global/PaymentMethods.png) no-repeat !important; }
+
   html:lang(pl) .catalog-category-view .c-facet-list__facet-header--title {
     line-height: 40px;
     margin: 0; }
   html:lang(pl) .catalog-category-view .c-facet-list__refine-clear.c-facet-list__refine-clear-all {
     position: relative;
     width: 100%; }
+
 
 /* Singles */
 
