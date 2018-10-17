@@ -4595,6 +4595,8 @@ html:lang(pl) {
   /*/////////////////////////////////////////*/
   /* Regatta Commerce Polish Styles Only     */
   /*/////////////////////////////////////////*/ }
+  html:lang(pl) .c-basket__payment-icons {
+    background: url(https://cdn.regatta.com/images/pl/global/PaymentMethods.png) no-repeat; }
 
 /* Singles */
 
