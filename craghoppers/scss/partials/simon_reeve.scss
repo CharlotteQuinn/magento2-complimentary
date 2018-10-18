@@ -280,7 +280,8 @@ Simon Reeve Micro site
 }
 
 .srMedia {
-	span {
+	span,
+	h1 {
 		font-family: $crimreg;
 		text-transform: uppercase;
 		letter-spacing: 1.1px;
@@ -443,7 +444,8 @@ span.quoteOwner {
 
 @media only screen and (max-width:500px) {
 	.srMedia {
-		span {
+		span,
+		h1 {
 			font-size: 6vw;
 			line-height: 1.3;
 		}
