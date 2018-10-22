@@ -2251,16 +2251,16 @@ html:lang(en) .catalog-category-view {
   @media only screen and (max-width: 739px) {
     html:lang(en) .catalog-category-view .c-mobile-facet--menu {
       width: 80% !important;
-      overflow: initial;
+      overflow: auto;
       z-index: 10000; }
-    html:lang(en) .catalog-category-view .c-mobile-menu__close-icon:before {
+    html:lang(en) .catalog-category-view .c-mobile-facet--menu .c-mobile-menu__close-icon:before {
       content: "X Close";
       display: block;
       color: #DC5757;
       padding-top: 6px;
       text-align: center;
       font-style: normal; }
-    html:lang(en) .catalog-category-view .c-mobile-menu__close-icon {
+    html:lang(en) .catalog-category-view .c-mobile-facet--menu .c-mobile-menu__close-icon {
       width: 80px;
       left: -70px;
       height: 40px;
@@ -2269,7 +2269,7 @@ html:lang(en) .catalog-category-view {
       border-radius: 5px;
       background: none !important;
       font-weight: bold; }
-    html:lang(en) .catalog-category-view .c-mobile-menu__close-icon:after {
+    html:lang(en) .catalog-category-view .c-mobile-facet--menu .c-mobile-menu__close-icon:after {
       -webkit-transition: all 100ms ease-out;
       -moz-transition: all 100ms ease-out;
       -o-transition: all 100ms ease-out;
@@ -2284,7 +2284,7 @@ html:lang(en) .catalog-category-view {
       left: 0;
       opacity: 0;
       display: none; }
-    html:lang(en) .catalog-category-view .open-mobile-facet-menu .c-mobile-menu__close-icon:after {
+    html:lang(en) .catalog-category-view .c-mobile-facet--menu .open-mobile-facet-menu .c-mobile-menu__close-icon:after {
       content: "";
       display: block;
       background: rgba(0, 0, 0, 0.6);
