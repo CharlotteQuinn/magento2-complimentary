@@ -818,12 +818,12 @@ requirejs(['jquery'], function( $ ) {
 
     // Show/Hide Script
     var contentCheck = setInterval(function(){
-      if (jQuery(".content").length > 0){
+      if (jQuery(".contentAccordion").length > 0){
 
         if (jQuery(".contentBtn").length == 0){
 
-          jQuery(".content").each(function(){
-            if (jQuery(".content").text().length > 320){
+          jQuery(".contentAccordion").each(function(){
+            if (jQuery(".contentAccordion").text().length > 320){
               var contentHeight = jQuery(this).find(">:first-of-type").height();
               jQuery(this).css("height", contentHeight + "px");
               jQuery(this).after('<button class="contentBtn">Read More</button>');
