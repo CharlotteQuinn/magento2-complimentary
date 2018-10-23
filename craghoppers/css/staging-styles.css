@@ -1881,6 +1881,11 @@ button.contentBtn {
   border: 1px solid #000;
   transition: all 0.5s; }
 
+.page-products .content {
+  width: 100%;
+  max-width: 1228px;
+  margin: 0 auto; }
+
 /* Show/Hide Styling END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
