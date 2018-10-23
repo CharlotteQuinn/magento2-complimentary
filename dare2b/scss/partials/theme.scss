@@ -1661,7 +1661,7 @@ html:lang(en) .catalog-category-view {
 /* Mobile Styles Start */
 @media only screen  and (max-width:739px) {
   .c-mobile-facet--menu {
-    width: 80% !important;
+    width: 100% !important;
     overflow: auto;
     z-index: 10000;
   }
