@@ -1770,7 +1770,7 @@ h3.c-footer__header {
 }/* END */
 
 /* Show/Hide Styling */
-.content {
+.contentAccordion {
 	overflow: hidden;
 	transition: all 1s;
 }
@@ -1792,14 +1792,14 @@ button.contentBtn {
 	transition: all 0.5s;
 }
 
-.page-products .content {
+.page-products .contentAccordion {
     width: 100%;
     max-width: 1228px;
     margin: 0 auto;
 }
 
 @media only screen and (max-width:1250px){
-	.page-products .content {
+	.page-products .contentAccordion {
 	    padding: 0 2%;
 	}
 }

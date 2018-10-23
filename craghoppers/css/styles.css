@@ -1862,7 +1862,7 @@ border-color: transparent transparent #afafaf transparent;*/ }
       float: right; } }
 /* END */
 /* Show/Hide Styling */
-.content {
+.contentAccordion {
   overflow: hidden;
   transition: all 1s; }
 
@@ -1881,13 +1881,13 @@ button.contentBtn {
   border: 1px solid #000;
   transition: all 0.5s; }
 
-.page-products .content {
+.page-products .contentAccordion {
   width: 100%;
   max-width: 1228px;
   margin: 0 auto; }
 
 @media only screen and (max-width: 1250px) {
-  .page-products .content {
+  .page-products .contentAccordion {
     padding: 0 2%; } }
 /* Show/Hide Styling END */
 /* Homepage Specific Styles */
