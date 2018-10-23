@@ -976,7 +976,8 @@ html .s-usp {
   position: relative;
   transition: all ease 0.5s;
   position: relative;
-  overflow-y: hidden; }
+  overflow-y: hidden;
+  width: 100%; }
 
 .products.wrapper.grid.products-grid.products-related ol::-webkit-scrollbar {
   width: 0px;
@@ -1031,7 +1032,8 @@ html .s-usp {
 
 @media only screen and (max-width: 600px) {
   .products.wrapper.grid.products-grid.products-related {
-    display: inline-block; }
+    display: inline-block;
+    width: 100%; }
 
   .products.wrapper.grid.products-grid.products-related ol {
     width: calc(100% - 30px);
