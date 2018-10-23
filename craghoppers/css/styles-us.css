@@ -1886,6 +1886,9 @@ button.contentBtn {
   max-width: 1228px;
   margin: 0 auto; }
 
+@media only screen and (max-width: 1250px) {
+  .page-products .content {
+    padding: 0 2%; } }
 /* Show/Hide Styling END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
