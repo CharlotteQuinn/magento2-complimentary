@@ -814,6 +814,39 @@ requirejs(['jquery'], function( $ ) {
       });
     }, 1000);
     // PLP Facet Accordion END
+
+
+    // Show/Hide Script
+    if (jQuery(".content").length > 0){
+
+      jQuery(".content").each(function(){
+        if (jQuery(".content").text().length > 320){
+          var contentHeight = jQuery(this).find(">:first-of-type").height();
+          jQuery(this).css("height", contentHeight + "px");
+          jQuery(this).after('<button class="contentBtn">Read More</button>');
+        }
+      });
+
+      jQuery(".contentBtn").click(function(){
+        if (jQuery(this).prev().hasClass("contentActive")){
+          var firstHeight = jQuery(this).prev().find(">:first-of-type").height();
+          jQuery(this).prev().css("height", firstHeight + "px");
+          jQuery(this).text('Read More');
+          jQuery(this).prev().toggleClass("contentActive");
+        } else{
+          var initHeight = 0;
+          jQuery(this).prev().children().each(function(){
+            initHeight += jQuery(this).outerHeight(true);
+            jQuery(this).parent().css("height", initHeight + "px");
+          });
+          jQuery(this).text('Read Less');
+          jQuery(this).prev().toggleClass("contentActive");
+        }
+
+      });
+      
+    }
+
    
 
   //////////////////////////////////  
