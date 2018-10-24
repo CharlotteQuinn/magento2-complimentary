@@ -1484,6 +1484,9 @@ h3.c-footer__header {
     #header header.c-header .o-layout__item .o-layout:nth-child(2) .o-layout__item:nth-child(1) {
       width: 60% !important;
       padding-left: 0% !important; }
+    #header .o-layout.o-layout--collapsed.c-mini-cart__totals p.c-mini-cart__items-total.o-layout__item.items-total,
+    #header .o-layout.o-layout--collapsed.c-mini-cart__totals p.c-mini-cart__price-total.o-layout__item {
+      width: 50% !important; }
 
   .desktop-theme.headerSticky #header.headStick .c-mini-cart.c-mini-cart--fixed.is-active {
     top: 5px !important; }
