@@ -1392,7 +1392,7 @@ a.c-store-list__details {
     margin-top: 19px; } }
 @media only screen and (max-width: 426px) {
   .generic-usp div {
-    display: block; } }
+    display: none; } }
 /* END */
 /* FOOTER */
 #footer .s-footer-links > div {
