@@ -1312,6 +1312,11 @@ h3.c-footer__header {
 		    padding-left: 0% !important;
 		}
 
+		.o-layout.o-layout--collapsed.c-mini-cart__totals p.c-mini-cart__items-total.o-layout__item.items-total,
+		.o-layout.o-layout--collapsed.c-mini-cart__totals p.c-mini-cart__price-total.o-layout__item {
+		    width: 50% !important;
+		}
+
 	}
 
 	.desktop-theme.headerSticky #header.headStick{
