@@ -2857,7 +2857,8 @@ html:lang(en) .catalog-category-view {
 
 .s-text-banner > div:nth-child(1) {
   max-width: 1228px;
-  margin: auto; }
+  margin: auto;
+  padding: 10px; }
 
 .s-text-banner > div:nth-child(2) {
   padding-top: 1px;
@@ -2945,9 +2946,6 @@ html:lang(en) .catalog-category-view {
 .s-text-banner {
   padding: 0; }
 
-.s-text-banner h1 + p {
-  display: none; }
-
 .category-container.full {
   position: relative; }
 
@@ -3030,6 +3028,9 @@ body .c-product-tile .c-product-tile__btn {
 /* 1227px media query ENDS */
 /* 989px media query STARTS */
 @media screen and (max-width: 989px) {
+  .s-text-banner h1 + p {
+    display: none; }
+
   .category-view .js-fredhopper-fredhopper-hero-wrapper-placeholder {
     background: none;
     box-shadow: none; }

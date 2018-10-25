@@ -1257,9 +1257,6 @@ html .c-basket__payment-icons {
 .s-text-banner{
   padding: 0;
 }
-.s-text-banner h1 + p{
-  display: none !important;
-}
 
 #top-level-cat-banner {
   padding: 6px 6px 0;
@@ -1354,7 +1351,9 @@ html .c-basket__payment-icons {
 
 
 @media screen and (max-width: 989px){
-
+.s-text-banner h1 + p{
+  display: none !important;
+}
 #top-level-cat-banner-img{
   display: none;
 }
