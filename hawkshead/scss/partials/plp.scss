@@ -305,10 +305,8 @@ p.c-price__group.nowPrice span:before {
 /* Breadcrumbs Update END */
 
 /* Back to top Bttn */
-@media only screen and (max-width:700px){
-  .c-back-to-top-btn__container {
-    display: none;
-  }
+.c-back-to-top-btn__container {
+  display: none;
 }
 /* Back to top Bttn END */
 
