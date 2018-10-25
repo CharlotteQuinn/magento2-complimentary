@@ -2945,6 +2945,9 @@ html:lang(en) .catalog-category-view {
 .s-text-banner {
   padding: 0; }
 
+.s-text-banner h1 + p {
+  display: none; }
+
 .category-container.full {
   position: relative; }
 
@@ -3005,7 +3008,9 @@ body .c-product-tile .c-product-tile__btn {
   overflow: visible; }
 
 .catalog-category-view .s-text-banner h1 {
-  margin: 0; }
+  margin: 0;
+  line-height: 32px;
+  margin-top: 10px; }
 
 .catalog-category-view .columns .column.main {
   margin-top: -20px; }
@@ -3093,13 +3098,15 @@ body .c-product-tile .c-product-tile__btn {
     overflow: auto;
     white-space: nowrap; }
 
-  .s-text-banner > div:nth-child(2):after {
+  .s-text-banner > div:nth-child(2) p + .category-links:after {
     content: 'Scroll to see more ';
-    margin-bottom: 0px;
+    margin-top: 20px;
+    left: 10px;
     display: block;
     opacity: 0.7;
     font-size: 12px;
-    text-align: left; }
+    text-align: left;
+    position: absolute; }
 
   .category-links::-webkit-scrollbar, .s-text-banner > div:nth-child(2) .category-links::-webkit-scrollbar {
     height: 5px; }

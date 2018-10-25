@@ -1253,9 +1253,14 @@ html .c-basket__payment-icons {
     margin-top: 0px;
 }
 
+
 .s-text-banner{
   padding: 0;
 }
+.s-text-banner h1 + p{
+  display: none !important;
+}
+
 #top-level-cat-banner {
   padding: 6px 6px 0;
   background: transparent;
