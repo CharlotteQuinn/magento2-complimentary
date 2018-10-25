@@ -1884,9 +1884,6 @@ html .c-basket__payment-icons {
 .s-text-banner {
   padding: 0; }
 
-.s-text-banner h1 + p {
-  display: none !important; }
-
 #top-level-cat-banner {
   padding: 6px 6px 0;
   background: transparent;
@@ -1970,6 +1967,9 @@ html .c-basket__payment-icons {
   #top-level-cat-banner-text li a {
     margin: 10px 0px 0px 0px; } }
 @media screen and (max-width: 989px) {
+  .s-text-banner h1 + p {
+    display: none !important; }
+
   #top-level-cat-banner-img {
     display: none; }
 
