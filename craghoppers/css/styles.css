@@ -2961,6 +2961,14 @@ ul.flex-direction-nav {
   width: 100%; }
 
 /* END */
+/* mobile endcap */
+@media only screen and (max-width: 740px) {
+  .pageSection.sectionEndcap {
+    padding: 0 12% !important; }
+
+  .mt_sliderTop .mt_title {
+    font-size: 5.4vw !important; } }
+/* mobile endcap END */
 .kg-container {
   width: 100%;
   max-width: 926px;
@@ -10897,6 +10905,25 @@ h2.utc-title-lower {
   float: left;
   font-size: 1rem;
   padding-bottom: 5%; }
+
+.page-layout-checkout #content .js-account__content .o-layout .o-layout__item:first-child {
+  padding: 0 10px; }
+.page-layout-checkout #content .js-account__content .o-layout .o-layout__item .o-layout .o-layout__item {
+  padding: 0; }
+.page-layout-checkout .c-block-option {
+  min-height: auto; }
+.page-layout-checkout .u-margin-below-2 {
+  margin-bottom: 10px !important; }
+.page-layout-checkout li.c-store-details__item {
+  border-top: 1px solid #eee; }
+.page-layout-checkout li.c-store-details__item:first-of-type {
+  border: 0; }
+.page-layout-checkout li.c-store-details__item .o-layout:first-of-type {
+  padding-top: 10px; }
+.page-layout-checkout li.c-store-details__item:first-of-type .o-layout:first-of-type {
+  padding-top: 0; }
+.page-layout-checkout .u-margin-above-2 {
+  margin-top: 15px !important; }
 
 /***************************
 All styles relating to 

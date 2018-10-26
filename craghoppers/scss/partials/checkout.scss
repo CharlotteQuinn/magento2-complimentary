@@ -7,3 +7,43 @@
    font-size: 1rem;
    padding-bottom: 5%;
 }
+
+
+.page-layout-checkout {
+	#content .js-account__content .o-layout .o-layout__item:first-child {
+		padding: 0 10px;
+	}
+
+	#content .js-account__content .o-layout .o-layout__item .o-layout .o-layout__item {
+		padding: 0;
+	}
+
+	.c-block-option {
+		min-height: auto;
+	}
+
+	.u-margin-below-2 {
+		margin-bottom: 10px !important;
+	}
+
+	li.c-store-details__item {
+		border-top: 1px solid #eee;
+	}
+
+	li.c-store-details__item:first-of-type {
+		border: 0;
+	}
+
+	li.c-store-details__item .o-layout:first-of-type {
+		padding-top: 10px;
+	}
+
+	li.c-store-details__item:first-of-type .o-layout:first-of-type {
+		padding-top: 0;
+	}
+
+	.u-margin-above-2 {
+		margin-top: 15px !important;
+	}
+
+}
