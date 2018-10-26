@@ -1558,3 +1558,15 @@ ul.flex-direction-nav {
 }
 /* END */
 
+/* mobile endcap */
+@media only screen and (max-width:740px) {
+  .pageSection.sectionEndcap {
+    padding: 0 12% !important;
+  }
+
+  .mt_sliderTop .mt_title {
+    font-size: 5.4vw !important;
+  }
+
+}
+/* mobile endcap END */
