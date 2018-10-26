@@ -10924,6 +10924,8 @@ h2.utc-title-lower {
   padding-top: 0; }
 .page-layout-checkout .u-margin-above-2 {
   margin-top: 15px !important; }
+.page-layout-checkout .u-width-double--right {
+  margin-right: calc(-100% - 0px); }
 
 /***************************
 All styles relating to 
