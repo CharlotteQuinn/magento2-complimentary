@@ -57,17 +57,6 @@
 
 /* Header Logo START */
 
-    .c-header__logo {
-        padding-top: 40px !important;
-    }
-    .c-header__logo > img {
-        height: auto !important;
-    }
-    .c-header--sticky img {
-        height: auto !important;
-        padding-top: 14px;
-    }
-
     @media (max-width: 61.865em) {
         .c-header__logo {
             height: 80px !important;

@@ -3324,13 +3324,6 @@ html:lang(fr) {
       display: none; } }
   html:lang(fr) .catalog-product-view .c-rating__wrap, html:lang(fr) .catalog-product-view #tab-label-reviews, html:lang(fr) .c-quick-view--wrapper .c-rating__wrap {
     display: none; }
-  html:lang(fr) .c-header__logo {
-    padding-top: 40px !important; }
-  html:lang(fr) .c-header__logo > img {
-    height: auto !important; }
-  html:lang(fr) .c-header--sticky img {
-    height: auto !important;
-    padding-top: 14px; }
   @media (max-width: 61.865em) {
     html:lang(fr) .c-header__logo {
       height: 80px !important; } }
