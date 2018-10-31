@@ -67,4 +67,10 @@
         height: auto !important;
         padding-top: 14px;
     }
+
+    @media (max-width: 61.865em) {
+        .c-header__logo {
+            height: 80px !important;
+        }
+    }
 /* Header Logo END */
