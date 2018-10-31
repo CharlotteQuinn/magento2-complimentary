@@ -1030,10 +1030,6 @@ html .mt_animate {
 /*  Global Styles               */
 /*//////////////////////////////*/
 /*Updated header and footer theme STARTS*/
-.c-header__logo img, .c-header--sticky img {
-  -webkit-filter: brightness(100);
-  filter: brightness(100); }
-
 .c-header, .c-header--sticky {
   background-color: #000000 !important; }
 
