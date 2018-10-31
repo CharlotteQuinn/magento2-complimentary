@@ -1,6 +1,23 @@
 /*//////////////////////////////*/
 /*  Global Styles               */
 /*//////////////////////////////*/
+/*Updated header and footer theme*/
+.c-header__logo img {
+    vertical-align: bottom;
+    -webkit-filter: brightness(100);
+    filter: brightness(100);
+}
+.c-header {
+  background-color: #000000 !important;
+}
+.c-footer {
+    background-color: #000000 !important;
+}
+.c-footer__social {
+    display: none;
+}
+
+
 li#switcher-currency-nav {
     display: block !important;
 }
