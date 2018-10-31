@@ -1029,13 +1029,12 @@ html .mt_animate {
 /*//////////////////////////////*/
 /*  Global Styles               */
 /*//////////////////////////////*/
-/*Updated header and footer theme*/
-.c-header__logo img {
-  vertical-align: bottom;
+/*Updated header and footer theme STARTS*/
+.c-header__logo img, .c-header--sticky img {
   -webkit-filter: brightness(100);
   filter: brightness(100); }
 
-.c-header {
+.c-header, .c-header--sticky {
   background-color: #000000 !important; }
 
 .c-footer {
@@ -1044,6 +1043,22 @@ html .mt_animate {
 .c-footer__social {
   display: none; }
 
+.s-main-menu .block {
+  background: #000000 !important; }
+
+.c-footer__copyright {
+  border-top: 1px solid #272727; }
+
+@media only screen and (max-width: 739px) {
+  .mobile-footer-links h4 {
+    background: #353535; }
+
+  .nav-before-open .c-mobile-menu {
+    z-index: 1; }
+
+  .nav-before-open .c-mobile-menu .s-main-menu .block {
+    background: #ffffff !important; } }
+/*Updated header and footer theme ENDS*/
 li#switcher-currency-nav {
   display: block !important; }
 
@@ -1053,6 +1068,11 @@ li#switcher-currency-nav {
 
 .category-sale .c-campaign img {
   max-height: initial !important; }
+
+.c-header-search .c-header-search__input {
+  color: #fff !important;
+  background-color: #383838 !important;
+  border-color: #424242 !important; }
 
 /*//////////////////////////////*/
 /*  Checkout Success            */
