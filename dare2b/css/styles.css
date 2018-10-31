@@ -1053,7 +1053,16 @@ html .mt_animate {
     z-index: 1; }
 
   .nav-before-open .c-mobile-menu .s-main-menu .block {
-    background: #ffffff !important; } }
+    background: #ffffff !important; }
+
+  .c-header--sticky img {
+    height: auto; }
+
+  .c-header--sticky .o-layout .o-layout__item + .o-layout__item + .o-layout__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px; } }
 /*Updated header and footer theme ENDS*/
 li#switcher-currency-nav {
   display: block !important; }
