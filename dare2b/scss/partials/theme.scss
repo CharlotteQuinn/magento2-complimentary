@@ -2,6 +2,10 @@
 /*  Global Styles               */
 /*//////////////////////////////*/
 /*Updated header and footer theme STARTS*/
+#content + .js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder .c-campaign{
+  display: none;
+}
+
 .c-header, .c-header--sticky {
   background-color: #000000 !important;
 }
@@ -25,9 +29,14 @@
       width: 100% !important;
       height: auto !important;
   }
-}
 
-@media only screen and (max-width: 739px) {
+}
+.c-header--sticky img {
+    margin-top: 7px;
+    max-width: 120px;
+    height: auto;
+}
+@media only screen and (max-width: 850px) {
   .mobile-footer-links h4 {
     background: #353535;
   }
@@ -998,6 +1007,8 @@ body.page-product-configurable .o-region__inner .o-layout.u-padding-top > div{
 /*//////////////////////////
 /* Footer Block Links
 /*////////////////////////*/
+
+
 
 .footerFeefo {
     text-decoration: none;
