@@ -823,10 +823,13 @@ requirejs(['jquery'], function( $ ) {
         if (jQuery(".contentBtn").length == 0){
 
           jQuery(".contentAccordion").each(function(){
-            if (jQuery(".contentAccordion").text().length > 320){
+            var contentChildrenCheck = jQuery(this).children().length;
+            if (jQuery(".contentAccordion").text().length > 320 && contentChildrenCheck > 1){
+
               var contentHeight = jQuery(this).find(">:first-of-type").height();
               jQuery(this).css("height", contentHeight + "px");
               jQuery(this).after('<button class="contentBtn">Read More</button>');
+              
             }
           });
 
@@ -852,6 +855,7 @@ requirejs(['jquery'], function( $ ) {
         
       }
     }, 1000);
+
 
     setTimeout(function(){
       clearInterval(contentCheck);
