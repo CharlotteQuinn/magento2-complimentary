@@ -1030,6 +1030,9 @@ html .mt_animate {
 /*  Global Styles               */
 /*//////////////////////////////*/
 /*Updated header and footer theme STARTS*/
+#content + .js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder .c-campaign {
+  display: none; }
+
 .c-header, .c-header--sticky {
   background-color: #000000 !important; }
 
@@ -1052,7 +1055,12 @@ html .mt_animate {
   .c-header__logo img {
     width: 100% !important;
     height: auto !important; } }
-@media only screen and (max-width: 739px) {
+.c-header--sticky img {
+  margin-top: 7px;
+  max-width: 120px;
+  height: auto; }
+
+@media only screen and (max-width: 850px) {
   .mobile-footer-links h4 {
     background: #353535; }
 
@@ -2458,10 +2466,29 @@ html:lang(en) .catalog-category-view {
   width: 50%; }
 
 /* Mega menu styles mobile */
-@media screen and (max-width: 739px) {
+@media screen and (max-width: 850px) {
   /*/////////////////////////*/
   /*        Mega Menu        */
   /*/////////////////////////*/
+  .c-mobile-menu .c-mobile-menu__home__link {
+    font-size: 15px !important; }
+  .c-mobile-menu .s-main-menu .categories > li > a {
+    padding: 20px 0px;
+    font-size: 15px !important; }
+  .c-mobile-menu .s-main-menu .categories > li .expanded li a {
+    padding: 20px 0px !important;
+    text-transform: initial;
+    font-size: 15px; }
+  .c-mobile-menu .category-items div h3 {
+    margin: 0;
+    background: #efefef;
+    margin-bottom: 1px; }
+  .c-mobile-menu .s-main-menu .categories > li h3 a {
+    border-bottom: none !important;
+    width: 100%; }
+  .c-mobile-menu .s-main-menu .block .category-items ul {
+    padding: 0px 10px !important; }
+
   #header .c-header {
     color: inherit; }
 
@@ -2490,7 +2517,7 @@ html:lang(en) .catalog-category-view {
     display: none !important; }
 
   .category-items div ul {
-    padding: 10px !important; } }
+    padding: 0px 10px !important; } }
 /****************************
 /* Delivery And Returns Page
 /***************************/
