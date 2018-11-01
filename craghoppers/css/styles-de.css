@@ -1799,6 +1799,12 @@ button.contentBtn {
   max-width: 1228px;
   margin: 0 auto; }
 
+.contentAccordion.disabled {
+  height: auto !important; }
+
+button.contentBtn.disabled {
+  display: none !important; }
+
 @media only screen and (max-width: 1250px) {
   .page-products .contentAccordion {
     padding: 0 2%; } }
