@@ -1036,11 +1036,8 @@ html .mt_animate {
 .c-header, .c-header--sticky {
   background-color: #000000 !important; }
 
-.c-footer {
+.c-footer, .c-footer__social {
   background-color: #000000 !important; }
-
-.c-footer__social {
-  display: none; }
 
 .s-main-menu .block {
   background: #000000 !important; }
