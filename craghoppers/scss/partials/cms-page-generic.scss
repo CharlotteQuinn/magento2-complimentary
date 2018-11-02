@@ -1668,7 +1668,7 @@ button.contentBtn:hover {
 }
 
 button.contentBtn {
-	margin: 0 auto;
+	margin: 10px auto;
 	display: block;
 	width: 120px;
 	background: transparent;
@@ -1695,6 +1695,33 @@ button.contentBtn.disabled {
 @media only screen and (max-width:1250px){
 	.contentAccordion {
 	    padding: 0 2%;
+
+	}
+
+	.catalog-category-view{
+		.s-text-banner {
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+				padding: 0 2%;
+			}
+
+		}
+
+		.s-text-banner .contentAccordion{
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+				padding: 0;
+			}
+
+		}
 	}
 }
 
