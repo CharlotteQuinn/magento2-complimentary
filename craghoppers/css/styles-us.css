@@ -1785,7 +1785,7 @@ button.contentBtn:hover {
   transition: all 0.5s; }
 
 button.contentBtn {
-  margin: 0 auto;
+  margin: 10px auto;
   display: block;
   width: 120px;
   background: transparent;
@@ -1807,7 +1807,22 @@ button.contentBtn.disabled {
 
 @media only screen and (max-width: 1250px) {
   .contentAccordion {
-    padding: 0 2%; } }
+    padding: 0 2%; }
+
+  .catalog-category-view .s-text-banner h1,
+  .catalog-category-view .s-text-banner h2,
+  .catalog-category-view .s-text-banner h3,
+  .catalog-category-view .s-text-banner h4,
+  .catalog-category-view .s-text-banner h5,
+  .catalog-category-view .s-text-banner h6 {
+    padding: 0 2%; }
+  .catalog-category-view .s-text-banner .contentAccordion h1,
+  .catalog-category-view .s-text-banner .contentAccordion h2,
+  .catalog-category-view .s-text-banner .contentAccordion h3,
+  .catalog-category-view .s-text-banner .contentAccordion h4,
+  .catalog-category-view .s-text-banner .contentAccordion h5,
+  .catalog-category-view .s-text-banner .contentAccordion h6 {
+    padding: 0; } }
 /* Show/Hide Styling END */
 /* Login */
 .c-login.o-layout {
