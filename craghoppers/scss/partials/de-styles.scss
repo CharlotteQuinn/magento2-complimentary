@@ -135,11 +135,12 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
 #footer .c-footer__links .o-layout .o-layout__item:last-of-type {
     float: right;
 }
-	/* remove newsletter signup */
-	.c-footer__social {
-	    display: none;
-	}
-	/* END */
+
+/* remove newsletter signup */
+.mobile-theme .c-footer__social {
+    display: none;
+}
+/* END */
 
 /*END*/
 
