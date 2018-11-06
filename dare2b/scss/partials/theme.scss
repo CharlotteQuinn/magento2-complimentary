@@ -11,6 +11,10 @@
 .c-mini-cart-btn__items {
   background: inherit !important;
 }
+.c-mini-cart.is-active .c-mini-cart-btn__price {
+  background: inherit!important;
+  color: #ffffff!important;
+}
 .c-header, .c-header--sticky {
   background-color: #000000 !important;
 }
