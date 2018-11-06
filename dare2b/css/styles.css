@@ -1033,6 +1033,12 @@ html .mt_animate {
 #content + .js-fredhopper-fredhopper-plp-seo-text-wrapper-placeholder .c-campaign {
   display: none; }
 
+.c-mini-cart-btn {
+  background-color: #7fca41 !important; }
+
+.c-mini-cart-btn__items {
+  background: inherit !important; }
+
 .c-header, .c-header--sticky {
   background-color: #000000 !important; }
 
