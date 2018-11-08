@@ -1493,6 +1493,14 @@ h3.c-footer__header {
   .desktop-theme.headerSticky #header.headStick .c-mini-cart.c-mini-cart--fixed.is-active {
     right: -83%; } }
 /* END */
+/* Footer Subscribe Form */
+iframe.subscribeForm {
+  height: 185px; }
+
+@media only screen and (max-width: 989px) {
+  iframe.subscribeForm {
+    height: 220px; } }
+/* Footer Subscribe Form END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Homepage */

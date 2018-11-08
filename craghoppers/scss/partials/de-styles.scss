@@ -140,9 +140,6 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
 .mobile-theme .c-footer__social {
     display: none;
 }
-.c-footer__social .o-region__inner {
-    width: 100%;
-}
 /* END */
 
 /*END*/
@@ -199,3 +196,15 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
 }
 
 /* Badges END */
+
+/* Footer Subscribe Form */
+iframe.subscribeForm {
+    height: 240px;
+}
+
+@media only screen and (max-width:989px){
+    iframe.subscribeForm {
+        height: 285px;
+    }
+}
+/* Footer Subscribe Form END */

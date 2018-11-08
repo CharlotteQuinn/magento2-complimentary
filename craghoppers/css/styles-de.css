@@ -1832,6 +1832,14 @@ button.contentBtn.disabled {
   padding-left: 10px; }
 
 /* Login END */
+/* Footer Subscribe Form */
+iframe.subscribeForm {
+  height: 185px; }
+
+@media only screen and (max-width: 989px) {
+  iframe.subscribeForm {
+    height: 220px; } }
+/* Footer Subscribe Form END */
 /* Homepage Specific Styles */
 /* Initial Dump from existing CSS... needs refactoring */
 /* Featured Products */
@@ -12709,9 +12717,6 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
 .mobile-theme .c-footer__social {
   display: none; }
 
-.c-footer__social .o-region__inner {
-  width: 100%; }
-
 /* END */
 /*END*/
 #checkout > div.o-layout.u-flex-display\40 tablet > div.o-layout__item.u-8\2f 12.u-8\2f 12\40 tablet.u-8\2f 12\40 desktop.u-12\2f 12\40 mobile > div.u-margin-above.u-margin-below-2 > div > div:nth-child(2) {
@@ -12759,5 +12764,13 @@ section.pageSection.pageSection--fullWidth.pageSection--noTitle {
   padding: 5px; }
 
 /* Badges END */
+/* Footer Subscribe Form */
+iframe.subscribeForm {
+  height: 240px; }
+
+@media only screen and (max-width: 989px) {
+  iframe.subscribeForm {
+    height: 285px; } }
+/* Footer Subscribe Form END */
 
 /*# sourceMappingURL=styles-de.css.map */
